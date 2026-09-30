@@ -1,0 +1,16 @@
+AmapAPI/
+api.txt
+js-key.txt
+js-security-code.txt
+dist/
+node_modules/
+.env*
+*.local
+*.log
+private/
+data/source-tracks/
+data/xhs-candidates.json
+research/xhs/
+generated/xhs-*.csv
+generated/xhs-*.json
+.DS_Store

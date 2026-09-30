@@ -1,0 +1,5499 @@
+[
+  {
+    "id": "jiuxi-yanshu",
+    "name": "九溪烟树",
+    "category": "溪谷",
+    "stay": "30–45",
+    "see": "林荫、溪水、茶山",
+    "why": "溪谷入口氛围安静，适合作为轻徒步的起点",
+    "coord": [
+      120.11335,
+      30.202395
+    ],
+    "coordinateSystem": "GCJ-02",
+    "coordinatePrecision": "poi",
+    "coordinateNote": "",
+    "amapId": "B0FFHMH4J8",
+    "sources": [
+      {
+        "label": "高德地图 POI（位置）",
+        "url": "https://ditu.amap.com/place/B0FFHMH4J8"
+      },
+      {
+        "label": "杭州网｜清凉徒步路线（引述杭州市体育局）",
+        "url": "https://travel.hangzhou.com.cn/lyzx/content/2024-07/08/content_8755702.html"
+      }
+    ],
+    "checkedAt": "2026-09-29",
+    "tags": [
+      "溪谷",
+      "自然风景"
+    ],
+    "description": "以溪水和浓荫开场，附近茶山环绕；适合先在林下慢走，再进入九溪的溪谷段。",
+    "recommendIndex": 5,
+    "amapRating": {
+      "score": 4.7,
+      "checkedAt": "2026-09-29",
+      "poiId": "B0FFHMH4J8"
+    },
+    "district": "西湖区"
+  },
+  {
+    "id": "jiuxi-18",
+    "name": "九溪十八涧",
+    "category": "溪谷",
+    "stay": "45–70",
+    "see": "溪涧、踏石与茶园边的小路",
+    "why": "从九溪向龙井走时，最能感受溪谷变化的一段",
+    "coord": [
+      120.1121,
+      30.211
+    ],
+    "coordinateSystem": "GCJ-02",
+    "coordinatePrecision": "route-section",
+    "coordinateNote": "九溪十八涧沿线代表点；不是单一景点入口",
+    "amapId": "",
+    "sources": [
+      {
+        "label": "杭州网｜清凉徒步路线（引述杭州市体育局）",
+        "url": "https://travel.hangzhou.com.cn/lyzx/content/2024-07/08/content_8755702.html"
+      }
+    ],
+    "checkedAt": "2026-09-29",
+    "tags": [
+      "溪谷",
+      "自然风景"
+    ],
+    "description": "溪涧、踏石和茶园边的小路相继出现；它是一整段沿线风景，地图点位只标代表位置。",
+    "recommendIndex": 4,
+    "amapRating": null,
+    "district": "西湖区"
+  },
+  {
+    "id": "longjing-village",
+    "name": "龙井村",
+    "category": "茶山",
+    "stay": "45–75",
+    "see": "茶园、村落与山景",
+    "why": "出溪谷后可放慢脚步，看看龙井茶山",
+    "coord": [
+      120.109967,
+      30.219939
+    ],
+    "coordinateSystem": "GCJ-02",
+    "coordinatePrecision": "village-entrance",
+    "coordinateNote": "使用龙井村牌坊代表村口",
+    "amapId": "B0MG95PP15",
+    "sources": [
+      {
+        "label": "高德地图 POI（位置）",
+        "url": "https://ditu.amap.com/place/B0MG95PP15"
+      },
+      {
+        "label": "杭州网｜清凉徒步路线（引述杭州市体育局）",
+        "url": "https://travel.hangzhou.com.cn/lyzx/content/2024-07/08/content_8755702.html"
+      }
+    ],
+    "checkedAt": "2026-09-29",
+    "tags": [
+      "茶山",
+      "自然风景"
+    ],
+    "description": "茶园与村落贴着山坡展开，可以在这里看龙井茶乡的日常景观。",
+    "recommendIndex": 4,
+    "amapRating": {
+      "score": 4.2,
+      "checkedAt": "2026-09-29",
+      "poiId": "B0MG95PP15"
+    },
+    "district": "西湖区"
+  },
+  {
+    "id": "longjing-bajing",
+    "name": "龙井八景",
+    "category": "人文",
+    "stay": "30–50",
+    "see": "山间景致与茶文化遗迹",
+    "why": "为九溪路线留一个安静的收尾",
+    "coord": [
+      120.114284,
+      30.223854
+    ],
+    "coordinateSystem": "GCJ-02",
+    "coordinatePrecision": "poi",
+    "coordinateNote": "",
+    "amapId": "B023B09LZQ",
+    "sources": [
+      {
+        "label": "高德地图 POI（位置）",
+        "url": "https://ditu.amap.com/place/B023B09LZQ"
+      },
+      {
+        "label": "杭州网｜清凉徒步路线（引述杭州市体育局）",
+        "url": "https://travel.hangzhou.com.cn/lyzx/content/2024-07/08/content_8755702.html"
+      }
+    ],
+    "checkedAt": "2026-09-29",
+    "tags": [
+      "人文",
+      "古迹"
+    ],
+    "description": "龙井一带的山间景致与茶文化旧迹集中，适合留点时间放慢脚步。",
+    "recommendIndex": 4,
+    "amapRating": {
+      "score": 4.1,
+      "checkedAt": "2026-09-29",
+      "poiId": "B023B09LZQ"
+    },
+    "district": "西湖区"
+  },
+  {
+    "id": "yunqi",
+    "name": "云栖竹径",
+    "category": "竹林",
+    "stay": "45–60",
+    "see": "竹径、林荫和古道",
+    "why": "竹海入口清凉，适合从这里进入西山步道",
+    "coord": [
+      120.087147,
+      30.189233
+    ],
+    "coordinateSystem": "GCJ-02",
+    "coordinatePrecision": "poi",
+    "coordinateNote": "",
+    "amapId": "BZA3QP00CL",
+    "sources": [
+      {
+        "label": "高德地图 POI（位置）",
+        "url": "https://ditu.amap.com/place/BZA3QP00CL"
+      },
+      {
+        "label": "杭州网｜清凉徒步路线（引述杭州市体育局）",
+        "url": "https://travel.hangzhou.com.cn/lyzx/content/2024-07/08/content_8755702.html"
+      }
+    ],
+    "checkedAt": "2026-09-29",
+    "tags": [
+      "竹林",
+      "自然风景"
+    ],
+    "description": "竹林遮阴的步道是这里的主角，适合作为进入西山山路的起点。",
+    "recommendIndex": 4,
+    "amapRating": null,
+    "district": "西湖区"
+  },
+  {
+    "id": "zhenji",
+    "name": "真际院",
+    "category": "人文",
+    "stay": "20–30",
+    "see": "古院、树木与山间遗迹",
+    "why": "路线中的人文停靠点，也适合休息",
+    "coord": [
+      120.100099,
+      30.195736
+    ],
+    "coordinateSystem": "GCJ-02",
+    "coordinatePrecision": "poi",
+    "coordinateNote": "",
+    "amapId": "B0FFK8L543",
+    "sources": [
+      {
+        "label": "高德地图 POI（位置）",
+        "url": "https://ditu.amap.com/place/B0FFK8L543"
+      },
+      {
+        "label": "杭州网｜清凉徒步路线（引述杭州市体育局）",
+        "url": "https://travel.hangzhou.com.cn/lyzx/content/2024-07/08/content_8755702.html"
+      }
+    ],
+    "checkedAt": "2026-09-29",
+    "tags": [
+      "人文",
+      "古迹"
+    ],
+    "description": "古院遗迹藏在山林里，路过时可以从纯看风景切换到看人文。",
+    "recommendIndex": 3,
+    "amapRating": {
+      "score": 4.5,
+      "checkedAt": "2026-09-29",
+      "poiId": "B0FFK8L543"
+    },
+    "district": "西湖区"
+  },
+  {
+    "id": "liaowang",
+    "name": "瞭望亭",
+    "category": "观景",
+    "stay": "15–25",
+    "see": "山脊远景",
+    "why": "走到这里能感受视野逐渐打开",
+    "coord": [
+      120.098943,
+      30.208842
+    ],
+    "coordinateSystem": "GCJ-02",
+    "coordinatePrecision": "poi",
+    "coordinateNote": "",
+    "amapId": "B0FFKDFLZD",
+    "sources": [
+      {
+        "label": "高德地图 POI（位置）",
+        "url": "https://ditu.amap.com/place/B0FFKDFLZD"
+      },
+      {
+        "label": "杭州网｜清凉徒步路线（引述杭州市体育局）",
+        "url": "https://travel.hangzhou.com.cn/lyzx/content/2024-07/08/content_8755702.html"
+      }
+    ],
+    "checkedAt": "2026-09-29",
+    "tags": [
+      "观景",
+      "自然风景"
+    ],
+    "description": "到山脊上的亭子能看到更远的山线，是爬升之后的观景停靠点。",
+    "recommendIndex": 3,
+    "amapRating": {
+      "score": 3.9,
+      "checkedAt": "2026-09-29",
+      "poiId": "B0FFKDFLZD"
+    },
+    "district": "西湖区"
+  },
+  {
+    "id": "faxi",
+    "name": "法喜寺",
+    "category": "寺庙",
+    "stay": "45–70",
+    "see": "黄墙、寺院与山景",
+    "why": "徒步结束后可以慢下来看看天竺寺院",
+    "coord": [
+      120.095362,
+      30.227208
+    ],
+    "coordinateSystem": "GCJ-02",
+    "coordinatePrecision": "poi",
+    "coordinateNote": "",
+    "amapId": "B023B02054",
+    "sources": [
+      {
+        "label": "高德地图 POI（位置）",
+        "url": "https://ditu.amap.com/place/B023B02054"
+      },
+      {
+        "label": "杭州网｜清凉徒步路线（引述杭州市体育局）",
+        "url": "https://travel.hangzhou.com.cn/lyzx/content/2024-07/08/content_8755702.html"
+      }
+    ],
+    "checkedAt": "2026-09-29",
+    "tags": [
+      "寺庙",
+      "古迹"
+    ],
+    "description": "黄墙、寺院和山景连在一起，适合作为山路后的安静收尾。",
+    "recommendIndex": 4,
+    "amapRating": {
+      "score": 4.8,
+      "checkedAt": "2026-09-29",
+      "poiId": "B023B02054"
+    },
+    "district": "西湖区"
+  },
+  {
+    "id": "yangmeiling",
+    "name": "杨梅岭",
+    "category": "茶山",
+    "stay": "25–40",
+    "see": "村落、茶园与溪流",
+    "why": "从茶乡村落出发，逐步走向山脊",
+    "coord": [
+      120.11722,
+      30.209764
+    ],
+    "coordinateSystem": "GCJ-02",
+    "coordinatePrecision": "poi",
+    "coordinateNote": "",
+    "amapId": "B0IA3GN5HN",
+    "sources": [
+      {
+        "label": "高德地图 POI（位置）",
+        "url": "https://ditu.amap.com/place/B0IA3GN5HN"
+      },
+      {
+        "label": "杭州网｜清凉徒步路线（引述杭州市体育局）",
+        "url": "https://travel.hangzhou.com.cn/lyzx/content/2024-07/08/content_8755702.html"
+      }
+    ],
+    "checkedAt": "2026-09-29",
+    "tags": [
+      "茶山",
+      "自然风景"
+    ],
+    "description": "村落旁是茶园与溪流，从这里开始走，风景会逐渐转向开阔山脊。",
+    "recommendIndex": 4,
+    "amapRating": null,
+    "district": "西湖区"
+  },
+  {
+    "id": "shili",
+    "name": "十里琅珰",
+    "category": "山脊",
+    "stay": "30–50",
+    "see": "茶园、山脊与村落俯瞰",
+    "why": "茶山徒步中最开阔的一段",
+    "coord": [
+      120.099351,
+      30.207115
+    ],
+    "coordinateSystem": "GCJ-02",
+    "coordinatePrecision": "poi",
+    "coordinateNote": "",
+    "amapId": "B0FFFAFFBT",
+    "sources": [
+      {
+        "label": "高德地图 POI（位置）",
+        "url": "https://ditu.amap.com/place/B0FFFAFFBT"
+      },
+      {
+        "label": "杭州网｜清凉徒步路线（引述杭州市体育局）",
+        "url": "https://travel.hangzhou.com.cn/lyzx/content/2024-07/08/content_8755702.html"
+      }
+    ],
+    "checkedAt": "2026-09-29",
+    "tags": [
+      "山脊",
+      "自然风景"
+    ],
+    "description": "茶园铺在山坡上，山脊一侧能俯看村落，是这条路线视野最开阔的段落。",
+    "recommendIndex": 5,
+    "amapRating": {
+      "score": 4.7,
+      "checkedAt": "2026-09-29",
+      "poiId": "B0FFFAFFBT"
+    },
+    "district": "西湖区"
+  },
+  {
+    "id": "meijiawu",
+    "name": "梅家坞",
+    "category": "茶山",
+    "stay": "45–70",
+    "see": "茶园与村落",
+    "why": "适合在路线终点休息喝茶",
+    "coord": [
+      120.087925,
+      30.203525
+    ],
+    "coordinateSystem": "GCJ-02",
+    "coordinatePrecision": "poi",
+    "coordinateNote": "",
+    "amapId": "B0FFHRUTTW",
+    "sources": [
+      {
+        "label": "高德地图 POI（位置）",
+        "url": "https://ditu.amap.com/place/B0FFHRUTTW"
+      },
+      {
+        "label": "杭州网｜清凉徒步路线（引述杭州市体育局）",
+        "url": "https://travel.hangzhou.com.cn/lyzx/content/2024-07/08/content_8755702.html"
+      }
+    ],
+    "checkedAt": "2026-09-29",
+    "tags": [
+      "茶山",
+      "自然风景"
+    ],
+    "description": "茶园围着村落，走完山路后适合在这里休息、看看茶乡环境。",
+    "recommendIndex": 4,
+    "amapRating": {
+      "score": 4.6,
+      "checkedAt": "2026-09-29",
+      "poiId": "B0FFHRUTTW"
+    },
+    "district": "西湖区"
+  },
+  {
+    "id": "fahua",
+    "name": "法华寺",
+    "category": "寺庙",
+    "stay": "20–35",
+    "see": "山脚寺院与登山入口",
+    "why": "北高峰路线的明确起点",
+    "coord": [
+      120.093959,
+      30.248278
+    ],
+    "coordinateSystem": "GCJ-02",
+    "coordinatePrecision": "poi",
+    "coordinateNote": "",
+    "amapId": "B023B0BI1X",
+    "sources": [
+      {
+        "label": "高德地图 POI（位置）",
+        "url": "https://ditu.amap.com/place/B023B0BI1X"
+      },
+      {
+        "label": "杭州网｜西山游步道路线",
+        "url": "https://travel.hangzhou.com.cn/lyzx/content/2022-01/26/content_8155458.htm"
+      }
+    ],
+    "checkedAt": "2026-09-29",
+    "tags": [
+      "寺庙",
+      "古迹"
+    ],
+    "description": "山脚寺院和登山口相接，是北高峰线路容易辨认的起点。",
+    "recommendIndex": 4,
+    "amapRating": {
+      "score": 4.7,
+      "checkedAt": "2026-09-29",
+      "poiId": "B023B0BI1X"
+    },
+    "district": "西湖区"
+  },
+  {
+    "id": "beigaofeng",
+    "name": "北高峰",
+    "category": "山峰",
+    "stay": "25–45",
+    "see": "山顶远眺与西湖群山",
+    "why": "短距离上升便能获得明显的登高体验",
+    "coord": [
+      120.097914,
+      30.245493
+    ],
+    "coordinateSystem": "GCJ-02",
+    "coordinatePrecision": "poi",
+    "coordinateNote": "",
+    "amapId": "B023B01E9A",
+    "sources": [
+      {
+        "label": "高德地图 POI（位置）",
+        "url": "https://ditu.amap.com/place/B023B01E9A"
+      },
+      {
+        "label": "杭州网｜西山游步道路线",
+        "url": "https://travel.hangzhou.com.cn/lyzx/content/2022-01/26/content_8155458.htm"
+      }
+    ],
+    "checkedAt": "2026-09-29",
+    "tags": [
+      "山峰",
+      "自然风景"
+    ],
+    "description": "短距离爬升后可在山顶远眺，西湖周边群山的层次更清楚。",
+    "recommendIndex": 5,
+    "amapRating": {
+      "score": 4.7,
+      "checkedAt": "2026-09-29",
+      "poiId": "B023B01E9A"
+    },
+    "district": "西湖区"
+  },
+  {
+    "id": "meirenfeng",
+    "name": "美人峰",
+    "category": "山峰",
+    "stay": "20–35",
+    "see": "山脊与西溪方向远景",
+    "why": "让北高峰线路继续走一段山脊",
+    "coord": [
+      120.092477,
+      30.242055
+    ],
+    "coordinateSystem": "GCJ-02",
+    "coordinatePrecision": "poi",
+    "coordinateNote": "",
+    "amapId": "B023B01FF8",
+    "sources": [
+      {
+        "label": "高德地图 POI（位置）",
+        "url": "https://ditu.amap.com/place/B023B01FF8"
+      },
+      {
+        "label": "杭州网｜西山游步道路线",
+        "url": "https://travel.hangzhou.com.cn/lyzx/content/2022-01/26/content_8155458.htm"
+      }
+    ],
+    "checkedAt": "2026-09-29",
+    "tags": [
+      "山峰",
+      "自然风景"
+    ],
+    "description": "山脊继续向西延伸，可以把北高峰的登高体验拉长一段。",
+    "recommendIndex": 4,
+    "amapRating": null,
+    "district": "西湖区"
+  },
+  {
+    "id": "shaoniangong",
+    "name": "少年宫广场",
+    "category": "城市",
+    "stay": "15–25",
+    "see": "西湖北岸与街景",
+    "why": "多条北山路线容易抵达的起点",
+    "coord": [
+      120.155558,
+      30.260903
+    ],
+    "coordinateSystem": "GCJ-02",
+    "coordinatePrecision": "poi",
+    "coordinateNote": "",
+    "amapId": "B0FFH15ESB",
+    "sources": [
+      {
+        "label": "高德地图 POI（位置）",
+        "url": "https://ditu.amap.com/place/B0FFH15ESB"
+      },
+      {
+        "label": "杭州市体育局｜杭州十大登山徒步线路",
+        "url": "https://ty.hangzhou.gov.cn/art/2020/1/2/art_1694286_41423254.html"
+      }
+    ],
+    "checkedAt": "2026-09-29",
+    "tags": [
+      "城市",
+      "城市空间"
+    ],
+    "description": "位于西湖北岸，湖面与城市街景相接，多条步行路线都方便从这里开始。",
+    "recommendIndex": 4,
+    "amapRating": {
+      "score": 4.7,
+      "checkedAt": "2026-09-29",
+      "poiId": "B0FFH15ESB"
+    },
+    "district": "西湖区"
+  },
+  {
+    "id": "shihanlu",
+    "name": "石函路",
+    "category": "历史街巷",
+    "stay": "15–25",
+    "see": "老路与山脚街景",
+    "why": "从城市街道过渡到宝石山步道",
+    "coord": [
+      120.153111,
+      30.259816
+    ],
+    "coordinateSystem": "GCJ-02",
+    "coordinatePrecision": "street",
+    "coordinateNote": "道路代表点，非摩崖题刻精确位置",
+    "amapId": "B023B09NUO",
+    "sources": [
+      {
+        "label": "高德地图 POI（位置）",
+        "url": "https://ditu.amap.com/place/B023B09NUO"
+      },
+      {
+        "label": "杭州市体育局｜杭州十大登山徒步线路",
+        "url": "https://ty.hangzhou.gov.cn/art/2020/1/2/art_1694286_41423254.html"
+      }
+    ],
+    "checkedAt": "2026-09-29",
+    "tags": [
+      "历史街巷",
+      "历史街区"
+    ],
+    "description": "从山脚老路走向宝石山步道，能看到城市街道向山林过渡。",
+    "recommendIndex": 3,
+    "amapRating": null,
+    "district": "西湖区"
+  },
+  {
+    "id": "baochuta",
+    "name": "保俶塔",
+    "category": "古迹",
+    "stay": "20–35",
+    "see": "石塔与西湖视野",
+    "why": "宝石山最醒目的地标",
+    "coord": [
+      120.148084,
+      30.260999
+    ],
+    "coordinateSystem": "GCJ-02",
+    "coordinatePrecision": "poi",
+    "coordinateNote": "",
+    "amapId": "B023B14B8Q",
+    "sources": [
+      {
+        "label": "高德地图 POI（位置）",
+        "url": "https://ditu.amap.com/place/B023B14B8Q"
+      },
+      {
+        "label": "杭州市体育局｜杭州十大登山徒步线路",
+        "url": "https://ty.hangzhou.gov.cn/art/2020/1/2/art_1694286_41423254.html"
+      }
+    ],
+    "checkedAt": "2026-09-29",
+    "tags": [
+      "古迹"
+    ],
+    "description": "石塔立在宝石山山脊，是辨认西湖北岸山线最直观的地标。",
+    "recommendIndex": 5,
+    "amapRating": {
+      "score": 4.7,
+      "checkedAt": "2026-09-29",
+      "poiId": "B023B14B8Q"
+    },
+    "district": "西湖区"
+  },
+  {
+    "id": "hamafeng",
+    "name": "蛤蟆峰",
+    "category": "观景",
+    "stay": "20–30",
+    "see": "岩石与湖面远景",
+    "why": "适合在山脊停下看西湖",
+    "coord": [
+      120.145916,
+      30.259943
+    ],
+    "coordinateSystem": "GCJ-02",
+    "coordinatePrecision": "poi",
+    "coordinateNote": "",
+    "amapId": "B023B17WVV",
+    "sources": [
+      {
+        "label": "高德地图 POI（位置）",
+        "url": "https://ditu.amap.com/place/B023B17WVV"
+      },
+      {
+        "label": "杭州市体育局｜杭州十大登山徒步线路",
+        "url": "https://ty.hangzhou.gov.cn/art/2020/1/2/art_1694286_41423254.html"
+      }
+    ],
+    "checkedAt": "2026-09-29",
+    "tags": [
+      "观景",
+      "自然风景"
+    ],
+    "description": "岩石地貌和湖面远景同时出现，适合在山脊上停下来看看。",
+    "recommendIndex": 4,
+    "amapRating": {
+      "score": 4.6,
+      "checkedAt": "2026-09-29",
+      "poiId": "B023B17WVV"
+    },
+    "district": "西湖区"
+  },
+  {
+    "id": "geling",
+    "name": "葛岭",
+    "category": "山坡",
+    "stay": "20–35",
+    "see": "山林与摩崖遗迹",
+    "why": "连接宝石山与孤山一带的人文山景",
+    "coord": [
+      120.145248,
+      30.257668
+    ],
+    "coordinateSystem": "GCJ-02",
+    "coordinatePrecision": "poi",
+    "coordinateNote": "",
+    "amapId": "B023B09LTQ",
+    "sources": [
+      {
+        "label": "高德地图 POI（位置）",
+        "url": "https://ditu.amap.com/place/B023B09LTQ"
+      },
+      {
+        "label": "杭州市体育局｜杭州十大登山徒步线路",
+        "url": "https://ty.hangzhou.gov.cn/art/2020/1/2/art_1694286_41423254.html"
+      }
+    ],
+    "checkedAt": "2026-09-29",
+    "tags": [
+      "山坡",
+      "自然风景"
+    ],
+    "description": "山林间穿插摩崖旧迹，把宝石山的自然风景和人文内容连起来。",
+    "recommendIndex": 4,
+    "amapRating": {
+      "score": 4.3,
+      "checkedAt": "2026-09-29",
+      "poiId": "B023B09LTQ"
+    },
+    "district": "西湖区"
+  },
+  {
+    "id": "baopu",
+    "name": "抱朴道院",
+    "category": "古迹",
+    "stay": "25–40",
+    "see": "道院与葛岭山景",
+    "why": "在登山途中加入一站古迹",
+    "coord": [
+      120.142999,
+      30.259974
+    ],
+    "coordinateSystem": "GCJ-02",
+    "coordinatePrecision": "poi",
+    "coordinateNote": "",
+    "amapId": "B023B09M08",
+    "sources": [
+      {
+        "label": "高德地图 POI（位置）",
+        "url": "https://ditu.amap.com/place/B023B09M08"
+      },
+      {
+        "label": "杭州市体育局｜杭州十大登山徒步线路",
+        "url": "https://ty.hangzhou.gov.cn/art/2020/1/2/art_1694286_41423254.html"
+      }
+    ],
+    "checkedAt": "2026-09-29",
+    "tags": [
+      "古迹"
+    ],
+    "description": "道院与葛岭山景相邻，适合在爬山途中穿插一站古建筑。",
+    "recommendIndex": 4,
+    "amapRating": {
+      "score": 4.6,
+      "checkedAt": "2026-09-29",
+      "poiId": "B023B09M08"
+    },
+    "district": "西湖区"
+  },
+  {
+    "id": "mituosi",
+    "name": "弥陀寺公园",
+    "category": "园林",
+    "stay": "25–40",
+    "see": "园林与石刻",
+    "why": "适合作为北山题刻路线的终点",
+    "coord": [
+      120.150049,
+      30.267009
+    ],
+    "coordinateSystem": "GCJ-02",
+    "coordinatePrecision": "poi",
+    "coordinateNote": "",
+    "amapId": "B0FFH151QO",
+    "sources": [
+      {
+        "label": "高德地图 POI（位置）",
+        "url": "https://ditu.amap.com/place/B0FFH151QO"
+      },
+      {
+        "label": "杭州市体育局｜杭州十大登山徒步线路",
+        "url": "https://ty.hangzhou.gov.cn/art/2020/1/2/art_1694286_41423254.html"
+      }
+    ],
+    "checkedAt": "2026-09-29",
+    "tags": [
+      "园林",
+      "自然风景"
+    ],
+    "description": "园林和石刻为北山一带的步行提供了一个较安静的收尾。",
+    "recommendIndex": 4,
+    "amapRating": {
+      "score": 4.5,
+      "checkedAt": "2026-09-29",
+      "poiId": "B0FFH151QO"
+    },
+    "district": "西湖区"
+  },
+  {
+    "id": "xiaohe-park",
+    "name": "小河公园",
+    "category": "公园",
+    "stay": "30–50",
+    "see": "工业遗存与运河岸线",
+    "why": "油库改造空间和水边散步可以一起看",
+    "coord": [
+      120.136978,
+      30.309091
+    ],
+    "coordinateSystem": "GCJ-02",
+    "coordinatePrecision": "poi",
+    "coordinateNote": "",
+    "amapId": "B0I1YM63JB",
+    "sources": [
+      {
+        "label": "高德地图 POI（位置）",
+        "url": "https://ditu.amap.com/place/B0I1YM63JB"
+      },
+      {
+        "label": "杭州市文化广电旅游局｜城市·漫步",
+        "url": "https://wgly.hangzhou.gov.cn/cw/cn/index.html"
+      },
+      {
+        "label": "杭州网｜小河公园与周边街区",
+        "url": "https://travel.hangzhou.com.cn/lyzx/content/2022-10/21/content_8380475_0.htm"
+      }
+    ],
+    "checkedAt": "2026-09-29",
+    "tags": [
+      "公园",
+      "自然风景"
+    ],
+    "description": "保留下来的工业空间贴着运河岸线，适合看建筑更新与水边风景。",
+    "recommendIndex": 5,
+    "amapRating": {
+      "score": 4.7,
+      "checkedAt": "2026-09-29",
+      "poiId": "B0I1YM63JB"
+    },
+    "district": "拱墅区"
+  },
+  {
+    "id": "xiaohe-street",
+    "name": "小河直街",
+    "category": "历史街区",
+    "stay": "45–70",
+    "see": "河埠头、老街与小店",
+    "why": "沿河走能看到运河边的日常生活",
+    "coord": [
+      120.135337,
+      30.308302
+    ],
+    "coordinateSystem": "GCJ-02",
+    "coordinatePrecision": "poi",
+    "coordinateNote": "",
+    "amapId": "B0FFFWQ8DS",
+    "sources": [
+      {
+        "label": "高德地图 POI（位置）",
+        "url": "https://ditu.amap.com/place/B0FFFWQ8DS"
+      },
+      {
+        "label": "杭州市文化广电旅游局｜城市·漫步",
+        "url": "https://wgly.hangzhou.gov.cn/cw/cn/index.html"
+      },
+      {
+        "label": "杭州网｜小河公园与周边街区",
+        "url": "https://travel.hangzhou.com.cn/lyzx/content/2022-10/21/content_8380475_0.htm"
+      }
+    ],
+    "checkedAt": "2026-09-29",
+    "tags": [
+      "历史街区"
+    ],
+    "description": "河埠头、老房子和小店沿水展开，适合放慢脚步看运河生活。",
+    "recommendIndex": 4,
+    "amapRating": {
+      "score": 4.7,
+      "checkedAt": "2026-09-29",
+      "poiId": "B0FFFWQ8DS"
+    },
+    "district": "拱墅区"
+  },
+  {
+    "id": "gongchen",
+    "name": "拱宸桥",
+    "category": "古桥",
+    "stay": "20–35",
+    "see": "古桥与运河",
+    "why": "运河北端最有辨识度的桥梁之一",
+    "coord": [
+      120.139844,
+      30.318101
+    ],
+    "coordinateSystem": "GCJ-02",
+    "coordinatePrecision": "poi",
+    "coordinateNote": "",
+    "amapId": "B023B1BGM6",
+    "sources": [
+      {
+        "label": "高德地图 POI（位置）",
+        "url": "https://ditu.amap.com/place/B023B1BGM6"
+      },
+      {
+        "label": "杭州市文化广电旅游局｜城市·漫步",
+        "url": "https://wgly.hangzhou.gov.cn/cw/cn/index.html"
+      },
+      {
+        "label": "杭州网｜小河公园与周边街区",
+        "url": "https://travel.hangzhou.com.cn/lyzx/content/2022-10/21/content_8380475_0.htm"
+      }
+    ],
+    "checkedAt": "2026-09-29",
+    "tags": [
+      "古桥",
+      "古迹"
+    ],
+    "description": "古桥跨过运河，站在桥边能同时看水路、桥体与两岸街区。",
+    "recommendIndex": 5,
+    "amapRating": {
+      "score": 4.7,
+      "checkedAt": "2026-09-29",
+      "poiId": "B023B1BGM6"
+    },
+    "district": "拱墅区"
+  },
+  {
+    "id": "qiaoxi",
+    "name": "桥西历史文化街区",
+    "category": "历史街区",
+    "stay": "45–70",
+    "see": "老街、工艺与博物馆街区",
+    "why": "适合把运河 Citywalk 延长为半日游",
+    "coord": [
+      120.137752,
+      30.316781
+    ],
+    "coordinateSystem": "GCJ-02",
+    "coordinatePrecision": "poi",
+    "coordinateNote": "",
+    "amapId": "B0FFFFZRBD",
+    "sources": [
+      {
+        "label": "高德地图 POI（位置）",
+        "url": "https://ditu.amap.com/place/B0FFFFZRBD"
+      },
+      {
+        "label": "杭州市文化广电旅游局｜城市·漫步",
+        "url": "https://wgly.hangzhou.gov.cn/cw/cn/index.html"
+      },
+      {
+        "label": "杭州网｜小河公园与周边街区",
+        "url": "https://travel.hangzhou.com.cn/lyzx/content/2022-10/21/content_8380475_0.htm"
+      }
+    ],
+    "checkedAt": "2026-09-29",
+    "tags": [
+      "历史街区"
+    ],
+    "description": "老街附近聚集工艺类博物馆，既能沿运河散步，也能安排室内参观。",
+    "recommendIndex": 4,
+    "amapRating": {
+      "score": 4.7,
+      "checkedAt": "2026-09-29",
+      "poiId": "B0FFFFZRBD"
+    },
+    "district": "拱墅区"
+  },
+  {
+    "id": "hefang",
+    "name": "河坊街",
+    "category": "历史街区",
+    "stay": "45–75",
+    "see": "街巷、店铺与老字号",
+    "why": "初看杭州老城烟火的直观入口",
+    "coord": [
+      120.16863,
+      30.2401
+    ],
+    "coordinateSystem": "GCJ-02",
+    "coordinatePrecision": "poi",
+    "coordinateNote": "",
+    "amapId": "B0FFGQ772L",
+    "sources": [
+      {
+        "label": "高德地图 POI（位置）",
+        "url": "https://ditu.amap.com/place/B0FFGQ772L"
+      },
+      {
+        "label": "杭州市文化广电旅游局｜清河坊步行街",
+        "url": "https://wgly.hangzhou.gov.cn/art/2021/3/5/art_1229471480_58930940.html"
+      },
+      {
+        "label": "杭州网｜馒头山 Citywalk",
+        "url": "https://travel.hangzhou.com.cn/content/2023-08/11/content_8598840_0.htm"
+      }
+    ],
+    "checkedAt": "2026-09-29",
+    "tags": [
+      "历史街区"
+    ],
+    "description": "店铺与老字号集中，热闹的街巷适合第一次感受杭州老城。",
+    "recommendIndex": 4,
+    "amapRating": null,
+    "district": "上城区"
+  },
+  {
+    "id": "nansong",
+    "name": "南宋御街",
+    "category": "历史街区",
+    "stay": "35–55",
+    "see": "街道轴线与历史建筑",
+    "why": "把河坊一带的历史街巷串联起来",
+    "coord": [
+      120.170779,
+      30.242479
+    ],
+    "coordinateSystem": "GCJ-02",
+    "coordinatePrecision": "poi",
+    "coordinateNote": "",
+    "amapId": "B0IA368WAJ",
+    "sources": [
+      {
+        "label": "高德地图 POI（位置）",
+        "url": "https://ditu.amap.com/place/B0IA368WAJ"
+      },
+      {
+        "label": "杭州市文化广电旅游局｜清河坊步行街",
+        "url": "https://wgly.hangzhou.gov.cn/art/2021/3/5/art_1229471480_58930940.html"
+      }
+    ],
+    "checkedAt": "2026-09-29",
+    "tags": [
+      "历史街区"
+    ],
+    "description": "历史街道向南北延伸，可把清河坊一带的老城节点串起来。",
+    "recommendIndex": 4,
+    "amapRating": null,
+    "district": "上城区"
+  },
+  {
+    "id": "gulou",
+    "name": "鼓楼",
+    "category": "古迹",
+    "stay": "15–25",
+    "see": "城楼与街口",
+    "why": "清河坊步行路线的醒目终点",
+    "coord": [
+      120.171386,
+      30.237994
+    ],
+    "coordinateSystem": "GCJ-02",
+    "coordinatePrecision": "poi",
+    "coordinateNote": "",
+    "amapId": "B023B015D8",
+    "sources": [
+      {
+        "label": "高德地图 POI（位置）",
+        "url": "https://ditu.amap.com/place/B023B015D8"
+      },
+      {
+        "label": "杭州市文化广电旅游局｜清河坊步行街",
+        "url": "https://wgly.hangzhou.gov.cn/art/2021/3/5/art_1229471480_58930940.html"
+      }
+    ],
+    "checkedAt": "2026-09-29",
+    "tags": [
+      "古迹"
+    ],
+    "description": "城楼立在老城街口，为清河坊一带的路线提供清晰终点。",
+    "recommendIndex": 4,
+    "amapRating": {
+      "score": 4.7,
+      "checkedAt": "2026-09-29",
+      "poiId": "B023B015D8"
+    },
+    "district": "上城区"
+  },
+  {
+    "id": "huqing",
+    "name": "胡庆余堂",
+    "category": "人文",
+    "stay": "30–50",
+    "see": "老字号建筑与中医药文化",
+    "why": "在热闹街区里加入一处有内容的停靠点",
+    "coord": [
+      120.168961,
+      30.239832
+    ],
+    "coordinateSystem": "GCJ-02",
+    "coordinatePrecision": "poi",
+    "coordinateNote": "",
+    "amapId": "B023B1FJ8J",
+    "sources": [
+      {
+        "label": "高德地图 POI（位置）",
+        "url": "https://ditu.amap.com/place/B023B1FJ8J"
+      },
+      {
+        "label": "杭州市文化广电旅游局｜清河坊步行街",
+        "url": "https://wgly.hangzhou.gov.cn/art/2021/3/5/art_1229471480_58930940.html"
+      },
+      {
+        "label": "杭州网｜馒头山 Citywalk",
+        "url": "https://travel.hangzhou.com.cn/content/2023-08/11/content_8598840_0.htm"
+      }
+    ],
+    "checkedAt": "2026-09-29",
+    "tags": [
+      "人文",
+      "古迹"
+    ],
+    "description": "老字号建筑承载中医药文化，在热闹街区里适合停下细看。",
+    "recommendIndex": 4,
+    "amapRating": {
+      "score": 4.6,
+      "checkedAt": "2026-09-29",
+      "poiId": "B023B1FJ8J"
+    },
+    "district": "上城区"
+  },
+  {
+    "id": "beishan",
+    "name": "北山街",
+    "category": "历史街区",
+    "stay": "35–55",
+    "see": "梧桐、湖景与历史建筑",
+    "why": "一路看建筑，也能随时望向西湖",
+    "coord": [
+      120.154585,
+      30.26001
+    ],
+    "coordinateSystem": "GCJ-02",
+    "coordinatePrecision": "poi",
+    "coordinateNote": "",
+    "amapId": "B0FFGQ4OWE",
+    "sources": [
+      {
+        "label": "高德地图 POI（位置）",
+        "url": "https://ditu.amap.com/place/B0FFGQ4OWE"
+      },
+      {
+        "label": "杭州市体育局｜杭州十大登山徒步线路",
+        "url": "https://ty.hangzhou.gov.cn/art/2020/1/2/art_1694286_41423254.html"
+      }
+    ],
+    "checkedAt": "2026-09-29",
+    "tags": [
+      "历史街区"
+    ],
+    "description": "梧桐、历史建筑和西湖湖面交替出现，是边走边看建筑的湖岸。",
+    "recommendIndex": 4,
+    "amapRating": null,
+    "district": "西湖区"
+  },
+  {
+    "id": "xiling",
+    "name": "西泠桥",
+    "category": "古桥",
+    "stay": "15–25",
+    "see": "桥与孤山湖岸",
+    "why": "北山街转向孤山的自然节点",
+    "coord": [
+      120.138493,
+      30.251888
+    ],
+    "coordinateSystem": "GCJ-02",
+    "coordinatePrecision": "poi",
+    "coordinateNote": "",
+    "amapId": "B023B0A6IY",
+    "sources": [
+      {
+        "label": "高德地图 POI（位置）",
+        "url": "https://ditu.amap.com/place/B023B0A6IY"
+      },
+      {
+        "label": "杭州市体育局｜杭州十大登山徒步线路",
+        "url": "https://ty.hangzhou.gov.cn/art/2020/1/2/art_1694286_41423254.html"
+      }
+    ],
+    "checkedAt": "2026-09-29",
+    "tags": [
+      "古桥",
+      "古迹"
+    ],
+    "description": "桥连着北山与孤山，过桥时能看到湖岸转折和水面。",
+    "recommendIndex": 4,
+    "amapRating": {
+      "score": 4.7,
+      "checkedAt": "2026-09-29",
+      "poiId": "B023B0A6IY"
+    },
+    "district": "西湖区"
+  },
+  {
+    "id": "zhongshan",
+    "name": "中山公园（孤山）",
+    "category": "园林",
+    "stay": "30–45",
+    "see": "孤山园林与湖景",
+    "why": "北山与白堤之间适合放慢脚步的一站",
+    "coord": [
+      120.142481,
+      30.251654
+    ],
+    "coordinateSystem": "GCJ-02",
+    "coordinatePrecision": "park",
+    "coordinateNote": "中山公园代表孤山区域",
+    "amapId": "B0FFKQNUS4",
+    "sources": [
+      {
+        "label": "高德地图 POI（位置）",
+        "url": "https://ditu.amap.com/place/B0FFKQNUS4"
+      },
+      {
+        "label": "杭州市体育局｜杭州十大登山徒步线路",
+        "url": "https://ty.hangzhou.gov.cn/art/2020/1/2/art_1694286_41423254.html"
+      }
+    ],
+    "checkedAt": "2026-09-29",
+    "tags": [
+      "园林",
+      "自然风景"
+    ],
+    "description": "孤山上的园林与湖景相接，适合在北山街和白堤之间休息。",
+    "recommendIndex": 4,
+    "amapRating": {
+      "score": 4.7,
+      "checkedAt": "2026-09-29",
+      "poiId": "B0FFKQNUS4"
+    },
+    "district": "西湖区"
+  },
+  {
+    "id": "baidi",
+    "name": "白堤",
+    "category": "湖景",
+    "stay": "35–55",
+    "see": "湖面、桥与树影",
+    "why": "在湖面之间步行，视野连续而开阔",
+    "coord": [
+      120.149189,
+      30.255701
+    ],
+    "coordinateSystem": "GCJ-02",
+    "coordinatePrecision": "poi",
+    "coordinateNote": "",
+    "amapId": "B0FFFTYEG4",
+    "sources": [
+      {
+        "label": "高德地图 POI（位置）",
+        "url": "https://ditu.amap.com/place/B0FFFTYEG4"
+      },
+      {
+        "label": "杭州市体育局｜杭州十大登山徒步线路",
+        "url": "https://ty.hangzhou.gov.cn/art/2020/1/2/art_1694286_41423254.html"
+      }
+    ],
+    "checkedAt": "2026-09-29",
+    "tags": [
+      "湖景",
+      "自然风景"
+    ],
+    "description": "长堤穿过湖面，桥、树影与水景连续，适合慢速步行。",
+    "recommendIndex": 5,
+    "amapRating": {
+      "score": 4.7,
+      "checkedAt": "2026-09-29",
+      "poiId": "B0FFFTYEG4"
+    },
+    "district": "西湖区"
+  },
+  {
+    "id": "duanqiao",
+    "name": "断桥",
+    "category": "湖景",
+    "stay": "20–30",
+    "see": "断桥与西湖北岸",
+    "why": "容易抵达，适合作为湖边慢走的起终点",
+    "coord": [
+      120.151347,
+      30.258151
+    ],
+    "coordinateSystem": "GCJ-02",
+    "coordinatePrecision": "poi",
+    "coordinateNote": "",
+    "amapId": "B023B01EE6",
+    "sources": [
+      {
+        "label": "高德地图 POI（位置）",
+        "url": "https://ditu.amap.com/place/B023B01EE6"
+      },
+      {
+        "label": "杭州市体育局｜杭州十大登山徒步线路",
+        "url": "https://ty.hangzhou.gov.cn/art/2020/1/2/art_1694286_41423254.html"
+      }
+    ],
+    "checkedAt": "2026-09-29",
+    "tags": [
+      "湖景",
+      "自然风景"
+    ],
+    "description": "西湖北岸最容易到达的看湖节点之一，适合作为湖边路线的起终点。",
+    "recommendIndex": 5,
+    "amapRating": {
+      "score": 4.9,
+      "checkedAt": "2026-09-29",
+      "poiId": "B023B01EE6"
+    },
+    "district": "西湖区"
+  },
+  {
+    "id": "wanghulou",
+    "name": "望湖楼",
+    "category": "古迹",
+    "stay": "20–30",
+    "see": "楼阁与湖面",
+    "why": "从湖岸看苏东坡主题路线的开端",
+    "coord": [
+      120.153702,
+      30.259989
+    ],
+    "coordinateSystem": "GCJ-02",
+    "coordinatePrecision": "poi",
+    "coordinateNote": "",
+    "amapId": "B0FFFH9IRJ",
+    "sources": [
+      {
+        "label": "高德地图 POI（位置）",
+        "url": "https://ditu.amap.com/place/B0FFFH9IRJ"
+      },
+      {
+        "label": "杭州市体育局｜杭州十大登山徒步线路",
+        "url": "https://ty.hangzhou.gov.cn/art/2020/1/2/art_1694286_41423254.html"
+      }
+    ],
+    "checkedAt": "2026-09-29",
+    "tags": [
+      "古迹"
+    ],
+    "description": "湖边楼阁为苏东坡主题路线提供一个有故事的开场。",
+    "recommendIndex": 4,
+    "amapRating": {
+      "score": 4.4,
+      "checkedAt": "2026-09-29",
+      "poiId": "B0FFFH9IRJ"
+    },
+    "district": "西湖区"
+  },
+  {
+    "id": "liuyiquan",
+    "name": "六一泉",
+    "category": "人文",
+    "stay": "15–25",
+    "see": "泉亭与孤山绿地",
+    "why": "苏东坡主题路线中的一处人文停靠点",
+    "coord": [
+      120.139607,
+      30.250676
+    ],
+    "coordinateSystem": "GCJ-02",
+    "coordinatePrecision": "poi",
+    "coordinateNote": "",
+    "amapId": "B023B17X48",
+    "sources": [
+      {
+        "label": "高德地图 POI（位置）",
+        "url": "https://ditu.amap.com/place/B023B17X48"
+      },
+      {
+        "label": "杭州市体育局｜杭州十大登山徒步线路",
+        "url": "https://ty.hangzhou.gov.cn/art/2020/1/2/art_1694286_41423254.html"
+      }
+    ],
+    "checkedAt": "2026-09-29",
+    "tags": [
+      "人文",
+      "古迹"
+    ],
+    "description": "孤山绿地里的泉亭较小，适合在主题路线中短暂停留。",
+    "recommendIndex": 3,
+    "amapRating": {
+      "score": 3.9,
+      "checkedAt": "2026-09-29",
+      "poiId": "B023B17X48"
+    },
+    "district": "西湖区"
+  },
+  {
+    "id": "sudi",
+    "name": "苏堤",
+    "category": "湖景",
+    "stay": "45–75",
+    "see": "长堤、桥与两侧湖面",
+    "why": "沿湖步行最完整的一段",
+    "coord": [
+      120.139291,
+      30.240338
+    ],
+    "coordinateSystem": "GCJ-02",
+    "coordinatePrecision": "route-section",
+    "coordinateNote": "苏堤中段代表点",
+    "amapId": "B023B0AC72",
+    "sources": [
+      {
+        "label": "高德地图 POI（位置）",
+        "url": "https://ditu.amap.com/place/B023B0AC72"
+      },
+      {
+        "label": "杭州市体育局｜杭州十大登山徒步线路",
+        "url": "https://ty.hangzhou.gov.cn/art/2020/1/2/art_1694286_41423254.html"
+      }
+    ],
+    "checkedAt": "2026-09-29",
+    "tags": [
+      "湖景",
+      "自然风景"
+    ],
+    "description": "长堤与多座桥串起湖面，两侧视野开阔，适合留足步行时间。",
+    "recommendIndex": 5,
+    "amapRating": {
+      "score": 4.7,
+      "checkedAt": "2026-09-29",
+      "poiId": "B023B0AC72"
+    },
+    "district": "西湖区"
+  },
+  {
+    "id": "sudongpo",
+    "name": "苏东坡纪念馆",
+    "category": "博物馆",
+    "stay": "45–65",
+    "see": "苏东坡生平与杭州故事",
+    "why": "为主题路线提供明确的收尾",
+    "coord": [
+      120.144024,
+      30.228939
+    ],
+    "coordinateSystem": "GCJ-02",
+    "coordinatePrecision": "poi",
+    "coordinateNote": "",
+    "amapId": "B023B04G1C",
+    "sources": [
+      {
+        "label": "高德地图 POI（位置）",
+        "url": "https://ditu.amap.com/place/B023B04G1C"
+      },
+      {
+        "label": "杭州市体育局｜杭州十大登山徒步线路",
+        "url": "https://ty.hangzhou.gov.cn/art/2020/1/2/art_1694286_41423254.html"
+      }
+    ],
+    "checkedAt": "2026-09-29",
+    "tags": [
+      "博物馆"
+    ],
+    "description": "馆内围绕苏东坡生平与杭州故事展开，适合作为主题路线的终点。",
+    "recommendIndex": 4,
+    "amapRating": {
+      "score": 4.5,
+      "checkedAt": "2026-09-29",
+      "poiId": "B023B04G1C"
+    },
+    "district": "西湖区"
+  },
+  {
+    "id": "shiwukui",
+    "name": "十五奎巷",
+    "category": "历史街巷",
+    "stay": "20–35",
+    "see": "小巷与老城生活",
+    "why": "从闹市拐入吴山的小路",
+    "coord": [
+      120.171421,
+      30.23765
+    ],
+    "coordinateSystem": "GCJ-02",
+    "coordinatePrecision": "poi",
+    "coordinateNote": "",
+    "amapId": "BZA3QQ01S5",
+    "sources": [
+      {
+        "label": "高德地图 POI（位置）",
+        "url": "https://ditu.amap.com/place/BZA3QQ01S5"
+      },
+      {
+        "label": "杭州市文化广电旅游局｜晓霞弄 Citywalk",
+        "url": "https://wgly.hangzhou.gov.cn/art/2025/7/22/art_1229505585_58964270.html"
+      }
+    ],
+    "checkedAt": "2026-09-29",
+    "tags": [
+      "历史街巷",
+      "历史街区"
+    ],
+    "description": "小巷比主街安静，能看老城生活与吴山脚下的街巷尺度。",
+    "recommendIndex": 4,
+    "amapRating": null,
+    "district": "上城区"
+  },
+  {
+    "id": "xiaoxianong",
+    "name": "晓霞弄",
+    "category": "历史街巷",
+    "stay": "20–35",
+    "see": "青石板与山脚弄堂",
+    "why": "老杭州巷道一路通向山坡",
+    "coord": [
+      120.169858,
+      30.237603
+    ],
+    "coordinateSystem": "GCJ-02",
+    "coordinatePrecision": "poi",
+    "coordinateNote": "",
+    "amapId": "B0IAVN9P4G",
+    "sources": [
+      {
+        "label": "高德地图 POI（位置）",
+        "url": "https://ditu.amap.com/place/B0IAVN9P4G"
+      },
+      {
+        "label": "杭州市文化广电旅游局｜晓霞弄 Citywalk",
+        "url": "https://wgly.hangzhou.gov.cn/art/2025/7/22/art_1229505585_58964270.html"
+      }
+    ],
+    "checkedAt": "2026-09-29",
+    "tags": [
+      "历史街巷",
+      "历史街区"
+    ],
+    "description": "青石板与山脚弄堂一路向坡上延伸，适合体验老城里的小路。",
+    "recommendIndex": 4,
+    "amapRating": {
+      "score": 4.7,
+      "checkedAt": "2026-09-29",
+      "poiId": "B0IAVN9P4G"
+    },
+    "district": "上城区"
+  },
+  {
+    "id": "wugongmiao",
+    "name": "伍公庙",
+    "category": "古迹",
+    "stay": "15–25",
+    "see": "庙宇与吴山旧迹",
+    "why": "短路线里的一处历史停靠点",
+    "coord": [
+      120.170471,
+      30.238329
+    ],
+    "coordinateSystem": "GCJ-02",
+    "coordinatePrecision": "poi",
+    "coordinateNote": "",
+    "amapId": "B023B17WUD",
+    "sources": [
+      {
+        "label": "高德地图 POI（位置）",
+        "url": "https://ditu.amap.com/place/B023B17WUD"
+      },
+      {
+        "label": "杭州市文化广电旅游局｜晓霞弄 Citywalk",
+        "url": "https://wgly.hangzhou.gov.cn/art/2025/7/22/art_1229505585_58964270.html"
+      }
+    ],
+    "checkedAt": "2026-09-29",
+    "tags": [
+      "古迹"
+    ],
+    "description": "吴山旧迹与庙宇建筑相接，是短线上一处人文停靠点。",
+    "recommendIndex": 4,
+    "amapRating": {
+      "score": 4,
+      "checkedAt": "2026-09-29",
+      "poiId": "B023B17WUD"
+    },
+    "district": "上城区"
+  },
+  {
+    "id": "wushandguan",
+    "name": "吴山大观",
+    "category": "观景",
+    "stay": "20–30",
+    "see": "俯看城区与远山",
+    "why": "上山后的视野奖励",
+    "coord": [
+      120.165499,
+      30.236853
+    ],
+    "coordinateSystem": "GCJ-02",
+    "coordinatePrecision": "poi",
+    "coordinateNote": "",
+    "amapId": "B023B1D0GD",
+    "sources": [
+      {
+        "label": "高德地图 POI（位置）",
+        "url": "https://ditu.amap.com/place/B023B1D0GD"
+      },
+      {
+        "label": "杭州市文化广电旅游局｜晓霞弄 Citywalk",
+        "url": "https://wgly.hangzhou.gov.cn/art/2025/7/22/art_1229505585_58964270.html"
+      }
+    ],
+    "checkedAt": "2026-09-29",
+    "tags": [
+      "观景",
+      "自然风景"
+    ],
+    "description": "上坡后视野打开，可从高处看城区与远处山线。",
+    "recommendIndex": 4,
+    "amapRating": {
+      "score": 4.5,
+      "checkedAt": "2026-09-29",
+      "poiId": "B023B1D0GD"
+    },
+    "district": "上城区"
+  },
+  {
+    "id": "chenghuangge",
+    "name": "城隍阁",
+    "category": "古迹",
+    "stay": "30–50",
+    "see": "阁楼与吴山景观",
+    "why": "把山坡漫步收在城市全景处",
+    "coord": [
+      120.164726,
+      30.236413
+    ],
+    "coordinateSystem": "GCJ-02",
+    "coordinatePrecision": "poi",
+    "coordinateNote": "",
+    "amapId": "B0FFG49JKW",
+    "sources": [
+      {
+        "label": "高德地图 POI（位置）",
+        "url": "https://ditu.amap.com/place/B0FFG49JKW"
+      },
+      {
+        "label": "杭州市文化广电旅游局｜晓霞弄 Citywalk",
+        "url": "https://wgly.hangzhou.gov.cn/art/2025/7/22/art_1229505585_58964270.html"
+      }
+    ],
+    "checkedAt": "2026-09-29",
+    "tags": [
+      "古迹"
+    ],
+    "description": "阁楼和吴山景观相接，登高后能以城市全景结束路线。",
+    "recommendIndex": 4,
+    "amapRating": {
+      "score": 4.7,
+      "checkedAt": "2026-09-29",
+      "poiId": "B0FFG49JKW"
+    },
+    "district": "上城区"
+  },
+  {
+    "id": "mantou",
+    "name": "馒头山社区",
+    "category": "街区",
+    "stay": "30–50",
+    "see": "民居与老城生活",
+    "why": "保留日常烟火的街区入口",
+    "coord": [
+      120.168072,
+      30.218267
+    ],
+    "coordinateSystem": "GCJ-02",
+    "coordinatePrecision": "poi",
+    "coordinateNote": "",
+    "amapId": "B023B09LIH",
+    "sources": [
+      {
+        "label": "高德地图 POI（位置）",
+        "url": "https://ditu.amap.com/place/B023B09LIH"
+      },
+      {
+        "label": "杭州网｜馒头山 Citywalk",
+        "url": "https://travel.hangzhou.com.cn/content/2023-08/11/content_8598840_0.htm"
+      }
+    ],
+    "checkedAt": "2026-09-29",
+    "tags": [
+      "街区",
+      "历史街区"
+    ],
+    "description": "民居与日常生活是这里的看点，适合观察老城街区。",
+    "recommendIndex": 4,
+    "amapRating": null,
+    "district": "上城区"
+  },
+  {
+    "id": "fenghuang-road",
+    "name": "凤凰山脚路",
+    "category": "街巷",
+    "stay": "20–35",
+    "see": "山脚道路与民居",
+    "why": "连接馒头山与周边文创空间",
+    "coord": [
+      120.168316,
+      30.223529
+    ],
+    "coordinateSystem": "GCJ-02",
+    "coordinatePrecision": "poi",
+    "coordinateNote": "",
+    "amapId": "BZA3QQ01N8",
+    "sources": [
+      {
+        "label": "高德地图 POI（位置）",
+        "url": "https://ditu.amap.com/place/BZA3QQ01N8"
+      },
+      {
+        "label": "杭州网｜馒头山 Citywalk",
+        "url": "https://travel.hangzhou.com.cn/content/2023-08/11/content_8598840_0.htm"
+      }
+    ],
+    "checkedAt": "2026-09-29",
+    "tags": [
+      "街巷",
+      "历史街区"
+    ],
+    "description": "山脚道路连接民居和周边文创院落，适合慢慢走。",
+    "recommendIndex": 3,
+    "amapRating": null,
+    "district": "上城区"
+  },
+  {
+    "id": "fengshan",
+    "name": "凤山·拾遗创意园",
+    "category": "文创",
+    "stay": "25–40",
+    "see": "旧建筑与创意空间",
+    "why": "给老城步行增加一点新内容",
+    "coord": [
+      120.168992,
+      30.217818
+    ],
+    "coordinateSystem": "GCJ-02",
+    "coordinatePrecision": "poi",
+    "coordinateNote": "",
+    "amapId": "B0FFIQRNFE",
+    "sources": [
+      {
+        "label": "高德地图 POI（位置）",
+        "url": "https://ditu.amap.com/place/B0FFIQRNFE"
+      },
+      {
+        "label": "杭州网｜馒头山 Citywalk",
+        "url": "https://travel.hangzhou.com.cn/content/2023-08/11/content_8598840_0.htm"
+      }
+    ],
+    "checkedAt": "2026-09-29",
+    "tags": [
+      "文创",
+      "文创空间"
+    ],
+    "description": "旧建筑改造的创意空间，为老城步行增加新的停留内容。",
+    "recommendIndex": 3,
+    "amapRating": {
+      "score": 4.5,
+      "checkedAt": "2026-09-29",
+      "poiId": "B0FFIQRNFE"
+    },
+    "district": "上城区"
+  },
+  {
+    "id": "fenghuang-society",
+    "name": "凤凰公社文化创意园",
+    "category": "文创",
+    "stay": "25–40",
+    "see": "文创院落与街区",
+    "why": "老城步行中适合停留的一站",
+    "coord": [
+      120.167247,
+      30.224527
+    ],
+    "coordinateSystem": "GCJ-02",
+    "coordinatePrecision": "poi",
+    "coordinateNote": "",
+    "amapId": "B0FFFDPO84",
+    "sources": [
+      {
+        "label": "高德地图 POI（位置）",
+        "url": "https://ditu.amap.com/place/B0FFFDPO84"
+      },
+      {
+        "label": "杭州网｜馒头山 Citywalk",
+        "url": "https://travel.hangzhou.com.cn/content/2023-08/11/content_8598840_0.htm"
+      }
+    ],
+    "checkedAt": "2026-09-29",
+    "tags": [
+      "文创",
+      "文创空间"
+    ],
+    "description": "文创院落与周边街区相接，适合在老城路线中休息。",
+    "recommendIndex": 3,
+    "amapRating": {
+      "score": 4.3,
+      "checkedAt": "2026-09-29",
+      "poiId": "B0FFFDPO84"
+    },
+    "district": "上城区"
+  },
+  {
+    "id": "hangzhou-museum",
+    "name": "杭州博物馆",
+    "category": "博物馆",
+    "tags": [
+      "博物馆",
+      "历史文化"
+    ],
+    "stay": "90–150",
+    "see": "杭州历史、城市文物与专题展",
+    "description": "以杭州城市历史为主线，适合先在馆内建立对老城的认识，再去河坊街实地走走。",
+    "why": "内容集中又靠近清河坊，适合雨天或想了解杭州历史时安排。",
+    "recommendIndex": 5,
+    "coord": [
+      120.166525,
+      30.239091
+    ],
+    "coordinateSystem": "GCJ-02",
+    "coordinatePrecision": "poi",
+    "coordinateNote": "",
+    "amapId": "B0FFFWQGI8",
+    "amapRating": {
+      "score": 4.7,
+      "checkedAt": "2026-09-29",
+      "poiId": "B0FFFWQGI8"
+    },
+    "sources": [
+      {
+        "label": "高德地图 POI（位置与评分）",
+        "url": "https://ditu.amap.com/place/B0FFFWQGI8"
+      },
+      {
+        "label": "杭州市文旅局｜杭州博物馆",
+        "url": "https://wgly.hangzhou.gov.cn/art/2022/11/9/art_1229696394_58942372.html"
+      }
+    ],
+    "checkedAt": "2026-09-29",
+    "district": "上城区"
+  },
+  {
+    "id": "deshou-museum",
+    "name": "南宋德寿宫遗址博物馆",
+    "category": "博物馆",
+    "tags": [
+      "博物馆",
+      "南宋文化"
+    ],
+    "stay": "90–150",
+    "see": "宫殿遗址、出土文物与宋代生活",
+    "description": "在宫殿遗址上了解南宋宫廷空间和城市历史，再接老城街巷会更有层次。",
+    "why": "和南宋御街、清河坊能组成一条文化主题半日线。",
+    "recommendIndex": 5,
+    "coord": [
+      120.173273,
+      30.238678
+    ],
+    "coordinateSystem": "GCJ-02",
+    "coordinatePrecision": "poi",
+    "coordinateNote": "",
+    "amapId": "B0HGNGK3FG",
+    "amapRating": {
+      "score": 4.7,
+      "checkedAt": "2026-09-29",
+      "poiId": "B0HGNGK3FG"
+    },
+    "sources": [
+      {
+        "label": "高德地图 POI（位置与评分）",
+        "url": "https://ditu.amap.com/place/B0HGNGK3FG"
+      },
+      {
+        "label": "杭州市文旅局｜宋韵线路",
+        "url": "https://wgly.hangzhou.gov.cn/attach/538/2307051510367229.pdf"
+      }
+    ],
+    "checkedAt": "2026-09-29",
+    "district": "上城区"
+  },
+  {
+    "id": "silk-museum",
+    "name": "中国丝绸博物馆",
+    "category": "博物馆",
+    "tags": [
+      "博物馆",
+      "丝绸文化"
+    ],
+    "stay": "90–150",
+    "see": "丝绸历史、织造工艺与服饰",
+    "description": "以丝绸、织造和服饰文化为核心，可从展品理解杭州与丝绸的关系。",
+    "why": "专题鲜明，适合想看工艺和服饰的人单独安排半天。",
+    "recommendIndex": 5,
+    "coord": [
+      120.151292,
+      30.22287
+    ],
+    "coordinateSystem": "GCJ-02",
+    "coordinatePrecision": "poi",
+    "coordinateNote": "",
+    "amapId": "B023B09JLL",
+    "amapRating": {
+      "score": 4.7,
+      "checkedAt": "2026-09-29",
+      "poiId": "B023B09JLL"
+    },
+    "sources": [
+      {
+        "label": "高德地图 POI（位置与评分）",
+        "url": "https://ditu.amap.com/place/B023B09JLL"
+      },
+      {
+        "label": "中国丝绸博物馆｜馆况介绍",
+        "url": "https://chinasilkmuseum.com/bwggk/index_3.aspx"
+      }
+    ],
+    "checkedAt": "2026-09-29",
+    "district": "西湖区"
+  },
+  {
+    "id": "zhejiang-museum-gushan",
+    "name": "浙江省博物馆孤山馆区",
+    "category": "博物馆",
+    "tags": [
+      "博物馆",
+      "浙江历史"
+    ],
+    "stay": "90–150",
+    "see": "浙江文物、文澜阁与孤山园林",
+    "description": "馆区在孤山，可把文物展览、文澜阁和湖边园林放在同一次游览里。",
+    "why": "室内内容和西湖风景相接，天气变化时也好调整。",
+    "recommendIndex": 5,
+    "coord": [
+      120.143778,
+      30.251243
+    ],
+    "coordinateSystem": "GCJ-02",
+    "coordinatePrecision": "poi",
+    "coordinateNote": "",
+    "amapId": "B023B06XVX",
+    "amapRating": {
+      "score": 4.7,
+      "checkedAt": "2026-09-29",
+      "poiId": "B023B06XVX"
+    },
+    "sources": [
+      {
+        "label": "高德地图 POI（位置与评分）",
+        "url": "https://ditu.amap.com/place/B023B06XVX"
+      },
+      {
+        "label": "浙江省博物馆｜孤山馆区",
+        "url": "https://www.zjmuseum.com.cn/cn/msp/"
+      }
+    ],
+    "checkedAt": "2026-09-29",
+    "district": "西湖区"
+  },
+  {
+    "id": "fan-museum",
+    "name": "中国扇博物馆",
+    "category": "博物馆",
+    "tags": [
+      "博物馆",
+      "工艺文化"
+    ],
+    "stay": "45–75",
+    "see": "扇具、制作工艺与运河工业遗存",
+    "description": "工艺美术博物馆群的一站，适合看扇具和相关制作传统。",
+    "why": "几个馆相距不远，适合与伞、刀剪剑馆一起逛。",
+    "recommendIndex": 4,
+    "coord": [
+      120.138026,
+      30.318968
+    ],
+    "coordinateSystem": "GCJ-02",
+    "coordinatePrecision": "poi",
+    "coordinateNote": "",
+    "amapId": "B023B0BDU2",
+    "amapRating": {
+      "score": 4.6,
+      "checkedAt": "2026-09-29",
+      "poiId": "B023B0BDU2"
+    },
+    "sources": [
+      {
+        "label": "高德地图 POI（位置与评分）",
+        "url": "https://ditu.amap.com/place/B023B0BDU2"
+      },
+      {
+        "label": "杭州市文旅局｜杭州工艺美术博物馆群",
+        "url": "https://wgly.hangzhou.gov.cn/art/2024/3/6/art_1229733881_58953479.html"
+      }
+    ],
+    "checkedAt": "2026-09-29",
+    "district": "拱墅区"
+  },
+  {
+    "id": "umbrella-museum",
+    "name": "中国伞博物馆",
+    "category": "博物馆",
+    "tags": [
+      "博物馆",
+      "工艺文化"
+    ],
+    "stay": "45–75",
+    "see": "伞具、民间工艺与工业建筑",
+    "description": "从伞具展陈看日常器物的工艺变化，馆舍本身也延续运河工业空间。",
+    "why": "适合和桥西其他工艺馆串成室内半日游。",
+    "recommendIndex": 4,
+    "coord": [
+      120.137712,
+      30.315991
+    ],
+    "coordinateSystem": "GCJ-02",
+    "coordinatePrecision": "poi",
+    "coordinateNote": "",
+    "amapId": "B023B09XH8",
+    "amapRating": {
+      "score": 4.6,
+      "checkedAt": "2026-09-29",
+      "poiId": "B023B09XH8"
+    },
+    "sources": [
+      {
+        "label": "高德地图 POI（位置与评分）",
+        "url": "https://ditu.amap.com/place/B023B09XH8"
+      },
+      {
+        "label": "杭州市文旅局｜杭州工艺美术博物馆群",
+        "url": "https://wgly.hangzhou.gov.cn/art/2024/3/6/art_1229733881_58953479.html"
+      }
+    ],
+    "checkedAt": "2026-09-29",
+    "district": "拱墅区"
+  },
+  {
+    "id": "blade-museum",
+    "name": "中国刀剪剑博物馆",
+    "category": "博物馆",
+    "tags": [
+      "博物馆",
+      "工艺文化"
+    ],
+    "stay": "45–75",
+    "see": "刀、剪、剑器物与制作工艺",
+    "description": "围绕刀剪剑的历史与工艺展开，题材比一般综合馆更聚焦。",
+    "why": "与扇、伞馆主题互补，集中看杭州手工艺。",
+    "recommendIndex": 4,
+    "coord": [
+      120.137682,
+      30.316137
+    ],
+    "coordinateSystem": "GCJ-02",
+    "coordinatePrecision": "poi",
+    "coordinateNote": "",
+    "amapId": "B023B09XH9",
+    "amapRating": {
+      "score": 4.7,
+      "checkedAt": "2026-09-29",
+      "poiId": "B023B09XH9"
+    },
+    "sources": [
+      {
+        "label": "高德地图 POI（位置与评分）",
+        "url": "https://ditu.amap.com/place/B023B09XH9"
+      },
+      {
+        "label": "杭州市文旅局｜杭州工艺美术博物馆群",
+        "url": "https://wgly.hangzhou.gov.cn/art/2024/3/6/art_1229733881_58953479.html"
+      }
+    ],
+    "checkedAt": "2026-09-29",
+    "district": "拱墅区"
+  },
+  {
+    "id": "craft-museum",
+    "name": "杭州工艺美术博物馆",
+    "category": "博物馆",
+    "tags": [
+      "博物馆",
+      "工艺文化"
+    ],
+    "stay": "60–90",
+    "see": "工艺美术、非遗展示与工业遗存",
+    "description": "以杭州地区工艺美术为重点，适合在运河街区看传统手艺的当代呈现。",
+    "why": "可作为桥西工美馆群的主站，留足参观时间。",
+    "recommendIndex": 5,
+    "coord": [
+      120.13693,
+      30.315645
+    ],
+    "coordinateSystem": "GCJ-02",
+    "coordinatePrecision": "poi",
+    "coordinateNote": "",
+    "amapId": "B023B0I02U",
+    "amapRating": {
+      "score": 4.7,
+      "checkedAt": "2026-09-29",
+      "poiId": "B023B0I02U"
+    },
+    "sources": [
+      {
+        "label": "高德地图 POI（位置与评分）",
+        "url": "https://ditu.amap.com/place/B023B0I02U"
+      },
+      {
+        "label": "杭州市文旅局｜杭州工艺美术博物馆群",
+        "url": "https://wgly.hangzhou.gov.cn/art/2024/3/6/art_1229733881_58953479.html"
+      }
+    ],
+    "checkedAt": "2026-09-29",
+    "district": "拱墅区"
+  },
+  {
+    "id": "canal-museum",
+    "name": "中国京杭大运河博物馆",
+    "category": "博物馆",
+    "tags": [
+      "博物馆",
+      "运河文化"
+    ],
+    "stay": "60–90",
+    "see": "运河历史与沿线生活",
+    "description": "从展览了解大运河，再到拱宸桥边看真实河道，室内外内容能互相印证。",
+    "why": "适合把运河散步变成更有背景的半日游。",
+    "recommendIndex": 5,
+    "coord": [
+      120.14133,
+      30.317404
+    ],
+    "coordinateSystem": "GCJ-02",
+    "coordinatePrecision": "poi",
+    "coordinateNote": "",
+    "amapId": "B023B07XI3",
+    "amapRating": {
+      "score": 4.7,
+      "checkedAt": "2026-09-29",
+      "poiId": "B023B07XI3"
+    },
+    "sources": [
+      {
+        "label": "高德地图 POI（位置与评分）",
+        "url": "https://ditu.amap.com/place/B023B07XI3"
+      },
+      {
+        "label": "杭州市文旅局｜运河文化旅游精品线路",
+        "url": "https://wgly.hangzhou.gov.cn/module/download/downfile.jsp?classid=0&filename=c3ccb4250d3143a09047ee20fbe1170c.pdf"
+      }
+    ],
+    "checkedAt": "2026-09-29",
+    "district": "拱墅区"
+  },
+  {
+    "id": "liangzhu-museum",
+    "name": "良渚博物院",
+    "category": "博物馆",
+    "tags": [
+      "博物馆",
+      "良渚文化"
+    ],
+    "stay": "90–150",
+    "see": "良渚玉器、考古与古城文明",
+    "description": "从玉器、陶器和考古材料理解良渚文化，再去遗址公园看空间尺度。",
+    "why": "良渚主题游的知识起点，适合认真看展。",
+    "recommendIndex": 5,
+    "coord": [
+      120.028083,
+      30.377474
+    ],
+    "coordinateSystem": "GCJ-02",
+    "coordinatePrecision": "poi",
+    "coordinateNote": "",
+    "amapId": "B023B0A45Y",
+    "amapRating": {
+      "score": 4.7,
+      "checkedAt": "2026-09-29",
+      "poiId": "B023B0A45Y"
+    },
+    "sources": [
+      {
+        "label": "高德地图 POI（位置与评分）",
+        "url": "https://ditu.amap.com/place/B023B0A45Y"
+      },
+      {
+        "label": "杭州市文旅局｜杭州文旅导览",
+        "url": "https://wgly.hangzhou.gov.cn/attach/538/2307051510367229.pdf"
+      }
+    ],
+    "checkedAt": "2026-09-29",
+    "district": "余杭区"
+  },
+  {
+    "id": "liangzhu-park",
+    "name": "良渚古城遗址公园",
+    "category": "遗址公园",
+    "tags": [
+      "遗址公园",
+      "良渚文化",
+      "自然风景"
+    ],
+    "stay": "120–240",
+    "see": "古城遗址、田野与考古展示",
+    "description": "遗址公园空间开阔，适合把博物院里的展品知识带到现场。",
+    "why": "和良渚博物院组合，能从文物走向真实遗址。",
+    "recommendIndex": 5,
+    "coord": [
+      119.991005,
+      30.389549
+    ],
+    "coordinateSystem": "GCJ-02",
+    "coordinatePrecision": "poi",
+    "coordinateNote": "",
+    "amapId": "B023B14O96",
+    "amapRating": {
+      "score": 4.7,
+      "checkedAt": "2026-09-29",
+      "poiId": "B023B14O96"
+    },
+    "sources": [
+      {
+        "label": "高德地图 POI（位置与评分）",
+        "url": "https://ditu.amap.com/place/B023B14O96"
+      },
+      {
+        "label": "杭州市文旅局｜杭州文旅导览",
+        "url": "https://wgly.hangzhou.gov.cn/attach/538/2307051510367229.pdf"
+      }
+    ],
+    "checkedAt": "2026-09-29",
+    "district": "余杭区"
+  },
+  {
+    "id": "kuahuqiao-museum",
+    "name": "跨湖桥遗址博物馆",
+    "category": "博物馆",
+    "tags": [
+      "博物馆",
+      "史前文化"
+    ],
+    "stay": "60–90",
+    "see": "跨湖桥遗址与史前独木舟",
+    "description": "以跨湖桥文化和考古发现为核心，适合作为湘湖游玩的文化起点。",
+    "why": "内容集中，适合把湘湖的一日游从看风景延伸到看历史。",
+    "recommendIndex": 4,
+    "coord": [
+      120.222341,
+      30.14159
+    ],
+    "coordinateSystem": "GCJ-02",
+    "coordinatePrecision": "poi",
+    "coordinateNote": "",
+    "amapId": "B023B17X6U",
+    "amapRating": {
+      "score": 4.6,
+      "checkedAt": "2026-09-29",
+      "poiId": "B023B17X6U"
+    },
+    "sources": [
+      {
+        "label": "高德地图 POI（位置与评分）",
+        "url": "https://ditu.amap.com/place/B023B17X6U"
+      },
+      {
+        "label": "杭州市文旅局｜运河文化旅游精品线路",
+        "url": "https://wgly.hangzhou.gov.cn/module/download/downfile.jsp?classid=0&filename=c3ccb4250d3143a09047ee20fbe1170c.pdf"
+      }
+    ],
+    "checkedAt": "2026-09-29",
+    "district": "萧山区"
+  },
+  {
+    "id": "guan-kiln-museum",
+    "name": "南宋官窑博物馆",
+    "category": "博物馆",
+    "tags": [
+      "博物馆",
+      "南宋文化",
+      "陶瓷"
+    ],
+    "stay": "60–90",
+    "see": "南宋官窑、青瓷与窑址",
+    "description": "从官窑瓷器和窑址理解南宋的陶瓷审美与制作。",
+    "why": "主题清晰，适合与南宋文化点位一起安排。",
+    "recommendIndex": 4,
+    "coord": [
+      120.155048,
+      30.209606
+    ],
+    "coordinateSystem": "GCJ-02",
+    "coordinatePrecision": "poi",
+    "coordinateNote": "",
+    "amapId": "B023B09JLI",
+    "amapRating": {
+      "score": 4.6,
+      "checkedAt": "2026-09-29",
+      "poiId": "B023B09JLI"
+    },
+    "sources": [
+      {
+        "label": "高德地图 POI（位置与评分）",
+        "url": "https://ditu.amap.com/place/B023B09JLI"
+      },
+      {
+        "label": "杭州市文旅局｜宋韵线路",
+        "url": "https://wgly.hangzhou.gov.cn/attach/538/2307051510367229.pdf"
+      }
+    ],
+    "checkedAt": "2026-09-29",
+    "district": "上城区"
+  },
+  {
+    "id": "song-ruins-gallery",
+    "name": "南宋遗址陈列馆",
+    "category": "博物馆",
+    "tags": [
+      "博物馆",
+      "南宋文化"
+    ],
+    "stay": "45–75",
+    "see": "南宋御街遗址与地下展示",
+    "description": "馆内展示南宋街道遗迹，能把老城脚下的历史看得更具体。",
+    "why": "适合作为老街游览的一处短时室内停靠点。",
+    "recommendIndex": 4,
+    "coord": [
+      120.16987,
+      30.229836
+    ],
+    "coordinateSystem": "GCJ-02",
+    "coordinatePrecision": "poi",
+    "coordinateNote": "",
+    "amapId": "B023B06F6K",
+    "amapRating": {
+      "score": 4.5,
+      "checkedAt": "2026-09-29",
+      "poiId": "B023B06F6K"
+    },
+    "sources": [
+      {
+        "label": "高德地图 POI（位置与评分）",
+        "url": "https://ditu.amap.com/place/B023B06F6K"
+      },
+      {
+        "label": "杭州市文旅局｜宋韵线路",
+        "url": "https://wgly.hangzhou.gov.cn/attach/538/2307051510367229.pdf"
+      }
+    ],
+    "checkedAt": "2026-09-29",
+    "district": "上城区"
+  },
+  {
+    "id": "hubin-in77",
+    "name": "湖滨银泰in77",
+    "category": "商场",
+    "tags": [
+      "商场",
+      "购物",
+      "餐饮"
+    ],
+    "stay": "90–180",
+    "see": "品牌店、餐饮与湖滨街区",
+    "description": "在西湖东侧的湖滨商圈，可把购物、吃饭和湖边散步放在一起。",
+    "why": "想轻松逛店又顺路看西湖时很方便。",
+    "recommendIndex": 4,
+    "coord": [
+      120.163749,
+      30.25283
+    ],
+    "coordinateSystem": "GCJ-02",
+    "coordinatePrecision": "poi",
+    "coordinateNote": "",
+    "amapId": "B0FFIMEKW0",
+    "amapRating": {
+      "score": 4.9,
+      "checkedAt": "2026-09-29",
+      "poiId": "B0FFIMEKW0"
+    },
+    "sources": [
+      {
+        "label": "高德地图 POI（位置与评分）",
+        "url": "https://ditu.amap.com/place/B0FFIMEKW0"
+      },
+      {
+        "label": "杭州市文旅局｜湖滨商圈",
+        "url": "https://wgly.hangzhou.gov.cn/art/2024/12/27/art_1229734166_58958826.html"
+      }
+    ],
+    "checkedAt": "2026-09-29",
+    "district": "上城区"
+  },
+  {
+    "id": "mixc-qianjiang",
+    "name": "杭州万象城",
+    "category": "商场",
+    "tags": [
+      "商场",
+      "购物",
+      "餐饮"
+    ],
+    "stay": "90–180",
+    "see": "购物中心与钱江新城商圈",
+    "description": "钱江新城的大型购物目的地，适合以逛店和餐饮为主安排半天。",
+    "why": "室内选择多，适合天气不适合户外时。",
+    "recommendIndex": 4,
+    "coord": [
+      120.215513,
+      30.251753
+    ],
+    "coordinateSystem": "GCJ-02",
+    "coordinatePrecision": "poi",
+    "coordinateNote": "",
+    "amapId": "B023B0A4ZD",
+    "amapRating": {
+      "score": 4.9,
+      "checkedAt": "2026-09-29",
+      "poiId": "B023B0A4ZD"
+    },
+    "sources": [
+      {
+        "label": "高德地图 POI（位置与评分）",
+        "url": "https://ditu.amap.com/place/B023B0A4ZD"
+      }
+    ],
+    "checkedAt": "2026-09-29",
+    "district": "上城区"
+  },
+  {
+    "id": "tianmuli",
+    "name": "天目里",
+    "category": "文创空间",
+    "tags": [
+      "文创空间",
+      "购物",
+      "艺术"
+    ],
+    "stay": "90–150",
+    "see": "建筑空间、艺术与小店",
+    "description": "建筑和公共空间本身值得看，适合慢逛小店与文化空间。",
+    "why": "比传统购物中心更适合边逛边看设计。",
+    "recommendIndex": 5,
+    "coord": [
+      120.099378,
+      30.266388
+    ],
+    "coordinateSystem": "GCJ-02",
+    "coordinatePrecision": "poi",
+    "coordinateNote": "",
+    "amapId": "B0LKVH3MZP",
+    "amapRating": {
+      "score": 4.9,
+      "checkedAt": "2026-09-29",
+      "poiId": "B0LKVH3MZP"
+    },
+    "sources": [
+      {
+        "label": "高德地图 POI（位置与评分）",
+        "url": "https://ditu.amap.com/place/B0LKVH3MZP"
+      },
+      {
+        "label": "杭州市文旅局｜城市漫步线路",
+        "url": "https://wgly.hangzhou.gov.cn/cw/cn/index.html"
+      }
+    ],
+    "checkedAt": "2026-09-29",
+    "district": "西湖区"
+  },
+  {
+    "id": "gonglian-cc",
+    "name": "工联CC",
+    "category": "商场",
+    "tags": [
+      "商场",
+      "购物",
+      "餐饮"
+    ],
+    "stay": "60–120",
+    "see": "湖滨商业、店铺与餐饮",
+    "description": "与湖滨步行街和 in77 相邻，可以作为一条紧凑逛街线的中途站。",
+    "why": "集中在湖滨商圈，便于临时决定逛多久。",
+    "recommendIndex": 4,
+    "coord": [
+      120.164607,
+      30.254675
+    ],
+    "coordinateSystem": "GCJ-02",
+    "coordinatePrecision": "poi",
+    "coordinateNote": "",
+    "amapId": "B0G1G1PS4M",
+    "amapRating": {
+      "score": 4.8,
+      "checkedAt": "2026-09-29",
+      "poiId": "B0G1G1PS4M"
+    },
+    "sources": [
+      {
+        "label": "高德地图 POI（位置与评分）",
+        "url": "https://ditu.amap.com/place/B0G1G1PS4M"
+      },
+      {
+        "label": "杭州市文旅局｜湖滨商圈",
+        "url": "https://wgly.hangzhou.gov.cn/art/2024/12/27/art_1229734166_58958826.html"
+      }
+    ],
+    "checkedAt": "2026-09-29",
+    "district": "上城区"
+  },
+  {
+    "id": "raffles-hangzhou",
+    "name": "杭州来福士",
+    "category": "商场",
+    "tags": [
+      "商场",
+      "购物",
+      "餐饮"
+    ],
+    "stay": "90–150",
+    "see": "购物中心与钱江新城城市景观",
+    "description": "在钱江新城核心区域，可与周边商业设施组成室内逛玩安排。",
+    "why": "适合想看新城建筑和逛店的人。",
+    "recommendIndex": 4,
+    "coord": [
+      120.213032,
+      30.248772
+    ],
+    "coordinateSystem": "GCJ-02",
+    "coordinatePrecision": "poi",
+    "coordinateNote": "",
+    "amapId": "B0FFH2VWTH",
+    "amapRating": {
+      "score": 4.9,
+      "checkedAt": "2026-09-29",
+      "poiId": "B0FFH2VWTH"
+    },
+    "sources": [
+      {
+        "label": "高德地图 POI（位置与评分）",
+        "url": "https://ditu.amap.com/place/B0FFH2VWTH"
+      }
+    ],
+    "checkedAt": "2026-09-29",
+    "district": "上城区"
+  },
+  {
+    "id": "hangzhou-botanical",
+    "name": "杭州植物园",
+    "category": "植物园",
+    "tags": [
+      "游玩",
+      "自然风景",
+      "亲子"
+    ],
+    "stay": "90–180",
+    "see": "植物、园路与季节性花景",
+    "description": "园内可按季节看不同植物；灵峰一带以梅花和蜡梅景观知名。",
+    "why": "适合不赶行程地看植物、走园路。",
+    "recommendIndex": 5,
+    "coord": [
+      120.117009,
+      30.25291
+    ],
+    "coordinateSystem": "GCJ-02",
+    "coordinatePrecision": "poi",
+    "coordinateNote": "",
+    "amapId": "B023B09LTB",
+    "amapRating": {
+      "score": 4.8,
+      "checkedAt": "2026-09-29",
+      "poiId": "B023B09LTB"
+    },
+    "sources": [
+      {
+        "label": "高德地图 POI（位置与评分）",
+        "url": "https://ditu.amap.com/place/B023B09LTB"
+      },
+      {
+        "label": "杭州市文旅局｜杭州植物园赏梅",
+        "url": "https://wgly.hangzhou.gov.cn/art/2021/7/26/art_1229505585_58936886.html"
+      }
+    ],
+    "checkedAt": "2026-09-29",
+    "district": "西湖区"
+  },
+  {
+    "id": "hangzhou-zoo",
+    "name": "杭州动物园",
+    "category": "动物园",
+    "tags": [
+      "游玩",
+      "亲子"
+    ],
+    "stay": "120–240",
+    "see": "动物展区与山地园路",
+    "description": "动物展区与园路结合，适合留出半天慢慢参观。",
+    "why": "亲子出游有明确看点，也方便与西湖南线组合。",
+    "recommendIndex": 4,
+    "coord": [
+      120.133159,
+      30.212281
+    ],
+    "coordinateSystem": "GCJ-02",
+    "coordinatePrecision": "poi",
+    "coordinateNote": "",
+    "amapId": "B023B02349",
+    "amapRating": {
+      "score": 4.7,
+      "checkedAt": "2026-09-29",
+      "poiId": "B023B02349"
+    },
+    "sources": [
+      {
+        "label": "高德地图 POI（位置与评分）",
+        "url": "https://ditu.amap.com/place/B023B02349"
+      },
+      {
+        "label": "杭州市文旅局｜杭州动物园主题游线",
+        "url": "https://wgly.hangzhou.gov.cn/art/2025/2/11/art_1229505585_58959107.html"
+      }
+    ],
+    "checkedAt": "2026-09-29",
+    "district": "西湖区"
+  },
+  {
+    "id": "children-park",
+    "name": "杭州少年儿童公园",
+    "category": "游乐园",
+    "tags": [
+      "游玩",
+      "亲子"
+    ],
+    "stay": "90–180",
+    "see": "儿童活动空间与游乐设施",
+    "description": "与动物园相邻，适合把亲子活动集中安排在同一片区域。",
+    "why": "可以作为动物园之后的弹性加站。",
+    "recommendIndex": 4,
+    "coord": [
+      120.132938,
+      30.216132
+    ],
+    "coordinateSystem": "GCJ-02",
+    "coordinatePrecision": "poi",
+    "coordinateNote": "",
+    "amapId": "B023B02056",
+    "amapRating": {
+      "score": 4.6,
+      "checkedAt": "2026-09-29",
+      "poiId": "B023B02056"
+    },
+    "sources": [
+      {
+        "label": "高德地图 POI（位置与评分）",
+        "url": "https://ditu.amap.com/place/B023B02056"
+      },
+      {
+        "label": "西湖风景名胜区管委会｜少年儿童公园",
+        "url": "https://westlake.hangzhou.gov.cn/art/2018/9/12/art_1639433_34208443.html"
+      }
+    ],
+    "checkedAt": "2026-09-29",
+    "district": "西湖区"
+  },
+  {
+    "id": "hangzhou-paradise",
+    "name": "杭州乐园",
+    "category": "游乐园",
+    "tags": [
+      "游玩",
+      "亲子",
+      "游乐设施"
+    ],
+    "stay": "180–360",
+    "see": "主题游乐设施与园区活动",
+    "description": "以游乐设施为主，适合给大半天留出体验和排队时间。",
+    "why": "想玩项目而不只是散步时可以单独安排。",
+    "recommendIndex": 4,
+    "coord": [
+      120.244865,
+      30.16085
+    ],
+    "coordinateSystem": "GCJ-02",
+    "coordinatePrecision": "poi",
+    "coordinateNote": "",
+    "amapId": "B023B07SF4",
+    "amapRating": {
+      "score": 4.7,
+      "checkedAt": "2026-09-29",
+      "poiId": "B023B07SF4"
+    },
+    "sources": [
+      {
+        "label": "高德地图 POI（位置与评分）",
+        "url": "https://ditu.amap.com/place/B023B07SF4"
+      }
+    ],
+    "checkedAt": "2026-09-29",
+    "district": "萧山区"
+  },
+  {
+    "id": "songcheng",
+    "name": "杭州宋城",
+    "category": "主题乐园",
+    "tags": [
+      "游玩",
+      "演艺",
+      "亲子"
+    ],
+    "stay": "180–300",
+    "see": "宋代主题场景与演艺",
+    "description": "园区以宋文化场景和演出为主，具体节目按当日官方安排确认。",
+    "why": "适合把主题场景和舞台演出作为周末主活动。",
+    "recommendIndex": 4,
+    "coord": [
+      120.098741,
+      30.169795
+    ],
+    "coordinateSystem": "GCJ-02",
+    "coordinatePrecision": "poi",
+    "coordinateNote": "",
+    "amapId": "B023B025FB",
+    "amapRating": {
+      "score": 4.7,
+      "checkedAt": "2026-09-29",
+      "poiId": "B023B025FB"
+    },
+    "sources": [
+      {
+        "label": "高德地图 POI（位置与评分）",
+        "url": "https://ditu.amap.com/place/B023B025FB"
+      },
+      {
+        "label": "杭州市文旅局｜白蛇传主题游线（含宋城）",
+        "url": "https://wgly.hangzhou.gov.cn/art/2025/2/11/art_1229505585_58959107.html"
+      }
+    ],
+    "checkedAt": "2026-09-29",
+    "district": "西湖区"
+  },
+  {
+    "id": "hubin-pedestrian",
+    "name": "湖滨步行街",
+    "category": "商业街",
+    "tags": [
+      "商业街",
+      "购物",
+      "餐饮"
+    ],
+    "stay": "45–90",
+    "see": "湖滨街景、店铺与西湖",
+    "description": "连接湖滨商场和湖边公共空间，适合边逛边看湖。",
+    "why": "紧凑的商圈路线可以从这里开始。",
+    "recommendIndex": 4,
+    "coord": [
+      120.162923,
+      30.254158
+    ],
+    "coordinateSystem": "GCJ-02",
+    "coordinatePrecision": "poi",
+    "coordinateNote": "",
+    "amapId": "B0FFL9RQ5O",
+    "amapRating": {
+      "score": 4.8,
+      "checkedAt": "2026-09-29",
+      "poiId": "B0FFL9RQ5O"
+    },
+    "sources": [
+      {
+        "label": "高德地图 POI（位置与评分）",
+        "url": "https://ditu.amap.com/place/B0FFL9RQ5O"
+      },
+      {
+        "label": "杭州市文旅局｜湖滨商圈",
+        "url": "https://wgly.hangzhou.gov.cn/art/2024/12/27/art_1229734166_58958826.html"
+      }
+    ],
+    "checkedAt": "2026-09-29",
+    "district": "上城区"
+  },
+  {
+    "id": "laohuling",
+    "name": "老虎岭遗址公园",
+    "category": "遗址公园",
+    "tags": [
+      "遗址公园",
+      "良渚文化"
+    ],
+    "stay": "60–90",
+    "see": "古代水坝遗址与剖面展示",
+    "description": "以良渚水利遗址为看点，和古城遗址公园、博物院主题相连。",
+    "why": "想进一步理解良渚水利系统时值得专程停留。",
+    "recommendIndex": 4,
+    "coord": [
+      119.913004,
+      30.412432
+    ],
+    "coordinateSystem": "GCJ-02",
+    "coordinatePrecision": "poi",
+    "coordinateNote": "",
+    "amapId": "B0I23UYUTU",
+    "amapRating": {
+      "score": 4.2,
+      "checkedAt": "2026-09-29",
+      "poiId": "B0I23UYUTU"
+    },
+    "sources": [
+      {
+        "label": "高德地图 POI（位置与评分）",
+        "url": "https://ditu.amap.com/place/B0I23UYUTU"
+      },
+      {
+        "label": "杭州市文旅局｜杭州文旅导览",
+        "url": "https://wgly.hangzhou.gov.cn/attach/538/2307051510367229.pdf"
+      }
+    ],
+    "checkedAt": "2026-09-29",
+    "district": "余杭区"
+  },
+  {
+    "id": "animation-museum",
+    "name": "中国动漫博物馆",
+    "category": "博物馆",
+    "tags": [
+      "博物馆",
+      "动漫"
+    ],
+    "district": "滨江区",
+    "stay": "90–150",
+    "see": "动漫发展与互动展陈",
+    "description": "白马湖边的动漫主题馆，适合与湖边公园放在同一次游玩。",
+    "why": "室内外可连着逛，喜欢动画的游客值得留半天。",
+    "recommendIndex": 5,
+    "coord": [
+      120.205558,
+      30.16208
+    ],
+    "coordinateSystem": "GCJ-02",
+    "coordinatePrecision": "poi",
+    "coordinateNote": "",
+    "amapId": "B023B18961",
+    "amapRating": {
+      "score": 4.7,
+      "checkedAt": "2026-09-29",
+      "poiId": "B023B18961"
+    },
+    "sources": [
+      {
+        "label": "高德地图 POI（位置与评分）",
+        "url": "https://ditu.amap.com/place/B023B18961"
+      },
+      {
+        "label": "杭州市文旅局｜文旅发展规划",
+        "url": "https://wgly.hangzhou.gov.cn/module/download/downfile.jsp?classid=0&filename=218522b1453549f98aac503e17c50568.pdf"
+      }
+    ],
+    "checkedAt": "2026-09-29"
+  },
+  {
+    "id": "baima-park",
+    "name": "白马湖公园",
+    "category": "公园",
+    "tags": [
+      "自然风景",
+      "湖景"
+    ],
+    "district": "滨江区",
+    "stay": "45–90",
+    "see": "湖岸步道与开阔水面",
+    "description": "滨江南部的湖边公园，适合在参观动漫馆前后散步。",
+    "why": "场馆旁就有户外空间，行程容易松弛。",
+    "recommendIndex": 4,
+    "coord": [
+      120.209234,
+      30.160328
+    ],
+    "coordinateSystem": "GCJ-02",
+    "coordinatePrecision": "poi",
+    "coordinateNote": "",
+    "amapId": "B0FFKON70E",
+    "amapRating": {
+      "score": 4.7,
+      "checkedAt": "2026-09-29",
+      "poiId": "B0FFKON70E"
+    },
+    "sources": [
+      {
+        "label": "高德地图 POI（位置与评分）",
+        "url": "https://ditu.amap.com/place/B0FFKON70E"
+      },
+      {
+        "label": "杭州市文旅局｜文旅发展规划",
+        "url": "https://wgly.hangzhou.gov.cn/module/download/downfile.jsp?classid=0&filename=218522b1453549f98aac503e17c50568.pdf"
+      }
+    ],
+    "checkedAt": "2026-09-29"
+  },
+  {
+    "id": "low-carbon-museum",
+    "name": "中国杭州低碳科技馆",
+    "category": "科技馆",
+    "tags": [
+      "科技馆",
+      "博物馆"
+    ],
+    "district": "滨江区",
+    "stay": "90–150",
+    "see": "低碳与环境主题展陈",
+    "description": "位于滨江的科技馆，主题围绕低碳生活和技术。",
+    "why": "适合想安排室内科普内容的周末。",
+    "recommendIndex": 4,
+    "coord": [
+      120.201967,
+      30.209358
+    ],
+    "coordinateSystem": "GCJ-02",
+    "coordinatePrecision": "poi",
+    "coordinateNote": "",
+    "amapId": "B023B1944R",
+    "amapRating": {
+      "score": 4.9,
+      "checkedAt": "2026-09-29",
+      "poiId": "B023B1944R"
+    },
+    "sources": [
+      {
+        "label": "高德地图 POI（位置与评分）",
+        "url": "https://ditu.amap.com/place/B023B1944R"
+      },
+      {
+        "label": "杭州市文旅局｜文化设施专项规划",
+        "url": "https://wgly.hangzhou.gov.cn/module/download/downfile.jsp?classid=0&filename=dbc1b08ef03e4e2ebe5477d78df83d14.pdf"
+      }
+    ],
+    "checkedAt": "2026-09-29"
+  },
+  {
+    "id": "xixing-street",
+    "name": "西兴老街历史文化街区",
+    "category": "历史街区",
+    "tags": [
+      "历史街区",
+      "运河"
+    ],
+    "district": "滨江区",
+    "stay": "45–75",
+    "see": "老街与运河历史线索",
+    "description": "沿西兴老街走，可以把街巷与浙东运河旧码头一起看。",
+    "why": "滨江区里很有历史层次的一段步行。",
+    "recommendIndex": 4,
+    "coord": [
+      120.22101,
+      30.19121
+    ],
+    "coordinateSystem": "GCJ-02",
+    "coordinatePrecision": "poi",
+    "coordinateNote": "",
+    "amapId": "B0FFJRXCP7",
+    "amapRating": {
+      "score": 4.3,
+      "checkedAt": "2026-09-29",
+      "poiId": "B0FFJRXCP7"
+    },
+    "sources": [
+      {
+        "label": "高德地图 POI（位置与评分）",
+        "url": "https://ditu.amap.com/place/B0FFJRXCP7"
+      },
+      {
+        "label": "杭州市文旅局｜滨江西兴片区规划",
+        "url": "https://wgly.hangzhou.gov.cn/module/download/downfile.jsp?classid=0&filename=e6850bee130e4bc78ba1d1a8f76c2311.pdf"
+      }
+    ],
+    "checkedAt": "2026-09-29"
+  },
+  {
+    "id": "xixing-wharf",
+    "name": "西兴过塘行码头",
+    "category": "古迹",
+    "tags": [
+      "古迹",
+      "运河"
+    ],
+    "district": "滨江区",
+    "stay": "20–40",
+    "see": "运河码头旧址",
+    "description": "码头是认识西兴过塘行和水陆转运历史的节点。",
+    "why": "老街之外补上一段更具体的运河故事。",
+    "recommendIndex": 4,
+    "coord": [
+      120.222425,
+      30.191161
+    ],
+    "coordinateSystem": "GCJ-02",
+    "coordinatePrecision": "poi",
+    "coordinateNote": "",
+    "amapId": "B0FFG4JEY1",
+    "amapRating": {
+      "score": 3.8,
+      "checkedAt": "2026-09-29",
+      "poiId": "B0FFG4JEY1"
+    },
+    "sources": [
+      {
+        "label": "高德地图 POI（位置与评分）",
+        "url": "https://ditu.amap.com/place/B0FFG4JEY1"
+      },
+      {
+        "label": "杭州市文旅局｜滨江西兴片区规划",
+        "url": "https://wgly.hangzhou.gov.cn/module/download/downfile.jsp?classid=0&filename=e6850bee130e4bc78ba1d1a8f76c2311.pdf"
+      }
+    ],
+    "checkedAt": "2026-09-29"
+  },
+  {
+    "id": "guanshan-park",
+    "name": "冠山公园",
+    "category": "公园",
+    "tags": [
+      "自然风景",
+      "徒步"
+    ],
+    "district": "滨江区",
+    "stay": "60–120",
+    "see": "山坡步道与观景点",
+    "description": "滨江冠山设有游步道，可安排一段短途登高。",
+    "why": "在滨江想走山路时是可考虑的近郊选择。",
+    "recommendIndex": 4,
+    "coord": [
+      120.187401,
+      30.161868
+    ],
+    "coordinateSystem": "GCJ-02",
+    "coordinatePrecision": "poi",
+    "coordinateNote": "",
+    "amapId": "B0JDCHTJ4B",
+    "amapRating": {
+      "score": 4.5,
+      "checkedAt": "2026-09-29",
+      "poiId": "B0JDCHTJ4B"
+    },
+    "sources": [
+      {
+        "label": "高德地图 POI（位置与评分）",
+        "url": "https://ditu.amap.com/place/B0JDCHTJ4B"
+      },
+      {
+        "label": "杭州市文旅局｜冠山公园",
+        "url": "https://wgly.hangzhou.gov.cn/art/2023/12/15/art_1229734126_58951885.html"
+      }
+    ],
+    "checkedAt": "2026-09-29"
+  },
+  {
+    "id": "binjiang-tianjie",
+    "name": "龙湖杭州滨江天街",
+    "category": "商场",
+    "tags": [
+      "商场"
+    ],
+    "district": "滨江区",
+    "stay": "90–150",
+    "see": "购物与餐饮",
+    "description": "滨江的大型商场，可作为下雨天的轻松逛玩地点。",
+    "why": "交通和餐饮选择集中，行程灵活。",
+    "recommendIndex": 3,
+    "coord": [
+      120.203853,
+      30.200758
+    ],
+    "coordinateSystem": "GCJ-02",
+    "coordinatePrecision": "poi",
+    "coordinateNote": "",
+    "amapId": "B0FFI31CNG",
+    "amapRating": {
+      "score": 4.9,
+      "checkedAt": "2026-09-29",
+      "poiId": "B0FFI31CNG"
+    },
+    "sources": [
+      {
+        "label": "高德地图 POI（位置与评分）",
+        "url": "https://ditu.amap.com/place/B0FFI31CNG"
+      }
+    ],
+    "checkedAt": "2026-09-29"
+  },
+  {
+    "id": "fuchun-hall",
+    "name": "富阳博物馆(富春山馆)",
+    "category": "博物馆",
+    "tags": [
+      "博物馆",
+      "建筑"
+    ],
+    "district": "富阳区",
+    "stay": "90–150",
+    "see": "富阳文化展览与山形建筑",
+    "description": "富春山馆的建筑呼应山水意象，馆内可了解富阳地方文化。",
+    "why": "富阳一日游很合适的文化起点。",
+    "recommendIndex": 5,
+    "coord": [
+      119.93799,
+      30.021281
+    ],
+    "coordinateSystem": "GCJ-02",
+    "coordinatePrecision": "poi",
+    "coordinateNote": "",
+    "amapId": "B0FFKITKQQ",
+    "amapRating": {
+      "score": 4.6,
+      "checkedAt": "2026-09-29",
+      "poiId": "B0FFKITKQQ"
+    },
+    "sources": [
+      {
+        "label": "高德地图 POI（位置与评分）",
+        "url": "https://ditu.amap.com/place/B0FFKITKQQ"
+      },
+      {
+        "label": "杭州市文旅局｜城市漫步线路",
+        "url": "https://wgly.hangzhou.gov.cn/cw/cn/index.html"
+      }
+    ],
+    "checkedAt": "2026-09-29"
+  },
+  {
+    "id": "huang-gongwang",
+    "name": "黄公望隐居地",
+    "category": "景区",
+    "tags": [
+      "自然风景",
+      "人文"
+    ],
+    "district": "富阳区",
+    "stay": "90–150",
+    "see": "黄公望相关遗迹与山水",
+    "description": "沿景区了解黄公望与富春山水的关系。",
+    "why": "适合把画作故事和真实山水放在一起看。",
+    "recommendIndex": 5,
+    "coord": [
+      120.011553,
+      30.087764
+    ],
+    "coordinateSystem": "GCJ-02",
+    "coordinatePrecision": "poi",
+    "coordinateNote": "",
+    "amapId": "B023B1990G",
+    "amapRating": {
+      "score": 4.7,
+      "checkedAt": "2026-09-29",
+      "poiId": "B023B1990G"
+    },
+    "sources": [
+      {
+        "label": "高德地图 POI（位置与评分）",
+        "url": "https://ditu.amap.com/place/B023B1990G"
+      },
+      {
+        "label": "杭州市文旅局｜城市漫步线路",
+        "url": "https://wgly.hangzhou.gov.cn/cw/cn/index.html"
+      }
+    ],
+    "checkedAt": "2026-09-29"
+  },
+  {
+    "id": "guanshan-fuyang",
+    "name": "鹳山景区",
+    "category": "公园",
+    "tags": [
+      "自然风景",
+      "江景"
+    ],
+    "district": "富阳区",
+    "stay": "45–90",
+    "see": "富春江边登高",
+    "description": "鹳山靠近富春江，适合在富阳城区看江景。",
+    "why": "市区里即可加入一段短时间的山水散步。",
+    "recommendIndex": 4,
+    "coord": [
+      119.964008,
+      30.046052
+    ],
+    "coordinateSystem": "GCJ-02",
+    "coordinatePrecision": "poi",
+    "coordinateNote": "",
+    "amapId": "B023B073N7",
+    "amapRating": {
+      "score": 4.6,
+      "checkedAt": "2026-09-29",
+      "poiId": "B023B073N7"
+    },
+    "sources": [
+      {
+        "label": "高德地图 POI（位置与评分）",
+        "url": "https://ditu.amap.com/place/B023B073N7"
+      },
+      {
+        "label": "杭州市文旅局｜文化旅游精品线路",
+        "url": "https://wgly.hangzhou.gov.cn/module/download/downfile.jsp?classid=0&filename=c3ccb4250d3143a09047ee20fbe1170c.pdf"
+      }
+    ],
+    "checkedAt": "2026-09-29"
+  },
+  {
+    "id": "dongziguan",
+    "name": "东梓关村",
+    "category": "村落",
+    "tags": [
+      "历史街区",
+      "建筑"
+    ],
+    "district": "富阳区",
+    "stay": "60–120",
+    "see": "富春江畔民居与新杭派建筑",
+    "description": "村里的民居与江岸景观并置，可看不同阶段的乡村建筑。",
+    "why": "想看富阳水乡建筑时值得顺路停留。",
+    "recommendIndex": 4,
+    "coord": [
+      119.822374,
+      29.886231
+    ],
+    "coordinateSystem": "GCJ-02",
+    "coordinatePrecision": "poi",
+    "coordinateNote": "",
+    "amapId": "B0FFG97B2K",
+    "amapRating": {
+      "score": 4.4,
+      "checkedAt": "2026-09-29",
+      "poiId": "B0FFG97B2K"
+    },
+    "sources": [
+      {
+        "label": "高德地图 POI（位置与评分）",
+        "url": "https://ditu.amap.com/place/B0FFG97B2K"
+      },
+      {
+        "label": "杭州市文旅局｜城市漫步线路",
+        "url": "https://wgly.hangzhou.gov.cn/cw/cn/index.html"
+      }
+    ],
+    "checkedAt": "2026-09-29"
+  },
+  {
+    "id": "longmen-town",
+    "name": "龙门古镇",
+    "category": "古镇",
+    "tags": [
+      "历史街区",
+      "古迹"
+    ],
+    "district": "富阳区",
+    "stay": "120–180",
+    "see": "古镇街巷与孙氏文化",
+    "description": "富阳南部的古镇，适合花半天穿行街巷。",
+    "why": "在杭州周边看古镇时主题鲜明。",
+    "recommendIndex": 5,
+    "coord": [
+      119.950754,
+      29.900962
+    ],
+    "coordinateSystem": "GCJ-02",
+    "coordinatePrecision": "poi",
+    "coordinateNote": "",
+    "amapId": "B023B07UHW",
+    "amapRating": {
+      "score": 4.6,
+      "checkedAt": "2026-09-29",
+      "poiId": "B023B07UHW"
+    },
+    "sources": [
+      {
+        "label": "高德地图 POI（位置与评分）",
+        "url": "https://ditu.amap.com/place/B023B07UHW"
+      },
+      {
+        "label": "杭州市文旅局｜文化旅游精品线路",
+        "url": "https://wgly.hangzhou.gov.cn/module/download/downfile.jsp?classid=0&filename=c3ccb4250d3143a09047ee20fbe1170c.pdf"
+      }
+    ],
+    "checkedAt": "2026-09-29"
+  },
+  {
+    "id": "sunquan-home",
+    "name": "龙门古镇-孙权故里",
+    "category": "古迹",
+    "tags": [
+      "古迹",
+      "历史街区"
+    ],
+    "district": "富阳区",
+    "stay": "25–45",
+    "see": "孙权故里主题节点",
+    "description": "龙门古镇内与孙氏历史相关的停靠点。",
+    "why": "能让古镇参观多一条人物线索。",
+    "recommendIndex": 4,
+    "coord": [
+      119.950171,
+      29.901917
+    ],
+    "coordinateSystem": "GCJ-02",
+    "coordinatePrecision": "poi",
+    "coordinateNote": "",
+    "amapId": "B023B17X8D",
+    "amapRating": {
+      "score": 4.4,
+      "checkedAt": "2026-09-29",
+      "poiId": "B023B17X8D"
+    },
+    "sources": [
+      {
+        "label": "高德地图 POI（位置与评分）",
+        "url": "https://ditu.amap.com/place/B023B17X8D"
+      },
+      {
+        "label": "杭州市文旅局｜文化旅游精品线路",
+        "url": "https://wgly.hangzhou.gov.cn/module/download/downfile.jsp?classid=0&filename=c3ccb4250d3143a09047ee20fbe1170c.pdf"
+      }
+    ],
+    "checkedAt": "2026-09-29"
+  },
+  {
+    "id": "yangpi-lake",
+    "name": "阳陂湖",
+    "category": "湿地",
+    "tags": [
+      "自然风景",
+      "湖景"
+    ],
+    "district": "富阳区",
+    "stay": "60–120",
+    "see": "湖岸与湿地景观",
+    "description": "富阳的湖边公共空间，适合散步和看水面。",
+    "why": "给富阳行程增加一处轻松的户外地点。",
+    "recommendIndex": 4,
+    "coord": [
+      119.913864,
+      30.075331
+    ],
+    "coordinateSystem": "GCJ-02",
+    "coordinatePrecision": "poi",
+    "coordinateNote": "",
+    "amapId": "B0G3F5JLJS",
+    "amapRating": {
+      "score": 4.6,
+      "checkedAt": "2026-09-29",
+      "poiId": "B0G3F5JLJS"
+    },
+    "sources": [
+      {
+        "label": "高德地图 POI（位置与评分）",
+        "url": "https://ditu.amap.com/place/B0G3F5JLJS"
+      },
+      {
+        "label": "杭州市文旅局｜阳陂湖",
+        "url": "https://wgly.hangzhou.gov.cn/art/2023/8/26/art_1229738474_58949447.html"
+      }
+    ],
+    "checkedAt": "2026-09-29"
+  },
+  {
+    "id": "xinsha-island",
+    "name": "新沙岛旅游度假区",
+    "category": "景区",
+    "tags": [
+      "自然风景",
+      "岛屿"
+    ],
+    "district": "富阳区",
+    "stay": "120–240",
+    "see": "富春江江心岛",
+    "description": "新沙岛位于富春江上，游玩要留出上岛和返程时间。",
+    "why": "适合单独安排半天的江岛体验。",
+    "recommendIndex": 4,
+    "coord": [
+      119.984939,
+      30.046813
+    ],
+    "coordinateSystem": "GCJ-02",
+    "coordinatePrecision": "poi",
+    "coordinateNote": "",
+    "amapId": "B0FFKCPL7N",
+    "amapRating": {
+      "score": 4.4,
+      "checkedAt": "2026-09-29",
+      "poiId": "B0FFKCPL7N"
+    },
+    "sources": [
+      {
+        "label": "高德地图 POI（位置与评分）",
+        "url": "https://ditu.amap.com/place/B0FFKCPL7N"
+      },
+      {
+        "label": "杭州市文旅局｜临安青山湖露营介绍",
+        "url": "https://wgly.hangzhou.gov.cn/art/2019/7/22/art_1229471480_58928234.html"
+      }
+    ],
+    "checkedAt": "2026-09-29"
+  },
+  {
+    "id": "fuyang-wildlife",
+    "name": "杭州野生动物世界",
+    "category": "动物园",
+    "tags": [
+      "游玩",
+      "亲子"
+    ],
+    "district": "富阳区",
+    "stay": "180–300",
+    "see": "动物展区与园区活动",
+    "description": "富阳的动物主题园区，可单独安排大半天。",
+    "why": "亲子出游有明确的游玩主题。",
+    "recommendIndex": 4,
+    "coord": [
+      119.985301,
+      30.15337
+    ],
+    "coordinateSystem": "GCJ-02",
+    "coordinatePrecision": "poi",
+    "coordinateNote": "",
+    "amapId": "B023B02366",
+    "amapRating": {
+      "score": 4.8,
+      "checkedAt": "2026-09-29",
+      "poiId": "B023B02366"
+    },
+    "sources": [
+      {
+        "label": "高德地图 POI（位置与评分）",
+        "url": "https://ditu.amap.com/place/B023B02366"
+      }
+    ],
+    "checkedAt": "2026-09-29"
+  },
+  {
+    "id": "xianghu",
+    "name": "湘湖国家旅游度假区",
+    "category": "景区",
+    "tags": [
+      "自然风景",
+      "湖景"
+    ],
+    "district": "萧山区",
+    "stay": "90–180",
+    "see": "湘湖湖岸与山水",
+    "description": "萧山湘湖有较大的游览范围，适合挑一片湖岸慢走。",
+    "why": "可与跨湖桥博物馆串成文化与山水的一天。",
+    "recommendIndex": 5,
+    "coord": [
+      120.217125,
+      30.13226
+    ],
+    "coordinateSystem": "GCJ-02",
+    "coordinatePrecision": "poi",
+    "coordinateNote": "",
+    "amapId": "B023B07SNT",
+    "amapRating": {
+      "score": 4.8,
+      "checkedAt": "2026-09-29",
+      "poiId": "B023B07SNT"
+    },
+    "sources": [
+      {
+        "label": "高德地图 POI（位置与评分）",
+        "url": "https://ditu.amap.com/place/B023B07SNT"
+      },
+      {
+        "label": "杭州市文旅局｜萧山主题旅游线路",
+        "url": "https://wgly.hangzhou.gov.cn/en/tg/sc/agttrxd.html"
+      }
+    ],
+    "checkedAt": "2026-09-29"
+  },
+  {
+    "id": "yuewang-hill",
+    "name": "城山广场-越王城山",
+    "category": "古迹",
+    "tags": [
+      "古迹",
+      "自然风景"
+    ],
+    "district": "萧山区",
+    "stay": "45–90",
+    "see": "越王城山历史遗迹",
+    "description": "湘湖边的登高与历史节点，可在湖区游玩时加入。",
+    "why": "从高处看湘湖并补充越国故事。",
+    "recommendIndex": 4,
+    "coord": [
+      120.229526,
+      30.151553
+    ],
+    "coordinateSystem": "GCJ-02",
+    "coordinatePrecision": "poi",
+    "coordinateNote": "",
+    "amapId": "B023B151BI",
+    "amapRating": {
+      "score": 4.5,
+      "checkedAt": "2026-09-29",
+      "poiId": "B023B151BI"
+    },
+    "sources": [
+      {
+        "label": "高德地图 POI（位置与评分）",
+        "url": "https://ditu.amap.com/place/B023B151BI"
+      },
+      {
+        "label": "杭州市文旅局｜文化旅游精品线路",
+        "url": "https://wgly.hangzhou.gov.cn/module/download/downfile.jsp?classid=0&filename=c3ccb4250d3143a09047ee20fbe1170c.pdf"
+      }
+    ],
+    "checkedAt": "2026-09-29"
+  },
+  {
+    "id": "xiasun-village",
+    "name": "湘湖国家旅游度假区-下孙文化村",
+    "category": "村落",
+    "tags": [
+      "历史街区",
+      "文化村"
+    ],
+    "district": "萧山区",
+    "stay": "45–90",
+    "see": "湘湖村落文化空间",
+    "description": "位于湘湖片区的文化村，可与湖边散步组合。",
+    "why": "给湘湖行程增加人文停靠点。",
+    "recommendIndex": 4,
+    "coord": [
+      120.234033,
+      30.156619
+    ],
+    "coordinateSystem": "GCJ-02",
+    "coordinatePrecision": "poi",
+    "coordinateNote": "",
+    "amapId": "B023B1AG5A",
+    "amapRating": {
+      "score": 4.5,
+      "checkedAt": "2026-09-29",
+      "poiId": "B023B1AG5A"
+    },
+    "sources": [
+      {
+        "label": "高德地图 POI（位置与评分）",
+        "url": "https://ditu.amap.com/place/B023B1AG5A"
+      },
+      {
+        "label": "杭州市文旅局｜文化旅游精品线路",
+        "url": "https://wgly.hangzhou.gov.cn/module/download/downfile.jsp?classid=0&filename=c3ccb4250d3143a09047ee20fbe1170c.pdf"
+      }
+    ],
+    "checkedAt": "2026-09-29"
+  },
+  {
+    "id": "polar-ocean",
+    "name": "杭州长乔极地海洋公园",
+    "category": "游乐园",
+    "tags": [
+      "游玩",
+      "亲子"
+    ],
+    "district": "萧山区",
+    "stay": "180–300",
+    "see": "海洋动物与主题展区",
+    "description": "湘湖周边的海洋主题乐园，适合整块时间游玩。",
+    "why": "亲子路线可以围绕它安排。",
+    "recommendIndex": 4,
+    "coord": [
+      120.225664,
+      30.140851
+    ],
+    "coordinateSystem": "GCJ-02",
+    "coordinatePrecision": "poi",
+    "coordinateNote": "",
+    "amapId": "B023B0ACZG",
+    "amapRating": {
+      "score": 4.7,
+      "checkedAt": "2026-09-29",
+      "poiId": "B023B0ACZG"
+    },
+    "sources": [
+      {
+        "label": "高德地图 POI（位置与评分）",
+        "url": "https://ditu.amap.com/place/B023B0ACZG"
+      },
+      {
+        "label": "杭州市文旅局｜萧山主题旅游线路",
+        "url": "https://wgly.hangzhou.gov.cn/en/tg/sc/agttrxd.html"
+      }
+    ],
+    "checkedAt": "2026-09-29"
+  },
+  {
+    "id": "heshang-town",
+    "name": "河上古镇",
+    "category": "古镇",
+    "tags": [
+      "历史街区",
+      "古迹"
+    ],
+    "district": "萧山区",
+    "stay": "90–150",
+    "see": "萧山南部古镇街巷",
+    "description": "河上古镇适合慢走旧街，和湘湖不在同一片区。",
+    "why": "想探索萧山城区外的老街时可考虑。",
+    "recommendIndex": 4,
+    "coord": [
+      120.166026,
+      29.938239
+    ],
+    "coordinateSystem": "GCJ-02",
+    "coordinatePrecision": "poi",
+    "coordinateNote": "",
+    "amapId": "B0FFKNPY0A",
+    "amapRating": {
+      "score": 4.5,
+      "checkedAt": "2026-09-29",
+      "poiId": "B0FFKNPY0A"
+    },
+    "sources": [
+      {
+        "label": "高德地图 POI（位置与评分）",
+        "url": "https://ditu.amap.com/place/B0FFKNPY0A"
+      },
+      {
+        "label": "杭州市文旅局｜文化旅游精品线路",
+        "url": "https://wgly.hangzhou.gov.cn/module/download/downfile.jsp?classid=0&filename=c3ccb4250d3143a09047ee20fbe1170c.pdf"
+      }
+    ],
+    "checkedAt": "2026-09-29"
+  },
+  {
+    "id": "tourism-hall",
+    "name": "世界旅游博览馆",
+    "category": "博物馆",
+    "tags": [
+      "博物馆"
+    ],
+    "district": "萧山区",
+    "stay": "60–120",
+    "see": "旅游主题展览",
+    "description": "湘湖片区的旅游主题场馆，展览内容以现场为准。",
+    "why": "可作为雨天逛湘湖的室内站点。",
+    "recommendIndex": 3,
+    "coord": [
+      120.214488,
+      30.11801
+    ],
+    "coordinateSystem": "GCJ-02",
+    "coordinatePrecision": "poi",
+    "coordinateNote": "",
+    "amapId": "B0G2CU854A",
+    "amapRating": {
+      "score": 4.6,
+      "checkedAt": "2026-09-29",
+      "poiId": "B0G2CU854A"
+    },
+    "sources": [
+      {
+        "label": "高德地图 POI（位置与评分）",
+        "url": "https://ditu.amap.com/place/B0G2CU854A"
+      }
+    ],
+    "checkedAt": "2026-09-29"
+  },
+  {
+    "id": "jingshan-temple",
+    "name": "径山寺",
+    "category": "寺庙",
+    "tags": [
+      "古迹",
+      "禅茶"
+    ],
+    "district": "余杭区",
+    "stay": "60–120",
+    "see": "古寺与山中景观",
+    "description": "余杭径山的古寺，适合和古道、茶文化主题组合。",
+    "why": "山、寺和茶三种体验集中。",
+    "recommendIndex": 5,
+    "coord": [
+      119.764982,
+      30.379809
+    ],
+    "coordinateSystem": "GCJ-02",
+    "coordinatePrecision": "poi",
+    "coordinateNote": "",
+    "amapId": "B023B07SGS",
+    "amapRating": {
+      "score": 4.8,
+      "checkedAt": "2026-09-29",
+      "poiId": "B023B07SGS"
+    },
+    "sources": [
+      {
+        "label": "高德地图 POI（位置与评分）",
+        "url": "https://ditu.amap.com/place/B023B07SGS"
+      },
+      {
+        "label": "杭州市文旅局｜杭州文旅导览",
+        "url": "https://wgly.hangzhou.gov.cn/attach/538/2307051510367229.pdf"
+      }
+    ],
+    "checkedAt": "2026-09-29"
+  },
+  {
+    "id": "jingshan-trail",
+    "name": "径山古道",
+    "category": "古道",
+    "tags": [
+      "自然风景",
+      "徒步"
+    ],
+    "district": "余杭区",
+    "stay": "60–120",
+    "see": "山间古道",
+    "description": "径山古道是径山主题游的步行部分，图上点位标示入口一带。",
+    "why": "想在参观寺院前后走一段山路可考虑。",
+    "recommendIndex": 4,
+    "coord": [
+      119.780266,
+      30.38162
+    ],
+    "coordinateSystem": "GCJ-02",
+    "coordinatePrecision": "poi",
+    "coordinateNote": "",
+    "amapId": "B023B0A9F4",
+    "amapRating": {
+      "score": 4.7,
+      "checkedAt": "2026-09-29",
+      "poiId": "B023B0A9F4"
+    },
+    "sources": [
+      {
+        "label": "高德地图 POI（位置与评分）",
+        "url": "https://ditu.amap.com/place/B023B0A9F4"
+      },
+      {
+        "label": "杭州市文旅局｜杭州文旅导览",
+        "url": "https://wgly.hangzhou.gov.cn/attach/538/2307051510367229.pdf"
+      }
+    ],
+    "checkedAt": "2026-09-29"
+  },
+  {
+    "id": "luyu-spring",
+    "name": "陆羽泉",
+    "category": "古迹",
+    "tags": [
+      "古迹",
+      "禅茶"
+    ],
+    "district": "余杭区",
+    "stay": "25–45",
+    "see": "陆羽与茶文化线索",
+    "description": "径山镇里的茶文化节点，可与径山寺安排在同一天。",
+    "why": "让径山之行除了山景还有茶的故事。",
+    "recommendIndex": 4,
+    "coord": [
+      119.8341,
+      30.400125
+    ],
+    "coordinateSystem": "GCJ-02",
+    "coordinatePrecision": "poi",
+    "coordinateNote": "",
+    "amapId": "B023B17WXZ",
+    "amapRating": {
+      "score": 4,
+      "checkedAt": "2026-09-29",
+      "poiId": "B023B17WXZ"
+    },
+    "sources": [
+      {
+        "label": "高德地图 POI（位置与评分）",
+        "url": "https://ditu.amap.com/place/B023B17WXZ"
+      },
+      {
+        "label": "杭州市文旅局｜杭州文旅导览",
+        "url": "https://wgly.hangzhou.gov.cn/attach/538/2307051510367229.pdf"
+      }
+    ],
+    "checkedAt": "2026-09-29"
+  },
+  {
+    "id": "jingshan-academy",
+    "name": "径山书院",
+    "category": "书院",
+    "tags": [
+      "书院",
+      "禅茶"
+    ],
+    "district": "余杭区",
+    "stay": "60–120",
+    "see": "茶文化体验空间",
+    "description": "书院以径山茶文化为主题，具体活动需查当期安排。",
+    "why": "想把看茶变成参与式体验时可留意。",
+    "recommendIndex": 4,
+    "coord": [
+      119.812859,
+      30.345197
+    ],
+    "coordinateSystem": "GCJ-02",
+    "coordinatePrecision": "poi",
+    "coordinateNote": "",
+    "amapId": "B0G26GJUBX",
+    "amapRating": {
+      "score": 4.7,
+      "checkedAt": "2026-09-29",
+      "poiId": "B0G26GJUBX"
+    },
+    "sources": [
+      {
+        "label": "高德地图 POI（位置与评分）",
+        "url": "https://ditu.amap.com/place/B0G26GJUBX"
+      },
+      {
+        "label": "杭州市文旅局｜杭州文旅导览",
+        "url": "https://wgly.hangzhou.gov.cn/attach/538/2307051510367229.pdf"
+      }
+    ],
+    "checkedAt": "2026-09-29"
+  },
+  {
+    "id": "dream-town",
+    "name": "梦想小镇",
+    "category": "园区",
+    "tags": [
+      "文创空间"
+    ],
+    "district": "余杭区",
+    "stay": "45–90",
+    "see": "创意园区与公共空间",
+    "description": "余杭未来科技城片区的园区，可作为附近轻松逛的地点。",
+    "why": "适合住在城西、想短时间出门的人。",
+    "recommendIndex": 3,
+    "coord": [
+      120.002426,
+      30.290077
+    ],
+    "coordinateSystem": "GCJ-02",
+    "coordinatePrecision": "poi",
+    "coordinateNote": "",
+    "amapId": "B0FFJ86KIQ",
+    "amapRating": {
+      "score": 4.7,
+      "checkedAt": "2026-09-29",
+      "poiId": "B0FFJ86KIQ"
+    },
+    "sources": [
+      {
+        "label": "高德地图 POI（位置与评分）",
+        "url": "https://ditu.amap.com/place/B0FFJ86KIQ"
+      },
+      {
+        "label": "杭州市文旅局｜文化旅游精品线路",
+        "url": "https://wgly.hangzhou.gov.cn/module/download/downfile.jsp?classid=0&filename=c3ccb4250d3143a09047ee20fbe1170c.pdf"
+      }
+    ],
+    "checkedAt": "2026-09-29"
+  },
+  {
+    "id": "qingshan-lake",
+    "name": "青山湖景区",
+    "category": "景区",
+    "tags": [
+      "自然风景",
+      "湖景"
+    ],
+    "district": "临安区",
+    "stay": "90–180",
+    "see": "湖面、山林与步道",
+    "description": "临安青山湖以湖泊和森林为主，适合挑选一段岸线游览。",
+    "why": "杭州西部有代表性的山水目的地。",
+    "recommendIndex": 5,
+    "coord": [
+      119.775061,
+      30.235356
+    ],
+    "coordinateSystem": "GCJ-02",
+    "coordinatePrecision": "poi",
+    "coordinateNote": "",
+    "amapId": "B023B07SJV",
+    "amapRating": {
+      "score": 4.7,
+      "checkedAt": "2026-09-29",
+      "poiId": "B023B07SJV"
+    },
+    "sources": [
+      {
+        "label": "高德地图 POI（位置与评分）",
+        "url": "https://ditu.amap.com/place/B023B07SJV"
+      },
+      {
+        "label": "杭州市文旅局｜青山湖国家森林公园",
+        "url": "https://wgly.hangzhou.gov.cn/art/2022/11/4/art_1229495371_58942163.html"
+      }
+    ],
+    "checkedAt": "2026-09-29"
+  },
+  {
+    "id": "qingshan-forest",
+    "name": "青山湖水上森林",
+    "category": "湿地",
+    "tags": [
+      "自然风景",
+      "湿地"
+    ],
+    "district": "临安区",
+    "stay": "90–150",
+    "see": "水上森林景观",
+    "description": "树木与水面交织，是青山湖片区较独特的一站。",
+    "why": "想看区别于普通湖岸的湿地景观可以来这里。",
+    "recommendIndex": 5,
+    "coord": [
+      119.764545,
+      30.254528
+    ],
+    "coordinateSystem": "GCJ-02",
+    "coordinatePrecision": "poi",
+    "coordinateNote": "",
+    "amapId": "B0FFMHGE2W",
+    "amapRating": {
+      "score": 4.7,
+      "checkedAt": "2026-09-29",
+      "poiId": "B0FFMHGE2W"
+    },
+    "sources": [
+      {
+        "label": "高德地图 POI（位置与评分）",
+        "url": "https://ditu.amap.com/place/B0FFMHGE2W"
+      },
+      {
+        "label": "杭州市文旅局｜青山湖国家森林公园",
+        "url": "https://wgly.hangzhou.gov.cn/art/2022/11/4/art_1229495371_58942163.html"
+      }
+    ],
+    "checkedAt": "2026-09-29"
+  },
+  {
+    "id": "qianwang-mausoleum",
+    "name": "钱王陵公园",
+    "category": "古迹",
+    "tags": [
+      "古迹",
+      "吴越文化"
+    ],
+    "district": "临安区",
+    "stay": "45–90",
+    "see": "吴越王陵园",
+    "description": "临安城区的钱王陵园，可与临安博物馆串成吴越文化主题。",
+    "why": "适合从实地遗存认识临安的历史。",
+    "recommendIndex": 4,
+    "coord": [
+      119.725328,
+      30.236765
+    ],
+    "coordinateSystem": "GCJ-02",
+    "coordinatePrecision": "poi",
+    "coordinateNote": "",
+    "amapId": "B0FFFDHRYI",
+    "amapRating": {
+      "score": 4.5,
+      "checkedAt": "2026-09-29",
+      "poiId": "B0FFFDHRYI"
+    },
+    "sources": [
+      {
+        "label": "高德地图 POI（位置与评分）",
+        "url": "https://ditu.amap.com/place/B0FFFDHRYI"
+      },
+      {
+        "label": "杭州市文旅局｜杭州文旅导览",
+        "url": "https://wgly.hangzhou.gov.cn/attach/538/2307051510367229.pdf"
+      }
+    ],
+    "checkedAt": "2026-09-29"
+  },
+  {
+    "id": "daming-mountain",
+    "name": "大明山风景区",
+    "category": "景区",
+    "tags": [
+      "自然风景",
+      "徒步"
+    ],
+    "district": "临安区",
+    "stay": "180–360",
+    "see": "山地景观与景区步道",
+    "description": "临安西部山地景区，范围较大，出行前要核对开放与交通。",
+    "why": "想安排整天山地游时可考虑。",
+    "recommendIndex": 5,
+    "coord": [
+      118.990282,
+      30.038978
+    ],
+    "coordinateSystem": "GCJ-02",
+    "coordinatePrecision": "poi",
+    "coordinateNote": "",
+    "amapId": "B023B07SDD",
+    "amapRating": {
+      "score": 4.7,
+      "checkedAt": "2026-09-29",
+      "poiId": "B023B07SDD"
+    },
+    "sources": [
+      {
+        "label": "高德地图 POI（位置与评分）",
+        "url": "https://ditu.amap.com/place/B023B07SDD"
+      },
+      {
+        "label": "杭州市文旅局｜临安青山湖露营介绍",
+        "url": "https://wgly.hangzhou.gov.cn/art/2019/7/22/art_1229471480_58928234.html"
+      }
+    ],
+    "checkedAt": "2026-09-29"
+  },
+  {
+    "id": "linan-museum",
+    "name": "临安博物馆",
+    "category": "博物馆",
+    "tags": [
+      "博物馆",
+      "吴越文化"
+    ],
+    "district": "临安区",
+    "stay": "60–120",
+    "see": "临安地方历史展陈",
+    "description": "在临安城区看地方历史，再去钱王陵实地参观。",
+    "why": "室内展览与古迹形成完整主题。",
+    "recommendIndex": 4,
+    "coord": [
+      119.730415,
+      30.22562
+    ],
+    "coordinateSystem": "GCJ-02",
+    "coordinatePrecision": "poi",
+    "coordinateNote": "",
+    "amapId": "B0FFI7SJO7",
+    "amapRating": {
+      "score": 4.7,
+      "checkedAt": "2026-09-29",
+      "poiId": "B0FFI7SJO7"
+    },
+    "sources": [
+      {
+        "label": "高德地图 POI（位置与评分）",
+        "url": "https://ditu.amap.com/place/B0FFI7SJO7"
+      },
+      {
+        "label": "杭州市文旅局｜杭州文旅导览",
+        "url": "https://wgly.hangzhou.gov.cn/attach/538/2307051510367229.pdf"
+      }
+    ],
+    "checkedAt": "2026-09-29"
+  },
+  {
+    "id": "tonglu-museum",
+    "name": "桐庐博物馆",
+    "category": "博物馆",
+    "tags": [
+      "博物馆"
+    ],
+    "district": "桐庐县",
+    "stay": "60–90",
+    "see": "桐庐地方展陈",
+    "description": "桐庐县城的地方馆，可作为认识当地文化的起点。",
+    "why": "在远郊行程里安排一段室内参观。",
+    "recommendIndex": 3,
+    "coord": [
+      119.699605,
+      29.795813
+    ],
+    "coordinateSystem": "GCJ-02",
+    "coordinatePrecision": "poi",
+    "coordinateNote": "",
+    "amapId": "B0L1A6H4OR",
+    "amapRating": {
+      "score": 4.2,
+      "checkedAt": "2026-09-29",
+      "poiId": "B0L1A6H4OR"
+    },
+    "sources": [
+      {
+        "label": "高德地图 POI（位置与评分）",
+        "url": "https://ditu.amap.com/place/B0L1A6H4OR"
+      }
+    ],
+    "checkedAt": "2026-09-29"
+  },
+  {
+    "id": "yaolin-cave",
+    "name": "瑶琳仙境",
+    "category": "景区",
+    "tags": [
+      "自然风景",
+      "溶洞"
+    ],
+    "district": "桐庐县",
+    "stay": "90–150",
+    "see": "溶洞地貌",
+    "description": "桐庐著名溶洞景区，内部游览以景区开放线路为准。",
+    "why": "适合喜欢地质景观的人。",
+    "recommendIndex": 5,
+    "coord": [
+      119.538153,
+      29.885801
+    ],
+    "coordinateSystem": "GCJ-02",
+    "coordinatePrecision": "poi",
+    "coordinateNote": "",
+    "amapId": "B023B07SP3",
+    "amapRating": {
+      "score": 4.6,
+      "checkedAt": "2026-09-29",
+      "poiId": "B023B07SP3"
+    },
+    "sources": [
+      {
+        "label": "高德地图 POI（位置与评分）",
+        "url": "https://ditu.amap.com/place/B023B07SP3"
+      },
+      {
+        "label": "杭州市文旅局｜杭州文旅导览",
+        "url": "https://wgly.hangzhou.gov.cn/attach/538/2307051510367229.pdf"
+      }
+    ],
+    "checkedAt": "2026-09-29"
+  },
+  {
+    "id": "shenao-village",
+    "name": "深澳古村景区",
+    "category": "古村",
+    "tags": [
+      "历史街区",
+      "古迹"
+    ],
+    "district": "桐庐县",
+    "stay": "90–150",
+    "see": "古村街巷与建筑",
+    "description": "深澳古村可慢走老街，了解桐庐乡村聚落。",
+    "why": "一处偏人文的桐庐目的地。",
+    "recommendIndex": 4,
+    "coord": [
+      119.839215,
+      29.851168
+    ],
+    "coordinateSystem": "GCJ-02",
+    "coordinatePrecision": "poi",
+    "coordinateNote": "",
+    "amapId": "B0FFJ0DTAE",
+    "amapRating": {
+      "score": 4.6,
+      "checkedAt": "2026-09-29",
+      "poiId": "B0FFJ0DTAE"
+    },
+    "sources": [
+      {
+        "label": "高德地图 POI（位置与评分）",
+        "url": "https://ditu.amap.com/place/B0FFJ0DTAE"
+      }
+    ],
+    "checkedAt": "2026-09-29"
+  },
+  {
+    "id": "yan-ziling",
+    "name": "严子陵钓台",
+    "category": "古迹",
+    "tags": [
+      "古迹",
+      "江景"
+    ],
+    "district": "桐庐县",
+    "stay": "90–150",
+    "see": "富春江畔钓台与山水",
+    "description": "严子陵钓台依富春江而设，游览需留意景区交通。",
+    "why": "富春江山水和历史人物故事可以一起看。",
+    "recommendIndex": 5,
+    "coord": [
+      119.648389,
+      29.696498
+    ],
+    "coordinateSystem": "GCJ-02",
+    "coordinatePrecision": "poi",
+    "coordinateNote": "",
+    "amapId": "B023B07SOU",
+    "amapRating": {
+      "score": 4.6,
+      "checkedAt": "2026-09-29",
+      "poiId": "B023B07SOU"
+    },
+    "sources": [
+      {
+        "label": "高德地图 POI（位置与评分）",
+        "url": "https://ditu.amap.com/place/B023B07SOU"
+      },
+      {
+        "label": "杭州市文旅局｜杭州文旅导览",
+        "url": "https://wgly.hangzhou.gov.cn/attach/538/2307051510367229.pdf"
+      }
+    ],
+    "checkedAt": "2026-09-29"
+  },
+  {
+    "id": "qiandao-center",
+    "name": "千岛湖风景区中心湖区",
+    "category": "景区",
+    "tags": [
+      "自然风景",
+      "湖景"
+    ],
+    "district": "淳安县",
+    "stay": "180–300",
+    "see": "千岛湖中心湖区游船",
+    "description": "中心湖区通常以乘船游览，班次与线路应以官方当日公布为准。",
+    "why": "第一次到千岛湖可从核心湖区入手。",
+    "recommendIndex": 5,
+    "coord": [
+      119.005926,
+      29.596547
+    ],
+    "coordinateSystem": "GCJ-02",
+    "coordinatePrecision": "poi",
+    "coordinateNote": "",
+    "amapId": "B0FFFAFA73",
+    "amapRating": {
+      "score": 4.6,
+      "checkedAt": "2026-09-29",
+      "poiId": "B0FFFAFA73"
+    },
+    "sources": [
+      {
+        "label": "高德地图 POI（位置与评分）",
+        "url": "https://ditu.amap.com/place/B0FFFAFA73"
+      },
+      {
+        "label": "杭州市文旅局｜文化旅游精品线路",
+        "url": "https://wgly.hangzhou.gov.cn/module/download/downfile.jsp?classid=0&filename=c3ccb4250d3143a09047ee20fbe1170c.pdf"
+      }
+    ],
+    "checkedAt": "2026-09-29"
+  },
+  {
+    "id": "qiandao-tianyu",
+    "name": "千岛湖天屿景区",
+    "category": "观景",
+    "tags": [
+      "自然风景",
+      "湖景"
+    ],
+    "district": "淳安县",
+    "stay": "60–120",
+    "see": "高处俯瞰千岛湖",
+    "description": "天屿提供较开阔的湖景视角，适合在游湖前后停留。",
+    "why": "同一天可看近处湖面和远处岛屿。",
+    "recommendIndex": 4,
+    "coord": [
+      119.046159,
+      29.630697
+    ],
+    "coordinateSystem": "GCJ-02",
+    "coordinatePrecision": "poi",
+    "coordinateNote": "",
+    "amapId": "B0I1R76JNZ",
+    "amapRating": {
+      "score": 4.6,
+      "checkedAt": "2026-09-29",
+      "poiId": "B0I1R76JNZ"
+    },
+    "sources": [
+      {
+        "label": "高德地图 POI（位置与评分）",
+        "url": "https://ditu.amap.com/place/B0I1R76JNZ"
+      },
+      {
+        "label": "杭州市文旅局｜千岛湖旅游介绍",
+        "url": "https://wgly.hangzhou.gov.cn/art/2024/1/30/art_1229505585_58952823.html"
+      }
+    ],
+    "checkedAt": "2026-09-29"
+  },
+  {
+    "id": "wenyuan-lion",
+    "name": "文渊狮城旅游度假区",
+    "category": "古镇",
+    "tags": [
+      "历史街区",
+      "千岛湖"
+    ],
+    "district": "淳安县",
+    "stay": "90–150",
+    "see": "狮城主题街区",
+    "description": "位于千岛湖西南的姜家片区，可与龙川湾放在同一天。",
+    "why": "湖区之外也能了解淳安地方故事。",
+    "recommendIndex": 4,
+    "coord": [
+      118.668976,
+      29.47141
+    ],
+    "coordinateSystem": "GCJ-02",
+    "coordinatePrecision": "poi",
+    "coordinateNote": "",
+    "amapId": "B0FFGIA3B8",
+    "amapRating": {
+      "score": 4.4,
+      "checkedAt": "2026-09-29",
+      "poiId": "B0FFGIA3B8"
+    },
+    "sources": [
+      {
+        "label": "高德地图 POI（位置与评分）",
+        "url": "https://ditu.amap.com/place/B0FFGIA3B8"
+      },
+      {
+        "label": "杭州市文旅局｜文化旅游精品线路",
+        "url": "https://wgly.hangzhou.gov.cn/module/download/downfile.jsp?classid=0&filename=c3ccb4250d3143a09047ee20fbe1170c.pdf"
+      }
+    ],
+    "checkedAt": "2026-09-29"
+  },
+  {
+    "id": "longchuan-bay",
+    "name": "千岛湖龙川湾",
+    "category": "景区",
+    "tags": [
+      "自然风景",
+      "湿地"
+    ],
+    "district": "淳安县",
+    "stay": "120–240",
+    "see": "湿地与湖湾森林",
+    "description": "龙川湾在千岛湖西南，水湾与森林构成主要景观。",
+    "why": "想看比中心湖区更安静的湖湾可以考虑。",
+    "recommendIndex": 5,
+    "coord": [
+      118.678365,
+      29.460643
+    ],
+    "coordinateSystem": "GCJ-02",
+    "coordinatePrecision": "poi",
+    "coordinateNote": "",
+    "amapId": "B023B1FR93",
+    "amapRating": {
+      "score": 4.3,
+      "checkedAt": "2026-09-29",
+      "poiId": "B023B1FR93"
+    },
+    "sources": [
+      {
+        "label": "高德地图 POI（位置与评分）",
+        "url": "https://ditu.amap.com/place/B023B1FR93"
+      },
+      {
+        "label": "杭州市文旅局｜千岛湖旅游介绍",
+        "url": "https://wgly.hangzhou.gov.cn/art/2024/1/30/art_1229505585_58952823.html"
+      }
+    ],
+    "checkedAt": "2026-09-29"
+  },
+  {
+    "id": "zhejiang-nature",
+    "name": "浙江自然博物院",
+    "category": "博物馆",
+    "tags": [
+      "博物馆",
+      "亲子"
+    ],
+    "district": "拱墅区",
+    "stay": "90–150",
+    "see": "自然史标本与主题展览",
+    "description": "拱墅文化广场的自然主题馆，可与旁边科技馆连续参观。",
+    "why": "很适合把一个雨天留给两座馆。",
+    "recommendIndex": 5,
+    "coord": [
+      120.164581,
+      30.276814
+    ],
+    "coordinateSystem": "GCJ-02",
+    "coordinatePrecision": "poi",
+    "coordinateNote": "",
+    "amapId": "B023B15DKJ",
+    "amapRating": {
+      "score": 4.7,
+      "checkedAt": "2026-09-29",
+      "poiId": "B023B15DKJ"
+    },
+    "sources": [
+      {
+        "label": "高德地图 POI（位置与评分）",
+        "url": "https://ditu.amap.com/place/B023B15DKJ"
+      },
+      {
+        "label": "杭州市文旅局｜浙江省科技馆",
+        "url": "https://wgly.hangzhou.gov.cn/art/2023/6/28/art_1229733703_58947093.html"
+      }
+    ],
+    "checkedAt": "2026-09-29"
+  },
+  {
+    "id": "zhejiang-science",
+    "name": "浙江省科技馆",
+    "category": "科技馆",
+    "tags": [
+      "科技馆",
+      "博物馆"
+    ],
+    "district": "拱墅区",
+    "stay": "90–150",
+    "see": "互动科普展厅",
+    "description": "拱墅文化广场的科普场馆，具体展厅开放以官方公告为准。",
+    "why": "和自然博物院相邻，安排起来省交通时间。",
+    "recommendIndex": 5,
+    "coord": [
+      120.164936,
+      30.276404
+    ],
+    "coordinateSystem": "GCJ-02",
+    "coordinatePrecision": "poi",
+    "coordinateNote": "",
+    "amapId": "B023B0A1BX",
+    "amapRating": {
+      "score": 4.8,
+      "checkedAt": "2026-09-29",
+      "poiId": "B023B0A1BX"
+    },
+    "sources": [
+      {
+        "label": "高德地图 POI（位置与评分）",
+        "url": "https://ditu.amap.com/place/B023B0A1BX"
+      },
+      {
+        "label": "杭州市文旅局｜浙江省科技馆",
+        "url": "https://wgly.hangzhou.gov.cn/art/2023/6/28/art_1229733703_58947093.html"
+      }
+    ],
+    "checkedAt": "2026-09-29"
+  },
+  {
+    "id": "jinsha-lake",
+    "name": "金沙湖公园",
+    "category": "公园",
+    "tags": [
+      "自然风景",
+      "湖景"
+    ],
+    "district": "钱塘区",
+    "stay": "60–120",
+    "see": "金沙湖岸线与沙滩",
+    "description": "钱塘区的城市湖边公园，可散步看水面。",
+    "why": "补上一处杭州东部的轻松户外选择。",
+    "recommendIndex": 4,
+    "coord": [
+      120.319745,
+      30.308018
+    ],
+    "coordinateSystem": "GCJ-02",
+    "coordinatePrecision": "poi",
+    "coordinateNote": "",
+    "amapId": "B0FFFDHT0S",
+    "amapRating": {
+      "score": 4.7,
+      "checkedAt": "2026-09-29",
+      "poiId": "B0FFFDHT0S"
+    },
+    "sources": [
+      {
+        "label": "高德地图 POI（位置与评分）",
+        "url": "https://ditu.amap.com/place/B0FFFDHT0S"
+      }
+    ],
+    "checkedAt": "2026-09-29"
+  },
+  {
+    "id": "xixi-hongyuan",
+    "name": "西溪国家湿地公园洪园",
+    "category": "湿地",
+    "tags": [
+      "自然风景",
+      "湿地"
+    ],
+    "district": "余杭区",
+    "stay": "120–180",
+    "see": "湿地水道与园林",
+    "description": "余杭一侧的西溪洪园，适合选择一片水道慢慢游览。",
+    "why": "城西周末可安排的湿地目的地。",
+    "recommendIndex": 5,
+    "coord": [
+      120.050588,
+      30.261234
+    ],
+    "coordinateSystem": "GCJ-02",
+    "coordinatePrecision": "poi",
+    "coordinateNote": "",
+    "amapId": "B023B1DNZH",
+    "amapRating": {
+      "score": 4.6,
+      "checkedAt": "2026-09-29",
+      "poiId": "B023B1DNZH"
+    },
+    "sources": [
+      {
+        "label": "高德地图 POI（位置与评分）",
+        "url": "https://ditu.amap.com/place/B023B1DNZH"
+      },
+      {
+        "label": "杭州市文旅局｜文化旅游精品线路",
+        "url": "https://wgly.hangzhou.gov.cn/module/download/downfile.jsp?classid=0&filename=c3ccb4250d3143a09047ee20fbe1170c.pdf"
+      }
+    ],
+    "checkedAt": "2026-09-29"
+  },
+  {
+    "id": "tangqi-town",
+    "name": "运河·塘栖古镇",
+    "category": "古镇",
+    "tags": [
+      "历史街区",
+      "运河"
+    ],
+    "district": "临平区",
+    "stay": "90–150",
+    "see": "运河古镇与桥街",
+    "description": "临平的运河古镇，适合沿老街和运河走走。",
+    "why": "离市中心较远，但主题集中。",
+    "recommendIndex": 4,
+    "coord": [
+      120.183536,
+      30.477368
+    ],
+    "coordinateSystem": "GCJ-02",
+    "coordinatePrecision": "poi",
+    "coordinateNote": "",
+    "amapId": "B0FFGJQ68E",
+    "amapRating": {
+      "score": 4.7,
+      "checkedAt": "2026-09-29",
+      "poiId": "B0FFGJQ68E"
+    },
+    "sources": [
+      {
+        "label": "高德地图 POI（位置与评分）",
+        "url": "https://ditu.amap.com/place/B0FFGJQ68E"
+      },
+      {
+        "label": "杭州市文旅局｜文化旅游精品线路",
+        "url": "https://wgly.hangzhou.gov.cn/module/download/downfile.jsp?classid=0&filename=c3ccb4250d3143a09047ee20fbe1170c.pdf"
+      }
+    ],
+    "checkedAt": "2026-09-29"
+  },
+  {
+    "id": "chaoshan",
+    "name": "超山风景名胜区",
+    "category": "景区",
+    "tags": [
+      "自然风景",
+      "赏花"
+    ],
+    "district": "临平区",
+    "stay": "120–180",
+    "see": "山景与时令花木",
+    "description": "临平超山是季节性赏花去处，具体花期需临行确认。",
+    "why": "适合按季节安排一次近郊自然游。",
+    "recommendIndex": 4,
+    "coord": [
+      120.212949,
+      30.437376
+    ],
+    "coordinateSystem": "GCJ-02",
+    "coordinatePrecision": "poi",
+    "coordinateNote": "",
+    "amapId": "B0FFF3O4I1",
+    "amapRating": {
+      "score": 4.7,
+      "checkedAt": "2026-09-29",
+      "poiId": "B0FFF3O4I1"
+    },
+    "sources": [
+      {
+        "label": "高德地图 POI（位置与评分）",
+        "url": "https://ditu.amap.com/place/B0FFF3O4I1"
+      },
+      {
+        "label": "杭州市文旅局｜文化旅游精品线路",
+        "url": "https://wgly.hangzhou.gov.cn/module/download/downfile.jsp?classid=0&filename=c3ccb4250d3143a09047ee20fbe1170c.pdf"
+      }
+    ],
+    "checkedAt": "2026-09-29"
+  },
+  {
+    "id": "huanglong-cave",
+    "name": "黄龙洞",
+    "category": "山景",
+    "stay": "20–40",
+    "see": "山脚入口、林木与石景",
+    "why": "从黄龙洞进入宝石山一带，能把城中山路与西湖视野接起来。",
+    "coord": [
+      120.138594,
+      30.264511
+    ],
+    "coordinateSystem": "GCJ-02",
+    "coordinatePrecision": "poi",
+    "coordinateNote": "",
+    "amapId": "B023B18XEX",
+    "sources": [
+      {
+        "label": "高德地图 POI（位置与评分）",
+        "url": "https://ditu.amap.com/place/B023B18XEX"
+      },
+      {
+        "label": "hangzhou_mountain｜杭州登山路线整理",
+        "url": "https://github.com/smasterfree/hangzhou_mountain"
+      }
+    ],
+    "checkedAt": "2026-09-29",
+    "tags": [
+      "自然风景"
+    ],
+    "description": "黄龙洞是宝石山西侧的起步地点，适合从山脚逐渐走向湖边观景点。",
+    "recommendIndex": 4,
+    "amapRating": {
+      "score": 4.6,
+      "checkedAt": "2026-09-29",
+      "poiId": "B023B18XEX"
+    },
+    "district": "西湖区"
+  },
+  {
+    "id": "hupao-park",
+    "name": "虎跑公园",
+    "category": "公园",
+    "stay": "20–40",
+    "see": "泉水、林荫与山脚园路",
+    "why": "适合作为儿童公园至六和塔路线中的休息点。",
+    "coord": [
+      120.1299,
+      30.208087
+    ],
+    "coordinateSystem": "GCJ-02",
+    "coordinatePrecision": "poi",
+    "coordinateNote": "",
+    "amapId": "B023B08Q06",
+    "sources": [
+      {
+        "label": "高德地图 POI（位置与评分）",
+        "url": "https://ditu.amap.com/place/B023B08Q06"
+      },
+      {
+        "label": "hangzhou_mountain｜杭州登山路线整理",
+        "url": "https://github.com/smasterfree/hangzhou_mountain"
+      }
+    ],
+    "checkedAt": "2026-09-29",
+    "tags": [
+      "自然风景"
+    ],
+    "description": "虎跑公园以泉水和林荫见长，可在长一些的山路中途放慢脚步。",
+    "recommendIndex": 4,
+    "amapRating": {
+      "score": 4.7,
+      "checkedAt": "2026-09-29",
+      "poiId": "B023B08Q06"
+    },
+    "district": "西湖区"
+  },
+  {
+    "id": "guiren-pavilion",
+    "name": "贵人阁",
+    "category": "山顶观景",
+    "stay": "20–40",
+    "see": "山脊视野与阁楼",
+    "why": "这段登高提供路线里最鲜明的山景变化。",
+    "coord": [
+      120.125755,
+      30.211098
+    ],
+    "coordinateSystem": "GCJ-02",
+    "coordinatePrecision": "poi",
+    "coordinateNote": "",
+    "amapId": "B0FFJEV3II",
+    "sources": [
+      {
+        "label": "高德地图 POI（位置与评分）",
+        "url": "https://ditu.amap.com/place/B0FFJEV3II"
+      },
+      {
+        "label": "hangzhou_mountain｜杭州登山路线整理",
+        "url": "https://github.com/smasterfree/hangzhou_mountain"
+      }
+    ],
+    "checkedAt": "2026-09-29",
+    "tags": [
+      "自然风景"
+    ],
+    "description": "贵人阁位于西湖南部群山，登高后可在山脊上看周边山林。",
+    "recommendIndex": 4,
+    "amapRating": {
+      "score": 4.5,
+      "checkedAt": "2026-09-29",
+      "poiId": "B0FFJEV3II"
+    },
+    "district": "西湖区"
+  },
+  {
+    "id": "liuhe-pagoda",
+    "name": "六和塔文化公园",
+    "category": "古迹",
+    "stay": "20–40",
+    "see": "古塔与钱塘江景",
+    "why": "可以用历史建筑和江景为山路收尾。",
+    "coord": [
+      120.131487,
+      30.196338
+    ],
+    "coordinateSystem": "GCJ-02",
+    "coordinatePrecision": "poi",
+    "coordinateNote": "",
+    "amapId": "B023B08SQK",
+    "sources": [
+      {
+        "label": "高德地图 POI（位置与评分）",
+        "url": "https://ditu.amap.com/place/B023B08SQK"
+      },
+      {
+        "label": "hangzhou_mountain｜杭州登山路线整理",
+        "url": "https://github.com/smasterfree/hangzhou_mountain"
+      }
+    ],
+    "checkedAt": "2026-09-29",
+    "tags": [
+      "古迹",
+      "自然风景"
+    ],
+    "description": "六和塔临近钱塘江，古塔与江面视野是南线登山的终点亮点。",
+    "recommendIndex": 4,
+    "amapRating": {
+      "score": 4.7,
+      "checkedAt": "2026-09-29",
+      "poiId": "B023B08SQK"
+    },
+    "district": "西湖区"
+  },
+  {
+    "id": "wansong-academy",
+    "name": "万松书院",
+    "category": "古迹",
+    "stay": "20–40",
+    "see": "书院建筑与山脚林荫",
+    "why": "短线起点有清晰的人文主题，也方便观察附近山体。",
+    "coord": [
+      120.160498,
+      30.226809
+    ],
+    "coordinateSystem": "GCJ-02",
+    "coordinatePrecision": "poi",
+    "coordinateNote": "",
+    "amapId": "B023B015D9",
+    "sources": [
+      {
+        "label": "高德地图 POI（位置与评分）",
+        "url": "https://ditu.amap.com/place/B023B015D9"
+      },
+      {
+        "label": "hangzhou_mountain｜杭州登山路线整理",
+        "url": "https://github.com/smasterfree/hangzhou_mountain"
+      }
+    ],
+    "checkedAt": "2026-09-29",
+    "tags": [
+      "古迹",
+      "自然风景"
+    ],
+    "description": "万松书院位于凤凰山一带，书院景观和山路可以串成一段短途步行。",
+    "recommendIndex": 4,
+    "amapRating": {
+      "score": 4.7,
+      "checkedAt": "2026-09-29",
+      "poiId": "B023B015D9"
+    },
+    "district": "上城区"
+  },
+  {
+    "id": "fantian-pagodas",
+    "name": "梵天寺经幢",
+    "category": "古迹",
+    "stay": "20–40",
+    "see": "历史经幢与山麓街巷",
+    "why": "短线终点有具体的历史遗迹可看。",
+    "coord": [
+      120.167159,
+      30.21764
+    ],
+    "coordinateSystem": "GCJ-02",
+    "coordinatePrecision": "poi",
+    "coordinateNote": "",
+    "amapId": "B0FFF342AY",
+    "sources": [
+      {
+        "label": "高德地图 POI（位置与评分）",
+        "url": "https://ditu.amap.com/place/B0FFF342AY"
+      },
+      {
+        "label": "hangzhou_mountain｜杭州登山路线整理",
+        "url": "https://github.com/smasterfree/hangzhou_mountain"
+      }
+    ],
+    "checkedAt": "2026-09-29",
+    "tags": [
+      "古迹"
+    ],
+    "description": "梵天寺经幢是凤凰山南侧的人文节点；地图定位的是经幢，不是临平区同名寺院。",
+    "recommendIndex": 4,
+    "amapRating": {
+      "score": 4.3,
+      "checkedAt": "2026-09-29",
+      "poiId": "B0FFF342AY"
+    },
+    "district": "上城区"
+  },
+  {
+    "id": "lian-temple",
+    "name": "理安寺",
+    "category": "古迹",
+    "stay": "20–40",
+    "see": "溪谷旁的寺院与山林",
+    "why": "九溪徒步途中可以短暂停留，给茶山路线增加人文看点。",
+    "coord": [
+      120.112958,
+      30.207319
+    ],
+    "coordinateSystem": "GCJ-02",
+    "coordinatePrecision": "poi",
+    "coordinateNote": "",
+    "amapId": "B0FFFDE5LV",
+    "sources": [
+      {
+        "label": "高德地图 POI（位置与评分）",
+        "url": "https://ditu.amap.com/place/B0FFFDE5LV"
+      },
+      {
+        "label": "浙江在线·钱江晚报｜杭州十大登山徒步线路（2020）",
+        "url": "https://zjnews.zjol.com.cn/zjnews/hznews/202001/t20200102_11533749_ext.shtml"
+      }
+    ],
+    "checkedAt": "2026-09-29",
+    "tags": [
+      "古迹",
+      "自然风景"
+    ],
+    "description": "理安寺位于九溪一带，靠近溪谷和山路，是西湖西南徒步线路的可选停靠点。",
+    "recommendIndex": 4,
+    "amapRating": {
+      "score": 4.5,
+      "checkedAt": "2026-09-29",
+      "poiId": "B0FFFDE5LV"
+    },
+    "district": "西湖区"
+  },
+  {
+    "id": "baita-park",
+    "name": "杭州白塔公园",
+    "category": "公园",
+    "stay": "30–60",
+    "see": "白塔、旧铁路与江岸景观",
+    "why": "可以在山线结束后继续看白塔和近江城市景观。",
+    "coord": [
+      120.141759,
+      30.199481
+    ],
+    "coordinateSystem": "GCJ-02",
+    "coordinatePrecision": "poi",
+    "coordinateNote": "",
+    "amapId": "B023B08YX1",
+    "sources": [
+      {
+        "label": "高德地图 POI（位置与评分）",
+        "url": "https://ditu.amap.com/place/B023B08YX1"
+      },
+      {
+        "label": "浙江在线·钱江晚报｜杭州十大登山徒步线路（2020）",
+        "url": "https://zjnews.zjol.com.cn/zjnews/hznews/202001/t20200102_11533749_ext.shtml"
+      }
+    ],
+    "checkedAt": "2026-09-29",
+    "tags": [
+      "古迹",
+      "自然风景"
+    ],
+    "description": "白塔公园将古塔和旧铁路遗存融入江边公园，可作为南线徒步结束后的延伸参观。",
+    "recommendIndex": 4,
+    "amapRating": {
+      "score": 4.7,
+      "checkedAt": "2026-09-29",
+      "poiId": "B023B08YX1"
+    },
+    "district": "上城区"
+  },
+  {
+    "id": "baoshi-lane-exit",
+    "name": "宝石山下一弄出口",
+    "category": "登山出入口",
+    "stay": "5–10",
+    "see": "宝石山下山后的街巷出口",
+    "why": "为试验轨迹提供清楚的出口定位。",
+    "coord": [
+      120.15356,
+      30.260695
+    ],
+    "coordinateSystem": "GCJ-02",
+    "coordinatePrecision": "poi",
+    "coordinateNote": "以“保俶路与宝石山下一弄交叉口”高德 POI 标注出口位置；与来源轨迹末点相距约 17 米。",
+    "amapId": "B0FFHVFV0S",
+    "sources": [
+      {
+        "label": "高德地图 POI（出口位置）",
+        "url": "https://ditu.amap.com/place/B0FFHVFV0S"
+      },
+      {
+        "label": "hangzhou_mountain｜黄龙洞至宝石山原始坐标",
+        "url": "https://github.com/smasterfree/hangzhou_mountain/blob/main/%E5%8E%9F%E5%A7%8B%E6%95%B0%E6%8D%AE/%E7%83%AD%E9%97%A8%E8%B7%AF%E7%BA%BF/%E9%BB%84%E9%BE%99%E6%B4%9E%E8%87%B3%E5%AE%9D%E7%9F%B3%E5%B1%B1.txt"
+      }
+    ],
+    "checkedAt": "2026-09-29",
+    "tags": [
+      "自然风景"
+    ],
+    "description": "试验轨迹的下山终点，靠近保俶路与宝石山下一弄交叉口。",
+    "recommendIndex": 3,
+    "district": "西湖区"
+  },
+  {
+    "id": "mini-shili-entrance",
+    "name": "龙井村牌坊侧入口",
+    "category": "登山出入口",
+    "stay": "5–10",
+    "see": "路线的出入山位置",
+    "why": "帮助在地图上辨认这条路线的起终点。",
+    "coord": [
+      120.106681,
+      30.218131
+    ],
+    "coordinateSystem": "未明确（与高德底图视觉接近）",
+    "coordinatePrecision": "source-track-endpoint",
+    "coordinateNote": "直接取自公开仓库的轨迹端点；入口名称按来源路线描述整理，尚未实地核验。",
+    "amapId": "",
+    "sources": [
+      {
+        "label": "hangzhou_mountain｜迷你十里琅珰原始坐标",
+        "url": "https://github.com/smasterfree/hangzhou_mountain/blob/main/原始数据/热门路线/%E8%BF%B7%E4%BD%A0%E5%8D%81%E9%87%8C%E7%90%85%E7%8F%B0.txt"
+      }
+    ],
+    "checkedAt": "2026-09-30",
+    "tags": [
+      "自然风景"
+    ],
+    "description": "「迷你十里琅珰」公开轨迹的起点，具体出入口和通行情况请以现场指示为准。",
+    "recommendIndex": 3,
+    "district": "西湖区"
+  },
+  {
+    "id": "mini-shili-exit",
+    "name": "梅家坞牌坊侧出口",
+    "category": "登山出入口",
+    "stay": "5–10",
+    "see": "路线的出入山位置",
+    "why": "帮助在地图上辨认这条路线的起终点。",
+    "coord": [
+      120.088556,
+      30.205549
+    ],
+    "coordinateSystem": "未明确（与高德底图视觉接近）",
+    "coordinatePrecision": "source-track-endpoint",
+    "coordinateNote": "直接取自公开仓库的轨迹端点；入口名称按来源路线描述整理，尚未实地核验。",
+    "amapId": "",
+    "sources": [
+      {
+        "label": "hangzhou_mountain｜迷你十里琅珰原始坐标",
+        "url": "https://github.com/smasterfree/hangzhou_mountain/blob/main/原始数据/热门路线/%E8%BF%B7%E4%BD%A0%E5%8D%81%E9%87%8C%E7%90%85%E7%8F%B0.txt"
+      }
+    ],
+    "checkedAt": "2026-09-30",
+    "tags": [
+      "自然风景"
+    ],
+    "description": "「迷你十里琅珰」公开轨迹的终点，具体出入口和通行情况请以现场指示为准。",
+    "recommendIndex": 3,
+    "district": "西湖区"
+  },
+  {
+    "id": "beigaofeng-loop-entrance",
+    "name": "灵隐侧登山入口",
+    "category": "登山出入口",
+    "stay": "5–10",
+    "see": "路线的出入山位置",
+    "why": "帮助在地图上辨认这条路线的起终点。",
+    "coord": [
+      120.103508,
+      30.240998
+    ],
+    "coordinateSystem": "未明确（与高德底图视觉接近）",
+    "coordinatePrecision": "source-track-endpoint",
+    "coordinateNote": "直接取自公开仓库的轨迹端点；入口名称按来源路线描述整理，尚未实地核验。",
+    "amapId": "",
+    "sources": [
+      {
+        "label": "hangzhou_mountain｜北高峰小环线原始坐标",
+        "url": "https://github.com/smasterfree/hangzhou_mountain/blob/main/原始数据/热门路线/%E5%8C%97%E9%AB%98%E5%B3%B0%E5%B0%8F%E7%8E%AF%E7%BA%BF.txt"
+      }
+    ],
+    "checkedAt": "2026-09-30",
+    "tags": [
+      "自然风景"
+    ],
+    "description": "「北高峰小环线」公开轨迹的起点，具体出入口和通行情况请以现场指示为准。",
+    "recommendIndex": 3,
+    "district": "西湖区"
+  },
+  {
+    "id": "beigaofeng-loop-exit",
+    "name": "法云弄侧下山口",
+    "category": "登山出入口",
+    "stay": "5–10",
+    "see": "路线的出入山位置",
+    "why": "帮助在地图上辨认这条路线的起终点。",
+    "coord": [
+      120.098176,
+      30.237403
+    ],
+    "coordinateSystem": "未明确（与高德底图视觉接近）",
+    "coordinatePrecision": "source-track-endpoint",
+    "coordinateNote": "直接取自公开仓库的轨迹端点；入口名称按来源路线描述整理，尚未实地核验。",
+    "amapId": "",
+    "sources": [
+      {
+        "label": "hangzhou_mountain｜北高峰小环线原始坐标",
+        "url": "https://github.com/smasterfree/hangzhou_mountain/blob/main/原始数据/热门路线/%E5%8C%97%E9%AB%98%E5%B3%B0%E5%B0%8F%E7%8E%AF%E7%BA%BF.txt"
+      }
+    ],
+    "checkedAt": "2026-09-30",
+    "tags": [
+      "自然风景"
+    ],
+    "description": "「北高峰小环线」公开轨迹的终点，具体出入口和通行情况请以现场指示为准。",
+    "recommendIndex": 3,
+    "district": "西湖区"
+  },
+  {
+    "id": "children-liuhe-entrance",
+    "name": "儿童公园侧登山口",
+    "category": "登山出入口",
+    "stay": "5–10",
+    "see": "路线的出入山位置",
+    "why": "帮助在地图上辨认这条路线的起终点。",
+    "coord": [
+      120.135049,
+      30.216079
+    ],
+    "coordinateSystem": "未明确（与高德底图视觉接近）",
+    "coordinatePrecision": "source-track-endpoint",
+    "coordinateNote": "直接取自公开仓库的轨迹端点；入口名称按来源路线描述整理，尚未实地核验。",
+    "amapId": "",
+    "sources": [
+      {
+        "label": "hangzhou_mountain｜儿童公园到六和塔原始坐标",
+        "url": "https://github.com/smasterfree/hangzhou_mountain/blob/main/原始数据/热门路线/%E5%84%BF%E7%AB%A5%E5%85%AC%E5%9B%AD%E8%87%B3%E5%85%AD%E5%92%8C%E5%A1%94.txt"
+      }
+    ],
+    "checkedAt": "2026-09-30",
+    "tags": [
+      "自然风景"
+    ],
+    "description": "「儿童公园到六和塔」公开轨迹的起点，具体出入口和通行情况请以现场指示为准。",
+    "recommendIndex": 3,
+    "district": "西湖区"
+  },
+  {
+    "id": "children-liuhe-exit",
+    "name": "六和塔侧下山口",
+    "category": "登山出入口",
+    "stay": "5–10",
+    "see": "路线的出入山位置",
+    "why": "帮助在地图上辨认这条路线的起终点。",
+    "coord": [
+      120.132381,
+      30.196331
+    ],
+    "coordinateSystem": "未明确（与高德底图视觉接近）",
+    "coordinatePrecision": "source-track-endpoint",
+    "coordinateNote": "直接取自公开仓库的轨迹端点；入口名称按来源路线描述整理，尚未实地核验。",
+    "amapId": "",
+    "sources": [
+      {
+        "label": "hangzhou_mountain｜儿童公园到六和塔原始坐标",
+        "url": "https://github.com/smasterfree/hangzhou_mountain/blob/main/原始数据/热门路线/%E5%84%BF%E7%AB%A5%E5%85%AC%E5%9B%AD%E8%87%B3%E5%85%AD%E5%92%8C%E5%A1%94.txt"
+      }
+    ],
+    "checkedAt": "2026-09-30",
+    "tags": [
+      "自然风景"
+    ],
+    "description": "「儿童公园到六和塔」公开轨迹的终点，具体出入口和通行情况请以现场指示为准。",
+    "recommendIndex": 3,
+    "district": "西湖区"
+  },
+  {
+    "id": "wansong-fantian-entrance",
+    "name": "万松书院侧登山口",
+    "category": "登山出入口",
+    "stay": "5–10",
+    "see": "路线的出入山位置",
+    "why": "帮助在地图上辨认这条路线的起终点。",
+    "coord": [
+      120.159714,
+      30.229069
+    ],
+    "coordinateSystem": "未明确（与高德底图视觉接近）",
+    "coordinatePrecision": "source-track-endpoint",
+    "coordinateNote": "直接取自公开仓库的轨迹端点；入口名称按来源路线描述整理，尚未实地核验。",
+    "amapId": "",
+    "sources": [
+      {
+        "label": "hangzhou_mountain｜万松书院到梵天寺原始坐标",
+        "url": "https://github.com/smasterfree/hangzhou_mountain/blob/main/原始数据/热门路线/%E4%B8%87%E6%9D%BE%E4%B9%A6%E9%99%A2%E8%87%B3%E6%A2%B5%E5%A4%A9%E5%AF%BA.txt"
+      }
+    ],
+    "checkedAt": "2026-09-30",
+    "tags": [
+      "自然风景"
+    ],
+    "description": "「万松书院到梵天寺」公开轨迹的起点，具体出入口和通行情况请以现场指示为准。",
+    "recommendIndex": 3,
+    "district": "西湖区"
+  },
+  {
+    "id": "wansong-fantian-exit",
+    "name": "梵天寺侧下山口",
+    "category": "登山出入口",
+    "stay": "5–10",
+    "see": "路线的出入山位置",
+    "why": "帮助在地图上辨认这条路线的起终点。",
+    "coord": [
+      120.166984,
+      30.21758
+    ],
+    "coordinateSystem": "未明确（与高德底图视觉接近）",
+    "coordinatePrecision": "source-track-endpoint",
+    "coordinateNote": "直接取自公开仓库的轨迹端点；入口名称按来源路线描述整理，尚未实地核验。",
+    "amapId": "",
+    "sources": [
+      {
+        "label": "hangzhou_mountain｜万松书院到梵天寺原始坐标",
+        "url": "https://github.com/smasterfree/hangzhou_mountain/blob/main/原始数据/热门路线/%E4%B8%87%E6%9D%BE%E4%B9%A6%E9%99%A2%E8%87%B3%E6%A2%B5%E5%A4%A9%E5%AF%BA.txt"
+      }
+    ],
+    "checkedAt": "2026-09-30",
+    "tags": [
+      "自然风景"
+    ],
+    "description": "「万松书院到梵天寺」公开轨迹的终点，具体出入口和通行情况请以现场指示为准。",
+    "recommendIndex": 3,
+    "district": "西湖区"
+  },
+  {
+    "id": "siyanjing-nanping-entrance",
+    "name": "四眼井侧登山口",
+    "category": "登山出入口",
+    "stay": "5–10",
+    "see": "路线的出入山位置",
+    "why": "帮助在地图上辨认这条路线的起终点。",
+    "coord": [
+      120.135826,
+      30.216151
+    ],
+    "coordinateSystem": "未明确（与高德底图视觉接近）",
+    "coordinatePrecision": "source-track-endpoint",
+    "coordinateNote": "直接取自公开仓库的轨迹端点；入口名称按来源路线描述整理，尚未实地核验。",
+    "amapId": "",
+    "sources": [
+      {
+        "label": "hangzhou_mountain｜四眼井到南屏晚钟原始坐标",
+        "url": "https://github.com/smasterfree/hangzhou_mountain/blob/main/原始数据/热门路线/%E5%9B%9B%E7%9C%BC%E4%BA%95%E8%87%B3%E5%8D%97%E5%B1%8F%E6%99%9A%E9%92%9F.txt"
+      }
+    ],
+    "checkedAt": "2026-09-30",
+    "tags": [
+      "自然风景"
+    ],
+    "description": "「四眼井到南屏晚钟」公开轨迹的起点，具体出入口和通行情况请以现场指示为准。",
+    "recommendIndex": 3,
+    "district": "西湖区"
+  },
+  {
+    "id": "siyanjing-nanping-exit",
+    "name": "南屏山侧下山口",
+    "category": "登山出入口",
+    "stay": "5–10",
+    "see": "路线的出入山位置",
+    "why": "帮助在地图上辨认这条路线的起终点。",
+    "coord": [
+      120.151793,
+      30.229309
+    ],
+    "coordinateSystem": "未明确（与高德底图视觉接近）",
+    "coordinatePrecision": "source-track-endpoint",
+    "coordinateNote": "直接取自公开仓库的轨迹端点；入口名称按来源路线描述整理，尚未实地核验。",
+    "amapId": "",
+    "sources": [
+      {
+        "label": "hangzhou_mountain｜四眼井到南屏晚钟原始坐标",
+        "url": "https://github.com/smasterfree/hangzhou_mountain/blob/main/原始数据/热门路线/%E5%9B%9B%E7%9C%BC%E4%BA%95%E8%87%B3%E5%8D%97%E5%B1%8F%E6%99%9A%E9%92%9F.txt"
+      }
+    ],
+    "checkedAt": "2026-09-30",
+    "tags": [
+      "自然风景"
+    ],
+    "description": "「四眼井到南屏晚钟」公开轨迹的终点，具体出入口和通行情况请以现场指示为准。",
+    "recommendIndex": 3,
+    "district": "西湖区"
+  },
+  {
+    "id": "yuquan-laoheshan-entrance",
+    "name": "玉泉山侧入口",
+    "category": "登山出入口",
+    "stay": "5–10",
+    "see": "路线的出入山位置",
+    "why": "帮助在地图上辨认这条路线的起终点。",
+    "coord": [
+      120.118008,
+      30.255428
+    ],
+    "coordinateSystem": "未明确（与高德底图视觉接近）",
+    "coordinatePrecision": "source-track-endpoint",
+    "coordinateNote": "直接取自公开仓库的轨迹端点；入口名称按来源路线描述整理，尚未实地核验。",
+    "amapId": "",
+    "sources": [
+      {
+        "label": "hangzhou_mountain｜玉泉山到老和山原始坐标",
+        "url": "https://github.com/smasterfree/hangzhou_mountain/blob/main/原始数据/热门路线/%E7%8E%89%E6%B3%89%E5%B1%B1%E8%87%B3%E5%8F%A4%E8%8D%A1%E8%80%81%E5%92%8C%E5%B1%B1%E5%85%A5%E5%8F%A3.txt"
+      }
+    ],
+    "checkedAt": "2026-09-30",
+    "tags": [
+      "自然风景"
+    ],
+    "description": "「玉泉山到老和山」公开轨迹的起点，具体出入口和通行情况请以现场指示为准。",
+    "recommendIndex": 3,
+    "district": "西湖区"
+  },
+  {
+    "id": "yuquan-laoheshan-exit",
+    "name": "古荡老和山侧出口",
+    "category": "登山出入口",
+    "stay": "5–10",
+    "see": "路线的出入山位置",
+    "why": "帮助在地图上辨认这条路线的起终点。",
+    "coord": [
+      120.119302,
+      30.271403
+    ],
+    "coordinateSystem": "未明确（与高德底图视觉接近）",
+    "coordinatePrecision": "source-track-endpoint",
+    "coordinateNote": "直接取自公开仓库的轨迹端点；入口名称按来源路线描述整理，尚未实地核验。",
+    "amapId": "",
+    "sources": [
+      {
+        "label": "hangzhou_mountain｜玉泉山到老和山原始坐标",
+        "url": "https://github.com/smasterfree/hangzhou_mountain/blob/main/原始数据/热门路线/%E7%8E%89%E6%B3%89%E5%B1%B1%E8%87%B3%E5%8F%A4%E8%8D%A1%E8%80%81%E5%92%8C%E5%B1%B1%E5%85%A5%E5%8F%A3.txt"
+      }
+    ],
+    "checkedAt": "2026-09-30",
+    "tags": [
+      "自然风景"
+    ],
+    "description": "「玉泉山到老和山」公开轨迹的终点，具体出入口和通行情况请以现场指示为准。",
+    "recommendIndex": 3,
+    "district": "西湖区"
+  },
+  {
+    "id": "longjing-tea-museum-entrance",
+    "name": "龙井寺侧入口",
+    "category": "登山出入口",
+    "stay": "5–10",
+    "see": "路线的出入山位置",
+    "why": "帮助在地图上辨认这条路线的起终点。",
+    "coord": [
+      120.110002,
+      30.219984
+    ],
+    "coordinateSystem": "未明确（与高德底图视觉接近）",
+    "coordinatePrecision": "source-track-endpoint",
+    "coordinateNote": "直接取自公开仓库的轨迹端点；入口名称按来源路线描述整理，尚未实地核验。",
+    "amapId": "",
+    "sources": [
+      {
+        "label": "hangzhou_mountain｜龙井寺到茶叶博物馆原始坐标",
+        "url": "https://github.com/smasterfree/hangzhou_mountain/blob/main/原始数据/热门路线/%E9%BE%99%E4%BA%95%E5%AF%BA%E8%87%B3%E8%8C%B6%E5%8F%B6%E5%8D%9A%E7%89%A9%E9%A6%86.txt"
+      }
+    ],
+    "checkedAt": "2026-09-30",
+    "tags": [
+      "自然风景"
+    ],
+    "description": "「龙井寺到茶叶博物馆」公开轨迹的起点，具体出入口和通行情况请以现场指示为准。",
+    "recommendIndex": 3,
+    "district": "西湖区"
+  },
+  {
+    "id": "longjing-tea-museum-exit",
+    "name": "茶叶博物馆侧出口",
+    "category": "登山出入口",
+    "stay": "5–10",
+    "see": "路线的出入山位置",
+    "why": "帮助在地图上辨认这条路线的起终点。",
+    "coord": [
+      120.12116,
+      30.232811
+    ],
+    "coordinateSystem": "未明确（与高德底图视觉接近）",
+    "coordinatePrecision": "source-track-endpoint",
+    "coordinateNote": "直接取自公开仓库的轨迹端点；入口名称按来源路线描述整理，尚未实地核验。",
+    "amapId": "",
+    "sources": [
+      {
+        "label": "hangzhou_mountain｜龙井寺到茶叶博物馆原始坐标",
+        "url": "https://github.com/smasterfree/hangzhou_mountain/blob/main/原始数据/热门路线/%E9%BE%99%E4%BA%95%E5%AF%BA%E8%87%B3%E8%8C%B6%E5%8F%B6%E5%8D%9A%E7%89%A9%E9%A6%86.txt"
+      }
+    ],
+    "checkedAt": "2026-09-30",
+    "tags": [
+      "自然风景"
+    ],
+    "description": "「龙井寺到茶叶博物馆」公开轨迹的终点，具体出入口和通行情况请以现场指示为准。",
+    "recommendIndex": 3,
+    "district": "西湖区"
+  },
+  {
+    "id": "manjuelong-santaishan-entrance",
+    "name": "上满觉陇侧入口",
+    "category": "登山出入口",
+    "stay": "5–10",
+    "see": "路线的出入山位置",
+    "why": "帮助在地图上辨认这条路线的起终点。",
+    "coord": [
+      120.122375,
+      30.217875
+    ],
+    "coordinateSystem": "未明确（与高德底图视觉接近）",
+    "coordinatePrecision": "source-track-endpoint",
+    "coordinateNote": "直接取自公开仓库的轨迹端点；入口名称按来源路线描述整理，尚未实地核验。",
+    "amapId": "",
+    "sources": [
+      {
+        "label": "hangzhou_mountain｜上满觉陇到三台山原始坐标",
+        "url": "https://github.com/smasterfree/hangzhou_mountain/blob/main/原始数据/热门路线/%E4%B8%8A%E6%BB%A1%E8%A7%89%E9%99%87%E8%87%B3%E4%B8%89%E5%8F%B0%E5%B1%B1.txt"
+      }
+    ],
+    "checkedAt": "2026-09-30",
+    "tags": [
+      "自然风景"
+    ],
+    "description": "「上满觉陇到三台山」公开轨迹的起点，具体出入口和通行情况请以现场指示为准。",
+    "recommendIndex": 3,
+    "district": "西湖区"
+  },
+  {
+    "id": "manjuelong-santaishan-exit",
+    "name": "三台山侧出口",
+    "category": "登山出入口",
+    "stay": "5–10",
+    "see": "路线的出入山位置",
+    "why": "帮助在地图上辨认这条路线的起终点。",
+    "coord": [
+      120.131387,
+      30.228877
+    ],
+    "coordinateSystem": "未明确（与高德底图视觉接近）",
+    "coordinatePrecision": "source-track-endpoint",
+    "coordinateNote": "直接取自公开仓库的轨迹端点；入口名称按来源路线描述整理，尚未实地核验。",
+    "amapId": "",
+    "sources": [
+      {
+        "label": "hangzhou_mountain｜上满觉陇到三台山原始坐标",
+        "url": "https://github.com/smasterfree/hangzhou_mountain/blob/main/原始数据/热门路线/%E4%B8%8A%E6%BB%A1%E8%A7%89%E9%99%87%E8%87%B3%E4%B8%89%E5%8F%B0%E5%B1%B1.txt"
+      }
+    ],
+    "checkedAt": "2026-09-30",
+    "tags": [
+      "自然风景"
+    ],
+    "description": "「上满觉陇到三台山」公开轨迹的终点，具体出入口和通行情况请以现场指示为准。",
+    "recommendIndex": 3,
+    "district": "西湖区"
+  },
+  {
+    "id": "shili-langdang-track-entrance",
+    "name": "上天竺侧入口",
+    "category": "登山出入口",
+    "stay": "5–10",
+    "see": "路线的出入山位置",
+    "why": "帮助在地图上辨认这条路线的起终点。",
+    "coord": [
+      120.095983,
+      30.225041
+    ],
+    "coordinateSystem": "未明确（与高德底图视觉接近）",
+    "coordinatePrecision": "source-track-endpoint",
+    "coordinateNote": "直接取自公开仓库的轨迹端点；入口名称按来源路线描述整理，尚未实地核验。",
+    "amapId": "",
+    "sources": [
+      {
+        "label": "hangzhou_mountain｜十里琅珰纵走原始坐标",
+        "url": "https://github.com/smasterfree/hangzhou_mountain/blob/main/原始数据/热门路线/%E5%8D%81%E9%87%8C%E7%90%85%E7%8F%B0.txt"
+      }
+    ],
+    "checkedAt": "2026-09-30",
+    "tags": [
+      "自然风景"
+    ],
+    "description": "「十里琅珰纵走」公开轨迹的起点，具体出入口和通行情况请以现场指示为准。",
+    "recommendIndex": 3,
+    "district": "西湖区"
+  },
+  {
+    "id": "shili-langdang-track-exit",
+    "name": "九溪口侧出口",
+    "category": "登山出入口",
+    "stay": "5–10",
+    "see": "路线的出入山位置",
+    "why": "帮助在地图上辨认这条路线的起终点。",
+    "coord": [
+      120.11748,
+      30.187899
+    ],
+    "coordinateSystem": "未明确（与高德底图视觉接近）",
+    "coordinatePrecision": "source-track-endpoint",
+    "coordinateNote": "直接取自公开仓库的轨迹端点；入口名称按来源路线描述整理，尚未实地核验。",
+    "amapId": "",
+    "sources": [
+      {
+        "label": "hangzhou_mountain｜十里琅珰纵走原始坐标",
+        "url": "https://github.com/smasterfree/hangzhou_mountain/blob/main/原始数据/热门路线/%E5%8D%81%E9%87%8C%E7%90%85%E7%8F%B0.txt"
+      }
+    ],
+    "checkedAt": "2026-09-30",
+    "tags": [
+      "自然风景"
+    ],
+    "description": "「十里琅珰纵走」公开轨迹的终点，具体出入口和通行情况请以现场指示为准。",
+    "recommendIndex": 3,
+    "district": "西湖区"
+  },
+  {
+    "id": "xixigu-walk-entrance",
+    "name": "古荡双口井侧起点",
+    "category": "登山出入口",
+    "stay": "5–10",
+    "see": "路线的出入山位置",
+    "why": "帮助在地图上辨认这条路线的起终点。",
+    "coord": [
+      120.117015,
+      30.271247
+    ],
+    "coordinateSystem": "未明确（与高德底图视觉接近）",
+    "coordinatePrecision": "source-track-endpoint",
+    "coordinateNote": "直接取自公开仓库的轨迹端点；入口名称按来源路线描述整理，尚未实地核验。",
+    "amapId": "",
+    "sources": [
+      {
+        "label": "hangzhou_mountain｜西溪谷慢行道原始坐标",
+        "url": "https://github.com/smasterfree/hangzhou_mountain/blob/main/原始数据/热门路线/%E8%A5%BF%E6%BA%AA%E8%B0%B7%E6%85%A2%E8%A1%8C%E9%81%93.txt"
+      }
+    ],
+    "checkedAt": "2026-09-30",
+    "tags": [
+      "自然风景"
+    ],
+    "description": "「西溪谷慢行道」公开轨迹的起点，具体出入口和通行情况请以现场指示为准。",
+    "recommendIndex": 3,
+    "district": "西湖区"
+  },
+  {
+    "id": "xixigu-walk-exit",
+    "name": "留下西穆坞侧终点",
+    "category": "登山出入口",
+    "stay": "5–10",
+    "see": "路线的出入山位置",
+    "why": "帮助在地图上辨认这条路线的起终点。",
+    "coord": [
+      120.065482,
+      30.236315
+    ],
+    "coordinateSystem": "未明确（与高德底图视觉接近）",
+    "coordinatePrecision": "source-track-endpoint",
+    "coordinateNote": "直接取自公开仓库的轨迹端点；入口名称按来源路线描述整理，尚未实地核验。",
+    "amapId": "",
+    "sources": [
+      {
+        "label": "hangzhou_mountain｜西溪谷慢行道原始坐标",
+        "url": "https://github.com/smasterfree/hangzhou_mountain/blob/main/原始数据/热门路线/%E8%A5%BF%E6%BA%AA%E8%B0%B7%E6%85%A2%E8%A1%8C%E9%81%93.txt"
+      }
+    ],
+    "checkedAt": "2026-09-30",
+    "tags": [
+      "自然风景"
+    ],
+    "description": "「西溪谷慢行道」公开轨迹的终点，具体出入口和通行情况请以现场指示为准。",
+    "recommendIndex": 3,
+    "district": "西湖区"
+  }
+]
