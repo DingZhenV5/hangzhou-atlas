@@ -1,0 +1,13 @@
+AmapAPI/
+api.txt
+js-key.txt
+js-security-code.txt
+dist/
+node_modules/
+.env*
+*.local
+*.log
+private/
+generated/xhs-*.csv
+generated/xhs-*.json
+.DS_Store

@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f7f6f1">
+  <title>杭州去哪儿 · 周末地图</title>
+  <meta name="description" content="在地图上找杭州徒步与逛玩路线，也能按博物馆、商场和游乐地点挑选周末去处。">
+  <link rel="stylesheet" href="./vendor/leaflet/leaflet.css">
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <div class="app-shell">
+    <aside class="sidebar" aria-label="路线与地点">
+      <header class="brand">
+        <div class="brand-mark">杭<span>州</span></div>
+        <div class="brand-copy"><strong>杭州去哪儿</strong><small>一张地图，决定周末</small></div>
+        <span class="brand-edition">V1</span>
+      </header>
+
+      <section class="intro">
+        <div class="eyebrow"><span class="eyebrow-dot"></span> WEEKEND FIELD GUIDE</div>
+        <h1>从地图开始，<br><em>去走走。</em></h1>
+        <p>徒步看风景与街巷，逛玩看场馆、商圈和游乐体验。选一条路线，或直接找一个地点。</p>
+        <div class="stats"><span><b id="route-count">—</b> 条路线</span><i></i><span><b id="place-count">—</b> 个地点</span></div>
+      </section>
+
+      <div class="browse-controls">
+        <div class="switcher" role="tablist" aria-label="浏览类型">
+          <button class="switch active" id="tab-routes" role="tab" aria-selected="true" type="button">路线 <span id="route-tab-count"></span></button>
+          <button class="switch" id="tab-places" role="tab" aria-selected="false" type="button">地点 <span id="place-tab-count"></span></button>
+        </div>
+        <label class="search-wrap">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.8" cy="10.8" r="6.6"/><path d="m16 16 5 5"/></svg>
+          <input id="search" type="search" placeholder="搜索路线、地点、区域…" autocomplete="off">
+          <kbd>/</kbd>
+        </label>
+        <div class="filter-tools"><select id="district-filter" aria-label="按杭州区域筛选"><option value="全部">全部区域</option></select><div id="route-types" class="route-types" aria-label="路线类型"></div></div>
+        <div id="filters" class="filters" aria-label="地点主题"></div>
+        <p id="taxonomy-hint" class="taxonomy-hint">主题与区域同时筛选地点，并保留包含这些地点的路线。</p>
+      </div>
+
+      <div class="list-head"><span id="list-title">精选路线</span><span id="result-count"></span></div>
+      <div id="item-list" class="item-list" aria-live="polite"></div>
+      <footer class="sidebar-footer">资料核对于 2026.09 · 路线线形仅供浏览</footer>
+    </aside>
+
+    <main class="map-area">
+      <div id="map" class="map" aria-label="杭州路线地图"></div>
+      <div class="map-gradient" aria-hidden="true"></div>
+      <div class="map-topbar">
+        <div class="map-context"><span class="context-dot"></span><span id="map-context">杭州 · 探索地图</span></div>
+        <button id="reset-map" class="icon-button reset-button" type="button" title="回到杭州全图" aria-label="回到杭州全图">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v4m0 10v4M3 12h4m10 0h4"/><circle cx="12" cy="12" r="5"/></svg>
+        </button>
+      </div>
+      <div class="map-bottom">
+        <div class="map-legend"><span class="legend-line hike"></span>徒步 <span class="legend-line walk"></span>逛玩 <span class="legend-dot museum"></span>博物馆 <span class="legend-dot shopping"></span>商圈 <span class="legend-dot fun"></span>游乐 <span class="legend-dot heritage"></span>人文 <span class="legend-dot nature"></span>自然</div>
+        <span id="map-provider" class="map-provider">地图载入中</span>
+      </div>
+      <div id="map-error" class="map-error" hidden>地图暂时无法载入。路线与地点仍可在左侧浏览。</div>
+      <button id="mobile-list-toggle" class="mobile-list-toggle" type="button">查看路线与地点 <span>⌃</span></button>
+    </main>
+
+    <aside id="detail" class="detail" aria-label="路线或地点详情" hidden>
+      <button id="close-detail" class="detail-close" type="button" aria-label="关闭详情">×</button>
+      <div id="detail-content"></div>
+    </aside>
+  </div>
+  <script src="./runtime-config.js"></script>
+  <script src="./vendor/leaflet/leaflet.js"></script>
+  <script src="./app.js" defer></script>
+</body>
+</html>
