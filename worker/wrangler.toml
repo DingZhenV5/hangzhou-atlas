@@ -1,0 +1,7 @@
+name = "hangzhou-atlas-amap-proxy"
+main = "src/index.js"
+compatibility_date = "2026-09-30"
+workers_dev = true
+
+[vars]
+SITE_ORIGIN = "https://dingzhenv5.github.io"

@@ -44,6 +44,7 @@ dist/       构建产物，不纳入 Git
 - 地点编辑 `data/places.json`：保持 ID 唯一、坐标使用 GCJ-02，并保留来源链接。
 - 路线编辑 `data/routes.json`：路线站点引用地点 ID；示意线不能描述为实走或导航轨迹。
 - 运行 `node tools/build.mjs` 检查数据与站点引用，再用本地页面核对地图显示。
+- 高德地图与 GitHub Pages 的安全接入步骤见 [高德地图部署说明](docs/AMAP-DEPLOY.md)。
 
 编辑字段和维护约定见 [`docs/V1-PLAN.md`](docs/V1-PLAN.md)。
 

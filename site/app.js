@@ -3,6 +3,25 @@ const html = (value) => String(value ?? '').replace(/[&<>"']/g, (c) => ({ '&': '
 const state = { places: [], routes: [], tab: 'routes', routeType: '全部', placeTag: '全部', district: '全部', query: '', selected: null, map: null, provider: '' };
 const placeById = () => new Map(state.places.map((place) => [place.id, place]));
 const isMobile = () => matchMedia('(max-width: 700px)').matches;
+const mobileViewportHeight = () => window.visualViewport?.height || window.innerHeight;
+function setMobileSheetHeight(height) {
+  if (!isMobile()) return;
+  const viewport = mobileViewportHeight();
+  const minimum = Math.round(viewport * 0.25);
+  const maximum = Math.round(viewport * 0.88);
+  const nextHeight = Math.max(minimum, Math.min(maximum, Math.round(height)));
+  document.documentElement.style.setProperty('--mobile-sheet-height', `${nextHeight}px`);
+  const collapsed = nextHeight <= minimum + 8;
+  $('.sidebar').classList.toggle('sheet-collapsed', collapsed);
+  $('#mobile-sheet-label').textContent = collapsed ? '拖动调整 · 点按展开' : '拖动调整 · 点按收起';
+  $('#mobile-sheet-handle').setAttribute('aria-expanded', String(!collapsed));
+}
+function toggleMobileSheet() {
+  if (!isMobile()) return;
+  const current = $('.sidebar').getBoundingClientRect().height;
+  const viewport = mobileViewportHeight();
+  setMobileSheetHeight(current < viewport * 0.45 ? viewport * 0.68 : viewport * 0.25);
+}
 const routeColor = (route) => route.type === '徒步' ? '#478562' : '#d48b52';
 const markerGroup = (place) => {
   if (place.tags?.includes('博物馆') || place.tags?.includes('科技馆')) return 'museum';
@@ -134,7 +153,7 @@ function select(kind, id, options = {}) {
   $('#map-context').textContent = item.name;
   renderList();
   state.map?.select(kind, item);
-  if (isMobile()) $('.sidebar').classList.remove('open');
+  if (isMobile()) setMobileSheetHeight(mobileViewportHeight() * 0.25);
   if (options.updateHash !== false) history.replaceState(null, '', `#${kind}/${encodeURIComponent(id)}`);
 }
 
@@ -163,9 +182,36 @@ function setupEvents() {
   $('#detail').addEventListener('click', (event) => { const stop = event.target.closest('[data-stop]'); const route = event.target.closest('[data-route-link]'); if (stop) select('place', stop.dataset.stop); if (route) select('route', route.dataset.routeLink); });
   $('#close-detail').addEventListener('click', closeDetail);
   $('#reset-map').addEventListener('click', () => { closeDetail(); state.map?.reset(); });
-  $('#mobile-list-toggle').addEventListener('click', () => $('.sidebar').classList.add('open'));
-  $('.brand').addEventListener('click', () => { if (isMobile()) $('.sidebar').classList.toggle('open'); });
-  document.addEventListener('keydown', (event) => { if (event.key === '/' && document.activeElement?.tagName !== 'INPUT') { event.preventDefault(); $('#search').focus(); if (isMobile()) $('.sidebar').classList.add('open'); } if (event.key === 'Escape' && state.selected) closeDetail(); });
+  if (isMobile()) setMobileSheetHeight(mobileViewportHeight() * 0.3);
+  $('#mobile-list-toggle').addEventListener('click', () => setMobileSheetHeight(mobileViewportHeight() * 0.72));
+  const sheetHandle = $('#mobile-sheet-handle');
+  let sheetDrag = null;
+  let ignoreSheetClick = false;
+  sheetHandle.addEventListener('pointerdown', (event) => {
+    if (!isMobile()) return;
+    sheetDrag = { pointerId: event.pointerId, startY: event.clientY, startHeight: $('.sidebar').getBoundingClientRect().height, moved: false };
+    $('.sidebar').classList.add('resizing');
+    sheetHandle.setPointerCapture(event.pointerId);
+  });
+  sheetHandle.addEventListener('pointermove', (event) => {
+    if (!sheetDrag || event.pointerId !== sheetDrag.pointerId) return;
+    const delta = sheetDrag.startY - event.clientY;
+    if (Math.abs(delta) > 5) sheetDrag.moved = true;
+    if (sheetDrag.moved) setMobileSheetHeight(sheetDrag.startHeight + delta);
+  });
+  const endSheetDrag = (event) => {
+    if (!sheetDrag || event.pointerId !== sheetDrag.pointerId) return;
+    const moved = sheetDrag.moved;
+    sheetDrag = null;
+    $('.sidebar').classList.remove('resizing');
+    if (sheetHandle.hasPointerCapture(event.pointerId)) sheetHandle.releasePointerCapture(event.pointerId);
+    if (moved) { ignoreSheetClick = true; setTimeout(() => { ignoreSheetClick = false; }, 0); }
+  };
+  sheetHandle.addEventListener('pointerup', endSheetDrag);
+  sheetHandle.addEventListener('pointercancel', endSheetDrag);
+  sheetHandle.addEventListener('click', () => { if (ignoreSheetClick) return; toggleMobileSheet(); });
+  $('.brand').addEventListener('click', () => { if (isMobile()) toggleMobileSheet(); });
+  document.addEventListener('keydown', (event) => { if (event.key === '/' && document.activeElement?.tagName !== 'INPUT') { event.preventDefault(); $('#search').focus(); if (isMobile()) setMobileSheetHeight(mobileViewportHeight() * 0.72); } if (event.key === 'Escape' && state.selected) closeDetail(); });
 }
 
 function markerHtml(label, place, active = false) { return `<div class="map-marker-inner marker-${markerGroup(place)} ${active ? 'active' : ''}">${html(label)}</div>`; }
@@ -303,10 +349,14 @@ async function main() {
     $('#place-tab-count').textContent = state.places.length;
     renderFilters(); renderList();
     await initMap();
+    requestAnimationFrame(() => state.map?.resize());
+    setTimeout(() => state.map?.resize(), 250);
     refreshMap();
     const match = location.hash.match(/^#(route|place)\/(.+)$/);
     if (match) select(match[1], decodeURIComponent(match[2]), { updateHash: false });
     window.addEventListener('resize', () => state.map?.resize());
+    window.visualViewport?.addEventListener('resize', () => { setMobileSheetHeight($('.sidebar').getBoundingClientRect().height); state.map?.resize(); });
+    window.addEventListener('orientationchange', () => setTimeout(() => { setMobileSheetHeight(mobileViewportHeight() * 0.3); state.map?.resize(); }, 180));
   } catch (error) {
     console.error(error);
     $('#item-list').innerHTML = '<div class="empty-state">数据载入失败。请通过本地预览服务器打开页面。</div>';

@@ -36,3 +36,23 @@
 .filters{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:7px;overflow:visible}.filters .filter{min-width:0;min-height:44px;padding:6px 2px;white-space:normal;line-height:1.15;overflow-wrap:anywhere}
 @media(min-width:701px) and (max-width:1100px){.intro{padding-left:16px;padding-right:16px}.intro h1{letter-spacing:-.025em}}
 @media(max-width:700px){.card-title{font-size:20px}.detail{width:100%;left:0;right:0}}
+
+/* Mobile map sheet: keep most of the viewport available for the map and let people resize the sheet. */
+.mobile-sheet-handle{display:none}
+@media(max-width:700px){
+  .sidebar{height:var(--mobile-sheet-height,30dvh);max-height:88dvh;min-height:25dvh;transform:none;transition:height .12s ease;overflow:hidden;padding-bottom:env(safe-area-inset-bottom)}
+  .sidebar.open{transform:none}
+  .sidebar.resizing{transition:none}
+  .mobile-sheet-handle{height:27px;flex:none;width:100%;display:flex;align-items:center;justify-content:center;gap:9px;border:0;background:#f7f6f1;border-radius:19px 19px 0 0;color:#879486;touch-action:none;user-select:none}
+  .sheet-grip{width:37px;height:4px;border-radius:4px;background:#c7d0c4}
+  .mobile-sheet-handle small{font-size:10px;line-height:1}
+  .brand{flex:none}
+  .browse-controls{flex:none;min-height:0;max-height:42%;overflow-y:auto;overscroll-behavior:contain;padding-bottom:9px}
+  .list-head{flex:none}
+  .item-list{flex:1;min-height:0;overscroll-behavior:contain}
+  .mobile-list-toggle{bottom:calc(var(--mobile-sheet-height,30dvh) + 10px);z-index:5}
+  .sidebar:not(.sheet-collapsed)~.map-area .mobile-list-toggle{display:none}
+  .map-provider{display:block;font-size:10px;padding:7px 9px}
+  .map-legend{display:none}
+  .map-bottom{bottom:calc(var(--mobile-sheet-height,30dvh) + 10px);align-items:flex-end;justify-content:flex-end}
+}

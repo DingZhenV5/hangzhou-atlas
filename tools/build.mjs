@@ -1,4 +1,4 @@
-import { cp, mkdir, rm, readFile, readdir, stat } from 'node:fs/promises';
+import { cp, mkdir, rm, readFile, readdir, stat, writeFile } from 'node:fs/promises';
 import { fileURLToPath } from 'node:url';
 import path from 'node:path';
 
@@ -10,6 +10,12 @@ const names = ['index.html', 'styles.css', 'app.js', 'runtime-config.js', 'vendo
 await rm(out, { recursive: true, force: true });
 await mkdir(out, { recursive: true });
 for (const name of names) await cp(path.join(site, name), path.join(out, name), { recursive: true });
+// The JS API key and proxy URL are public runtime configuration; never put the AMap security code in the static artifact.
+const runtimeConfig = {
+  amapJsKey: process.env.AMAP_JS_KEY || '',
+  amapProxyUrl: process.env.AMAP_PROXY_URL || ''
+};
+await writeFile(path.join(out, 'runtime-config.js'), `window.HZ_ATLAS_CONFIG = ${JSON.stringify(runtimeConfig)};\n`);
 await cp(data, path.join(out, 'data'), { recursive: true });
 // Raw third-party track files are kept for local review, never shipped as public assets.
 await rm(path.join(out, 'data/source-tracks'), { recursive: true, force: true });

@@ -21,7 +21,11 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '20'
-      - run: node tools/build.mjs
+      - name: Build static site
+        run: node tools/build.mjs
+        env:
+          AMAP_JS_KEY: ${{ vars.AMAP_JS_KEY }}
+          AMAP_PROXY_URL: ${{ vars.AMAP_PROXY_URL }}
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:
