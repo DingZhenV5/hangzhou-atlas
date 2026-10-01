@@ -6,14 +6,15 @@ const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const out = path.join(root, 'dist');
 const site = path.join(root, 'site');
 const data = path.join(root, 'data');
-const names = ['index.html', 'styles.css', 'app.js', 'runtime-config.js', 'vendor'];
+const names = ['index.html', 'styles.css', 'app.js', 'user-state.js', 'runtime-config.js', 'logo.png', 'vendor'];
 await rm(out, { recursive: true, force: true });
 await mkdir(out, { recursive: true });
 for (const name of names) await cp(path.join(site, name), path.join(out, name), { recursive: true });
 // The JS API key and proxy URL are public runtime configuration; never put the AMap security code in the static artifact.
 const runtimeConfig = {
   amapJsKey: process.env.AMAP_JS_KEY || '',
-  amapProxyUrl: process.env.AMAP_PROXY_URL || ''
+  amapProxyUrl: process.env.AMAP_PROXY_URL || '',
+  userApiUrl: process.env.USER_API_URL || ''
 };
 await writeFile(path.join(out, 'runtime-config.js'), `window.HZ_ATLAS_CONFIG = ${JSON.stringify(runtimeConfig)};\n`);
 await cp(data, path.join(out, 'data'), { recursive: true });

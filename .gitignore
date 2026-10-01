@@ -4,6 +4,7 @@ js-key.txt
 js-security-code.txt
 dist/
 node_modules/
+worker/.wrangler/
 .env*
 *.local
 *.log

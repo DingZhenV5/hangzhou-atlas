@@ -6,6 +6,7 @@
   <meta name="theme-color" content="#f7f6f1">
   <title>杭州去哪儿 · 周末地图</title>
   <meta name="description" content="在地图上找杭州徒步与逛玩路线，也能按博物馆、商场和游乐地点挑选周末去处。">
+  <link rel="icon" href="./logo.png" type="image/png">
   <link rel="stylesheet" href="./vendor/leaflet/leaflet.css">
   <link rel="stylesheet" href="./styles.css">
 </head>
@@ -16,8 +17,9 @@
         <span class="sheet-grip" aria-hidden="true"></span><small id="mobile-sheet-label">拖动调整 · 点按展开</small>
       </button>
       <header class="brand">
-        <div class="brand-mark">杭<span>州</span></div>
+        <img class="brand-logo" src="./logo.png" alt="杭州去哪儿">
         <div class="brand-copy"><strong>杭州去哪儿</strong><small>一张地图，决定周末</small></div>
+        <button id="my-hangzhou-button" class="my-hangzhou-trigger" type="button">我的杭州 <span id="my-hangzhou-count">0</span></button>
         <span class="brand-edition">V1</span>
       </header>
 
@@ -39,9 +41,33 @@
           <kbd>/</kbd>
         </label>
         <div class="filter-tools"><select id="district-filter" aria-label="按杭州区域筛选"><option value="全部">全部区域</option></select><div id="route-types" class="route-types" aria-label="路线类型"></div></div>
+        <section id="route-difficulty" class="route-difficulty" aria-label="按路线难度筛选" hidden>
+          <div class="difficulty-heading"><span>路线难度</span><b id="difficulty-value">轻松 — 较难</b></div>
+          <div id="difficulty-sliders" class="difficulty-sliders">
+            <div class="difficulty-track" aria-hidden="true"></div>
+            <input id="difficulty-min" type="range" min="1" max="5" step="1" value="1" aria-label="最低难度" aria-valuetext="轻松">
+            <input id="difficulty-max" type="range" min="1" max="5" step="1" value="5" aria-label="最高难度" aria-valuetext="较难">
+          </div>
+          <div class="difficulty-labels" aria-hidden="true"><span>轻松</span><span>入门</span><span>中等</span><span>进阶</span><span>较难</span></div>
+        </section>
         <div id="filters" class="filters" aria-label="地点主题"></div>
-        <p id="taxonomy-hint" class="taxonomy-hint">主题与区域同时筛选地点，并保留包含这些地点的路线。</p>
       </div>
+
+      <section id="my-toolbar" class="my-toolbar" hidden aria-label="我的杭州状态">
+        <div class="my-heading"><strong>我的杭州</strong><span id="sync-state">记录目前保存在此设备</span></div>
+        <div class="my-counts">
+          <button class="my-count active" type="button" data-my-filter="visited"><b id="my-visited-count">0</b><span>去过</span></button>
+          <button class="my-count" type="button" data-my-filter="wantToGo"><b id="my-want-count">0</b><span>想去</span></button>
+          <button class="my-count" type="button" data-my-filter="favorite"><b id="my-favorite-count">0</b><span>收藏</span></button>
+        </div>
+        <div class="my-account-actions">
+          <button id="sync-login" class="sync-open" type="button">登录同步</button>
+          <button id="sync-register" class="sync-open" type="button">注册同步账号</button>
+          <button id="sync-logout" class="quiet-action" type="button" hidden>退出同步</button>
+          <button id="export-marks" class="quiet-action" type="button">导出记录</button>
+          <label class="quiet-action import-action">导入记录<input id="import-marks" type="file" accept="application/json,.json"></label>
+        </div>
+      </section>
 
       <div class="list-head"><span id="list-title">精选路线</span><span id="result-count"></span></div>
       <div id="item-list" class="item-list" aria-live="polite"></div>
@@ -70,8 +96,30 @@
       <div id="detail-content"></div>
     </aside>
   </div>
+  <dialog id="sync-dialog" class="sync-dialog" aria-labelledby="sync-dialog-title">
+    <form id="sync-form" novalidate>
+      <button id="sync-dialog-close" class="dialog-close" type="button" aria-label="关闭">×</button>
+      <div class="detail-overline">OPTIONAL SYNC</div>
+      <h2 id="sync-dialog-title">同步我的记录</h2>
+      <p class="sync-explainer">登录只用于在不同设备间同步收藏、想去和去过记录。</p>
+      <label class="auth-label" for="sync-username">用户名</label>
+      <input id="sync-username" name="username" class="auth-input" autocomplete="username" minlength="2" maxlength="24" required>
+      <label class="auth-label" for="sync-password">密码</label>
+      <input id="sync-password" name="password" class="auth-input" type="password" autocomplete="current-password" minlength="8" maxlength="128" required>
+      <div id="confirm-password-wrap" hidden>
+        <label class="auth-label" for="sync-password-confirm">确认密码</label>
+        <input id="sync-password-confirm" class="auth-input" type="password" autocomplete="new-password" minlength="8" maxlength="128">
+      </div>
+      <p id="sync-password-note" class="sync-small-note" hidden>不收集邮箱和手机号。密码遗失后暂无法找回，请自行妥善保存。</p>
+      <p id="auth-message" class="auth-message" role="status" aria-live="polite"></p>
+      <button id="auth-submit" class="auth-submit" type="submit">登录并同步</button>
+      <button id="auth-mode-toggle" class="auth-mode-toggle" type="button">没有同步账号？创建一个</button>
+    </form>
+  </dialog>
+  <div id="app-toast" class="app-toast" role="status" aria-live="polite" hidden></div>
   <script src="./runtime-config.js"></script>
   <script src="./vendor/leaflet/leaflet.js"></script>
+  <script src="./user-state.js" defer></script>
   <script src="./app.js" defer></script>
 </body>
 </html>

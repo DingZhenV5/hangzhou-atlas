@@ -18,7 +18,7 @@ http.createServer(async (request, response) => {
   try {
     if (url.pathname === '/runtime-config.js') {
       response.writeHead(200, { 'Content-Type': mime['.js'], 'Cache-Control': 'no-store' });
-      response.end(`window.HZ_ATLAS_CONFIG = ${JSON.stringify({ amapJsKey: jsKey, amapProxyUrl: jsKey && securityCode ? `http://${host}:${port}/_AMapService` : '' })};`);
+      response.end(`window.HZ_ATLAS_CONFIG = ${JSON.stringify({ amapJsKey: jsKey, amapProxyUrl: jsKey && securityCode ? `http://${host}:${port}/_AMapService` : '', userApiUrl: process.env.USER_API_URL || '' })};`);
       return;
     }
     if (url.pathname.startsWith('/_AMapService/')) {

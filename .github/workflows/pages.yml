@@ -26,6 +26,7 @@ jobs:
         env:
           AMAP_JS_KEY: ${{ vars.AMAP_JS_KEY }}
           AMAP_PROXY_URL: ${{ vars.AMAP_PROXY_URL }}
+          USER_API_URL: ${{ vars.USER_API_URL }}
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:

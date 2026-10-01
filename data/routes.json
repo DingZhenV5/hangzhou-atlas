@@ -56,6 +56,14 @@
       {
         "label": "杭州网｜清凉徒步路线（引述杭州市体育局）",
         "url": "https://travel.hangzhou.com.cn/lyzx/content/2024-07/08/content_8755702.html"
+      },
+      {
+        "label": "小红书路线候选参考（节点有重叠，非轨迹依据）｜快来｜杭州徒步九溪-十里琅珰赏秋🍂",
+        "url": "https://www.xiaohongshu.com/explore/6aa0c346000000002802c08a"
+      },
+      {
+        "label": "小红书路线候选参考（节点有重叠，非轨迹依据）｜🚶‍➡️杭州4条轻松景美路线｜新手徒步必看 · 可见路线 1",
+        "url": "https://www.xiaohongshu.com/explore/6a9544400000000004028ed6"
       }
     ],
     "checkedAt": "2026-09-29",
@@ -183,6 +191,10 @@
       {
         "label": "杭州网｜清凉徒步路线（引述杭州市体育局）",
         "url": "https://travel.hangzhou.com.cn/lyzx/content/2024-07/08/content_8755702.html"
+      },
+      {
+        "label": "小红书路线候选参考（节点有重叠，非轨迹依据）｜杭州神仙徒步路线🚶新手也能轻松拿捏✨ · 可见路线 2",
+        "url": "https://www.xiaohongshu.com/explore/69a1510d0000000028008d30"
       }
     ],
     "checkedAt": "2026-09-29",
@@ -2610,6 +2622,14 @@
       {
         "label": "知乎｜杭州周边徒步线路（用户提供摘录）",
         "url": "https://zhuanlan.zhihu.com/p/517247486"
+      },
+      {
+        "label": "小红书路线候选参考（节点有重叠，非轨迹依据）｜满觉陇—九溪徒步路线｜赏桂徒步路线",
+        "url": "https://www.xiaohongshu.com/explore/6ab4eeb0000000001b031482"
+      },
+      {
+        "label": "小红书路线候选参考（节点有重叠，非轨迹依据）｜杭州秋天赏桂最甜6km，桂花味的city walk🍂 · 可见路线 1",
+        "url": "https://www.xiaohongshu.com/explore/6ab4aa0b000000001a023917"
       }
     ],
     "checkedAt": "2026-09-29",
@@ -8646,6 +8666,74 @@
       "average": null,
       "count": 0,
       "checkedAt": "2026-09-30"
+    }
+  },
+  {
+    "order": 42,
+    "id": "hengdu-guide-loop",
+    "name": "横渡村—指南村天池环线",
+    "type": "徒步",
+    "region": "临安指南村",
+    "duration": "约 4–5 小时",
+    "distance": "约 6 公里（来源记载）",
+    "difficulty": "入门",
+    "season": "秋",
+    "summary": "从横渡村一带沿临川古道上行，经塘顶村到指南村天池与梯田，再返回横渡村。",
+    "reason": "短程环线串起古道、古村、古塘和梯田，秋季可看银杏与红叶；公开路线记录相互印证。",
+    "tip": "折线只表示公开节点间的概览关系，不是 GPS 轨迹或导航线；村级 POI 也不等于天池本体。出行前核对天气、古道开放和现场路况。",
+    "stops": [
+      "hengdu-village-anchor",
+      "linchuan-trail-guide",
+      "zhinan-tangding-anchor",
+      "zhinan-tianchi"
+    ],
+    "path": [
+      [
+        119.570955,
+        30.363837
+      ],
+      [
+        119.579281,
+        30.375968
+      ],
+      [
+        119.577339,
+        30.374084
+      ],
+      [
+        119.578034,
+        30.361372
+      ],
+      [
+        119.570955,
+        30.363837
+      ]
+    ],
+    "coordinateSystem": "GCJ-02",
+    "lineAccuracy": "overview_only",
+    "lineLabel": "按公开路线节点和高德代表 POI 绘制的概览线；非 GPS 轨迹、非导航轨迹",
+    "status": "里程/时长由公开来源记载；节点位置已核对，精确线形未核实。",
+    "sources": [
+      {
+        "label": "小红书路线候选（原始线路与里程线索，内容待核）",
+        "url": "https://www.xiaohongshu.com/explore/690489950000000004006e51"
+      },
+      {
+        "label": "游侠客｜秋染指南村徒步线路记录（独立路线交叉核对）",
+        "url": "https://bbs.youxiake.com/youji/mdd-2101.html"
+      },
+      {
+        "label": "临安太湖源镇官方网站｜指南村天池介绍",
+        "url": "https://thy.lanews.com.cn/content/2014-11/20/content_5672420.htm"
+      }
+    ],
+    "checkedAt": "2026-10-01",
+    "experience": "从横渡村代表点进入临川古道，经塘顶村区域向指南村上行，在天池与梯田一带停留后返回。",
+    "recommendIndex": 4,
+    "amapRatingSummary": {
+      "average": null,
+      "count": 0,
+      "checkedAt": "2026-10-01"
     }
   }
 ]

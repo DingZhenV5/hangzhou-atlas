@@ -35,7 +35,7 @@
 
 工作流只把 JS API Key 与代理 URL 写入静态站点；它不会读取或发布 `AMAP_SECURITY_JS_CODE`。不要将安全密钥添加到 GitHub Pages 变量，也不要把安全密钥注入 `runtime-config.js`。
 
-当前 Worker 只接受配置的 Pages 来源，并只代理地图样式与 JS API 日志路径。若以后更换 Pages 域名，需要同步更新 `worker/wrangler.toml` 的 `SITE_ORIGIN`，然后重新部署 Worker。
+当前 Worker 接受配置的 Pages 来源，代理地图样式与 JS API 日志路径，并提供个人状态认证与 marks API。若以后更换 Pages 域名，需要同步更新 `worker/wrangler.toml` 的 `SITE_ORIGIN`，然后重新部署 Worker。D1 创建与用户同步部署步骤见 [个人记录与云同步说明](USER-SYNC.md)。
 
 ## 本地预览
 

@@ -1,9 +1,20 @@
 const $ = (selector) => document.querySelector(selector);
 const html = (value) => String(value ?? '').replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' })[c]);
-const state = { places: [], routes: [], tab: 'routes', routeType: '全部', placeTag: '全部', district: '全部', query: '', selected: null, map: null, provider: '' };
+const UserState = window.HZAtlasUserState;
+const state = { places: [], routes: [], tab: 'routes', routeType: '全部', placeTags: new Set(), district: '全部', difficultyMin: 1, difficultyMax: 5, query: '', selected: null, map: null, provider: '', myMode: false, myFilter: 'visited' };
 const placeById = () => new Map(state.places.map((place) => [place.id, place]));
 const isMobile = () => matchMedia('(max-width: 700px)').matches;
 const mobileViewportHeight = () => window.visualViewport?.height || window.innerHeight;
+const difficultyLabels = ['', '轻松', '入门', '中等', '进阶', '较难'];
+function routeDifficultyLevel(route) {
+  const difficulty = String(route.difficulty || '').replace(/\s+/g, '');
+  if (/偏难|较难|挑战|困难|高强度/.test(difficulty)) return 5;
+  if (/进阶/.test(difficulty)) return 4;
+  if (/中等/.test(difficulty)) return 3;
+  if (/入门|上坡/.test(difficulty)) return 2;
+  if (/轻松|步行|参观|休闲/.test(difficulty)) return 1;
+  return 3;
+}
 function setMobileSheetHeight(height) {
   if (!isMobile()) return;
   const viewport = mobileViewportHeight();
@@ -30,15 +41,32 @@ const markerGroup = (place) => {
   if (place.tags?.some((tag) => ['古迹', '历史街区', '遗址公园'].includes(tag))) return 'heritage';
   return 'nature';
 };
-const selectedPlaces = () => state.places.filter((place) => (state.placeTag === '全部' || place.tags?.includes(state.placeTag)) && (state.district === '全部' || place.district === state.district));
+const selectedPlaces = () => state.places.filter((place) => (!state.placeTags.size || [...state.placeTags].some((tag) => place.tags?.includes(tag))) && (state.district === '全部' || place.district === state.district));
 const selectedPlaceIds = () => new Set(selectedPlaces().map((place) => place.id));
 const selectedRoutes = () => {
+  if (state.tab === 'routes') {
+    const districtPlaceIds = state.district === '全部' ? null : new Set(state.places.filter((place) => place.district === state.district).map((place) => place.id));
+    return state.routes.filter((route) => (state.routeType === '全部' || route.type === state.routeType) && routeDifficultyLevel(route) >= state.difficultyMin && routeDifficultyLevel(route) <= state.difficultyMax && (!districtPlaceIds || route.stops.some((id) => districtPlaceIds.has(id))));
+  }
   const ids = selectedPlaceIds();
-  return state.routes.filter((route) => (state.routeType === '全部' || route.type === state.routeType) && route.stops.some((id) => ids.has(id)));
+  return state.routes.filter((route) => route.stops.some((id) => ids.has(id)));
 };
 function refreshMap() {
-  state.map?.setVisible(selectedPlaceIds(), new Set(selectedRoutes().map((route) => route.id)));
-  if (state.placeTag !== '全部' || state.district !== '全部') state.map?.focusPlaces(selectedPlaces());
+  if (state.myMode) {
+    const ids = new Set(UserState.getAllMarks().filter((mark) => mark[state.myFilter]).map((mark) => `${mark.entityType}:${mark.entityId}`));
+    const routes = state.routes.filter((route) => ids.has(`route:${route.id}`));
+    const places = state.places.filter((place) => ids.has(`place:${place.id}`));
+    state.map?.setVisible(new Set(places.map((place) => place.id)), new Set(routes.map((route) => route.id)));
+    if (places.length) state.map?.focusPlaces(places);
+    else if (routes.length) state.map?.focusPlaces(routes.flatMap((route) => route.stops.map((id) => placeById().get(id))).filter(Boolean));
+    else state.map?.reset();
+    return;
+  }
+  const routes = selectedRoutes();
+  const routeStopIds = new Set(routes.flatMap((route) => route.stops));
+  const places = state.tab === 'routes' ? state.places.filter((place) => routeStopIds.has(place.id) && (state.district === '全部' || place.district === state.district)) : selectedPlaces();
+  state.map?.setVisible(new Set(places.map((place) => place.id)), new Set(routes.map((route) => route.id)));
+  if (state.district !== '全部' || (state.tab === 'places' && state.placeTags.size)) state.map?.focusPlaces(places);
   else state.map?.reset();
 }
 
@@ -53,28 +81,71 @@ function setTab(tab) {
   $('#tab-routes').setAttribute('aria-selected', tab === 'routes');
   $('#tab-places').setAttribute('aria-selected', tab === 'places');
   $('#list-title').textContent = tab === 'routes' ? '精选路线' : '沿途地点';
-  $('#taxonomy-hint').textContent = '主题与区域同时筛选地点，并保留包含这些地点的路线。';
   renderFilters();
   renderList();
 }
 
 function renderFilters() {
   const featuredTags = ['博物馆', '商场', '游玩', '自然风景', '历史街区', '古迹', '文创空间', '遗址公园'];
-  const filters = ['全部', ...featuredTags.filter((tag) => state.places.some((place) => place.tags?.includes(tag)))];
-  $('#filters').innerHTML = filters.map((filter) => `<button class="filter ${filter === state.placeTag ? 'active' : ''}" type="button" data-filter="${html(filter)}">${html(filter)}</button>`).join('');
-  $('#route-types').innerHTML = ['全部', '徒步', '逛玩'].map((type) => `<button class="filter ${type === state.routeType ? 'active' : ''}" type="button" data-route-type="${html(type)}">${html(type === '全部' ? '全部路线' : type)}</button>`).join('');
+  const filters = featuredTags.filter((tag) => state.places.some((place) => place.tags?.includes(tag)));
+  $('#filters').innerHTML = `<button class="filter ${state.placeTags.size ? '' : 'active'}" type="button" data-filter="全部" aria-pressed="${!state.placeTags.size}">全部</button>${filters.map((filter) => `<button class="filter ${state.placeTags.has(filter) ? 'active' : ''}" type="button" data-filter="${html(filter)}" aria-pressed="${state.placeTags.has(filter)}">${html(filter)}</button>`).join('')}`;
+  $('#route-types').innerHTML = ['全部', '徒步', '逛玩'].map((type) => `<button class="filter ${type === state.routeType ? 'active' : ''}" type="button" data-route-type="${html(type)}" aria-pressed="${type === state.routeType}">${html(type === '全部' ? '全部路线' : type)}</button>`).join('');
+  $('#filters').hidden = state.tab !== 'places';
+  $('#route-types').hidden = state.tab !== 'routes';
+  $('#route-difficulty').hidden = state.tab !== 'routes';
+  updateDifficultyFilter();
   const districts = [...new Set(state.places.map((place) => place.district).filter(Boolean))].sort((a, b) => a.localeCompare(b, 'zh-CN'));
   $('#district-filter').innerHTML = `<option value="全部">全部区域</option>${districts.map((district) => `<option value="${html(district)}" ${district === state.district ? 'selected' : ''}>${html(district)}</option>`).join('')}`;
+}
+
+function updateDifficultyFilter() {
+  const low = $('#difficulty-min'), high = $('#difficulty-max');
+  low.value = state.difficultyMin;
+  high.value = state.difficultyMax;
+  low.setAttribute('aria-valuetext', difficultyLabels[state.difficultyMin]);
+  high.setAttribute('aria-valuetext', difficultyLabels[state.difficultyMax]);
+  $('#difficulty-value').textContent = state.difficultyMin === state.difficultyMax ? difficultyLabels[state.difficultyMin] : `${difficultyLabels[state.difficultyMin]} — ${difficultyLabels[state.difficultyMax]}`;
+  $('#difficulty-sliders').style.setProperty('--range-start', `${(state.difficultyMin - 1) * 25}%`);
+  $('#difficulty-sliders').style.setProperty('--range-end', `${(state.difficultyMax - 1) * 25}%`);
+  low.style.zIndex = state.difficultyMin === state.difficultyMax ? '3' : '2';
+  high.style.zIndex = state.difficultyMin === state.difficultyMax ? '2' : '3';
+}
+
+function placeDetailInMobileSheet() {
+  const detail = $('#detail');
+  const sidebar = $('.sidebar');
+  const alreadyInSheet = detail.parentElement === sidebar;
+  if (!alreadyInSheet) sidebar.insertBefore(detail, $('.sidebar-footer'));
+  sidebar.classList.add('detail-open');
+  if (!alreadyInSheet) setMobileSheetHeight(mobileViewportHeight() * 0.72);
+}
+
+function restoreDetailToShell() {
+  const detail = $('#detail');
+  const shell = $('.app-shell');
+  if (detail.parentElement !== shell) shell.append(detail);
+  $('.sidebar').classList.remove('detail-open');
 }
 
 function matchQuery(item, query) {
   if (!query) return true;
   const stops = item.stops?.map((id) => placeById().get(id)?.name).join(' ') || '';
-  return [item.name, item.region, item.district, item.type, item.category, ...(item.tags || []), item.summary, item.experience, item.see, item.description, stops].filter(Boolean).join(' ').toLocaleLowerCase().includes(query);
+  return [item.name, item.region, item.district, item.type, item.category, item.difficulty, ...(item.tags || []), item.summary, item.experience, item.see, item.description, stops].filter(Boolean).join(' ').toLocaleLowerCase().includes(query);
 }
 
 function renderList() {
   const query = state.query.trim().toLocaleLowerCase();
+  if (state.myMode) {
+    const filter = state.myFilter;
+    const items = [
+      ...state.routes.map((item) => ({ kind: 'route', item })),
+      ...state.places.map((item) => ({ kind: 'place', item }))
+    ].filter(({ kind, item }) => UserState.getMark(kind, item.id)[filter] && matchQuery(item, query));
+    $('#list-title').textContent = ({ visited: '去过的路线与地点', wantToGo: '想去的路线与地点', favorite: '收藏的路线与地点' })[filter];
+    $('#result-count').textContent = `${items.length} 条记录`;
+    $('#item-list').innerHTML = items.length ? items.map(({ kind, item }) => myItemRow(kind, item)).join('') : '<div class="empty-state">这里还没有记录。浏览路线和地点时，可以点按“收藏”“想去”或“去过”。</div>';
+    return;
+  }
   const items = state.tab === 'routes' ? selectedRoutes() : selectedPlaces();
   const filtered = items.filter((item) => matchQuery(item, query));
   $('#result-count').textContent = `${filtered.length} 个结果`;
@@ -84,12 +155,64 @@ function renderList() {
 function routeCard(route) {
   const selected = state.selected?.kind === 'route' && state.selected.id === route.id;
   const typeClass = route.type === '徒步' ? 'hike' : 'walk';
-  return `<button class="item-card ${selected ? 'selected' : ''}" type="button" data-kind="route" data-id="${html(route.id)}"><div class="card-kicker"><span class="pill ${typeClass}">${html(route.type)}</span><span>NO. ${String(route.order).padStart(2, '0')} · ${html(route.region)}</span></div><div class="card-title">${html(route.name)}</div><p class="card-summary">${html(route.summary)}</p><div class="card-meta"><span>${html(route.duration)}</span><span>${html(route.distance)}</span><span>难度 ${html(route.difficulty)}</span><span class="editor-score">推荐 ${html(route.recommendIndex)}/5</span></div></button>`;
+  return `<div class="item-row"><button class="item-card ${selected ? 'selected' : ''}" type="button" data-kind="route" data-id="${html(route.id)}"><div class="card-kicker"><span class="pill ${typeClass}">${html(route.type)}</span><span>NO. ${String(route.order).padStart(2, '0')} · ${html(route.region)}</span></div><div class="card-title">${html(route.name)}</div><p class="card-summary">${html(route.summary)}</p><div class="card-meta"><span>${html(route.duration)}</span><span>${html(route.distance)}</span><span>难度 ${html(route.difficulty)}</span><span class="editor-score">推荐 ${html(route.recommendIndex)}/5</span></div></button>${renderMarkActions('route', route.id)}</div>`;
 }
 
 function placeCard(place) {
   const selected = state.selected?.kind === 'place' && state.selected.id === place.id;
-  return `<button class="item-card ${selected ? 'selected' : ''}" type="button" data-kind="place" data-id="${html(place.id)}"><div class="card-kicker"><span class="pill place-${markerGroup(place)}">${html(place.category)}</span><span>${html(place.district)} · 高德 ${place.amapRating ? html(place.amapRating.score) + '/5' : '暂无评分'}</span></div><div class="card-title">${html(place.name)}</div><p class="card-summary">${html(place.description || place.see)}</p><div class="card-meta"><span>停留 ${html(place.stay)} 分钟</span><span class="editor-score">推荐 ${html(place.recommendIndex)}/5</span></div></button>`;
+  return `<div class="item-row"><button class="item-card ${selected ? 'selected' : ''}" type="button" data-kind="place" data-id="${html(place.id)}"><div class="card-kicker"><span class="pill place-${markerGroup(place)}">${html(place.category)}</span><span>${html(place.district)} · 高德 ${place.amapRating ? html(place.amapRating.score) + '/5' : '暂无评分'}</span></div><div class="card-title">${html(place.name)}</div><p class="card-summary">${html(place.description || place.see)}</p><div class="card-meta"><span>停留 ${html(place.stay)} 分钟</span><span class="editor-score">推荐 ${html(place.recommendIndex)}/5</span></div></button>${renderMarkActions('place', place.id)}</div>`;
+}
+
+function renderMarkActions(kind, id, detail = false) {
+  const mark = UserState.getMark(kind, id);
+  const controls = [
+    ['favorite', '♡ 收藏', '♥ 已收藏'],
+    ['wantToGo', '＋ 想去', '✓ 想去'],
+    ['visited', '○ 去过', '✓ 去过']
+  ];
+  return `<div class="${detail ? 'detail-mark-actions' : 'mark-actions'}" aria-label="个人状态">${controls.map(([key, off, on]) => `<button type="button" class="mark-action" data-mark-action="${key}" data-mark-type="${kind}" data-mark-id="${html(id)}" aria-pressed="${mark[key]}">${mark[key] ? on : off}</button>`).join('')}</div>`;
+}
+
+function myItemRow(kind, item) {
+  const card = kind === 'route' ? routeCard(item) : placeCard(item);
+  const label = kind === 'route' ? '路线' : '地点';
+  return `<div class="my-item"><div class="my-item-label"><span>${label}</span><b>${html(item.region || item.district || '')}</b></div>${card}</div>`;
+}
+
+function renderMyToolbar() {
+  $('#my-toolbar').hidden = !state.myMode;
+  const counts = UserState.getCounts();
+  $('#my-hangzhou-count').textContent = counts.visited + counts.wantToGo + counts.favorite;
+  $('#my-visited-count').textContent = counts.visited;
+  $('#my-want-count').textContent = counts.wantToGo;
+  $('#my-favorite-count').textContent = counts.favorite;
+  $('#my-toolbar').querySelectorAll('[data-my-filter]').forEach((button) => {
+    button.classList.toggle('active', button.dataset.myFilter === state.myFilter);
+  });
+  const session = UserState.getSession();
+  const syncStatus = UserState.getSyncStatus();
+  const descriptions = {
+    local: '记录目前保存在此设备', checking: '正在检查同步状态…', syncing: '正在同步记录…',
+    synced: `已同步 · ${session?.user?.username || '同步账号'}`, pending: '有记录等待同步', error: '本机已保存，云同步稍后重试'
+  };
+  $('#sync-state').textContent = descriptions[syncStatus] || descriptions.local;
+  $('#sync-login').hidden = Boolean(session);
+  $('#sync-register').hidden = Boolean(session);
+  $('#sync-logout').hidden = !session;
+}
+
+function toggleMyMode() {
+  if (!state.myMode && state.selected) closeDetail();
+  if (!state.myMode) {
+    const counts = UserState.getCounts();
+    if (!counts[state.myFilter]) state.myFilter = counts.visited ? 'visited' : counts.wantToGo ? 'wantToGo' : counts.favorite ? 'favorite' : 'visited';
+  }
+  state.myMode = !state.myMode;
+  $('.sidebar').classList.toggle('my-mode', state.myMode);
+  $('#my-hangzhou-button').firstChild.textContent = state.myMode ? '返回地图 ' : '我的杭州 ';
+  renderMyToolbar();
+  renderList();
+  refreshMap();
 }
 
 function renderRouteDetail(route) {
@@ -101,7 +224,7 @@ function renderRouteDetail(route) {
   const ratingText = route.amapRatingSummary?.count > 0 ? `${html(route.amapRatingSummary.average)}/5 · ${route.amapRatingSummary.count} 个地点` : '暂无可用评分';
   $('#detail-content').innerHTML = `<div class="detail-inner">
     <div class="detail-overline">${html(route.type)} · ${html(route.region)} · NO. ${String(route.order).padStart(2, '0')}</div>
-    <h2>${html(route.name)}</h2><p class="detail-description">${html(route.summary)}</p>
+    <h2>${html(route.name)}</h2><p class="detail-description">${html(route.summary)}</p>${renderMarkActions('route', route.id, true)}
     <div class="detail-facts">
       <div><small>建议用时</small><b>${html(route.duration)}</b></div>
       <div><small>${html(route.distanceLabel || '资料参考里程')}</small><b>${html(route.distance)}</b></div>
@@ -126,7 +249,7 @@ function renderPlaceDetail(place) {
   const routeLinks = routes.length ? routes.map((route) => `<button type="button" data-route-link="${html(route.id)}">${html(route.name)} ↗</button>`).join('') : '暂无关联路线';
   const ratingText = place.amapRating ? `${html(place.amapRating.score)}/5` : '暂无评分';
   $('#detail-content').innerHTML = `<div class="detail-inner">
-    <div class="detail-overline">地点 · ${html(place.district)} · ${html(place.category)}</div><h2>${html(place.name)}</h2>
+    <div class="detail-overline">地点 · ${html(place.district)} · ${html(place.category)}</div><h2>${html(place.name)}</h2>${renderMarkActions('place', place.id, true)}
     <div class="tag-row">${(place.tags || [place.category]).map((tag) => `<span class="detail-tag">${html(tag)}</span>`).join('')}</div>
     <p class="detail-description">${html(place.description || place.see)}</p>
     <div class="detail-facts">
@@ -150,16 +273,18 @@ function select(kind, id, options = {}) {
   state.selected = { kind, id };
   if (kind === 'route') renderRouteDetail(item); else renderPlaceDetail(item);
   $('#detail').hidden = false;
+  if (isMobile()) placeDetailInMobileSheet();
+  else restoreDetailToShell();
   $('#map-context').textContent = item.name;
   renderList();
   state.map?.select(kind, item);
-  if (isMobile()) setMobileSheetHeight(mobileViewportHeight() * 0.25);
   if (options.updateHash !== false) history.replaceState(null, '', `#${kind}/${encodeURIComponent(id)}`);
 }
 
 function closeDetail() {
   state.selected = null;
   $('#detail').hidden = true;
+  restoreDetailToShell();
   $('#map-context').textContent = '杭州 · 探索地图';
   state.map?.clearSelection();
   renderList();
@@ -170,18 +295,114 @@ function setupEvents() {
   $('#tab-routes').addEventListener('click', () => setTab('routes'));
   $('#tab-places').addEventListener('click', () => setTab('places'));
   $('#search').addEventListener('input', (event) => { state.query = event.target.value; renderList(); });
-  $('#filters').addEventListener('click', (event) => { const button = event.target.closest('[data-filter]'); if (!button) return; if (state.selected) closeDetail(); state.placeTag = button.dataset.filter; renderFilters(); renderList(); refreshMap(); });
+  $('#filters').addEventListener('click', (event) => {
+    const button = event.target.closest('[data-filter]');
+    if (!button) return;
+    if (state.selected) closeDetail();
+    const tag = button.dataset.filter;
+    if (tag === '全部') state.placeTags.clear();
+    else if (state.placeTags.has(tag)) state.placeTags.delete(tag);
+    else state.placeTags.add(tag);
+    renderFilters(); renderList(); refreshMap();
+  });
   $('#route-types').addEventListener('click', (event) => { const button = event.target.closest('[data-route-type]'); if (!button) return; if (state.selected) closeDetail(); state.routeType = button.dataset.routeType; renderFilters(); renderList(); refreshMap(); });
+  const onDifficultyInput = (event) => {
+    const value = Number(event.target.value);
+    if (event.target.id === 'difficulty-min') state.difficultyMin = Math.min(value, state.difficultyMax);
+    else state.difficultyMax = Math.max(value, state.difficultyMin);
+    if (state.selected) closeDetail();
+    updateDifficultyFilter(); renderList(); refreshMap();
+  };
+  $('#difficulty-min').addEventListener('input', onDifficultyInput);
+  $('#difficulty-max').addEventListener('input', onDifficultyInput);
   $('#district-filter').addEventListener('change', (event) => { if (state.selected) closeDetail(); state.district = event.target.value; renderList(); refreshMap(); });
-  $('#item-list').addEventListener('click', (event) => { const button = event.target.closest('[data-kind]'); if (button) select(button.dataset.kind, button.dataset.id); });
+  $('#item-list').addEventListener('click', (event) => {
+    const mark = event.target.closest('[data-mark-action]');
+    if (mark) { updateMarkFromControl(mark); return; }
+    const button = event.target.closest('[data-kind]');
+    if (button) select(button.dataset.kind, button.dataset.id);
+  });
   $('.sidebar').addEventListener('wheel', (event) => {
     if (isMobile()) return;
     if (event.deltaY > 0) $('.sidebar').classList.add('compact');
     if (event.deltaY < 0 && $('#item-list').scrollTop === 0) $('.sidebar').classList.remove('compact');
   }, { passive: true });
-  $('#detail').addEventListener('click', (event) => { const stop = event.target.closest('[data-stop]'); const route = event.target.closest('[data-route-link]'); if (stop) select('place', stop.dataset.stop); if (route) select('route', route.dataset.routeLink); });
+  $('#detail').addEventListener('click', (event) => {
+    const mark = event.target.closest('[data-mark-action]');
+    const stop = event.target.closest('[data-stop]');
+    const route = event.target.closest('[data-route-link]');
+    if (mark) { updateMarkFromControl(mark); return; }
+    if (stop) select('place', stop.dataset.stop);
+    if (route) select('route', route.dataset.routeLink);
+  });
   $('#close-detail').addEventListener('click', closeDetail);
+  const syncDetailPlacement = () => {
+    if (!state.selected) { restoreDetailToShell(); return; }
+    if (isMobile()) placeDetailInMobileSheet();
+    else restoreDetailToShell();
+  };
+  window.addEventListener('resize', syncDetailPlacement);
+  window.visualViewport?.addEventListener('resize', syncDetailPlacement);
   $('#reset-map').addEventListener('click', () => { closeDetail(); state.map?.reset(); });
+  $('#my-hangzhou-button').addEventListener('click', (event) => { event.stopPropagation(); toggleMyMode(); });
+  $('#my-toolbar').addEventListener('click', (event) => {
+    const filter = event.target.closest('[data-my-filter]');
+    if (filter) { state.myFilter = filter.dataset.myFilter; renderMyToolbar(); renderList(); refreshMap(); }
+  });
+  $('#sync-login').addEventListener('click', () => openSyncDialog(false));
+  $('#sync-register').addEventListener('click', () => openSyncDialog(true));
+  $('#sync-logout').addEventListener('click', async () => {
+    await UserState.logout();
+    renderMyToolbar(); renderList();
+    showToast('已退出同步；本机记录仍保留。');
+  });
+  $('#sync-dialog-close').addEventListener('click', () => $('#sync-dialog').close());
+  $('#auth-mode-toggle').addEventListener('click', () => setAuthMode(!authMode.create));
+  $('#sync-form').addEventListener('submit', async (event) => {
+    event.preventDefault();
+    const username = $('#sync-username').value;
+    const password = $('#sync-password').value;
+    const message = $('#auth-message');
+    message.textContent = '';
+    if (!UserState.isConfigured()) { message.textContent = '云同步 Worker 尚未配置，请先完成部署设置。'; return; }
+    if (authMode.create && password !== $('#sync-password-confirm').value) { message.textContent = '两次输入的密码不一致。'; return; }
+    const submit = $('#auth-submit');
+    submit.disabled = true;
+    submit.textContent = authMode.create ? '正在创建…' : '正在登录…';
+    const mergeForeign = async () => {
+      const ownerId = UserState.getOwnerUserId();
+      const currentId = UserState.getSession()?.user?.id;
+      if (!ownerId || ownerId === currentId) return true;
+      return window.confirm('此设备保留着另一个同步账号的本地记录。选择“确定”会将这些记录合并到当前账号；选择“取消”只加载当前账号的云端记录。');
+    };
+    try {
+      if (authMode.create) await UserState.register(username, password, mergeForeign);
+      else await UserState.login(username, password, mergeForeign);
+      $('#sync-dialog').close();
+      renderMyToolbar(); renderList(); refreshMap();
+      showToast(UserState.getSyncStatus() === 'error' ? '已登录，本机记录保留；云同步稍后重试。' : '同步账号已连接。');
+    } catch (error) { message.textContent = error.message || '操作失败，请稍后重试。'; }
+    finally { submit.disabled = false; submit.textContent = authMode.create ? '创建并同步' : '登录并同步'; }
+  });
+  $('#export-marks').addEventListener('click', () => {
+    const blob = new Blob([UserState.exportData()], { type: 'application/json' });
+    const url = URL.createObjectURL(blob);
+    const link = document.createElement('a');
+    link.href = url; link.download = `hangzhou-atlas-marks-${new Date().toISOString().slice(0, 10)}.json`;
+    link.click(); URL.revokeObjectURL(url);
+    showToast('记录备份已导出。');
+  });
+  $('#import-marks').addEventListener('change', async (event) => {
+    const file = event.target.files?.[0];
+    if (!file) return;
+    try {
+      const text = await file.text();
+      await UserState.importData(JSON.parse(text));
+      renderMyToolbar(); renderList(); refreshMap();
+      showToast('备份记录已合并。');
+    } catch (error) { showToast(error.message || '无法导入这份备份。'); }
+    event.target.value = '';
+  });
   if (isMobile()) setMobileSheetHeight(mobileViewportHeight() * 0.3);
   $('#mobile-list-toggle').addEventListener('click', () => setMobileSheetHeight(mobileViewportHeight() * 0.72));
   const sheetHandle = $('#mobile-sheet-handle');
@@ -212,6 +433,57 @@ function setupEvents() {
   sheetHandle.addEventListener('click', () => { if (ignoreSheetClick) return; toggleMobileSheet(); });
   $('.brand').addEventListener('click', () => { if (isMobile()) toggleMobileSheet(); });
   document.addEventListener('keydown', (event) => { if (event.key === '/' && document.activeElement?.tagName !== 'INPUT') { event.preventDefault(); $('#search').focus(); if (isMobile()) setMobileSheetHeight(mobileViewportHeight() * 0.72); } if (event.key === 'Escape' && state.selected) closeDetail(); });
+}
+
+const authMode = { create: false };
+function setAuthMode(create) {
+  authMode.create = create;
+  $('#sync-dialog-title').textContent = create ? '创建同步账号' : '同步我的记录';
+  $('#auth-submit').textContent = create ? '创建并同步' : '登录并同步';
+  $('#auth-mode-toggle').textContent = create ? '已有同步账号？返回登录' : '没有同步账号？创建一个';
+  $('#confirm-password-wrap').hidden = !create;
+  $('#sync-password-note').hidden = !create;
+  $('#sync-password').autocomplete = create ? 'new-password' : 'current-password';
+  $('#sync-password-confirm').required = create;
+  $('#auth-message').textContent = '';
+}
+
+function openSyncDialog(create = false) {
+  setAuthMode(create);
+  $('#sync-username').value = '';
+  $('#sync-password').value = '';
+  $('#sync-password-confirm').value = '';
+  $('#auth-submit').disabled = !UserState.isConfigured();
+  if (!UserState.isConfigured()) $('#auth-message').textContent = '尚未配置云同步 Worker 地址。可先使用本机记录；部署步骤见项目 docs/USER-SYNC.md。';
+  $('#sync-dialog').showModal();
+}
+
+function updateMarkFromControl(button) {
+  const status = button.dataset.markAction;
+  const enabled = button.getAttribute('aria-pressed') !== 'true';
+  if (state.myMode && enabled) state.myFilter = status;
+  UserState.setStatus(button.dataset.markType, button.dataset.markId, status, enabled);
+}
+
+let toastTimer;
+function showToast(message) {
+  const toast = $('#app-toast');
+  toast.textContent = message;
+  toast.hidden = false;
+  clearTimeout(toastTimer);
+  toastTimer = setTimeout(() => { toast.hidden = true; }, 2800);
+}
+
+function refreshPersonalUI() {
+  renderMyToolbar();
+  renderList();
+  document.querySelectorAll('[data-mark-action]').forEach((button) => {
+    const active = UserState.getMark(button.dataset.markType, button.dataset.markId)[button.dataset.markAction];
+    button.setAttribute('aria-pressed', String(active));
+    const labels = { favorite: active ? '♥ 已收藏' : '♡ 收藏', wantToGo: active ? '✓ 想去' : '＋ 想去', visited: active ? '✓ 去过' : '○ 去过' };
+    button.textContent = labels[button.dataset.markAction];
+  });
+  if (state.myMode) refreshMap();
 }
 
 function markerHtml(label, place, active = false) { return `<div class="map-marker-inner marker-${markerGroup(place)} ${active ? 'active' : ''}">${html(label)}</div>`; }
@@ -339,6 +611,10 @@ async function initMap() {
 
 async function main() {
   setupEvents();
+  UserState.subscribe(refreshPersonalUI);
+  renderMyToolbar();
+  window.addEventListener('online', () => { if (UserState.getSession()) void UserState.sync(); });
+  window.addEventListener('atlas-sync-error', () => showToast('已保存在本机，云同步稍后重试。'));
   try {
     const [placesResponse, routesResponse] = await Promise.all([fetch('./data/places.json'), fetch('./data/routes.json')]);
     if (!placesResponse.ok || !routesResponse.ok) throw new Error('data unavailable');
@@ -354,6 +630,7 @@ async function main() {
     refreshMap();
     const match = location.hash.match(/^#(route|place)\/(.+)$/);
     if (match) select(match[1], decodeURIComponent(match[2]), { updateHash: false });
+    void UserState.initialize();
     window.addEventListener('resize', () => state.map?.resize());
     window.visualViewport?.addEventListener('resize', () => { setMobileSheetHeight($('.sidebar').getBoundingClientRect().height); state.map?.resize(); });
     window.addEventListener('orientationchange', () => setTimeout(() => { setMobileSheetHeight(mobileViewportHeight() * 0.3); state.map?.resize(); }, 180));

@@ -5,3 +5,18 @@ workers_dev = true
 
 [vars]
 SITE_ORIGIN = "https://dingzhenv5.github.io"
+PASSWORD_ITERATIONS = "100000"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "hangzhou-atlas-user-state"
+database_id = "c9c1c4c6-7b4d-4465-8359-6ae68b9f7ba5"
+migrations_dir = "migrations"
+
+[[ratelimits]]
+name = "AUTH_LIMITER"
+namespace_id = "2026100101"
+
+  [ratelimits.simple]
+  limit = 10
+  period = 60
