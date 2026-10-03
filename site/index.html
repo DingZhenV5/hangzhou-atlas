@@ -105,12 +105,13 @@
       <label class="auth-label" for="sync-username">用户名</label>
       <input id="sync-username" name="username" class="auth-input" autocomplete="username" minlength="2" maxlength="24" required>
       <label class="auth-label" for="sync-password">密码</label>
-      <input id="sync-password" name="password" class="auth-input" type="password" autocomplete="current-password" minlength="8" maxlength="128" required>
+      <input id="sync-password" name="password" class="auth-input" type="password" autocomplete="current-password" minlength="6" maxlength="128" required>
+      <p class="auth-password-hint">密码至少 6 位，最多 128 位。</p>
       <div id="confirm-password-wrap" hidden>
         <label class="auth-label" for="sync-password-confirm">确认密码</label>
-        <input id="sync-password-confirm" class="auth-input" type="password" autocomplete="new-password" minlength="8" maxlength="128">
+        <input id="sync-password-confirm" class="auth-input" type="password" autocomplete="new-password" minlength="6" maxlength="128">
       </div>
-      <p id="sync-password-note" class="sync-small-note" hidden>不收集邮箱和手机号。密码遗失后暂无法找回，请自行妥善保存。</p>
+      <p id="sync-password-note" class="sync-small-note" hidden>密码至少 6 位，最多 128 位。不收集邮箱和手机号；密码遗失后暂无法找回，请自行妥善保存。</p>
       <p id="auth-message" class="auth-message" role="status" aria-live="polite"></p>
       <button id="auth-submit" class="auth-submit" type="submit">登录并同步</button>
       <button id="auth-mode-toggle" class="auth-mode-toggle" type="button">没有同步账号？创建一个</button>

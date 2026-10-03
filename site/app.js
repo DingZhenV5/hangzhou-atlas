@@ -106,6 +106,7 @@ function updateDifficultyFilter() {
   high.setAttribute('aria-valuetext', difficultyLabels[state.difficultyMax]);
   $('#difficulty-value').textContent = state.difficultyMin === state.difficultyMax ? difficultyLabels[state.difficultyMin] : `${difficultyLabels[state.difficultyMin]} — ${difficultyLabels[state.difficultyMax]}`;
   $('#difficulty-sliders').style.setProperty('--range-start', `${(state.difficultyMin - 1) * 25}%`);
+  document.getElementById('difficulty-sliders').classList.toggle('equal-range', state.difficultyMin === state.difficultyMax);
   $('#difficulty-sliders').style.setProperty('--range-end', `${(state.difficultyMax - 1) * 25}%`);
   low.style.zIndex = state.difficultyMin === state.difficultyMax ? '3' : '2';
   high.style.zIndex = state.difficultyMin === state.difficultyMax ? '2' : '3';

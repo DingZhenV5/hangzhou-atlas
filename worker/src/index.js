@@ -79,7 +79,7 @@ function normalizeUsername(raw) {
 }
 
 function validPassword(value) {
-  return typeof value === 'string' && [...value].length >= 8 && [...value].length <= 128;
+  return typeof value === 'string' && [...value].length >= 6 && [...value].length <= 128;
 }
 
 async function readJson(request) {
@@ -132,7 +132,7 @@ async function handleRegister(request, env, cors) {
   const body = await readJson(request);
   const normalized = normalizeUsername(body?.username);
   if (!normalized) return fail('用户名需为 2–24 位中文、英文、数字或下划线。', 400, cors);
-  if (!validPassword(body?.password)) return fail('密码长度需为 8–128 个字符。', 400, cors);
+  if (!validPassword(body?.password)) return fail('密码长度需为 6–128 个字符。', 400, cors);
 
   const salt = crypto.getRandomValues(new Uint8Array(16));
   const iterations = passwordIterations(env);
