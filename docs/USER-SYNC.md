@@ -74,20 +74,6 @@ npx.cmd wrangler d1 list
 
 ## 本地联调
 
-先在一个终端启动 Worker 本地运行时（migration 会在本地 D1 实例创建表）：
+双击项目根目录的 `打开杭州地图.cmd`，可同时启动地图预览、Worker API 和 Wrangler 本地 D1。需要手动启动时，在 `worker/` 中执行 `npx.cmd --yes wrangler d1 migrations apply hangzhou-atlas-user-state --local`，再执行 `npx.cmd --yes wrangler dev --ip 127.0.0.1 --port 8787 --var SITE_ORIGIN:http://127.0.0.1:4173`；另一个终端设定 `$env:USER_API_URL = 'http://127.0.0.1:8787'` 后运行 `node tools/preview.mjs`。
 
-```powershell
-cd worker
-npx.cmd wrangler d1 migrations apply hangzhou-atlas-user-state --local
-npx.cmd wrangler dev --var SITE_ORIGIN:http://127.0.0.1:4173
-```
-
-另开终端从项目根目录运行：
-
-```powershell
-node tools/build.mjs
-$env:USER_API_URL = 'http://127.0.0.1:8787'
-node tools/preview.mjs
-```
-
-打开 `http://127.0.0.1:4173/`。关闭本地终端后可用 `$env:USER_API_URL = ''` 清除该终端变量。注意本地预览与线上 GitHub Pages 是不同的 localStorage 来源。
+本地 D1 持久化在 `worker/.wrangler/state/v3/d1/`，与线上 Cloudflare D1 相互独立。地图页面仍是 `http://127.0.0.1:4173/`；本地 API 健康检查为 `http://127.0.0.1:8787/health`。浏览器本地存储也与 GitHub Pages 域名隔离。

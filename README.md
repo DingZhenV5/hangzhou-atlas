@@ -20,14 +20,9 @@ AmapAPI/js-security-code.txt
 AmapAPI/api.txt
 ```
 
-在项目根目录运行：
+双击项目根目录的 `打开杭州地图.cmd`，会构建并启动整套本地预览：地图页面 `http://127.0.0.1:4173/`、本地 Worker API `http://127.0.0.1:8787/`，以及 Wrangler 本地 D1 数据库。本机若没有 Wrangler 缓存，首次启动会通过 npm 下载；每次启动都会检查并应用本地迁移。
 
-```powershell
-node tools/build.mjs
-node tools/preview.mjs
-```
-
-然后打开 `http://127.0.0.1:4173/`。页面需要联网加载地图；没有高德凭据时会尝试使用 OpenStreetMap 备用底图。
+本地 D1 的持久文件位于 `worker/.wrangler/state/v3/d1/`（此目录已加入 `.gitignore`）。它是仅供这台电脑开发测试的独立数据库，不是线上 Cloudflare D1；不会自动上传。地图预览窗口保持打开即可使用地图，最小化 Worker 窗口负责本地 API 与数据库。高德凭据从 `AmapAPI/` 读取，不会写入构建文件。
 
 ## 项目结构
 

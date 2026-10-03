@@ -83,8 +83,8 @@
 .brand-logo{width:46px;height:46px;flex:none;display:block;object-fit:contain}
 @media(max-width:700px){.brand-logo{width:42px;height:42px}}
 
-.my-hangzhou-trigger{margin-left:auto;flex:none;border:1px solid #d7e1d4;border-radius:20px;padding:8px 11px;background:#edf3eb;color:#42664a;font-size:12px;font-weight:700;white-space:nowrap}
-.my-hangzhou-trigger span{display:inline-grid;min-width:19px;height:19px;place-items:center;margin-left:3px;border-radius:50%;background:#fff;color:#54765a;font-size:10px}
+.my-hangzhou-trigger{margin-left:0;flex:none;border:1px solid #d7e1d4;border-radius:20px;padding:8px 11px;background:#edf3eb;color:#42664a;font-size:12px;font-weight:700;white-space:nowrap}
+
 .my-hangzhou-trigger:hover,.sync-open:hover{background:#e1eddf}
 .my-toolbar{flex:none;padding:13px 23px 14px;border-bottom:1px solid #e8e8e0;background:#f7f6f1}
 .my-heading{display:flex;justify-content:space-between;align-items:center;gap:10px;margin-bottom:10px}
@@ -141,4 +141,38 @@
   .my-count b{font-size:14px}
   .sync-dialog form{padding:24px 21px 20px}
   .app-toast{bottom:calc(var(--mobile-sheet-height,30dvh) + 18px)}
+}
+
+/* Tablet and narrow-browser layout: keep the brand horizontal and make the list a draggable sheet. */
+.brand-copy{min-width:0;flex:0 1 auto;overflow:hidden}
+.brand-copy strong,.brand-copy small{display:block;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.brand-logo,.brand-edition,.my-hangzhou-trigger{flex:none}
+@media (min-width:701px) and (max-width:900px){
+  .app-shell{display:block;min-height:0;height:100vh;height:100dvh;overflow:hidden}
+  .map-area{position:fixed;inset:0}
+  .sidebar{position:fixed;top:auto;right:0;bottom:0;left:0;width:100%;height:var(--mobile-sheet-height,30dvh);min-height:25dvh;max-height:min(88dvh,calc(100dvh - env(safe-area-inset-top)));border:0;border-radius:19px 19px 0 0;box-shadow:0 -9px 32px #273e2a2b;overflow:hidden;padding-bottom:env(safe-area-inset-bottom);transition:height .12s ease;z-index:4}
+  .sidebar.resizing{transition:none}
+  .mobile-sheet-handle{height:30px;flex:none;width:100%;display:flex;align-items:center;justify-content:center;gap:9px;border:0;background:#f7f6f1;border-radius:19px 19px 0 0;color:#879486;touch-action:none;user-select:none}
+  .sheet-grip{width:37px;height:4px;border-radius:4px;background:#c7d0c4}
+  .mobile-sheet-handle small{font-size:11px;line-height:1}
+  .brand{height:60px;min-height:60px;padding:0 20px;gap:12px}
+  .brand-logo{width:40px;height:40px}
+  .brand-copy strong{font-size:16px}
+  .brand-copy small{font-size:11px}
+  .intro{display:none}
+  .browse-controls{min-height:0;flex:0 1 auto;max-height:42%;overflow-y:auto;overscroll-behavior:contain;padding:8px 18px 9px}
+  .list-head{flex:none;padding:9px 20px}
+  .item-list{flex:1 1 0;min-height:0;overflow-y:auto;overscroll-behavior:contain;padding:0 14px 12px}
+  .sidebar-footer{display:none}
+  .mobile-list-toggle{display:block;position:absolute;bottom:12px;left:50%;transform:translateX(-50%);z-index:5;border:0;background:#476f4f;color:#fff;border-radius:30px;padding:12px 20px;white-space:nowrap;box-shadow:0 4px 14px #234a2790;font-size:13px}
+  .sidebar:not(.sheet-collapsed)~.map-area .mobile-list-toggle{display:none}
+  .map-topbar{top:14px;left:13px;right:13px}
+  .map-bottom{bottom:calc(var(--mobile-sheet-height,30dvh) + 10px);left:13px;right:13px;align-items:flex-end;justify-content:flex-end}
+  .detail{position:fixed;top:auto;bottom:0;left:0;right:0;width:100%;max-width:none;max-height:88dvh;border-radius:19px 19px 0 0;z-index:6}
+  .sidebar .detail:not([hidden]){position:relative;width:auto;max-width:none;max-height:none;min-height:0;flex:1;overflow-y:auto;border:0;border-radius:0;background:transparent;box-shadow:none}
+  .sidebar.detail-open .browse-controls,.sidebar.detail-open .list-head,.sidebar.detail-open .item-list,.sidebar.detail-open .sidebar-footer{display:none!important}
+}
+@media (min-width:701px) and (max-width:1100px){
+  .brand{padding-left:16px;padding-right:16px;gap:9px}
+  .brand-copy strong,.brand-copy small{white-space:nowrap}
 }

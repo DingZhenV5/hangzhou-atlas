@@ -3,7 +3,7 @@ const html = (value) => String(value ?? '').replace(/[&<>"']/g, (c) => ({ '&': '
 const UserState = window.HZAtlasUserState;
 const state = { places: [], routes: [], tab: 'routes', routeType: '全部', placeTags: new Set(), district: '全部', difficultyMin: 1, difficultyMax: 5, query: '', selected: null, map: null, provider: '', myMode: false, myFilter: 'visited' };
 const placeById = () => new Map(state.places.map((place) => [place.id, place]));
-const isMobile = () => matchMedia('(max-width: 700px)').matches;
+const isSheetViewport = () => matchMedia('(max-width: 900px)').matches;
 const mobileViewportHeight = () => window.visualViewport?.height || window.innerHeight;
 const difficultyLabels = ['', '轻松', '入门', '中等', '进阶', '较难'];
 function routeDifficultyLevel(route) {
@@ -16,7 +16,7 @@ function routeDifficultyLevel(route) {
   return 3;
 }
 function setMobileSheetHeight(height) {
-  if (!isMobile()) return;
+  if (!isSheetViewport()) return;
   const viewport = mobileViewportHeight();
   const minimum = Math.round(viewport * 0.25);
   const maximum = Math.round(viewport * 0.88);
@@ -28,7 +28,7 @@ function setMobileSheetHeight(height) {
   $('#mobile-sheet-handle').setAttribute('aria-expanded', String(!collapsed));
 }
 function toggleMobileSheet() {
-  if (!isMobile()) return;
+  if (!isSheetViewport()) return;
   const current = $('.sidebar').getBoundingClientRect().height;
   const viewport = mobileViewportHeight();
   setMobileSheetHeight(current < viewport * 0.45 ? viewport * 0.68 : viewport * 0.25);
@@ -183,7 +183,6 @@ function myItemRow(kind, item) {
 function renderMyToolbar() {
   $('#my-toolbar').hidden = !state.myMode;
   const counts = UserState.getCounts();
-  $('#my-hangzhou-count').textContent = counts.visited + counts.wantToGo + counts.favorite;
   $('#my-visited-count').textContent = counts.visited;
   $('#my-want-count').textContent = counts.wantToGo;
   $('#my-favorite-count').textContent = counts.favorite;
@@ -274,7 +273,7 @@ function select(kind, id, options = {}) {
   state.selected = { kind, id };
   if (kind === 'route') renderRouteDetail(item); else renderPlaceDetail(item);
   $('#detail').hidden = false;
-  if (isMobile()) placeDetailInMobileSheet();
+  if (isSheetViewport()) placeDetailInMobileSheet();
   else restoreDetailToShell();
   $('#map-context').textContent = item.name;
   renderList();
@@ -324,7 +323,7 @@ function setupEvents() {
     if (button) select(button.dataset.kind, button.dataset.id);
   });
   $('.sidebar').addEventListener('wheel', (event) => {
-    if (isMobile()) return;
+    if (isSheetViewport()) return;
     if (event.deltaY > 0) $('.sidebar').classList.add('compact');
     if (event.deltaY < 0 && $('#item-list').scrollTop === 0) $('.sidebar').classList.remove('compact');
   }, { passive: true });
@@ -339,7 +338,7 @@ function setupEvents() {
   $('#close-detail').addEventListener('click', closeDetail);
   const syncDetailPlacement = () => {
     if (!state.selected) { restoreDetailToShell(); return; }
-    if (isMobile()) placeDetailInMobileSheet();
+    if (isSheetViewport()) placeDetailInMobileSheet();
     else restoreDetailToShell();
   };
   window.addEventListener('resize', syncDetailPlacement);
@@ -404,13 +403,13 @@ function setupEvents() {
     } catch (error) { showToast(error.message || '无法导入这份备份。'); }
     event.target.value = '';
   });
-  if (isMobile()) setMobileSheetHeight(mobileViewportHeight() * 0.3);
+  if (isSheetViewport()) setMobileSheetHeight(mobileViewportHeight() * 0.3);
   $('#mobile-list-toggle').addEventListener('click', () => setMobileSheetHeight(mobileViewportHeight() * 0.72));
   const sheetHandle = $('#mobile-sheet-handle');
   let sheetDrag = null;
   let ignoreSheetClick = false;
   sheetHandle.addEventListener('pointerdown', (event) => {
-    if (!isMobile()) return;
+    if (!isSheetViewport()) return;
     sheetDrag = { pointerId: event.pointerId, startY: event.clientY, startHeight: $('.sidebar').getBoundingClientRect().height, moved: false };
     $('.sidebar').classList.add('resizing');
     sheetHandle.setPointerCapture(event.pointerId);
@@ -432,8 +431,8 @@ function setupEvents() {
   sheetHandle.addEventListener('pointerup', endSheetDrag);
   sheetHandle.addEventListener('pointercancel', endSheetDrag);
   sheetHandle.addEventListener('click', () => { if (ignoreSheetClick) return; toggleMobileSheet(); });
-  $('.brand').addEventListener('click', () => { if (isMobile()) toggleMobileSheet(); });
-  document.addEventListener('keydown', (event) => { if (event.key === '/' && document.activeElement?.tagName !== 'INPUT') { event.preventDefault(); $('#search').focus(); if (isMobile()) setMobileSheetHeight(mobileViewportHeight() * 0.72); } if (event.key === 'Escape' && state.selected) closeDetail(); });
+  $('.brand').addEventListener('click', () => { if (isSheetViewport()) toggleMobileSheet(); });
+  document.addEventListener('keydown', (event) => { if (event.key === '/' && document.activeElement?.tagName !== 'INPUT') { event.preventDefault(); $('#search').focus(); if (isSheetViewport()) setMobileSheetHeight(mobileViewportHeight() * 0.72); } if (event.key === 'Escape' && state.selected) closeDetail(); });
 }
 
 const authMode = { create: false };
