@@ -322,6 +322,27 @@ function setupEvents() {
     const button = event.target.closest('[data-kind]');
     if (button) select(button.dataset.kind, button.dataset.id);
   });
+  const sidebar = document.querySelector('.sidebar');
+  const coarsePointer = matchMedia('(pointer: coarse)').matches;
+  let sidebarTouchStartY = null;
+  let ignoreBrandToggle = false;
+  if (coarsePointer && !isSheetViewport()) sidebar.classList.add('compact');
+  sidebar.addEventListener('pointerdown', (event) => {
+    if (event.pointerType !== 'touch' || isSheetViewport() || !event.target.closest('.brand, .intro')) return;
+    sidebarTouchStartY = event.clientY;
+  });
+  sidebar.addEventListener('pointerup', (event) => {
+    if (sidebarTouchStartY === null) return;
+    const deltaY = event.clientY - sidebarTouchStartY;
+    sidebarTouchStartY = null;
+    if (Math.abs(deltaY) < 36) return;
+    sidebar.classList.toggle('compact', deltaY < 0);
+    if (event.target.closest('.brand')) {
+      ignoreBrandToggle = true;
+      setTimeout(() => { ignoreBrandToggle = false; }, 0);
+    }
+  });
+  sidebar.addEventListener('pointercancel', () => { sidebarTouchStartY = null; });
   $('.sidebar').addEventListener('wheel', (event) => {
     if (isSheetViewport()) return;
     if (event.deltaY > 0) $('.sidebar').classList.add('compact');
@@ -431,7 +452,7 @@ function setupEvents() {
   sheetHandle.addEventListener('pointerup', endSheetDrag);
   sheetHandle.addEventListener('pointercancel', endSheetDrag);
   sheetHandle.addEventListener('click', () => { if (ignoreSheetClick) return; toggleMobileSheet(); });
-  $('.brand').addEventListener('click', () => { if (isSheetViewport()) toggleMobileSheet(); });
+  $('.brand').addEventListener('click', () => { if (ignoreBrandToggle) return; if (isSheetViewport()) toggleMobileSheet(); else if (coarsePointer) sidebar.classList.toggle('compact'); });
   document.addEventListener('keydown', (event) => { if (event.key === '/' && document.activeElement?.tagName !== 'INPUT') { event.preventDefault(); $('#search').focus(); if (isSheetViewport()) setMobileSheetHeight(mobileViewportHeight() * 0.72); } if (event.key === 'Escape' && state.selected) closeDetail(); });
 }
 
