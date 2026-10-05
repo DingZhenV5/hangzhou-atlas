@@ -19,7 +19,8 @@ function setMobileSheetHeight(height) {
   if (!isSheetViewport()) return;
   const viewport = mobileViewportHeight();
   const minimum = Math.round(viewport * 0.25);
-  const maximum = Math.round(viewport * 0.88);
+  const maximum = Math.round(viewport * 0.92);
+  document.documentElement.style.setProperty('--mobile-sheet-max-height', `${maximum}px`);
   const nextHeight = Math.max(minimum, Math.min(maximum, Math.round(height)));
   document.documentElement.style.setProperty('--mobile-sheet-height', `${nextHeight}px`);
   const collapsed = nextHeight <= minimum + 8;
@@ -215,11 +216,38 @@ function toggleMyMode() {
   refreshMap();
 }
 
+function amapDestinationUrl(place, mobile = /Android|iPhone|iPad|iPod/i.test(navigator.userAgent) || (navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1), webOnly = false) {
+  if (!Array.isArray(place.coord) || place.coord.length !== 2 || !place.coord.every(Number.isFinite)) return null;
+  const [lon, lat] = place.coord;
+  if (Math.abs(lon) > 180 || Math.abs(lat) > 90 || !['GCJ-02', 'WGS-84', 'WGS84'].includes(place.coordinateSystem)) return null;
+  const navigate = mobile && !webOnly && place.coordinateSystem === 'GCJ-02';
+  const url = new URL(navigate ? 'https://uri.amap.com/navigation' : 'https://uri.amap.com/marker');
+  if (navigate) {
+    url.searchParams.set('from', '');
+    url.searchParams.set('to', `${lon},${lat},${place.name}`);
+    url.searchParams.set('mode', 'walk');
+    url.searchParams.set('callnative', '1');
+  } else {
+    url.searchParams.set('position', `${lon},${lat}`);
+    url.searchParams.set('name', place.name);
+    url.searchParams.set('coordinate', place.coordinateSystem === 'GCJ-02' ? 'gaode' : 'wgs84');
+    url.searchParams.set('callnative', '0');
+  }
+  url.searchParams.set('src', 'hangzhou-atlas');
+  return url.href;
+}
+function destinationActions(place, compact = false) {
+  const url = amapDestinationUrl(place);
+  if (!url) return '<small class="destination-note">坐标系或位置待核对，暂不提供导航。</small>';
+  const representative = place.coordinatePrecision !== 'poi';
+  return `<div class="destination-actions ${compact ? 'compact-destination' : ''}"><a class="destination-link" href="${html(url)}" target="_blank" rel="noopener noreferrer" aria-label="导航到${html(place.name)}">导航到这里 ↗</a>${compact ? '' : `<a class="destination-fallback" href="${html(amapDestinationUrl(place, false, true))}" target="_blank" rel="noopener noreferrer">高德网页打开 ↗</a>`}</div>${representative ? '<small class="destination-note">目的地为沿线代表点，请先核对可到达的入口。</small>' : ''}${compact ? '' : '<p class="destination-note">手机尝试打开高德 App；电脑打开地点后可选择路线和起点。无法打开 App 时可用高德网页。</p>'}`;
+}
+
 function renderRouteDetail(route) {
   const places = placeById();
   const stops = route.stops.map((id, index) => {
     const place = places.get(id);
-    return place ? `<li><span class="stop-number">${index + 1}</span><button type="button" data-stop="${html(id)}">${html(place.name)}</button><small>${html(place.see)}</small></li>` : '';
+    return place ? `<li><span class="stop-number">${index + 1}</span><button type="button" data-stop="${html(id)}">${html(place.name)}</button><small>${html(place.see)}</small>${destinationActions(place, true)}</li>` : '';
   }).join('');
   const ratingText = route.amapRatingSummary?.count > 0 ? `${html(route.amapRatingSummary.average)}/5 · ${route.amapRatingSummary.count} 个地点` : '暂无可用评分';
   $('#detail-content').innerHTML = `<div class="detail-inner">
@@ -252,6 +280,7 @@ function renderPlaceDetail(place) {
     <div class="detail-overline">地点 · ${html(place.district)} · ${html(place.category)}</div><h2>${html(place.name)}</h2>${renderMarkActions('place', place.id, true)}
     <div class="tag-row">${(place.tags || [place.category]).map((tag) => `<span class="detail-tag">${html(tag)}</span>`).join('')}</div>
     <p class="detail-description">${html(place.description || place.see)}</p>
+    ${destinationActions(place)}
     <div class="detail-facts">
       <div><small>建议停留</small><b>${html(place.stay)} 分钟</b></div>
       <div><small>高德评分</small><b>${ratingText}</b></div>

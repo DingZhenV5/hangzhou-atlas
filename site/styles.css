@@ -176,3 +176,25 @@
   .brand{padding-left:16px;padding-right:16px;gap:9px}
   .brand-copy strong,.brand-copy small{white-space:nowrap}
 }
+/* One continuous touch scroll area prevents filters from squeezing the list away. */
+.sidebar-scroll{display:contents}
+@media(max-width:900px){
+  html,body{height:100%;overflow:hidden}
+  .app-shell{height:100dvh;min-height:0}
+  .sidebar{max-height:var(--mobile-sheet-max-height,92dvh)!important;min-height:0;padding-bottom:0}
+  .sidebar-scroll{display:block;flex:1 1 0;min-height:0;overflow-y:auto;overscroll-behavior-y:contain;touch-action:pan-y;-webkit-overflow-scrolling:touch;padding-bottom:calc(24px + env(safe-area-inset-bottom))}
+  .sidebar-scroll .browse-controls{max-height:none;overflow:visible}
+  .sidebar-scroll .item-list{height:auto;overflow:visible;padding-bottom:12px}
+  .sidebar.detail-open .sidebar-scroll,.sidebar.detail-open .my-toolbar{display:none!important}
+  .sidebar .detail:not([hidden]){flex:1 1 0;overscroll-behavior-y:contain;touch-action:pan-y;-webkit-overflow-scrolling:touch}
+  .sidebar .detail-inner{padding-bottom:calc(32px + env(safe-area-inset-bottom))}
+}
+
+.destination-actions{display:flex;gap:10px;align-items:center;flex-wrap:wrap;margin:12px 0 8px}
+.destination-link{display:inline-flex;align-items:center;justify-content:center;min-height:44px;padding:10px 16px;border-radius:9px;background:#456f4e;color:#fff;text-decoration:none;font-size:14px;font-weight:700}
+.destination-link:hover{background:#355c3d}
+.destination-fallback{font-size:12px;color:#55775b;text-underline-offset:3px}
+.destination-note{display:block;font-size:12px;line-height:1.6;color:#819082;margin:0 0 16px}
+.compact-destination{margin:8px 0 0}
+.compact-destination .destination-link{font-size:12px;padding:8px 12px}
+.stop-list .destination-note{font-size:11px;margin:5px 0 0}
