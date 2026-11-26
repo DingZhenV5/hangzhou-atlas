@@ -1,8 +1,9 @@
 const $ = (selector) => document.querySelector(selector);
 const html = (value) => String(value ?? '').replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' })[c]);
 const UserState = window.HZAtlasUserState;
-const state = { places: [], routes: [], tab: 'routes', routeType: '全部', placeTags: new Set(), district: '全部', difficultyMin: 1, difficultyMax: 5, query: '', selected: null, map: null, provider: '', myMode: false, myFilter: 'visited' };
-const placeById = () => new Map(state.places.map((place) => [place.id, place]));
+const state = { places: [], food: [], foodFilter: '全部', foodList: '全部', view: 'play', routes: [], tab: 'routes', routeType: '全部', placeTags: new Set(), district: '全部', difficultyMin: 1, difficultyMax: 5, query: '', selected: null, map: null, provider: '', myMode: false, myFilter: 'visited' };
+const allPlaces = () => [...state.places, ...state.food];
+const placeById = () => new Map(allPlaces().map((place) => [place.id, place]));
 const isSheetViewport = () => matchMedia('(max-width: 900px)').matches;
 const mobileViewportHeight = () => window.visualViewport?.height || window.innerHeight;
 const difficultyLabels = ['', '轻松', '入门', '中等', '进阶', '较难'];
@@ -36,6 +37,7 @@ function toggleMobileSheet() {
 }
 const routeColor = (route) => route.type === '徒步' ? '#478562' : '#d48b52';
 const markerGroup = (place) => {
+  if (place.isFood) return 'food';
   if (place.tags?.includes('博物馆') || place.tags?.includes('科技馆')) return 'museum';
   if (place.tags?.includes('商场') || place.tags?.includes('商业街')) return 'shopping';
   if (place.tags?.includes('游玩')) return 'fun';
@@ -56,11 +58,17 @@ function refreshMap() {
   if (state.myMode) {
     const ids = new Set(UserState.getAllMarks().filter((mark) => mark[state.myFilter]).map((mark) => `${mark.entityType}:${mark.entityId}`));
     const routes = state.routes.filter((route) => ids.has(`route:${route.id}`));
-    const places = state.places.filter((place) => ids.has(`place:${place.id}`));
+    const places = allPlaces().filter((place) => place.coord && ids.has(`place:${place.id}`));
     state.map?.setVisible(new Set(places.map((place) => place.id)), new Set(routes.map((route) => route.id)));
     if (places.length) state.map?.focusPlaces(places);
     else if (routes.length) state.map?.focusPlaces(routes.flatMap((route) => route.stops.map((id) => placeById().get(id))).filter(Boolean));
     else state.map?.reset();
+    return;
+  }
+  if (state.view === 'food') {
+    const places = selectedFood().filter((place) => place.coord);
+    state.map?.setVisible(new Set(places.map((place) => place.id)), new Set());
+    if (places.length) state.map?.focusPlaces(places); else state.map?.reset();
     return;
   }
   const routes = selectedRoutes();
@@ -87,6 +95,19 @@ function setTab(tab) {
 }
 
 function renderFilters() {
+  const food = state.view === 'food';
+  $('#play-tabs').hidden = food;
+  $('#food-filters').hidden = !food;
+  $('#food-list-filters').hidden = !food;
+  $('#search').placeholder = food ? '搜索店名、区域、美食…' : '搜索路线、地点、区域…';
+  if (food) {
+    $('#filters').hidden = true; $('#route-types').hidden = true; $('#route-difficulty').hidden = true;
+    const districts = [...new Set(state.food.map((item) => item.district))].sort((a, b) => a.localeCompare(b, 'zh-CN'));
+    $('#district-filter').innerHTML = `<option value="全部">全部区域</option>${districts.map((district) => `<option value="${html(district)}" ${district === state.district ? 'selected' : ''}>${html(district)}</option>`).join('')}`;
+    $('#food-filters').querySelectorAll('[data-food-filter]').forEach((button) => { const active = button.dataset.foodFilter === state.foodFilter; button.classList.toggle('active', active); button.setAttribute('aria-pressed', String(active)); });
+    $('#food-list-filters').querySelectorAll('[data-food-list]').forEach((button) => { const active = button.dataset.foodList === state.foodList; button.classList.toggle('active', active); button.setAttribute('aria-pressed', String(active)); });
+    return;
+  }
   const featuredTags = ['博物馆', '商场', '游玩', '自然风景', '历史街区', '古迹', '文创空间', '遗址公园'];
   const filters = featuredTags.filter((tag) => state.places.some((place) => place.tags?.includes(tag)));
   $('#filters').innerHTML = `<button class="filter ${state.placeTags.size ? '' : 'active'}" type="button" data-filter="全部" aria-pressed="${!state.placeTags.size}">全部</button>${filters.map((filter) => `<button class="filter ${state.placeTags.has(filter) ? 'active' : ''}" type="button" data-filter="${html(filter)}" aria-pressed="${state.placeTags.has(filter)}">${html(filter)}</button>`).join('')}`;
@@ -135,20 +156,61 @@ function matchQuery(item, query) {
   return [item.name, item.region, item.district, item.type, item.category, item.difficulty, ...(item.tags || []), item.summary, item.experience, item.see, item.description, stops].filter(Boolean).join(' ').toLocaleLowerCase().includes(query);
 }
 
+const selectedFood = () => state.food.filter((item) => (state.foodFilter === '全部' || item.category === state.foodFilter) && (state.foodList === '全部' || item.listLabel === state.foodList) && (state.district === '全部' || item.district === state.district) && matchQuery(item, state.query.trim().toLocaleLowerCase()));
+
+function foodCard(item) {
+  const selected = state.selected?.kind === 'place' && state.selected.id === item.id;
+  const location = item.coord ? (item.address || '已定位') : '位置暂不可用';
+  return `<div class="item-row"><button class="item-card ${selected ? 'selected' : ''}" type="button" data-kind="place" data-id="${html(item.id)}"><div class="card-kicker"><span class="pill food-pill">${html(item.category)} · ${html(item.listLabel)}</span><span>${html(item.district)}</span></div><div class="card-title">${html(item.name)}</div><p class="card-summary">${html(item.description)}</p><div class="card-meta"><span>${html(location)}</span></div></button>${renderMarkActions('place', item.id)}</div>`;
+}
+
+function renderFoodDetail(item) {
+  const reasonTitle = item.recommendationKind ? '推荐理由' : '';
+  const reason = reasonTitle ? `<section class="detail-section"><h3>${reasonTitle}</h3><p>${html(item.description)}</p></section>` : `<p class="detail-description">${html(item.description)}</p>`;
+  $('#detail-content').innerHTML = `<div class="detail-inner"><div class="detail-overline">美食 · ${html(item.district)} · ${html(item.category)}</div><h2>${html(item.name)}</h2>${renderMarkActions('place', item.id, true)}<div class="tag-row"><span class="detail-tag">${html(item.listLabel)}</span></div>${reason}${item.coord ? destinationActions(item) : '<p class="accuracy-note">门店位置暂未取得，地图定位和导航暂不可用。</p>'}<section class="detail-section"><h3>位置</h3><p>${html(item.address || '位置暂不可用')}</p></section><section class="detail-section"><h3>出发前留意</h3>${item.verificationNote ? `<p class="accuracy-note">${html(item.verificationNote)}</p>` : ''}<p>营业时间、价格及门店状态可能变化，建议出发前再次核对。榜单信息为查看时记录，不代表实地体验。</p></section><section class="detail-section"><h3>资料来源</h3>${sourceMarkup(item.sources)}<p>资料查看日期：${html(item.checkedAt)}；位置核对日期：${html(item.coordinateCheckedAt)}。</p></section></div>`;
+}
+
+function setView(view) {
+  if (state.selected) closeDetail();
+  if (state.myMode) toggleMyMode();
+  state.view = view;
+  state.district = '全部'; state.query = ''; state.foodFilter = '全部'; state.foodList = '全部';
+  $('#search').value = '';
+  const food = view === 'food';
+  for (const [id, active] of [['#view-play', !food], ['#view-food', food]]) { $(id).classList.toggle('active', active); $(id).setAttribute('aria-pressed', String(active)); }
+  $('.sidebar').classList.toggle('food-view', food);
+  $('.intro h1').innerHTML = food ? '从街巷开始，<br><em>去吃饭。</em>' : '从地图开始，<br><em>去走走。</em>';
+  $('.intro p').textContent = food ? '找一间杭州烟火小店，从正餐到小吃，慢慢吃遍街巷。' : '徒步看风景与街巷，逛玩看场馆、商圈和游乐体验。选一条路线，或直接找一个地点。';
+  $('.stats').hidden = food;
+  $('.sidebar-footer').textContent = food ? '门店信息可能变化 · 出发前请核对' : '资料核对于 2026.09 · 路线线形仅供浏览';
+  $('.map-legend').hidden = food;
+  $('#map-context').textContent = food ? '杭州 · 美食地图' : '杭州 · 探索地图';
+  $('#mobile-list-toggle').firstChild.textContent = food ? '查看美食 ' : '查看路线与地点 ';
+  renderFilters(); renderList(); refreshMap();
+}
+
 function renderList() {
   const query = state.query.trim().toLocaleLowerCase();
   if (state.myMode) {
     const filter = state.myFilter;
     const items = [
       ...state.routes.map((item) => ({ kind: 'route', item })),
-      ...state.places.map((item) => ({ kind: 'place', item }))
+      ...allPlaces().map((item) => ({ kind: 'place', item }))
     ].filter(({ kind, item }) => UserState.getMark(kind, item.id)[filter] && matchQuery(item, query));
     $('#list-title').textContent = ({ visited: '去过的路线与地点', wantToGo: '想去的路线与地点', favorite: '收藏的路线与地点' })[filter];
     $('#result-count').textContent = `${items.length} 条记录`;
     $('#item-list').innerHTML = items.length ? items.map(({ kind, item }) => myItemRow(kind, item)).join('') : '<div class="empty-state">这里还没有记录。浏览路线和地点时，可以点按“收藏”“想去”或“去过”。</div>';
     return;
   }
+  if (state.view === 'food') {
+    const items = selectedFood().filter((item) => matchQuery(item, query));
+    $('#list-title').textContent = '精选美食';
+    $('#result-count').textContent = `${items.length} 家`;
+    $('#item-list').innerHTML = items.length ? items.map(foodCard).join('') : '<div class="empty-state">没有找到匹配的门店，试试其他筛选条件。</div>';
+    return;
+  }
   const items = state.tab === 'routes' ? selectedRoutes() : selectedPlaces();
+  $('#list-title').textContent = state.tab === 'routes' ? '精选路线' : '沿途地点';
   const filtered = items.filter((item) => matchQuery(item, query));
   $('#result-count').textContent = `${filtered.length} 个结果`;
   $('#item-list').innerHTML = filtered.length ? filtered.map((item) => state.tab === 'routes' ? routeCard(item) : placeCard(item)).join('') : '<div class="empty-state">没有找到匹配内容。试试其他关键词或筛选条件。</div>';
@@ -176,8 +238,8 @@ function renderMarkActions(kind, id, detail = false) {
 }
 
 function myItemRow(kind, item) {
-  const card = kind === 'route' ? routeCard(item) : placeCard(item);
-  const label = kind === 'route' ? '路线' : '地点';
+  const card = kind === 'route' ? routeCard(item) : item.isFood ? foodCard(item) : placeCard(item);
+  const label = kind === 'route' ? '路线' : item.isFood ? '美食' : '地点';
   return `<div class="my-item"><div class="my-item-label"><span>${label}</span><b>${html(item.region || item.district || '')}</b></div>${card}</div>`;
 }
 
@@ -297,16 +359,17 @@ function renderPlaceDetail(place) {
 }
 
 function select(kind, id, options = {}) {
-  const item = (kind === 'route' ? state.routes : state.places).find((entry) => entry.id === id);
+  const item = (kind === 'route' ? state.routes : allPlaces()).find((entry) => entry.id === id);
   if (!item) return;
+  if (item.isFood && state.view !== 'food' && !state.myMode) setView('food');
   state.selected = { kind, id };
-  if (kind === 'route') renderRouteDetail(item); else renderPlaceDetail(item);
+  if (kind === 'route') renderRouteDetail(item); else if (item.isFood) renderFoodDetail(item); else renderPlaceDetail(item);
   $('#detail').hidden = false;
   if (isSheetViewport()) placeDetailInMobileSheet();
   else restoreDetailToShell();
   $('#map-context').textContent = item.name;
   renderList();
-  state.map?.select(kind, item);
+  if (kind === 'route' || item.coord) state.map?.select(kind, item);
   if (options.updateHash !== false) history.replaceState(null, '', `#${kind}/${encodeURIComponent(id)}`);
 }
 
@@ -314,16 +377,20 @@ function closeDetail() {
   state.selected = null;
   $('#detail').hidden = true;
   restoreDetailToShell();
-  $('#map-context').textContent = '杭州 · 探索地图';
+  $('#map-context').textContent = state.view === 'food' ? '杭州 · 美食地图' : '杭州 · 探索地图';
   state.map?.clearSelection();
   renderList();
   history.replaceState(null, '', location.pathname + location.search);
 }
 
 function setupEvents() {
+  $('#view-play').addEventListener('click', () => setView('play'));
+  $('#view-food').addEventListener('click', () => setView('food'));
+  $('#food-filters').addEventListener('click', (event) => { const button = event.target.closest('[data-food-filter]'); if (!button) return; if (state.selected) closeDetail(); state.foodFilter = button.dataset.foodFilter; renderFilters(); renderList(); refreshMap(); });
+  $('#food-list-filters').addEventListener('click', (event) => { const button = event.target.closest('[data-food-list]'); if (!button) return; if (state.selected) closeDetail(); state.foodList = button.dataset.foodList; renderFilters(); renderList(); refreshMap(); });
   $('#tab-routes').addEventListener('click', () => setTab('routes'));
   $('#tab-places').addEventListener('click', () => setTab('places'));
-  $('#search').addEventListener('input', (event) => { state.query = event.target.value; renderList(); });
+  $('#search').addEventListener('input', (event) => { state.query = event.target.value; renderList(); if (state.view === 'food' && !state.myMode) refreshMap(); });
   $('#filters').addEventListener('click', (event) => {
     const button = event.target.closest('[data-filter]');
     if (!button) return;
@@ -558,7 +625,7 @@ function createLeafletMap() {
     line.on('click', () => select('route', route.id));
     return { id: route.id, line };
   });
-  const markers = state.places.map((place) => {
+  const markers = allPlaces().filter((place) => place.coord).map((place) => {
     const [lon, lat] = gcjToWgs(place.coord);
     const marker = L.marker([lat, lon], { icon: L.divIcon({ className: 'map-marker', html: markerHtml('•', place), iconSize: [26, 26], iconAnchor: [13, 13] }) }).addTo(map);
     marker.on('click', () => select('place', place.id));
@@ -609,7 +676,7 @@ async function createAmapMap(config) {
     line.on('click', () => select('route', route.id));
     return { id: route.id, line };
   });
-  const markers = state.places.map((place) => {
+  const markers = allPlaces().filter((place) => place.coord).map((place) => {
     const marker = new AMap.Marker({ position: place.coord, content: `<div class="atlas-marker" title="${html(place.name)}">${markerHtml('•', place)}</div>`, offset: new AMap.Pixel(-13, -13), map, title: place.name });
     marker.on('click', () => select('place', place.id));
     return { id: place.id, marker, place };
@@ -666,9 +733,10 @@ async function main() {
   window.addEventListener('online', () => { if (UserState.getSession()) void UserState.sync(); });
   window.addEventListener('atlas-sync-error', () => showToast('已保存在本机，云同步稍后重试。'));
   try {
-    const [placesResponse, routesResponse] = await Promise.all([fetch('./data/places.json'), fetch('./data/routes.json')]);
-    if (!placesResponse.ok || !routesResponse.ok) throw new Error('data unavailable');
-    [state.places, state.routes] = await Promise.all([placesResponse.json(), routesResponse.json()]);
+    const [placesResponse, routesResponse, foodResponse] = await Promise.all([fetch('./data/places.json'), fetch('./data/routes.json'), fetch('./data/food.json')]);
+    if (!placesResponse.ok || !routesResponse.ok || !foodResponse.ok) throw new Error('data unavailable');
+    [state.places, state.routes, state.food] = await Promise.all([placesResponse.json(), routesResponse.json(), foodResponse.json()]);
+    state.food.forEach((item) => { item.isFood = true; });
     $('#route-count').textContent = state.routes.length;
     $('#place-count').textContent = state.places.length;
     $('#route-tab-count').textContent = state.routes.length;

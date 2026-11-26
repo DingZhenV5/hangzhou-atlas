@@ -1,0 +1,4202 @@
+[
+  {
+    "id": "food-huifei-yucai",
+    "name": "慧斐小吃(育才巷店)",
+    "district": "拱墅区",
+    "category": "小吃",
+    "description": "榜单提到这家社区早餐店经营多年，保留了熟悉的街坊味道。",
+    "listLabel": "烟火小店",
+    "checkedAt": "2026-11-16",
+    "sources": [
+      {
+        "label": "高德地图｜拱墅区烟火小店",
+        "url": "https://www.amap.com/ranking/hangzhou/shop/330105"
+      },
+      {
+        "label": "杭州网｜朝晖早餐店报道",
+        "url": "https://hznews.hangzhou.com.cn/chengshi/content/2024-08/18/content_8775159_0.htm"
+      }
+    ],
+    "poiId": "B023B19SJS",
+    "recommendationKind": "summary",
+    "coord": [
+      120.168054,
+      30.287833
+    ],
+    "address": "育才巷7号朝晖六区小区内",
+    "coordinateSystem": "GCJ-02",
+    "coordinatePrecision": "poi",
+    "coordinateCheckedAt": "2026-11-16"
+  },
+  {
+    "id": "food-aying-taiheyuan",
+    "name": "阿英小吃(泰和苑店)",
+    "district": "拱墅区",
+    "category": "正餐",
+    "description": "榜单提到炒猪肝和鱼下巴，评价认为适合配饭。",
+    "listLabel": "烟火小店",
+    "checkedAt": "2026-11-16",
+    "sources": [
+      {
+        "label": "高德地图｜拱墅区烟火小店",
+        "url": "https://www.amap.com/ranking/hangzhou/shop/330105"
+      }
+    ],
+    "poiId": "B023B05QX8",
+    "recommendationKind": "summary",
+    "coord": [
+      120.186089,
+      30.260171
+    ],
+    "address": "潮鸣街道刀茅巷56号",
+    "coordinateSystem": "GCJ-02",
+    "coordinatePrecision": "poi",
+    "coordinateCheckedAt": "2026-11-16"
+  },
+  {
+    "id": "food-laonitou-lianhe",
+    "name": "老倪头面馆(联合新苑店)",
+    "district": "上城区",
+    "category": "正餐",
+    "description": "榜单提到猪油拌面和大排，评价认为面有锅气。",
+    "listLabel": "烟火小店",
+    "checkedAt": "2026-11-16",
+    "sources": [
+      {
+        "label": "高德地图｜杭州烟火小店",
+        "url": "https://www.amap.com/ranking/hangzhou/shop"
+      }
+    ],
+    "poiId": "B0FFF4SFOW",
+    "recommendationKind": "summary",
+    "coord": [
+      120.240129,
+      30.351546
+    ],
+    "address": "丁桥镇环丁路555号",
+    "coordinateSystem": "GCJ-02",
+    "coordinatePrecision": "poi",
+    "coordinateCheckedAt": "2026-11-16"
+  },
+  {
+    "id": "food-qunle-xincheng",
+    "name": "群乐饭店(信诚路店)",
+    "district": "滨江区",
+    "category": "正餐",
+    "description": "红烧肉经过慢炖，口味偏甜香。",
+    "listLabel": "必吃榜",
+    "checkedAt": "2026-11-16",
+    "sources": [
+      {
+        "label": "高德地图｜杭州 2025 状元榜",
+        "url": "https://www.amap.com/ranking/hangzhou"
+      }
+    ],
+    "poiId": "B023B019A4",
+    "recommendationKind": "summary",
+    "coord": [
+      120.174707,
+      30.183901
+    ],
+    "address": "滨安路1197号(近信诚路)",
+    "coordinateSystem": "GCJ-02",
+    "coordinatePrecision": "poi",
+    "coordinateCheckedAt": "2026-11-16",
+    "rankingYear": 2025
+  },
+  {
+    "id": "food-laotouer-yaoyuansi",
+    "name": "老头儿油爆虾(姚园寺店)",
+    "district": "上城区",
+    "category": "正餐",
+    "description": "榜单提到油爆河虾，评价认为鲜炸后酸甜咸香。",
+    "listLabel": "必吃榜",
+    "checkedAt": "2026-11-16",
+    "sources": [
+      {
+        "label": "高德地图｜上城区 2025 状元榜",
+        "url": "https://www.amap.com/ranking/hangzhou/food/330102"
+      }
+    ],
+    "poiId": "B023B06B2R",
+    "recommendationKind": "summary",
+    "coord": [
+      120.177582,
+      30.240286
+    ],
+    "address": "姚园寺巷43号(江城路地铁站D口步行240米)",
+    "coordinateSystem": "GCJ-02",
+    "coordinatePrecision": "poi",
+    "coordinateCheckedAt": "2026-11-16",
+    "rankingYear": 2025
+  },
+  {
+    "id": "food-tiaotai-chengxiyintai",
+    "name": "条态小馆·台州排档(城西银泰店)",
+    "district": "拱墅区",
+    "category": "正餐",
+    "description": "台州菜小馆，以海鲜和家常菜为主。",
+    "listLabel": "必吃榜",
+    "checkedAt": "2026-11-16",
+    "sources": [
+      {
+        "label": "杭州网｜报道城西银泰店入选 2026 状元榜",
+        "url": "https://ori.hangzhou.com.cn/ornews/content/2026-09/10/content_9303553.htm"
+      }
+    ],
+    "poiId": "B0K10LW6DV",
+    "coord": [
+      120.105977,
+      30.301913
+    ],
+    "address": "丰潭路430号丰元国际1楼",
+    "coordinateSystem": "GCJ-02",
+    "coordinatePrecision": "poi",
+    "coordinateCheckedAt": "2026-11-16",
+    "rankingYear": 2026
+  },
+  {
+    "id": "food-amap-b0jdrair3l",
+    "name": "红帽叔叔包子",
+    "poiId": "B0JDRAIR3L",
+    "district": "西湖区",
+    "category": "小吃",
+    "description": "鲜肉包的馅料带汁，口味略甜。",
+    "listLabel": "烟火小店",
+    "checkedAt": "2026-11-16",
+    "sources": [
+      {
+        "label": "高德网页｜烟火小店",
+        "url": "https://www.amap.com/ranking/hangzhou/shop"
+      }
+    ],
+    "recommendationKind": "summary",
+    "coord": [
+      120.147861,
+      30.266575
+    ],
+    "address": "保俶路148号",
+    "coordinateSystem": "GCJ-02",
+    "coordinatePrecision": "poi",
+    "coordinateCheckedAt": "2026-11-16"
+  },
+  {
+    "id": "food-amap-b0fffyww7v",
+    "name": "径乡缘土菜馆",
+    "poiId": "B0FFFYWW7V",
+    "district": "余杭区",
+    "category": "正餐",
+    "description": "榜单提到三鲜锅仔、酸辣土豆丝和四季豆。",
+    "listLabel": "烟火小店",
+    "checkedAt": "2026-11-16",
+    "sources": [
+      {
+        "label": "高德网页｜烟火小店",
+        "url": "https://www.amap.com/ranking/hangzhou/shop/330110"
+      },
+      {
+        "label": "高德网页｜推荐理由来源",
+        "url": "https://www.amap.com/ranking/hangzhou/shop"
+      }
+    ],
+    "recommendationKind": "summary",
+    "coord": [
+      119.873234,
+      30.382738
+    ],
+    "address": "金桥路41号",
+    "coordinateSystem": "GCJ-02",
+    "coordinatePrecision": "poi",
+    "coordinateCheckedAt": "2026-11-16"
+  },
+  {
+    "id": "food-amap-b0g14xfx3h",
+    "name": "汪氏美食",
+    "poiId": "B0G14XFX3H",
+    "district": "西湖区",
+    "category": "小吃",
+    "description": "炒面搭配溏心蛋，酱味略辣。",
+    "listLabel": "烟火小店",
+    "checkedAt": "2026-11-16",
+    "sources": [
+      {
+        "label": "高德网页｜烟火小店",
+        "url": "https://www.amap.com/ranking/hangzhou/shop/330106"
+      },
+      {
+        "label": "高德网页｜推荐理由来源",
+        "url": "https://www.amap.com/ranking/hangzhou/shop"
+      },
+      {
+        "label": "高德地图｜门店信息",
+        "url": "https://www.amap.com/place/B0G14XFX3H"
+      }
+    ],
+    "recommendationKind": "summary",
+    "coord": [
+      120.084551,
+      30.253661
+    ],
+    "address": "大龙坸坞98号",
+    "coordinateSystem": "GCJ-02",
+    "coordinatePrecision": "poi",
+    "coordinateCheckedAt": "2026-11-16",
+    "categoryCheckedAt": "2026-11-16",
+    "categoryBasis": "按门店名称、榜单推荐内容及高德 POI 类型综合判断"
+  },
+  {
+    "id": "food-amap-b0ffg9vq5h",
+    "name": "徐氏面馆(临平店)",
+    "poiId": "B0FFG9VQ5H",
+    "district": "临平区",
+    "category": "小吃",
+    "description": "榜单提到鸭头，评价认为口感软糯、微辣。",
+    "listLabel": "烟火小店",
+    "checkedAt": "2026-11-16",
+    "sources": [
+      {
+        "label": "高德网页｜烟火小店",
+        "url": "https://www.amap.com/ranking/hangzhou/shop/330113"
+      },
+      {
+        "label": "高德网页｜推荐理由来源",
+        "url": "https://www.amap.com/ranking/hangzhou/shop"
+      },
+      {
+        "label": "高德地图｜门店信息",
+        "url": "https://www.amap.com/place/B0FFG9VQ5H"
+      }
+    ],
+    "recommendationKind": "summary",
+    "coord": [
+      120.301342,
+      30.420443
+    ],
+    "address": "后横弄61号",
+    "coordinateSystem": "GCJ-02",
+    "coordinatePrecision": "poi",
+    "coordinateCheckedAt": "2026-11-16",
+    "categoryCheckedAt": "2026-11-16",
+    "categoryBasis": "按门店名称、榜单推荐内容及高德 POI 类型综合判断"
+  },
+  {
+    "id": "food-amap-b0ffgpuqo9",
+    "name": "芳明小吃",
+    "poiId": "B0FFGPUQO9",
+    "district": "上城区",
+    "category": "正餐",
+    "description": "榜单评价这家小吃店的菜有江湖菜风格。",
+    "listLabel": "烟火小店",
+    "checkedAt": "2026-11-16",
+    "sources": [
+      {
+        "label": "高德网页｜烟火小店",
+        "url": "https://www.amap.com/ranking/hangzhou/shop"
+      },
+      {
+        "label": "高德地图｜门店信息",
+        "url": "https://www.amap.com/place/B0FFGPUQO9"
+      }
+    ],
+    "recommendationKind": "summary",
+    "coord": [
+      120.170286,
+      30.25254
+    ],
+    "address": "光复路169号",
+    "coordinateSystem": "GCJ-02",
+    "coordinatePrecision": "poi",
+    "coordinateCheckedAt": "2026-11-16",
+    "categoryCheckedAt": "2026-11-16",
+    "categoryBasis": "按门店名称、榜单推荐内容及高德 POI 类型综合判断"
+  },
+  {
+    "id": "food-amap-b023b1d56y",
+    "name": "蕙心小吃店",
+    "poiId": "B023B1D56Y",
+    "district": "拱墅区",
+    "category": "小吃",
+    "description": "笋尖烧麦现点现蒸，馅料带汁。",
+    "listLabel": "烟火小店",
+    "checkedAt": "2026-11-16",
+    "sources": [
+      {
+        "label": "高德网页｜烟火小店",
+        "url": "https://www.amap.com/ranking/hangzhou/shop/330105"
+      },
+      {
+        "label": "高德网页｜推荐理由来源",
+        "url": "https://www.amap.com/ranking/hangzhou/shop"
+      },
+      {
+        "label": "高德地图｜门店信息",
+        "url": "https://www.amap.com/place/B023B1D56Y"
+      }
+    ],
+    "recommendationKind": "summary",
+    "coord": [
+      120.161055,
+      30.301283
+    ],
+    "address": "德苑路83-1号(近杭州十一中)",
+    "coordinateSystem": "GCJ-02",
+    "coordinatePrecision": "poi",
+    "coordinateCheckedAt": "2026-11-16",
+    "categoryCheckedAt": "2026-11-16",
+    "categoryBasis": "按门店名称、榜单推荐内容及高德 POI 类型综合判断"
+  },
+  {
+    "id": "food-amap-b0gk1hxcjm",
+    "name": "闽南王记牛肉",
+    "poiId": "B0GK1HXCJM",
+    "district": "西湖区",
+    "category": "小吃",
+    "description": "榜单提到牛肉汤、牛排和咸饭，评价称汤味鲜香。",
+    "listLabel": "烟火小店",
+    "checkedAt": "2026-11-16",
+    "sources": [
+      {
+        "label": "高德网页｜烟火小店",
+        "url": "https://www.amap.com/ranking/hangzhou/shop/330106"
+      },
+      {
+        "label": "高德网页｜推荐理由来源",
+        "url": "https://www.amap.com/ranking/hangzhou/shop"
+      },
+      {
+        "label": "高德地图｜门店信息",
+        "url": "https://www.amap.com/place/B0GK1HXCJM"
+      }
+    ],
+    "recommendationKind": "summary",
+    "coord": [
+      120.108276,
+      30.286458
+    ],
+    "address": "丰潭路288号益乐菜场门口右侧第1间",
+    "coordinateSystem": "GCJ-02",
+    "coordinatePrecision": "poi",
+    "coordinateCheckedAt": "2026-11-16",
+    "categoryCheckedAt": "2026-11-16",
+    "categoryBasis": "按门店名称、榜单推荐内容及高德 POI 类型综合判断"
+  },
+  {
+    "id": "food-amap-b0ffg9vnlm",
+    "name": "大美乐抓饭(华星路店)",
+    "poiId": "B0FFG9VNLM",
+    "district": "西湖区",
+    "category": "正餐",
+    "description": "羊肉抓饭，评价认为米饭有羊油香气。",
+    "listLabel": "烟火小店",
+    "checkedAt": "2026-11-16",
+    "sources": [
+      {
+        "label": "高德网页｜烟火小店",
+        "url": "https://www.amap.com/ranking/hangzhou/shop/330106"
+      },
+      {
+        "label": "高德网页｜推荐理由来源",
+        "url": "https://www.amap.com/ranking/hangzhou/shop"
+      },
+      {
+        "label": "高德地图｜门店信息",
+        "url": "https://www.amap.com/place/B0FFG9VNLM"
+      }
+    ],
+    "recommendationKind": "summary",
+    "coord": [
+      120.116709,
+      30.279057
+    ],
+    "address": "华星路210号嘉绿苑北6幢",
+    "coordinateSystem": "GCJ-02",
+    "coordinatePrecision": "poi",
+    "coordinateCheckedAt": "2026-11-16",
+    "categoryCheckedAt": "2026-11-16",
+    "categoryBasis": "按门店名称、榜单推荐内容及高德 POI 类型综合判断"
+  },
+  {
+    "id": "food-amap-b0ju2z9vvz",
+    "name": "福碗",
+    "poiId": "B0JU2Z9VVZ",
+    "district": "拱墅区",
+    "category": "正餐",
+    "description": "榜单提到猪排饭，评价称炸衣酥脆、肉较厚。",
+    "listLabel": "烟火小店",
+    "checkedAt": "2026-11-16",
+    "sources": [
+      {
+        "label": "高德网页｜烟火小店",
+        "url": "https://www.amap.com/ranking/hangzhou/shop"
+      },
+      {
+        "label": "高德地图｜门店信息",
+        "url": "https://www.amap.com/place/B0JU2Z9VVZ"
+      }
+    ],
+    "recommendationKind": "summary",
+    "coord": [
+      120.148574,
+      30.31858
+    ],
+    "address": "舟山东路105-3号(拱宸桥东地铁站A口步行210米)",
+    "coordinateSystem": "GCJ-02",
+    "coordinatePrecision": "poi",
+    "coordinateCheckedAt": "2026-11-16",
+    "categoryCheckedAt": "2026-11-16",
+    "categoryBasis": "按门店名称、榜单推荐内容及高德 POI 类型综合判断"
+  },
+  {
+    "id": "food-amap-b0fffa6ikc",
+    "name": "文武王氏烧饼·无矾油条(西溪路店)",
+    "poiId": "B0FFFA6IKC",
+    "district": "西湖区",
+    "category": "小吃",
+    "description": "烧饼夹油条，评价称口感酥香。",
+    "listLabel": "烟火小店",
+    "checkedAt": "2026-11-16",
+    "sources": [
+      {
+        "label": "高德网页｜烟火小店",
+        "url": "https://www.amap.com/ranking/hangzhou/shop/330106"
+      },
+      {
+        "label": "高德网页｜推荐理由来源",
+        "url": "https://www.amap.com/ranking/hangzhou/shop"
+      }
+    ],
+    "recommendationKind": "summary",
+    "coord": [
+      120.143103,
+      30.269925
+    ],
+    "address": "西溪路58号",
+    "coordinateSystem": "GCJ-02",
+    "coordinatePrecision": "poi",
+    "coordinateCheckedAt": "2026-11-16"
+  },
+  {
+    "id": "food-amap-b0ffg18n63",
+    "name": "职高饭团",
+    "poiId": "B0FFG18N63",
+    "district": "临平区",
+    "category": "小吃",
+    "description": "榜单提到配料丰富的饭团，可搭配油条。",
+    "listLabel": "烟火小店",
+    "checkedAt": "2026-11-16",
+    "sources": [
+      {
+        "label": "高德网页｜烟火小店",
+        "url": "https://www.amap.com/ranking/hangzhou/shop/330113"
+      },
+      {
+        "label": "高德网页｜推荐理由来源",
+        "url": "https://www.amap.com/ranking/hangzhou/shop"
+      }
+    ],
+    "recommendationKind": "summary",
+    "coord": [
+      120.313025,
+      30.411618
+    ],
+    "address": "南苑街道政法街182号",
+    "coordinateSystem": "GCJ-02",
+    "coordinatePrecision": "poi",
+    "coordinateCheckedAt": "2026-11-16"
+  },
+  {
+    "id": "food-amap-b023b05soo",
+    "name": "别饮居餐厅",
+    "poiId": "B023B05SOO",
+    "district": "上城区",
+    "category": "正餐",
+    "description": "虾皮小尖椒炒臭豆腐, 外焦里糯, 混合虾皮超鲜, 青椒脆甜不辣, 和绍兴整块的完全不一样",
+    "listLabel": "烟火小店",
+    "checkedAt": "2026-11-16",
+    "sources": [
+      {
+        "label": "高德网页｜烟火小店",
+        "url": "https://www.amap.com/ranking/hangzhou/shop/330102"
+      },
+      {
+        "label": "高德网页｜推荐理由来源",
+        "url": "https://www.amap.com/ranking/hangzhou/shop"
+      }
+    ],
+    "recommendationKind": "quote",
+    "coord": [
+      120.167198,
+      30.251844
+    ],
+    "address": "邮电路46-1号(龙翔桥地铁站出入口步行490米)",
+    "coordinateSystem": "GCJ-02",
+    "coordinatePrecision": "poi",
+    "coordinateCheckedAt": "2026-11-16"
+  },
+  {
+    "id": "food-amap-b0h2o4a41y",
+    "name": "川塘风乐山冷锅鱼美蛙鱼头",
+    "poiId": "B0H2O4A41Y",
+    "district": "西湖区",
+    "category": "正餐",
+    "description": "榜单提到冷锅鱼的蛙肉与汤底，评价认为调味较足。",
+    "listLabel": "烟火小店",
+    "checkedAt": "2026-11-16",
+    "sources": [
+      {
+        "label": "高德网页｜烟火小店",
+        "url": "https://www.amap.com/ranking/hangzhou/shop/330106"
+      },
+      {
+        "label": "高德网页｜推荐理由来源",
+        "url": "https://www.amap.com/ranking/hangzhou/shop"
+      },
+      {
+        "label": "高德地图｜门店信息",
+        "url": "https://www.amap.com/place/B0H2O4A41Y"
+      }
+    ],
+    "recommendationKind": "summary",
+    "coord": [
+      120.104255,
+      30.27141
+    ],
+    "address": "元和城市之星酒店西城店正门旁",
+    "coordinateSystem": "GCJ-02",
+    "coordinatePrecision": "poi",
+    "coordinateCheckedAt": "2026-11-16",
+    "categoryCheckedAt": "2026-11-16",
+    "categoryBasis": "按门店名称、榜单推荐内容及高德 POI 类型综合判断"
+  },
+  {
+    "id": "food-amap-b0ffhs84hx",
+    "name": "盐蘸牛肉",
+    "poiId": "B0FFHS84HX",
+    "district": "上城区",
+    "category": "正餐",
+    "description": "雪菜碎肉蛋炒饭，评价称口味较清淡。",
+    "listLabel": "烟火小店",
+    "checkedAt": "2026-11-16",
+    "sources": [
+      {
+        "label": "高德网页｜烟火小店",
+        "url": "https://www.amap.com/ranking/hangzhou/shop"
+      },
+      {
+        "label": "高德地图｜门店信息",
+        "url": "https://www.amap.com/place/B0FFHS84HX"
+      }
+    ],
+    "recommendationKind": "summary",
+    "coord": [
+      120.203411,
+      30.269936
+    ],
+    "address": "景昙路141号(景芳二区北区东门北50米)",
+    "coordinateSystem": "GCJ-02",
+    "coordinatePrecision": "poi",
+    "coordinateCheckedAt": "2026-11-16",
+    "categoryCheckedAt": "2026-11-16",
+    "categoryBasis": "按门店名称、榜单推荐内容及高德 POI 类型综合判断"
+  },
+  {
+    "id": "food-amap-b0ffgdzm1j",
+    "name": "楠哥煎饺",
+    "poiId": "B0FFGDZM1J",
+    "district": "上城区",
+    "category": "小吃",
+    "description": "榜单提到现煎饺子，评价称底部薄脆、馅料带汁。",
+    "listLabel": "烟火小店",
+    "checkedAt": "2026-11-16",
+    "sources": [
+      {
+        "label": "高德网页｜烟火小店",
+        "url": "https://www.amap.com/ranking/hangzhou/shop/330102"
+      },
+      {
+        "label": "高德网页｜推荐理由来源",
+        "url": "https://www.amap.com/ranking/hangzhou/shop"
+      }
+    ],
+    "recommendationKind": "summary",
+    "coord": [
+      120.180719,
+      30.253217
+    ],
+    "address": "建国中路130号(万安桥地铁站E口步行70米)",
+    "coordinateSystem": "GCJ-02",
+    "coordinatePrecision": "poi",
+    "coordinateCheckedAt": "2026-11-16"
+  },
+  {
+    "id": "food-amap-b0j0syesz5",
+    "name": "范喜喜渣渣牛肉火锅",
+    "poiId": "B0J0SYESZ5",
+    "district": "钱塘区",
+    "category": "正餐",
+    "description": "渣渣牛肉，评价认为肉酥、口味较辣。",
+    "listLabel": "烟火小店",
+    "checkedAt": "2026-11-16",
+    "sources": [
+      {
+        "label": "高德网页｜烟火小店",
+        "url": "https://www.amap.com/ranking/hangzhou/shop/330114"
+      },
+      {
+        "label": "高德网页｜推荐理由来源",
+        "url": "https://www.amap.com/ranking/hangzhou/shop"
+      }
+    ],
+    "recommendationKind": "summary",
+    "coord": [
+      120.336154,
+      30.316937
+    ],
+    "address": "杭州市高沙小区161号",
+    "coordinateSystem": "GCJ-02",
+    "coordinatePrecision": "poi",
+    "coordinateCheckedAt": "2026-11-16"
+  },
+  {
+    "id": "food-amap-b023b1dqw0",
+    "name": "小白餐馆",
+    "poiId": "B023B1DQW0",
+    "district": "上城区",
+    "category": "正餐",
+    "description": "榜单提到番茄鱼和椒盐排骨，评价称鱼的口味酸甜。",
+    "listLabel": "烟火小店",
+    "checkedAt": "2026-11-16",
+    "sources": [
+      {
+        "label": "高德网页｜烟火小店",
+        "url": "https://www.amap.com/ranking/hangzhou/shop/330102"
+      },
+      {
+        "label": "高德网页｜推荐理由来源",
+        "url": "https://www.amap.com/ranking/hangzhou/shop"
+      },
+      {
+        "label": "高德地图｜门店信息",
+        "url": "https://www.amap.com/place/B023B1DQW0"
+      }
+    ],
+    "recommendationKind": "summary",
+    "coord": [
+      120.170919,
+      30.249204
+    ],
+    "address": "光复路122号附近日新桥弄2号",
+    "coordinateSystem": "GCJ-02",
+    "coordinatePrecision": "poi",
+    "coordinateCheckedAt": "2026-11-16",
+    "categoryCheckedAt": "2026-11-16",
+    "categoryBasis": "按门店名称、榜单推荐内容及高德 POI 类型综合判断"
+  },
+  {
+    "id": "food-amap-b0fflm3dow",
+    "name": "王继莲小笼(塘萍分店)",
+    "poiId": "B0FFLM3DOW",
+    "district": "拱墅区",
+    "category": "小吃",
+    "description": "小笼包，评价称包子个头较大、面皮松软。",
+    "listLabel": "烟火小店",
+    "checkedAt": "2026-11-16",
+    "sources": [
+      {
+        "label": "高德网页｜烟火小店",
+        "url": "https://www.amap.com/ranking/hangzhou/shop/330105"
+      },
+      {
+        "label": "高德网页｜推荐理由来源",
+        "url": "https://www.amap.com/ranking/hangzhou/shop"
+      }
+    ],
+    "recommendationKind": "summary",
+    "coord": [
+      120.110895,
+      30.304392
+    ],
+    "address": "塘萍路方家花苑外围商铺11号",
+    "coordinateSystem": "GCJ-02",
+    "coordinatePrecision": "poi",
+    "coordinateCheckedAt": "2026-11-16"
+  },
+  {
+    "id": "food-amap-b023b0839v",
+    "name": "裘裘饭店(秋涛路店)",
+    "poiId": "B023B0839V",
+    "district": "上城区",
+    "category": "正餐",
+    "description": "榜单提到黑鱼和鱼汤，介绍了鱼片与汤搭配的吃法。",
+    "listLabel": "烟火小店",
+    "checkedAt": "2026-11-16",
+    "sources": [
+      {
+        "label": "高德网页｜烟火小店",
+        "url": "https://www.amap.com/ranking/hangzhou/shop/330102"
+      }
+    ],
+    "recommendationKind": "summary",
+    "coord": [
+      120.177485,
+      30.220863
+    ],
+    "address": "上紫阳街道秋涛路98号",
+    "coordinateSystem": "GCJ-02",
+    "coordinatePrecision": "poi",
+    "coordinateCheckedAt": "2026-11-16"
+  },
+  {
+    "id": "food-amap-b023b14bmh",
+    "name": "华仙面馆(采东路店)",
+    "poiId": "B023B14BMH",
+    "district": "上城区",
+    "category": "小吃",
+    "description": "榜单提到笋片、牛肉面和大排，评价认为汤鲜。",
+    "listLabel": "烟火小店",
+    "checkedAt": "2026-11-16",
+    "sources": [
+      {
+        "label": "高德网页｜烟火小店",
+        "url": "https://www.amap.com/ranking/hangzhou/shop/330102"
+      },
+      {
+        "label": "高德地图｜门店信息",
+        "url": "https://www.amap.com/place/B023B14BMH"
+      }
+    ],
+    "recommendationKind": "summary",
+    "coord": [
+      120.2018,
+      30.255568
+    ],
+    "address": "采东路11号(庆春广场地铁站C口步行460米)",
+    "coordinateSystem": "GCJ-02",
+    "coordinatePrecision": "poi",
+    "coordinateCheckedAt": "2026-11-16",
+    "categoryCheckedAt": "2026-11-16",
+    "categoryBasis": "按门店名称、榜单推荐内容及高德 POI 类型综合判断"
+  },
+  {
+    "id": "food-amap-b023b1h5he",
+    "name": "澳华美食",
+    "poiId": "B023B1H5HE",
+    "district": "上城区",
+    "category": "正餐",
+    "description": "榜单提到酸菜鱼、糖醋里脊等家常菜。",
+    "listLabel": "烟火小店",
+    "checkedAt": "2026-11-16",
+    "sources": [
+      {
+        "label": "高德网页｜烟火小店",
+        "url": "https://www.amap.com/ranking/hangzhou/shop/330102"
+      },
+      {
+        "label": "高德地图｜门店信息",
+        "url": "https://www.amap.com/place/B023B1H5HE"
+      }
+    ],
+    "recommendationKind": "summary",
+    "coord": [
+      120.170585,
+      30.25204
+    ],
+    "address": "光复路163号",
+    "coordinateSystem": "GCJ-02",
+    "coordinatePrecision": "poi",
+    "coordinateCheckedAt": "2026-11-16",
+    "categoryCheckedAt": "2026-11-16",
+    "categoryBasis": "按门店名称、榜单推荐内容及高德 POI 类型综合判断"
+  },
+  {
+    "id": "food-amap-b0fffgviuo",
+    "name": "周萍粽子店(南宋市井街店)",
+    "poiId": "B0FFFGVIUO",
+    "district": "上城区",
+    "category": "小吃",
+    "description": "大肉粽，提到肉馅、糯米与粽叶香。",
+    "listLabel": "烟火小店",
+    "checkedAt": "2026-11-16",
+    "sources": [
+      {
+        "label": "高德网页｜烟火小店",
+        "url": "https://www.amap.com/ranking/hangzhou/shop/330102"
+      },
+      {
+        "label": "高德地图｜门店信息",
+        "url": "https://www.amap.com/place/B0FFFGVIUO"
+      }
+    ],
+    "recommendationKind": "summary",
+    "coord": [
+      120.170418,
+      30.235216
+    ],
+    "address": "城隍牌楼巷17号",
+    "coordinateSystem": "GCJ-02",
+    "coordinatePrecision": "poi",
+    "coordinateCheckedAt": "2026-11-16",
+    "categoryCheckedAt": "2026-11-16",
+    "categoryBasis": "按门店名称、榜单推荐内容及高德 POI 类型综合判断"
+  },
+  {
+    "id": "food-amap-b0ffg4dan7",
+    "name": "文利小吃店(大学路店)",
+    "poiId": "B0FFG4DAN7",
+    "district": "上城区",
+    "category": "正餐",
+    "description": "榜单提到家常小炒，评价认为现炒菜有锅气。",
+    "listLabel": "烟火小店",
+    "checkedAt": "2026-11-16",
+    "sources": [
+      {
+        "label": "高德网页｜烟火小店",
+        "url": "https://www.amap.com/ranking/hangzhou/shop/330102"
+      },
+      {
+        "label": "高德地图｜门店信息",
+        "url": "https://www.amap.com/place/B0FFG4DAN7"
+      }
+    ],
+    "recommendationKind": "summary",
+    "coord": [
+      120.182404,
+      30.25192
+    ],
+    "address": "大学路51号(旅游职业学校南50米)",
+    "coordinateSystem": "GCJ-02",
+    "coordinatePrecision": "poi",
+    "coordinateCheckedAt": "2026-11-16",
+    "categoryCheckedAt": "2026-11-16",
+    "categoryBasis": "按门店名称、榜单推荐内容及高德 POI 类型综合判断"
+  },
+  {
+    "id": "food-amap-b0ffg8g7ep",
+    "name": "釜山小吃",
+    "poiId": "B0FFG8G7EP",
+    "district": "上城区",
+    "category": "小吃",
+    "description": "生煎包，评价称底部酥香、肉馅带汁。",
+    "listLabel": "烟火小店",
+    "checkedAt": "2026-11-16",
+    "sources": [
+      {
+        "label": "高德网页｜烟火小店",
+        "url": "https://www.amap.com/ranking/hangzhou/shop/330102"
+      },
+      {
+        "label": "高德地图｜门店信息",
+        "url": "https://www.amap.com/place/B0FFG8G7EP"
+      }
+    ],
+    "recommendationKind": "summary",
+    "coord": [
+      120.169397,
+      30.235384
+    ],
+    "address": "上十五奎巷社区城隍牌楼巷107号",
+    "coordinateSystem": "GCJ-02",
+    "coordinatePrecision": "poi",
+    "coordinateCheckedAt": "2026-11-16",
+    "categoryCheckedAt": "2026-11-16",
+    "categoryBasis": "按门店名称、榜单推荐内容及高德 POI 类型综合判断"
+  },
+  {
+    "id": "food-amap-b0fffbul4b",
+    "name": "冯味面馆(三坝雅苑店)",
+    "poiId": "B0FFFBUL4B",
+    "district": "西湖区",
+    "category": "小吃",
+    "description": "榜单提到米饭搭配现做浇头的午餐吃法。",
+    "listLabel": "烟火小店",
+    "checkedAt": "2026-11-16",
+    "sources": [
+      {
+        "label": "高德网页｜烟火小店",
+        "url": "https://www.amap.com/ranking/hangzhou/shop/330106"
+      },
+      {
+        "label": "高德地图｜门店信息",
+        "url": "https://www.amap.com/place/B0FFFBUL4B"
+      }
+    ],
+    "recommendationKind": "summary",
+    "coord": [
+      120.100715,
+      30.305599
+    ],
+    "address": "三墩镇竞舟北路三坝雅苑9幢8号商铺",
+    "coordinateSystem": "GCJ-02",
+    "coordinatePrecision": "poi",
+    "coordinateCheckedAt": "2026-11-16",
+    "categoryCheckedAt": "2026-11-16",
+    "categoryBasis": "按门店名称、榜单推荐内容及高德 POI 类型综合判断"
+  },
+  {
+    "id": "food-amap-b0ffmcmg9i",
+    "name": "香乡菜馆",
+    "poiId": "B0FFMCMG9I",
+    "district": "西湖区",
+    "category": "正餐",
+    "description": "榜单将这家菜馆描述为农家口味，评价称菜量较足。",
+    "listLabel": "烟火小店",
+    "checkedAt": "2026-11-16",
+    "sources": [
+      {
+        "label": "高德网页｜烟火小店",
+        "url": "https://www.amap.com/ranking/hangzhou/shop/330106"
+      },
+      {
+        "label": "高德地图｜门店信息",
+        "url": "https://www.amap.com/place/B0FFMCMG9I"
+      }
+    ],
+    "recommendationKind": "summary",
+    "coord": [
+      120.052197,
+      30.343214
+    ],
+    "address": "三墩镇绕城村王家斗23号",
+    "coordinateSystem": "GCJ-02",
+    "coordinatePrecision": "poi",
+    "coordinateCheckedAt": "2026-11-16",
+    "categoryCheckedAt": "2026-11-16",
+    "categoryBasis": "按门店名称、榜单推荐内容及高德 POI 类型综合判断"
+  },
+  {
+    "id": "food-amap-b0ha2os8lt",
+    "name": "佬黔贝遵义羊肉粉(颐高广场店)",
+    "poiId": "B0HA2OS8LT",
+    "district": "西湖区",
+    "category": "小吃",
+    "description": "遵义羊肉粉，评价提到羊汤与米粉的搭配。",
+    "listLabel": "烟火小店",
+    "checkedAt": "2026-11-16",
+    "sources": [
+      {
+        "label": "高德网页｜烟火小店",
+        "url": "https://www.amap.com/ranking/hangzhou/shop/330106"
+      },
+      {
+        "label": "高德地图｜门店信息",
+        "url": "https://www.amap.com/place/B0HA2OS8LT"
+      }
+    ],
+    "recommendationKind": "summary",
+    "coord": [
+      120.133428,
+      30.27495
+    ],
+    "address": "翠苑街道黄姑山路23号(文三路地铁站A口步行480米)",
+    "coordinateSystem": "GCJ-02",
+    "coordinatePrecision": "poi",
+    "coordinateCheckedAt": "2026-11-16",
+    "categoryCheckedAt": "2026-11-16",
+    "categoryBasis": "按门店名称、榜单推荐内容及高德 POI 类型综合判断"
+  },
+  {
+    "id": "food-amap-b0fffouua7",
+    "name": "新窑小吃(翠园路小区店)",
+    "poiId": "B0FFFOUUA7",
+    "district": "余杭区",
+    "category": "正餐",
+    "description": "榜单提到可看食材点菜，页面称没有固定菜单。",
+    "listLabel": "烟火小店",
+    "checkedAt": "2026-11-16",
+    "sources": [
+      {
+        "label": "高德网页｜烟火小店",
+        "url": "https://www.amap.com/ranking/hangzhou/shop/330110"
+      },
+      {
+        "label": "高德地图｜门店信息",
+        "url": "https://www.amap.com/place/B0FFFOUUA7"
+      }
+    ],
+    "recommendationKind": "summary",
+    "coord": [
+      119.973375,
+      30.392757
+    ],
+    "address": "新窑路317号",
+    "coordinateSystem": "GCJ-02",
+    "coordinatePrecision": "poi",
+    "coordinateCheckedAt": "2026-11-16",
+    "categoryCheckedAt": "2026-11-16",
+    "categoryBasis": "按门店名称、榜单推荐内容及高德 POI 类型综合判断"
+  },
+  {
+    "id": "food-amap-b0ffgaqwja",
+    "name": "夫妻面馆(仓前塘路店)",
+    "poiId": "B0FFGAQWJA",
+    "district": "余杭区",
+    "category": "小吃",
+    "description": "猪肝拌川，评价认为面条有嚼劲。",
+    "listLabel": "烟火小店",
+    "checkedAt": "2026-11-16",
+    "sources": [
+      {
+        "label": "高德网页｜烟火小店",
+        "url": "https://www.amap.com/ranking/hangzhou/shop/330110"
+      },
+      {
+        "label": "高德地图｜门店信息",
+        "url": "https://www.amap.com/place/B0FFGAQWJA"
+      }
+    ],
+    "recommendationKind": "summary",
+    "coord": [
+      119.998256,
+      30.288962
+    ],
+    "address": "仓前镇仓兴街229-22号",
+    "coordinateSystem": "GCJ-02",
+    "coordinatePrecision": "poi",
+    "coordinateCheckedAt": "2026-11-16",
+    "categoryCheckedAt": "2026-11-16",
+    "categoryBasis": "按门店名称、榜单推荐内容及高德 POI 类型综合判断"
+  },
+  {
+    "id": "food-amap-b0ffhigbfz",
+    "name": "南渠街铁板烧烤",
+    "poiId": "B0FFHIGBFZ",
+    "district": "余杭区",
+    "category": "小吃",
+    "description": "榜单提到蒜蓉烤茄子，评价称烤制后香气较足。",
+    "listLabel": "烟火小店",
+    "checkedAt": "2026-11-16",
+    "sources": [
+      {
+        "label": "高德网页｜烟火小店",
+        "url": "https://www.amap.com/ranking/hangzhou/shop/330110"
+      },
+      {
+        "label": "高德地图｜门店信息",
+        "url": "https://www.amap.com/place/B0FFHIGBFZ"
+      }
+    ],
+    "recommendationKind": "summary",
+    "coord": [
+      119.938334,
+      30.270125
+    ],
+    "address": "伊家坝尹家坝路32号",
+    "coordinateSystem": "GCJ-02",
+    "coordinatePrecision": "poi",
+    "coordinateCheckedAt": "2026-11-16",
+    "categoryCheckedAt": "2026-11-16",
+    "categoryBasis": "按门店名称、榜单推荐内容及高德 POI 类型综合判断"
+  },
+  {
+    "id": "food-amap-b0ffkoajgv",
+    "name": "老高面馆",
+    "poiId": "B0FFKOAJGV",
+    "district": "余杭区",
+    "category": "小吃",
+    "description": "虾爆鳝面，提到鳝段、河虾和笋干。",
+    "listLabel": "烟火小店",
+    "checkedAt": "2026-11-16",
+    "sources": [
+      {
+        "label": "高德网页｜烟火小店",
+        "url": "https://www.amap.com/ranking/hangzhou/shop/330110"
+      },
+      {
+        "label": "高德地图｜门店信息",
+        "url": "https://www.amap.com/place/B0FFKOAJGV"
+      }
+    ],
+    "recommendationKind": "summary",
+    "coord": [
+      119.973209,
+      30.342287
+    ],
+    "address": "仓前街道连具塘新农贸市场南面一楼底商",
+    "coordinateSystem": "GCJ-02",
+    "coordinatePrecision": "poi",
+    "coordinateCheckedAt": "2026-11-16",
+    "categoryCheckedAt": "2026-11-16",
+    "categoryBasis": "按门店名称、榜单推荐内容及高德 POI 类型综合判断"
+  },
+  {
+    "id": "food-amap-b0h1ml1iuj",
+    "name": "老陶面馆(七贤山居店)",
+    "poiId": "B0H1ML1IUJ",
+    "district": "余杭区",
+    "category": "小吃",
+    "description": "猪肝面，提到现炒浇头与荷包蛋。",
+    "listLabel": "烟火小店",
+    "checkedAt": "2026-11-16",
+    "sources": [
+      {
+        "label": "高德网页｜烟火小店",
+        "url": "https://www.amap.com/ranking/hangzhou/shop/330110"
+      },
+      {
+        "label": "高德地图｜门店信息",
+        "url": "https://www.amap.com/place/B0H1ML1IUJ"
+      }
+    ],
+    "recommendationKind": "summary",
+    "coord": [
+      120.008696,
+      30.34904
+    ],
+    "address": "良渚街道七贤桥村七贤山居135-1",
+    "coordinateSystem": "GCJ-02",
+    "coordinatePrecision": "poi",
+    "coordinateCheckedAt": "2026-11-16",
+    "categoryCheckedAt": "2026-11-16",
+    "categoryBasis": "按门店名称、榜单推荐内容及高德 POI 类型综合判断"
+  },
+  {
+    "id": "food-amap-b0i0xad6ne",
+    "name": "恰得好江西饭店",
+    "poiId": "B0I0XAD6NE",
+    "district": "余杭区",
+    "category": "正餐",
+    "description": "榜单提到辣椒、大蒜叶和肉丝，评价认为有炒菜香气。",
+    "listLabel": "烟火小店",
+    "checkedAt": "2026-11-16",
+    "sources": [
+      {
+        "label": "高德网页｜烟火小店",
+        "url": "https://www.amap.com/ranking/hangzhou/shop/330110"
+      }
+    ],
+    "recommendationKind": "summary",
+    "coord": [
+      120.089781,
+      30.341552
+    ],
+    "address": "金昌路66号",
+    "coordinateSystem": "GCJ-02",
+    "coordinatePrecision": "poi",
+    "coordinateCheckedAt": "2026-11-16"
+  },
+  {
+    "id": "food-amap-b0id77sbp4",
+    "name": "哥俩好土菜馆(何家坝店)",
+    "poiId": "B0ID77SBP4",
+    "district": "余杭区",
+    "category": "正餐",
+    "description": "小公鸡搭配大饼，提到饼可以蘸汤汁。",
+    "listLabel": "烟火小店",
+    "checkedAt": "2026-11-16",
+    "sources": [
+      {
+        "label": "高德网页｜烟火小店",
+        "url": "https://www.amap.com/ranking/hangzhou/shop/330110"
+      }
+    ],
+    "recommendationKind": "summary",
+    "coord": [
+      120.051359,
+      30.28591
+    ],
+    "address": "西溪水岸文一西路15组",
+    "coordinateSystem": "GCJ-02",
+    "coordinatePrecision": "poi",
+    "coordinateCheckedAt": "2026-11-16"
+  },
+  {
+    "id": "food-amap-b0jaoavcwz",
+    "name": "铁岭小串(西溪北苑北区店)",
+    "poiId": "B0JAOAVCWZ",
+    "district": "余杭区",
+    "category": "小吃",
+    "description": "榜单提到烤串，评价称烤制后的肉香较足。",
+    "listLabel": "烟火小店",
+    "checkedAt": "2026-11-16",
+    "sources": [
+      {
+        "label": "高德网页｜烟火小店",
+        "url": "https://www.amap.com/ranking/hangzhou/shop/330110"
+      },
+      {
+        "label": "高德地图｜门店信息",
+        "url": "https://www.amap.com/place/B0JAOAVCWZ"
+      }
+    ],
+    "recommendationKind": "summary",
+    "coord": [
+      120.039396,
+      30.293188
+    ],
+    "address": "荆长路791号",
+    "coordinateSystem": "GCJ-02",
+    "coordinatePrecision": "poi",
+    "coordinateCheckedAt": "2026-11-16",
+    "categoryCheckedAt": "2026-11-16",
+    "categoryBasis": "按门店名称、榜单推荐内容及高德 POI 类型综合判断"
+  },
+  {
+    "id": "food-amap-b0jdszuj2e",
+    "name": "阜阳格拉条(金家渡店)",
+    "poiId": "B0JDSZUJ2E",
+    "district": "余杭区",
+    "category": "小吃",
+    "description": "格拉条，评价认为面条粗且有嚼劲。",
+    "listLabel": "烟火小店",
+    "checkedAt": "2026-11-16",
+    "sources": [
+      {
+        "label": "高德网页｜烟火小店",
+        "url": "https://www.amap.com/ranking/hangzhou/shop/330110"
+      },
+      {
+        "label": "高德地图｜门店信息",
+        "url": "https://www.amap.com/place/B0JDSZUJ2E"
+      }
+    ],
+    "recommendationKind": "summary",
+    "coord": [
+      120.094122,
+      30.337897
+    ],
+    "address": "大吉路与金家渡南路交叉口西北100米",
+    "coordinateSystem": "GCJ-02",
+    "coordinatePrecision": "poi",
+    "coordinateCheckedAt": "2026-11-16",
+    "categoryCheckedAt": "2026-11-16",
+    "categoryBasis": "按门店名称、榜单推荐内容及高德 POI 类型综合判断"
+  },
+  {
+    "id": "food-amap-b0ffgan07z",
+    "name": "新元素养生小厨(潘水苑北区店)",
+    "poiId": "B0FFGAN07Z",
+    "district": "萧山区",
+    "category": "正餐",
+    "description": "榜单提到酸菜鱼和糖醋里脊，评价称是家常口味。",
+    "listLabel": "烟火小店",
+    "checkedAt": "2026-11-16",
+    "sources": [
+      {
+        "label": "高德网页｜烟火小店",
+        "url": "https://www.amap.com/ranking/hangzhou/shop/330109"
+      },
+      {
+        "label": "高德地图｜门店信息",
+        "url": "https://www.amap.com/place/B0FFGAN07Z"
+      }
+    ],
+    "recommendationKind": "summary",
+    "coord": [
+      120.264933,
+      30.149765
+    ],
+    "address": "潘水路潘水苑北区-53-56幢",
+    "coordinateSystem": "GCJ-02",
+    "coordinatePrecision": "poi",
+    "coordinateCheckedAt": "2026-11-16",
+    "categoryCheckedAt": "2026-11-16",
+    "categoryBasis": "按门店名称、榜单推荐内容及高德 POI 类型综合判断"
+  },
+  {
+    "id": "food-amap-b0ffhpzxao",
+    "name": "爱芳面店",
+    "poiId": "B0FFHPZXAO",
+    "district": "萧山区",
+    "category": "小吃",
+    "description": "榜单提到梭子蟹面和片儿川，介绍了笋与倒笃菜。",
+    "listLabel": "烟火小店",
+    "checkedAt": "2026-11-16",
+    "sources": [
+      {
+        "label": "高德网页｜烟火小店",
+        "url": "https://www.amap.com/ranking/hangzhou/shop/330109"
+      },
+      {
+        "label": "高德地图｜门店信息",
+        "url": "https://www.amap.com/place/B0FFHPZXAO"
+      }
+    ],
+    "recommendationKind": "summary",
+    "coord": [
+      120.292603,
+      30.02616
+    ],
+    "address": "杭州鼎奕发泡陶瓷新型建材东侧130米",
+    "coordinateSystem": "GCJ-02",
+    "coordinatePrecision": "poi",
+    "coordinateCheckedAt": "2026-11-16",
+    "categoryCheckedAt": "2026-11-16",
+    "categoryBasis": "按门店名称、榜单推荐内容及高德 POI 类型综合判断"
+  },
+  {
+    "id": "food-amap-b0ffi1b11w",
+    "name": "高民面馆",
+    "poiId": "B0FFI1B11W",
+    "district": "萧山区",
+    "category": "小吃",
+    "description": "拌面，提到浇头现炒与炒制香气。",
+    "listLabel": "烟火小店",
+    "checkedAt": "2026-11-16",
+    "sources": [
+      {
+        "label": "高德网页｜烟火小店",
+        "url": "https://www.amap.com/ranking/hangzhou/shop/330109"
+      },
+      {
+        "label": "高德地图｜门店信息",
+        "url": "https://www.amap.com/place/B0FFI1B11W"
+      }
+    ],
+    "recommendationKind": "summary",
+    "coord": [
+      120.198122,
+      30.012374
+    ],
+    "address": "戴村镇农贸市场北大门",
+    "coordinateSystem": "GCJ-02",
+    "coordinatePrecision": "poi",
+    "coordinateCheckedAt": "2026-11-16",
+    "categoryCheckedAt": "2026-11-16",
+    "categoryBasis": "按门店名称、榜单推荐内容及高德 POI 类型综合判断"
+  },
+  {
+    "id": "food-amap-b0ffjcz0xs",
+    "name": "锋口味面馆(天香华庭店)",
+    "poiId": "B0FFJCZ0XS",
+    "district": "萧山区",
+    "category": "小吃",
+    "description": "榜单推荐肉丝拌川，并提到出餐较快。",
+    "listLabel": "烟火小店",
+    "checkedAt": "2026-11-16",
+    "sources": [
+      {
+        "label": "高德网页｜烟火小店",
+        "url": "https://www.amap.com/ranking/hangzhou/shop/330109"
+      },
+      {
+        "label": "高德地图｜门店信息",
+        "url": "https://www.amap.com/place/B0FFJCZ0XS"
+      }
+    ],
+    "recommendationKind": "summary",
+    "coord": [
+      120.273797,
+      30.128924
+    ],
+    "address": "新塘街道高桥路天香华庭1441号",
+    "coordinateSystem": "GCJ-02",
+    "coordinatePrecision": "poi",
+    "coordinateCheckedAt": "2026-11-16",
+    "categoryCheckedAt": "2026-11-16",
+    "categoryBasis": "按门店名称、榜单推荐内容及高德 POI 类型综合判断"
+  },
+  {
+    "id": "food-amap-b0ffkdor8t",
+    "name": "阿旺面馆(晨悦湾店)",
+    "poiId": "B0FFKDOR8T",
+    "district": "萧山区",
+    "category": "小吃",
+    "description": "猪肝面，评价提到猪肝切片较大。",
+    "listLabel": "烟火小店",
+    "checkedAt": "2026-11-16",
+    "sources": [
+      {
+        "label": "高德网页｜烟火小店",
+        "url": "https://www.amap.com/ranking/hangzhou/shop/330109"
+      },
+      {
+        "label": "高德地图｜门店信息",
+        "url": "https://www.amap.com/place/B0FFKDOR8T"
+      }
+    ],
+    "recommendationKind": "summary",
+    "coord": [
+      120.283411,
+      30.138564
+    ],
+    "address": "晨晖路1920号香悦半岛大门左侧",
+    "coordinateSystem": "GCJ-02",
+    "coordinatePrecision": "poi",
+    "coordinateCheckedAt": "2026-11-16",
+    "categoryCheckedAt": "2026-11-16",
+    "categoryBasis": "按门店名称、榜单推荐内容及高德 POI 类型综合判断"
+  },
+  {
+    "id": "food-amap-b0ffkfvgky",
+    "name": "李记烧烤龙虾万州烤鱼",
+    "poiId": "B0FFKFVGKY",
+    "district": "萧山区",
+    "category": "正餐",
+    "description": "对应榜单页面暂未找到推荐理由。",
+    "listLabel": "烟火小店",
+    "checkedAt": "2026-11-16",
+    "sources": [
+      {
+        "label": "高德网页｜烟火小店",
+        "url": "https://www.amap.com/ranking/hangzhou/shop/330109"
+      },
+      {
+        "label": "高德地图｜门店信息",
+        "url": "https://www.amap.com/place/B0FFKFVGKY"
+      }
+    ],
+    "coord": [
+      120.319668,
+      30.204167
+    ],
+    "address": "新街街道盛中村10组50号",
+    "coordinateSystem": "GCJ-02",
+    "coordinatePrecision": "poi",
+    "coordinateCheckedAt": "2026-11-16",
+    "categoryCheckedAt": "2026-11-16",
+    "categoryBasis": "按门店名称、榜单推荐内容及高德 POI 类型综合判断"
+  },
+  {
+    "id": "food-amap-b0ffleqkhx",
+    "name": "诚信小吃(山阴路店)",
+    "poiId": "B0FFLEQKHX",
+    "district": "萧山区",
+    "category": "小吃",
+    "description": "榜单提到煎饺搭配豆浆的早餐吃法。",
+    "listLabel": "烟火小店",
+    "checkedAt": "2026-11-16",
+    "sources": [
+      {
+        "label": "高德网页｜烟火小店",
+        "url": "https://www.amap.com/ranking/hangzhou/shop/330109"
+      },
+      {
+        "label": "高德地图｜门店信息",
+        "url": "https://www.amap.com/place/B0FFLEQKHX"
+      }
+    ],
+    "recommendationKind": "summary",
+    "coord": [
+      120.275247,
+      30.177759
+    ],
+    "address": "北干街道山阴路106-108号(新世纪幼儿园南门旁)",
+    "coordinateSystem": "GCJ-02",
+    "coordinatePrecision": "poi",
+    "coordinateCheckedAt": "2026-11-16",
+    "categoryCheckedAt": "2026-11-16",
+    "categoryBasis": "按门店名称、榜单推荐内容及高德 POI 类型综合判断"
+  },
+  {
+    "id": "food-amap-b0gddau7it",
+    "name": "贵州小舅妈牛肉馆(解放路店)",
+    "poiId": "B0GDDAU7IT",
+    "district": "萧山区",
+    "category": "正餐",
+    "description": "鲜牛肉，评价提到涮食后的口感。",
+    "listLabel": "烟火小店",
+    "checkedAt": "2026-11-16",
+    "sources": [
+      {
+        "label": "高德网页｜烟火小店",
+        "url": "https://www.amap.com/ranking/hangzhou/shop/330109"
+      },
+      {
+        "label": "高德地图｜门店信息",
+        "url": "https://www.amap.com/place/B0GDDAU7IT"
+      }
+    ],
+    "recommendationKind": "summary",
+    "coord": [
+      120.398148,
+      30.21539
+    ],
+    "address": "梅仙村解放路38号",
+    "coordinateSystem": "GCJ-02",
+    "coordinatePrecision": "poi",
+    "coordinateCheckedAt": "2026-11-16",
+    "categoryCheckedAt": "2026-11-16",
+    "categoryBasis": "按门店名称、榜单推荐内容及高德 POI 类型综合判断"
+  },
+  {
+    "id": "food-amap-b0h1t7jk6v",
+    "name": "阿宏面馆",
+    "poiId": "B0H1T7JK6V",
+    "district": "萧山区",
+    "category": "小吃",
+    "description": "榜单提到猪肝面和腰花面，搭配螺丝面条。",
+    "listLabel": "烟火小店",
+    "checkedAt": "2026-11-16",
+    "sources": [
+      {
+        "label": "高德网页｜烟火小店",
+        "url": "https://www.amap.com/ranking/hangzhou/shop/330109"
+      },
+      {
+        "label": "高德地图｜门店信息",
+        "url": "https://www.amap.com/place/B0H1T7JK6V"
+      }
+    ],
+    "recommendationKind": "summary",
+    "coord": [
+      120.200433,
+      30.01342
+    ],
+    "address": "戴村村凌溪路村委楼下",
+    "coordinateSystem": "GCJ-02",
+    "coordinatePrecision": "poi",
+    "coordinateCheckedAt": "2026-11-16",
+    "categoryCheckedAt": "2026-11-16",
+    "categoryBasis": "按门店名称、榜单推荐内容及高德 POI 类型综合判断"
+  },
+  {
+    "id": "food-amap-b0h3rsezrc",
+    "name": "进化土鸡面馆",
+    "poiId": "B0H3RSEZRC",
+    "district": "萧山区",
+    "category": "小吃",
+    "description": "土鸡与鸡汤，也提到用鸡汤煮面。",
+    "listLabel": "烟火小店",
+    "checkedAt": "2026-11-16",
+    "sources": [
+      {
+        "label": "高德网页｜烟火小店",
+        "url": "https://www.amap.com/ranking/hangzhou/shop/330109"
+      },
+      {
+        "label": "高德地图｜门店信息",
+        "url": "https://www.amap.com/place/B0H3RSEZRC"
+      }
+    ],
+    "recommendationKind": "summary",
+    "coord": [
+      120.288473,
+      30.150792
+    ],
+    "address": "金家浜社区大通桥大通路600号萧山模具公司对面",
+    "coordinateSystem": "GCJ-02",
+    "coordinatePrecision": "poi",
+    "coordinateCheckedAt": "2026-11-16",
+    "categoryCheckedAt": "2026-11-16",
+    "categoryBasis": "按门店名称、榜单推荐内容及高德 POI 类型综合判断"
+  },
+  {
+    "id": "food-amap-b0fff6atqr",
+    "name": "么么哒串串",
+    "poiId": "B0FFF6ATQR",
+    "district": "拱墅区",
+    "category": "正餐",
+    "description": "榜单提到串串里的大虾，评价认为口味鲜辣。",
+    "listLabel": "烟火小店",
+    "checkedAt": "2026-11-16",
+    "sources": [
+      {
+        "label": "高德网页｜烟火小店",
+        "url": "https://www.amap.com/ranking/hangzhou/shop/330105"
+      },
+      {
+        "label": "高德地图｜门店信息",
+        "url": "https://www.amap.com/place/B0FFF6ATQR"
+      }
+    ],
+    "recommendationKind": "summary",
+    "coord": [
+      120.142475,
+      30.293842
+    ],
+    "address": "信义坊步行街109号",
+    "coordinateSystem": "GCJ-02",
+    "coordinatePrecision": "poi",
+    "coordinateCheckedAt": "2026-11-16",
+    "categoryCheckedAt": "2026-11-16",
+    "categoryBasis": "按门店名称、榜单推荐内容及高德 POI 类型综合判断"
+  },
+  {
+    "id": "food-amap-b0ffg9w1fm",
+    "name": "小河无名面馆",
+    "poiId": "B0FFG9W1FM",
+    "district": "拱墅区",
+    "category": "小吃",
+    "description": "干煎小黄鱼，评价称外皮酥、鱼肉嫩。",
+    "listLabel": "烟火小店",
+    "checkedAt": "2026-11-16",
+    "sources": [
+      {
+        "label": "高德网页｜烟火小店",
+        "url": "https://www.amap.com/ranking/hangzhou/shop/330105"
+      },
+      {
+        "label": "高德地图｜门店信息",
+        "url": "https://www.amap.com/place/B0FFG9W1FM"
+      }
+    ],
+    "recommendationKind": "summary",
+    "coord": [
+      120.1369,
+      30.307386
+    ],
+    "address": "小河直街小河东河下40-4号(小河直街历史文化街区东2门旁)",
+    "coordinateSystem": "GCJ-02",
+    "coordinatePrecision": "poi",
+    "coordinateCheckedAt": "2026-11-16",
+    "categoryCheckedAt": "2026-11-16",
+    "categoryBasis": "按门店名称、榜单推荐内容及高德 POI 类型综合判断"
+  },
+  {
+    "id": "food-amap-b0ffhupjmu",
+    "name": "潮汕小吃(锦秀文澜店)",
+    "poiId": "B0FFHUPJMU",
+    "district": "拱墅区",
+    "category": "小吃",
+    "description": "鲜虾粥，评价提到虾仁和米粥的搭配。",
+    "listLabel": "烟火小店",
+    "checkedAt": "2026-11-16",
+    "sources": [
+      {
+        "label": "高德网页｜烟火小店",
+        "url": "https://www.amap.com/ranking/hangzhou/shop/330105"
+      },
+      {
+        "label": "高德地图｜门店信息",
+        "url": "https://www.amap.com/place/B0FFHUPJMU"
+      }
+    ],
+    "recommendationKind": "summary",
+    "coord": [
+      120.133931,
+      30.325762
+    ],
+    "address": "文岚街105号",
+    "coordinateSystem": "GCJ-02",
+    "coordinatePrecision": "poi",
+    "coordinateCheckedAt": "2026-11-16",
+    "categoryCheckedAt": "2026-11-16",
+    "categoryBasis": "按门店名称、榜单推荐内容及高德 POI 类型综合判断"
+  },
+  {
+    "id": "food-amap-b0hbf7yvbr",
+    "name": "正宗淮南牛肉汤",
+    "poiId": "B0HBF7YVBR",
+    "district": "拱墅区",
+    "category": "小吃",
+    "description": "榜单提到牛肉汤与现烙饼的搭配。",
+    "listLabel": "烟火小店",
+    "checkedAt": "2026-11-16",
+    "sources": [
+      {
+        "label": "高德网页｜烟火小店",
+        "url": "https://www.amap.com/ranking/hangzhou/shop/330105"
+      },
+      {
+        "label": "高德地图｜门店信息",
+        "url": "https://www.amap.com/place/B0HBF7YVBR"
+      }
+    ],
+    "recommendationKind": "summary",
+    "coord": [
+      120.151485,
+      30.281462
+    ],
+    "address": "沈塘桥路62号(沈塘桥地铁站A口步行110米)",
+    "coordinateSystem": "GCJ-02",
+    "coordinatePrecision": "poi",
+    "coordinateCheckedAt": "2026-11-16",
+    "categoryCheckedAt": "2026-11-16",
+    "categoryBasis": "按门店名称、榜单推荐内容及高德 POI 类型综合判断"
+  },
+  {
+    "id": "food-amap-b0id7arl5c",
+    "name": "36号小锅米线",
+    "poiId": "B0ID7ARL5C",
+    "district": "拱墅区",
+    "category": "小吃",
+    "description": "猪肉小锅米线，评价认为汤味浓郁。",
+    "listLabel": "烟火小店",
+    "checkedAt": "2026-11-16",
+    "sources": [
+      {
+        "label": "高德网页｜烟火小店",
+        "url": "https://www.amap.com/ranking/hangzhou/shop/330105"
+      },
+      {
+        "label": "高德地图｜门店信息",
+        "url": "https://www.amap.com/place/B0ID7ARL5C"
+      }
+    ],
+    "recommendationKind": "summary",
+    "coord": [
+      120.136,
+      30.306151
+    ],
+    "address": "小河街道小河路36号",
+    "coordinateSystem": "GCJ-02",
+    "coordinatePrecision": "poi",
+    "coordinateCheckedAt": "2026-11-16",
+    "categoryCheckedAt": "2026-11-16",
+    "categoryBasis": "按门店名称、榜单推荐内容及高德 POI 类型综合判断"
+  },
+  {
+    "id": "food-amap-b0j0k72tuy",
+    "name": "辣白菜小吃(都市水乡·水映苑店)",
+    "poiId": "B0J0K72TUY",
+    "district": "拱墅区",
+    "category": "正餐",
+    "description": "榜单提到辣白菜炒饭和大排，评价认为炒饭有锅气。",
+    "listLabel": "烟火小店",
+    "checkedAt": "2026-11-16",
+    "sources": [
+      {
+        "label": "高德网页｜烟火小店",
+        "url": "https://www.amap.com/ranking/hangzhou/shop/330105"
+      },
+      {
+        "label": "高德地图｜门店信息",
+        "url": "https://www.amap.com/place/B0J0K72TUY"
+      }
+    ],
+    "recommendationKind": "summary",
+    "coord": [
+      120.094006,
+      30.327847
+    ],
+    "address": "长阳路390-394号",
+    "coordinateSystem": "GCJ-02",
+    "coordinatePrecision": "poi",
+    "coordinateCheckedAt": "2026-11-16",
+    "categoryCheckedAt": "2026-11-16",
+    "categoryBasis": "按门店名称、榜单推荐内容及高德 POI 类型综合判断"
+  },
+  {
+    "id": "food-amap-b0ffhj90xf",
+    "name": "酸菜鱼馆(荷花小区南区店)",
+    "poiId": "B0FFHJ90XF",
+    "district": "临平区",
+    "category": "正餐",
+    "description": "酸菜鱼，评价提到鱼肉和鲜汤。",
+    "listLabel": "烟火小店",
+    "checkedAt": "2026-11-16",
+    "sources": [
+      {
+        "label": "高德网页｜烟火小店",
+        "url": "https://www.amap.com/ranking/hangzhou/shop/330113"
+      },
+      {
+        "label": "高德地图｜门店信息",
+        "url": "https://www.amap.com/place/B0FFHJ90XF"
+      }
+    ],
+    "recommendationKind": "summary",
+    "coord": [
+      120.292007,
+      30.430781
+    ],
+    "address": "映荷街29号",
+    "coordinateSystem": "GCJ-02",
+    "coordinatePrecision": "poi",
+    "coordinateCheckedAt": "2026-11-16",
+    "categoryCheckedAt": "2026-11-16",
+    "categoryBasis": "按门店名称、榜单推荐内容及高德 POI 类型综合判断"
+  },
+  {
+    "id": "food-amap-b0ffmbovye",
+    "name": "四川土菜馆",
+    "poiId": "B0FFMBOVYE",
+    "district": "临平区",
+    "category": "正餐",
+    "description": "榜单提到干锅肥肠，评价称口味香辣、分量较多。",
+    "listLabel": "烟火小店",
+    "checkedAt": "2026-11-16",
+    "sources": [
+      {
+        "label": "高德网页｜烟火小店",
+        "url": "https://www.amap.com/ranking/hangzhou/shop/330113"
+      }
+    ],
+    "recommendationKind": "summary",
+    "coord": [
+      120.29543,
+      30.347993
+    ],
+    "address": "乔司乔莫东路13号",
+    "coordinateSystem": "GCJ-02",
+    "coordinatePrecision": "poi",
+    "coordinateCheckedAt": "2026-11-16"
+  },
+  {
+    "id": "food-amap-b0h0ozxry3",
+    "name": "云味云南特色夜宵",
+    "poiId": "B0H0OZXRY3",
+    "district": "临平区",
+    "category": "正餐",
+    "description": "香茅草薄荷排骨，评价提到炸制后的香气。",
+    "listLabel": "烟火小店",
+    "checkedAt": "2026-11-16",
+    "sources": [
+      {
+        "label": "高德网页｜烟火小店",
+        "url": "https://www.amap.com/ranking/hangzhou/shop/330113"
+      },
+      {
+        "label": "高德地图｜门店信息",
+        "url": "https://www.amap.com/place/B0H0OZXRY3"
+      }
+    ],
+    "recommendationKind": "summary",
+    "coord": [
+      120.304947,
+      30.426747
+    ],
+    "address": "东湖中路与邱山大街交叉口南140米",
+    "coordinateSystem": "GCJ-02",
+    "coordinatePrecision": "poi",
+    "coordinateCheckedAt": "2026-11-16",
+    "categoryCheckedAt": "2026-11-16",
+    "categoryBasis": "按门店名称、榜单推荐内容及高德 POI 类型综合判断"
+  },
+  {
+    "id": "food-amap-b0h1luhgp4",
+    "name": "塘北烧烤",
+    "poiId": "B0H1LUHGP4",
+    "district": "临平区",
+    "category": "小吃",
+    "description": "榜单提到炭火牛肉串，评价称肉质鲜嫩。",
+    "listLabel": "烟火小店",
+    "checkedAt": "2026-11-16",
+    "sources": [
+      {
+        "label": "高德网页｜烟火小店",
+        "url": "https://www.amap.com/ranking/hangzhou/shop/330113"
+      },
+      {
+        "label": "高德地图｜门店信息",
+        "url": "https://www.amap.com/place/B0H1LUHGP4"
+      }
+    ],
+    "recommendationKind": "summary",
+    "coord": [
+      120.204114,
+      30.493863
+    ],
+    "address": "中化石油杭州塘栖加油站东北侧140米",
+    "coordinateSystem": "GCJ-02",
+    "coordinatePrecision": "poi",
+    "coordinateCheckedAt": "2026-11-16",
+    "categoryCheckedAt": "2026-11-16",
+    "categoryBasis": "按门店名称、榜单推荐内容及高德 POI 类型综合判断"
+  },
+  {
+    "id": "food-amap-b0iu6zdm57",
+    "name": "阿康饭店(港园路店)",
+    "poiId": "B0IU6ZDM57",
+    "district": "临平区",
+    "category": "正餐",
+    "description": "榜单将这家饭店描述为菜场附近的家常菜馆。",
+    "listLabel": "烟火小店",
+    "checkedAt": "2026-11-16",
+    "sources": [
+      {
+        "label": "高德网页｜烟火小店",
+        "url": "https://www.amap.com/ranking/hangzhou/shop/330113"
+      }
+    ],
+    "recommendationKind": "summary",
+    "coord": [
+      120.309493,
+      30.435724
+    ],
+    "address": "港园路1号",
+    "coordinateSystem": "GCJ-02",
+    "coordinatePrecision": "poi",
+    "coordinateCheckedAt": "2026-11-16"
+  },
+  {
+    "id": "food-amap-b0kra76qrs",
+    "name": "一把野火WILD FIRE",
+    "poiId": "B0KRA76QRS",
+    "district": "临平区",
+    "category": "小吃",
+    "description": "甜烧饼，提到白糖、芝麻与酥皮的搭配。",
+    "listLabel": "烟火小店",
+    "checkedAt": "2026-11-16",
+    "sources": [
+      {
+        "label": "高德网页｜烟火小店",
+        "url": "https://www.amap.com/ranking/hangzhou/shop/330113"
+      },
+      {
+        "label": "高德地图｜门店信息",
+        "url": "https://www.amap.com/place/B0KRA76QRS"
+      }
+    ],
+    "recommendationKind": "summary",
+    "coord": [
+      120.296853,
+      30.420512
+    ],
+    "address": "临平街道邱山大街178-1号",
+    "coordinateSystem": "GCJ-02",
+    "coordinatePrecision": "poi",
+    "coordinateCheckedAt": "2026-11-16",
+    "categoryCheckedAt": "2026-11-16",
+    "categoryBasis": "按门店名称、榜单推荐内容及高德 POI 类型综合判断",
+    "verificationNote": "榜单介绍的是烧饼，但该 POI 当前标为酒吧；门店和推荐内容可能不一致，请出发前核对。"
+  },
+  {
+    "id": "food-amap-b0ffffyzsu",
+    "name": "运河土菜馆(西兴店)",
+    "poiId": "B0FFFFYZSU",
+    "district": "滨江区",
+    "category": "正餐",
+    "description": "榜单提到河虾汤，评价认为有家常风味。",
+    "listLabel": "烟火小店",
+    "checkedAt": "2026-11-16",
+    "sources": [
+      {
+        "label": "高德网页｜烟火小店",
+        "url": "https://www.amap.com/ranking/hangzhou/shop/330108"
+      }
+    ],
+    "recommendationKind": "summary",
+    "coord": [
+      120.223105,
+      30.191301
+    ],
+    "address": "西兴街道古塘路98号(戏迷广场对面)",
+    "coordinateSystem": "GCJ-02",
+    "coordinatePrecision": "poi",
+    "coordinateCheckedAt": "2026-11-16"
+  },
+  {
+    "id": "food-amap-b0ffkpp6dk",
+    "name": "邬妈妈面馆(滨兴东苑店)",
+    "poiId": "B0FFKPP6DK",
+    "district": "滨江区",
+    "category": "小吃",
+    "description": "片儿川，提到面条、虾仁和汤的搭配。",
+    "listLabel": "烟火小店",
+    "checkedAt": "2026-11-16",
+    "sources": [
+      {
+        "label": "高德网页｜烟火小店",
+        "url": "https://www.amap.com/ranking/hangzhou/shop/330108"
+      },
+      {
+        "label": "高德地图｜门店信息",
+        "url": "https://www.amap.com/place/B0FFKPP6DK"
+      }
+    ],
+    "recommendationKind": "summary",
+    "coord": [
+      120.200506,
+      30.193728
+    ],
+    "address": "兴才街滨兴东苑76号",
+    "coordinateSystem": "GCJ-02",
+    "coordinatePrecision": "poi",
+    "coordinateCheckedAt": "2026-11-16",
+    "categoryCheckedAt": "2026-11-16",
+    "categoryBasis": "按门店名称、榜单推荐内容及高德 POI 类型综合判断"
+  },
+  {
+    "id": "food-amap-b0ffkrnfz8",
+    "name": "黄姑姑螺蛳粉·桂林米粉(滨康小区店)",
+    "poiId": "B0FFKRNFZ8",
+    "district": "滨江区",
+    "category": "小吃",
+    "description": "螺蛳粉，提到鲜辣汤底和炸蛋。",
+    "listLabel": "烟火小店",
+    "checkedAt": "2026-11-16",
+    "sources": [
+      {
+        "label": "高德网页｜烟火小店",
+        "url": "https://www.amap.com/ranking/hangzhou/shop/330108"
+      },
+      {
+        "label": "高德地图｜门店信息",
+        "url": "https://www.amap.com/place/B0FFKRNFZ8"
+      }
+    ],
+    "recommendationKind": "summary",
+    "coord": [
+      120.207492,
+      30.179485
+    ],
+    "address": "滨康小区22号商铺",
+    "coordinateSystem": "GCJ-02",
+    "coordinatePrecision": "poi",
+    "coordinateCheckedAt": "2026-11-16",
+    "categoryCheckedAt": "2026-11-16",
+    "categoryBasis": "按门店名称、榜单推荐内容及高德 POI 类型综合判断"
+  },
+  {
+    "id": "food-amap-b0g33uy3ew",
+    "name": "云南小吃",
+    "poiId": "B0G33UY3EW",
+    "district": "滨江区",
+    "category": "正餐",
+    "description": "榜单提到白参菌蒸蛋，评价关注菌菇的口感。",
+    "listLabel": "烟火小店",
+    "checkedAt": "2026-11-16",
+    "sources": [
+      {
+        "label": "高德网页｜烟火小店",
+        "url": "https://www.amap.com/ranking/hangzhou/shop/330108"
+      },
+      {
+        "label": "高德地图｜门店信息",
+        "url": "https://www.amap.com/place/B0G33UY3EW"
+      }
+    ],
+    "recommendationKind": "summary",
+    "coord": [
+      120.148167,
+      30.157601
+    ],
+    "address": "东冠路841号",
+    "coordinateSystem": "GCJ-02",
+    "coordinatePrecision": "poi",
+    "coordinateCheckedAt": "2026-11-16",
+    "categoryCheckedAt": "2026-11-16",
+    "categoryBasis": "按门店名称、榜单推荐内容及高德 POI 类型综合判断"
+  },
+  {
+    "id": "food-amap-b0h1lugdys",
+    "name": "林泉早餐(新浦路店)",
+    "poiId": "B0H1LUGDYS",
+    "district": "滨江区",
+    "category": "小吃",
+    "description": "胡辣汤，评价认为口味带辣、有奶香。",
+    "listLabel": "烟火小店",
+    "checkedAt": "2026-11-16",
+    "sources": [
+      {
+        "label": "高德网页｜烟火小店",
+        "url": "https://www.amap.com/ranking/hangzhou/shop/330108"
+      }
+    ],
+    "recommendationKind": "summary",
+    "coord": [
+      120.150457,
+      30.158975
+    ],
+    "address": "东冠路与新浦路交叉口东80米",
+    "coordinateSystem": "GCJ-02",
+    "coordinatePrecision": "poi",
+    "coordinateCheckedAt": "2026-11-16"
+  },
+  {
+    "id": "food-amap-b0haumrrzb",
+    "name": "安吉面馆(滨康小区店)",
+    "poiId": "B0HAUMRRZB",
+    "district": "滨江区",
+    "category": "小吃",
+    "description": "榜单提到面条的现炒浇头，评价认为有锅气。",
+    "listLabel": "烟火小店",
+    "checkedAt": "2026-11-16",
+    "sources": [
+      {
+        "label": "高德网页｜烟火小店",
+        "url": "https://www.amap.com/ranking/hangzhou/shop/330108"
+      },
+      {
+        "label": "高德地图｜门店信息",
+        "url": "https://www.amap.com/place/B0HAUMRRZB"
+      }
+    ],
+    "recommendationKind": "summary",
+    "coord": [
+      120.207496,
+      30.179374
+    ],
+    "address": "西兴街道滨康小区26号",
+    "coordinateSystem": "GCJ-02",
+    "coordinatePrecision": "poi",
+    "coordinateCheckedAt": "2026-11-16",
+    "categoryCheckedAt": "2026-11-16",
+    "categoryBasis": "按门店名称、榜单推荐内容及高德 POI 类型综合判断"
+  },
+  {
+    "id": "food-amap-b023b05xrh",
+    "name": "福家煲店",
+    "poiId": "B023B05XRH",
+    "district": "钱塘区",
+    "category": "正餐",
+    "description": "明虾牛蛙煲，提到鸡爪和蔬菜等配料。",
+    "listLabel": "烟火小店",
+    "checkedAt": "2026-11-16",
+    "sources": [
+      {
+        "label": "高德网页｜烟火小店",
+        "url": "https://www.amap.com/ranking/hangzhou/shop/330114"
+      },
+      {
+        "label": "高德地图｜门店信息",
+        "url": "https://www.amap.com/place/B023B05XRH"
+      }
+    ],
+    "recommendationKind": "summary",
+    "coord": [
+      120.337052,
+      30.315487
+    ],
+    "address": "下沙街道学林街1153号",
+    "coordinateSystem": "GCJ-02",
+    "coordinatePrecision": "poi",
+    "coordinateCheckedAt": "2026-11-16",
+    "categoryCheckedAt": "2026-11-16",
+    "categoryBasis": "按门店名称、榜单推荐内容及高德 POI 类型综合判断"
+  },
+  {
+    "id": "food-amap-b0fffa971y",
+    "name": "罗丝面馆(上沙路店)",
+    "poiId": "B0FFFA971Y",
+    "district": "钱塘区",
+    "category": "小吃",
+    "description": "榜单提到这家面馆经营多年，评价认为面条有弹性。",
+    "listLabel": "烟火小店",
+    "checkedAt": "2026-11-16",
+    "sources": [
+      {
+        "label": "高德网页｜烟火小店",
+        "url": "https://www.amap.com/ranking/hangzhou/shop/330114"
+      },
+      {
+        "label": "高德地图｜门店信息",
+        "url": "https://www.amap.com/place/B0FFFA971Y"
+      }
+    ],
+    "recommendationKind": "summary",
+    "coord": [
+      120.328419,
+      30.31681
+    ],
+    "address": "铭和苑新荷坊西门旁",
+    "coordinateSystem": "GCJ-02",
+    "coordinatePrecision": "poi",
+    "coordinateCheckedAt": "2026-11-16",
+    "categoryCheckedAt": "2026-11-16",
+    "categoryBasis": "按门店名称、榜单推荐内容及高德 POI 类型综合判断"
+  },
+  {
+    "id": "food-amap-b0fffzjumb",
+    "name": "家常小炒(高沙小区店)",
+    "poiId": "B0FFFZJUMB",
+    "district": "钱塘区",
+    "category": "正餐",
+    "description": "家常豆腐和咸蛋黄南瓜，提到菜量较大。",
+    "listLabel": "烟火小店",
+    "checkedAt": "2026-11-16",
+    "sources": [
+      {
+        "label": "高德网页｜烟火小店",
+        "url": "https://www.amap.com/ranking/hangzhou/shop/330114"
+      },
+      {
+        "label": "高德地图｜门店信息",
+        "url": "https://www.amap.com/place/B0FFFZJUMB"
+      }
+    ],
+    "recommendationKind": "summary",
+    "coord": [
+      120.337287,
+      30.314618
+    ],
+    "address": "学林街与文渊路交叉路口往西南约100米",
+    "coordinateSystem": "GCJ-02",
+    "coordinatePrecision": "poi",
+    "coordinateCheckedAt": "2026-11-16",
+    "categoryCheckedAt": "2026-11-16",
+    "categoryBasis": "按门店名称、榜单推荐内容及高德 POI 类型综合判断"
+  },
+  {
+    "id": "food-amap-b0j0tzx3dr",
+    "name": "湖南益阳麻辣烫·鸭霸王热卤",
+    "poiId": "B0J0TZX3DR",
+    "district": "钱塘区",
+    "category": "小吃",
+    "description": "湖南风味麻辣烫，评价提到麻辣汤底。",
+    "listLabel": "烟火小店",
+    "checkedAt": "2026-11-16",
+    "sources": [
+      {
+        "label": "高德网页｜烟火小店",
+        "url": "https://www.amap.com/ranking/hangzhou/shop/330114"
+      },
+      {
+        "label": "高德地图｜门店信息",
+        "url": "https://www.amap.com/place/B0J0TZX3DR"
+      }
+    ],
+    "recommendationKind": "summary",
+    "coord": [
+      120.336415,
+      30.316972
+    ],
+    "address": "高沙小区北区159号一楼",
+    "coordinateSystem": "GCJ-02",
+    "coordinatePrecision": "poi",
+    "coordinateCheckedAt": "2026-11-16",
+    "categoryCheckedAt": "2026-11-16",
+    "categoryBasis": "按门店名称、榜单推荐内容及高德 POI 类型综合判断"
+  },
+  {
+    "id": "food-amap-b0ld67bm82",
+    "name": "铜香记.火锅鸡(华元十六街区店)",
+    "poiId": "B0LD67BM82",
+    "district": "钱塘区",
+    "category": "正餐",
+    "description": "榜单提到火锅鸡套餐，评价认为菜量充足。",
+    "listLabel": "烟火小店",
+    "checkedAt": "2026-11-16",
+    "sources": [
+      {
+        "label": "高德网页｜烟火小店",
+        "url": "https://www.amap.com/ranking/hangzhou/shop/330114"
+      }
+    ],
+    "recommendationKind": "summary",
+    "coord": [
+      120.352216,
+      30.309137
+    ],
+    "address": "华元十六街区商城154号",
+    "coordinateSystem": "GCJ-02",
+    "coordinatePrecision": "poi",
+    "coordinateCheckedAt": "2026-11-16"
+  },
+  {
+    "id": "food-amap-b0ldtz4zi3",
+    "name": "东北刘记自助盒饭",
+    "poiId": "B0LDTZ4ZI3",
+    "district": "钱塘区",
+    "category": "正餐",
+    "description": "东北菜自助盒饭，提到锅包肉和溜肉段。",
+    "listLabel": "烟火小店",
+    "checkedAt": "2026-11-16",
+    "sources": [
+      {
+        "label": "高德网页｜烟火小店",
+        "url": "https://www.amap.com/ranking/hangzhou/shop/330114"
+      },
+      {
+        "label": "高德地图｜门店信息",
+        "url": "https://www.amap.com/place/B0LDTZ4ZI3"
+      }
+    ],
+    "recommendationKind": "summary",
+    "coord": [
+      120.336206,
+      30.317884
+    ],
+    "address": "下沙街道高沙小区北区208一楼北",
+    "coordinateSystem": "GCJ-02",
+    "coordinatePrecision": "poi",
+    "coordinateCheckedAt": "2026-11-16",
+    "categoryCheckedAt": "2026-11-16",
+    "categoryBasis": "按门店名称、榜单推荐内容及高德 POI 类型综合判断"
+  },
+  {
+    "id": "food-amap-b023b1a1lg",
+    "name": "林木面馆(唐昌街182号店)",
+    "poiId": "B023B1A1LG",
+    "district": "临安区",
+    "category": "小吃",
+    "description": "榜单提到刀切面和现炒浇头，包括牛肉、腰花与猪肝。",
+    "listLabel": "烟火小店",
+    "checkedAt": "2026-11-16",
+    "sources": [
+      {
+        "label": "高德网页｜烟火小店",
+        "url": "https://www.amap.com/ranking/hangzhou/shop/330112"
+      },
+      {
+        "label": "高德地图｜门店信息",
+        "url": "https://www.amap.com/place/B023B1A1LG"
+      }
+    ],
+    "recommendationKind": "summary",
+    "coord": [
+      119.222637,
+      30.165894
+    ],
+    "address": "昌化镇唐昌街182号",
+    "coordinateSystem": "GCJ-02",
+    "coordinatePrecision": "poi",
+    "coordinateCheckedAt": "2026-11-16",
+    "categoryCheckedAt": "2026-11-16",
+    "categoryBasis": "按门店名称、榜单推荐内容及高德 POI 类型综合判断"
+  },
+  {
+    "id": "food-amap-b0ffg4d5v4",
+    "name": "飞飞鸡蛋饼(新车站老字号)",
+    "poiId": "B0FFG4D5V4",
+    "district": "临安区",
+    "category": "小吃",
+    "description": "鸡蛋饼，评价称饼较大、馅料丰富。",
+    "listLabel": "烟火小店",
+    "checkedAt": "2026-11-16",
+    "sources": [
+      {
+        "label": "高德网页｜烟火小店",
+        "url": "https://www.amap.com/ranking/hangzhou/shop/330112"
+      },
+      {
+        "label": "高德地图｜门店信息",
+        "url": "https://www.amap.com/place/B0FFG4D5V4"
+      }
+    ],
+    "recommendationKind": "summary",
+    "coord": [
+      119.71708,
+      30.225536
+    ],
+    "address": "新车站景杉路548号",
+    "coordinateSystem": "GCJ-02",
+    "coordinatePrecision": "poi",
+    "coordinateCheckedAt": "2026-11-16",
+    "categoryCheckedAt": "2026-11-16",
+    "categoryBasis": "按门店名称、榜单推荐内容及高德 POI 类型综合判断"
+  },
+  {
+    "id": "food-amap-b0ffg5ber4",
+    "name": "周燃面",
+    "poiId": "B0FFG5BER4",
+    "district": "临安区",
+    "category": "小吃",
+    "description": "肥肠面，评价称汤底香辣。",
+    "listLabel": "烟火小店",
+    "checkedAt": "2026-11-16",
+    "sources": [
+      {
+        "label": "高德网页｜烟火小店",
+        "url": "https://www.amap.com/ranking/hangzhou/shop/330112"
+      },
+      {
+        "label": "高德地图｜门店信息",
+        "url": "https://www.amap.com/place/B0FFG5BER4"
+      }
+    ],
+    "recommendationKind": "summary",
+    "coord": [
+      119.688577,
+      30.210668
+    ],
+    "address": "玲珑街道玲珑街190号",
+    "coordinateSystem": "GCJ-02",
+    "coordinatePrecision": "poi",
+    "coordinateCheckedAt": "2026-11-16",
+    "categoryCheckedAt": "2026-11-16",
+    "categoryBasis": "按门店名称、榜单推荐内容及高德 POI 类型综合判断"
+  },
+  {
+    "id": "food-amap-b0g0cpsk7s",
+    "name": "贵州德食芳干锅牛肉馆",
+    "poiId": "B0G0CPSK7S",
+    "district": "临安区",
+    "category": "正餐",
+    "description": "榜单提到干锅牛肉，评价认为带有椒香。",
+    "listLabel": "烟火小店",
+    "checkedAt": "2026-11-16",
+    "sources": [
+      {
+        "label": "高德网页｜烟火小店",
+        "url": "https://www.amap.com/ranking/hangzhou/shop/330112"
+      },
+      {
+        "label": "高德地图｜门店信息",
+        "url": "https://www.amap.com/place/B0G0CPSK7S"
+      }
+    ],
+    "recommendationKind": "summary",
+    "coord": [
+      119.780125,
+      30.184475
+    ],
+    "address": "02省道与牧紫线交叉口东南40米",
+    "coordinateSystem": "GCJ-02",
+    "coordinatePrecision": "poi",
+    "coordinateCheckedAt": "2026-11-16",
+    "categoryCheckedAt": "2026-11-16",
+    "categoryBasis": "按门店名称、榜单推荐内容及高德 POI 类型综合判断"
+  },
+  {
+    "id": "food-amap-b0ffgnu967",
+    "name": "妈妈的味道•燕子烧饼(迎春社区店)",
+    "poiId": "B0FFGNU967",
+    "district": "桐庐县",
+    "category": "小吃",
+    "description": "现烤烧饼，并提到不同口感和辣度选择。",
+    "listLabel": "烟火小店",
+    "checkedAt": "2026-11-16",
+    "sources": [
+      {
+        "label": "高德网页｜烟火小店",
+        "url": "https://www.amap.com/ranking/hangzhou/shop/330122"
+      }
+    ],
+    "recommendationKind": "summary",
+    "coord": [
+      119.678786,
+      29.805813
+    ],
+    "address": "迎春路20号迎春社区",
+    "coordinateSystem": "GCJ-02",
+    "coordinatePrecision": "poi",
+    "coordinateCheckedAt": "2026-11-16"
+  },
+  {
+    "id": "food-amap-b0ffgy4h8n",
+    "name": "老街煎包店",
+    "poiId": "B0FFGY4H8N",
+    "district": "桐庐县",
+    "category": "小吃",
+    "description": "煎包，评价提到煎得焦香的底部。",
+    "listLabel": "烟火小店",
+    "checkedAt": "2026-11-16",
+    "sources": [
+      {
+        "label": "高德网页｜烟火小店",
+        "url": "https://www.amap.com/ranking/hangzhou/shop/330122"
+      },
+      {
+        "label": "高德地图｜门店信息",
+        "url": "https://www.amap.com/place/B0FFGY4H8N"
+      }
+    ],
+    "recommendationKind": "summary",
+    "coord": [
+      119.680755,
+      29.80655
+    ],
+    "address": "开元街72号供销合作总社旁",
+    "coordinateSystem": "GCJ-02",
+    "coordinatePrecision": "poi",
+    "coordinateCheckedAt": "2026-11-16",
+    "categoryCheckedAt": "2026-11-16",
+    "categoryBasis": "按门店名称、榜单推荐内容及高德 POI 类型综合判断"
+  },
+  {
+    "id": "food-amap-b0ffg4da4x",
+    "name": "江边面馆",
+    "poiId": "B0FFG4DA4X",
+    "district": "富阳区",
+    "category": "小吃",
+    "description": "榜单提到临窗吃面的体验，可以一边用餐一边看江景。",
+    "listLabel": "烟火小店",
+    "checkedAt": "2026-11-16",
+    "sources": [
+      {
+        "label": "高德网页｜烟火小店",
+        "url": "https://www.amap.com/ranking/hangzhou/shop/330111"
+      },
+      {
+        "label": "高德地图｜门店信息",
+        "url": "https://www.amap.com/place/B0FFG4DA4X"
+      }
+    ],
+    "recommendationKind": "summary",
+    "coord": [
+      119.960754,
+      30.046144
+    ],
+    "address": "南门街20号",
+    "coordinateSystem": "GCJ-02",
+    "coordinatePrecision": "poi",
+    "coordinateCheckedAt": "2026-11-16",
+    "categoryCheckedAt": "2026-11-16",
+    "categoryBasis": "按门店名称、榜单推荐内容及高德 POI 类型综合判断"
+  },
+  {
+    "id": "food-amap-b0ffjfbf8d",
+    "name": "桥头胖子砂锅",
+    "poiId": "B0FFJFBF8D",
+    "district": "富阳区",
+    "category": "正餐",
+    "description": "榜单将这家砂锅店描述为承载熟客回忆的老店。",
+    "listLabel": "烟火小店",
+    "checkedAt": "2026-11-16",
+    "sources": [
+      {
+        "label": "高德网页｜烟火小店",
+        "url": "https://www.amap.com/ranking/hangzhou/shop/330111"
+      },
+      {
+        "label": "高德地图｜门店信息",
+        "url": "https://www.amap.com/place/B0FFJFBF8D"
+      }
+    ],
+    "recommendationKind": "summary",
+    "coord": [
+      120.010906,
+      30.004389
+    ],
+    "address": "大源镇东塘路31号",
+    "coordinateSystem": "GCJ-02",
+    "coordinatePrecision": "poi",
+    "coordinateCheckedAt": "2026-11-16",
+    "categoryCheckedAt": "2026-11-16",
+    "categoryBasis": "按门店名称、榜单推荐内容及高德 POI 类型综合判断"
+  },
+  {
+    "id": "food-amap-b0hamd2uzc",
+    "name": "阿爸头·牛杂饭·牛杂面·牛杂粉",
+    "poiId": "B0HAMD2UZC",
+    "district": "富阳区",
+    "category": "小吃",
+    "description": "榜单提到牛巴掌和牛窝骨，评价认为口感软糯。",
+    "listLabel": "烟火小店",
+    "checkedAt": "2026-11-16",
+    "sources": [
+      {
+        "label": "高德网页｜烟火小店",
+        "url": "https://www.amap.com/ranking/hangzhou/shop/330111"
+      },
+      {
+        "label": "高德地图｜门店信息",
+        "url": "https://www.amap.com/place/B0HAMD2UZC"
+      }
+    ],
+    "recommendationKind": "summary",
+    "coord": [
+      119.931747,
+      30.053031
+    ],
+    "address": "凤浦路207号",
+    "coordinateSystem": "GCJ-02",
+    "coordinatePrecision": "poi",
+    "coordinateCheckedAt": "2026-11-16",
+    "categoryCheckedAt": "2026-11-16",
+    "categoryBasis": "按门店名称、榜单推荐内容及高德 POI 类型综合判断"
+  },
+  {
+    "id": "food-amap-b0ffkdp32x",
+    "name": "胖子鱼馆(新安南路店)",
+    "poiId": "B0FFKDP32X",
+    "district": "淳安县",
+    "category": "正餐",
+    "description": "铁板鱼尾、剁椒鱼头和鱼汤等吃法。",
+    "listLabel": "烟火小店",
+    "checkedAt": "2026-11-16",
+    "sources": [
+      {
+        "label": "高德网页｜烟火小店",
+        "url": "https://www.amap.com/ranking/hangzhou/shop/330127"
+      },
+      {
+        "label": "高德地图｜门店信息",
+        "url": "https://www.amap.com/place/B0FFKDP32X"
+      }
+    ],
+    "recommendationKind": "summary",
+    "coord": [
+      119.053015,
+      29.599129
+    ],
+    "address": "千岛湖镇新安南路15-19号",
+    "coordinateSystem": "GCJ-02",
+    "coordinatePrecision": "poi",
+    "coordinateCheckedAt": "2026-11-16",
+    "categoryCheckedAt": "2026-11-16",
+    "categoryBasis": "按门店名称、榜单推荐内容及高德 POI 类型综合判断"
+  },
+  {
+    "id": "food-amap-b0j6gkdddr",
+    "name": "章记酒酿馒头(碧湖阁店)",
+    "poiId": "B0J6GKDDDR",
+    "district": "淳安县",
+    "category": "小吃",
+    "description": "榜单提到酒酿馒头，评价关注酒酿香气。",
+    "listLabel": "烟火小店",
+    "checkedAt": "2026-11-16",
+    "sources": [
+      {
+        "label": "高德网页｜烟火小店",
+        "url": "https://www.amap.com/ranking/hangzhou/shop/330127"
+      },
+      {
+        "label": "高德地图｜门店信息",
+        "url": "https://www.amap.com/place/B0J6GKDDDR"
+      }
+    ],
+    "recommendationKind": "summary",
+    "coord": [
+      119.029675,
+      29.596837
+    ],
+    "address": "千岛湖镇里联路87号碧湖阁",
+    "coordinateSystem": "GCJ-02",
+    "coordinatePrecision": "poi",
+    "coordinateCheckedAt": "2026-11-16",
+    "categoryCheckedAt": "2026-11-16",
+    "categoryBasis": "按门店名称、榜单推荐内容及高德 POI 类型综合判断"
+  },
+  {
+    "id": "food-amap-b0huozdvvm",
+    "name": "肉本家·炭烤肉(杭州浙大总店)",
+    "poiId": "B0HUOZDVVM",
+    "district": "西湖区",
+    "category": "正餐",
+    "description": "炭烤肉，提到牛肉和猪肉的烤制风味。",
+    "listLabel": "必吃榜",
+    "checkedAt": "2026-11-16",
+    "sources": [
+      {
+        "label": "高德网页｜2025 状元榜·美食",
+        "url": "https://www.amap.com/ranking/hangzhou/food"
+      },
+      {
+        "label": "高德网页｜推荐理由来源",
+        "url": "https://www.amap.com/ranking/hangzhou"
+      },
+      {
+        "label": "高德地图｜门店信息",
+        "url": "https://www.amap.com/place/B0HUOZDVVM"
+      }
+    ],
+    "recommendationKind": "summary",
+    "coord": [
+      120.092541,
+      30.306813
+    ],
+    "address": "紫荆花北路宝港生活广场1楼188号",
+    "coordinateSystem": "GCJ-02",
+    "coordinatePrecision": "poi",
+    "coordinateCheckedAt": "2026-11-16",
+    "categoryCheckedAt": "2026-11-16",
+    "categoryBasis": "按门店名称、榜单推荐内容及高德 POI 类型综合判断",
+    "rankingYear": 2025
+  },
+  {
+    "id": "food-amap-b0jas5555g",
+    "name": "老秦凉都黄牛肉馆(滨江总店)",
+    "poiId": "B0JAS5555G",
+    "district": "滨江区",
+    "category": "正餐",
+    "description": "榜单推荐涮食现切牛肉，评价关注肉的口感。",
+    "listLabel": "必吃榜",
+    "checkedAt": "2026-11-16",
+    "sources": [
+      {
+        "label": "高德网页｜2025 状元榜·美食",
+        "url": "https://www.amap.com/ranking/hangzhou/food/330108"
+      },
+      {
+        "label": "高德网页｜推荐理由来源",
+        "url": "https://www.amap.com/ranking/hangzhou"
+      },
+      {
+        "label": "高德地图｜门店信息",
+        "url": "https://www.amap.com/place/B0JAS5555G"
+      }
+    ],
+    "recommendationKind": "summary",
+    "coord": [
+      120.159466,
+      30.185122
+    ],
+    "address": "伟业路298号(伟业路地铁站A口步行340米)",
+    "coordinateSystem": "GCJ-02",
+    "coordinatePrecision": "poi",
+    "coordinateCheckedAt": "2026-11-16",
+    "categoryCheckedAt": "2026-11-16",
+    "categoryBasis": "按门店名称、榜单推荐内容及高德 POI 类型综合判断",
+    "rankingYear": 2025
+  },
+  {
+    "id": "food-amap-b023b1994h",
+    "name": "杭州酒家(延安路店)",
+    "poiId": "B023B1994H",
+    "district": "上城区",
+    "category": "正餐",
+    "description": "这家杭帮菜餐厅，评价提到菜量和价格。",
+    "listLabel": "必吃榜",
+    "checkedAt": "2026-11-16",
+    "sources": [
+      {
+        "label": "高德网页｜2025 状元榜·美食",
+        "url": "https://www.amap.com/ranking/hangzhou/food/330102"
+      },
+      {
+        "label": "高德网页｜推荐理由来源",
+        "url": "https://www.amap.com/ranking/hangzhou"
+      },
+      {
+        "label": "高德地图｜门店信息",
+        "url": "https://www.amap.com/place/B023B1994H"
+      }
+    ],
+    "recommendationKind": "summary",
+    "coord": [
+      120.164014,
+      30.251744
+    ],
+    "address": "延安路205号1-3层(龙翔桥地铁站C口步行270米)",
+    "coordinateSystem": "GCJ-02",
+    "coordinatePrecision": "poi",
+    "coordinateCheckedAt": "2026-11-16",
+    "categoryCheckedAt": "2026-11-16",
+    "categoryBasis": "按门店名称、榜单推荐内容及高德 POI 类型综合判断",
+    "rankingYear": 2025
+  },
+  {
+    "id": "food-amap-b0ffh154x7",
+    "name": "知味观(湖滨总店)",
+    "poiId": "B0FFH154X7",
+    "district": "上城区",
+    "category": "小吃",
+    "description": "知味观的历史及其杭州老字号背景。",
+    "listLabel": "必吃榜",
+    "checkedAt": "2026-11-16",
+    "sources": [
+      {
+        "label": "高德网页｜2025 状元榜·美食",
+        "url": "https://www.amap.com/ranking/hangzhou/food/330102"
+      },
+      {
+        "label": "高德网页｜推荐理由来源",
+        "url": "https://www.amap.com/ranking/hangzhou"
+      },
+      {
+        "label": "高德地图｜门店信息",
+        "url": "https://www.amap.com/place/B0FFH154X7"
+      }
+    ],
+    "recommendationKind": "summary",
+    "coord": [
+      120.163591,
+      30.252629
+    ],
+    "address": "仁和路83-1号(龙翔桥地铁站C口步行210米)",
+    "coordinateSystem": "GCJ-02",
+    "coordinatePrecision": "poi",
+    "coordinateCheckedAt": "2026-11-16",
+    "categoryCheckedAt": "2026-11-16",
+    "categoryBasis": "按门店名称、榜单推荐内容及高德 POI 类型综合判断",
+    "rankingYear": 2025
+  },
+  {
+    "id": "food-amap-b0gkvz1o4t",
+    "name": "庆春朴门(灵隐店)",
+    "poiId": "B0GKVZ1O4T",
+    "district": "西湖区",
+    "category": "正餐",
+    "description": "榜单推荐黑松露炒饭，评价认为菌香浓郁。",
+    "listLabel": "必吃榜",
+    "checkedAt": "2026-11-16",
+    "sources": [
+      {
+        "label": "高德网页｜2025 状元榜·美食",
+        "url": "https://www.amap.com/ranking/hangzhou/food"
+      },
+      {
+        "label": "高德网页｜推荐理由来源",
+        "url": "https://www.amap.com/ranking/hangzhou"
+      },
+      {
+        "label": "高德地图｜门店信息",
+        "url": "https://www.amap.com/place/B0GKVZ1O4T"
+      }
+    ],
+    "recommendationKind": "summary",
+    "coord": [
+      120.109073,
+      30.244621
+    ],
+    "address": "白乐桥181号",
+    "coordinateSystem": "GCJ-02",
+    "coordinatePrecision": "poi",
+    "coordinateCheckedAt": "2026-11-16",
+    "categoryCheckedAt": "2026-11-16",
+    "categoryBasis": "按门店名称、榜单推荐内容及高德 POI 类型综合判断",
+    "rankingYear": 2025
+  },
+  {
+    "id": "food-amap-b0fff6v2ky",
+    "name": "湘香蒸菜馆(湘湖路店)",
+    "poiId": "B0FFF6V2KY",
+    "district": "萧山区",
+    "category": "正餐",
+    "description": "现场蒸菜，提到蒸鱼、猪蹄和白切鸡。",
+    "listLabel": "必吃榜",
+    "checkedAt": "2026-11-16",
+    "sources": [
+      {
+        "label": "高德网页｜2025 状元榜·美食",
+        "url": "https://www.amap.com/ranking/hangzhou/food/330109"
+      },
+      {
+        "label": "高德网页｜推荐理由来源",
+        "url": "https://www.amap.com/ranking/hangzhou"
+      },
+      {
+        "label": "高德地图｜门店信息",
+        "url": "https://www.amap.com/place/B0FFF6V2KY"
+      }
+    ],
+    "recommendationKind": "summary",
+    "coord": [
+      120.247219,
+      30.15821
+    ],
+    "address": "湘湖路84-8号",
+    "coordinateSystem": "GCJ-02",
+    "coordinatePrecision": "poi",
+    "coordinateCheckedAt": "2026-11-16",
+    "categoryCheckedAt": "2026-11-16",
+    "categoryBasis": "按门店名称、榜单推荐内容及高德 POI 类型综合判断",
+    "rankingYear": 2025
+  },
+  {
+    "id": "food-amap-b0hgprtulc",
+    "name": "乔村二十八道(未来科技城店)",
+    "poiId": "B0HGPRTULC",
+    "district": "余杭区",
+    "category": "正餐",
+    "description": "黑松露野菌饺，评价关注饺皮和菌香。",
+    "listLabel": "必吃榜",
+    "checkedAt": "2026-11-16",
+    "sources": [
+      {
+        "label": "高德网页｜2025 状元榜·美食",
+        "url": "https://www.amap.com/ranking/hangzhou/food/330110"
+      },
+      {
+        "label": "高德网页｜推荐理由来源",
+        "url": "https://www.amap.com/ranking/hangzhou"
+      },
+      {
+        "label": "高德地图｜门店信息",
+        "url": "https://www.amap.com/place/B0HGPRTULC"
+      }
+    ],
+    "recommendationKind": "summary",
+    "coord": [
+      120.00817,
+      30.281973
+    ],
+    "address": "良睦路鼎创财富中心1幢A2座1楼",
+    "coordinateSystem": "GCJ-02",
+    "coordinatePrecision": "poi",
+    "coordinateCheckedAt": "2026-11-16",
+    "categoryCheckedAt": "2026-11-16",
+    "categoryBasis": "按门店名称、榜单推荐内容及高德 POI 类型综合判断",
+    "rankingYear": 2025
+  },
+  {
+    "id": "food-amap-b023b1drg3",
+    "name": "黄龙海鲜大排档(杭州总店)",
+    "poiId": "B023B1DRG3",
+    "district": "西湖区",
+    "category": "正餐",
+    "description": "榜单提到海鲜现捞现做和明档厨房。",
+    "listLabel": "必吃榜",
+    "checkedAt": "2026-11-16",
+    "sources": [
+      {
+        "label": "高德网页｜2025 状元榜·美食",
+        "url": "https://www.amap.com/ranking/hangzhou/food/330106"
+      },
+      {
+        "label": "高德网页｜推荐理由来源",
+        "url": "https://www.amap.com/ranking/hangzhou"
+      },
+      {
+        "label": "高德地图｜门店信息",
+        "url": "https://www.amap.com/place/B023B1DRG3"
+      }
+    ],
+    "recommendationKind": "summary",
+    "coord": [
+      120.131407,
+      30.269103
+    ],
+    "address": "玉古路178号(黄龙体育中心西门)",
+    "coordinateSystem": "GCJ-02",
+    "coordinatePrecision": "poi",
+    "coordinateCheckedAt": "2026-11-16",
+    "categoryCheckedAt": "2026-11-16",
+    "categoryBasis": "按门店名称、榜单推荐内容及高德 POI 类型综合判断",
+    "rankingYear": 2025
+  },
+  {
+    "id": "food-amap-b0layu04b8",
+    "name": "入江南·金奖杭帮菜·浙江菜(虎跑店)",
+    "poiId": "B0LAYU04B8",
+    "district": "西湖区",
+    "category": "正餐",
+    "description": "改良西湖醋鱼，评价提到酸甜口味。",
+    "listLabel": "必吃榜",
+    "checkedAt": "2026-11-16",
+    "sources": [
+      {
+        "label": "高德网页｜2025 状元榜·美食",
+        "url": "https://www.amap.com/ranking/hangzhou/food"
+      },
+      {
+        "label": "高德网页｜推荐理由来源",
+        "url": "https://www.amap.com/ranking/hangzhou"
+      }
+    ],
+    "recommendationKind": "summary",
+    "coord": [
+      120.136067,
+      30.216913
+    ],
+    "address": "虎跑路四眼井228号",
+    "coordinateSystem": "GCJ-02",
+    "coordinatePrecision": "poi",
+    "coordinateCheckedAt": "2026-11-16",
+    "rankingYear": 2025
+  },
+  {
+    "id": "food-amap-b0kdvls4sv",
+    "name": "杨记肴.精致浙菜(丰收时代店)",
+    "poiId": "B0KDVLS4SV",
+    "district": "上城区",
+    "category": "正餐",
+    "description": "功夫猪肚，评价提到汤底微辣与猪肚口感。",
+    "listLabel": "必吃榜",
+    "checkedAt": "2026-11-16",
+    "sources": [
+      {
+        "label": "高德网页｜2025 状元榜·美食",
+        "url": "https://www.amap.com/ranking/hangzhou/food"
+      },
+      {
+        "label": "高德网页｜推荐理由来源",
+        "url": "https://www.amap.com/ranking/hangzhou"
+      },
+      {
+        "label": "高德地图｜门店信息",
+        "url": "https://www.amap.com/place/B0KDVLS4SV"
+      }
+    ],
+    "recommendationKind": "summary",
+    "coord": [
+      120.274421,
+      30.323431
+    ],
+    "address": "丰收时代中心1幢101室",
+    "coordinateSystem": "GCJ-02",
+    "coordinatePrecision": "poi",
+    "coordinateCheckedAt": "2026-11-16",
+    "categoryCheckedAt": "2026-11-16",
+    "categoryBasis": "按门店名称、榜单推荐内容及高德 POI 类型综合判断",
+    "rankingYear": 2025
+  },
+  {
+    "id": "food-amap-b0k6h69pdu",
+    "name": "赵府私厨·老杭帮菜(河坊街店)",
+    "poiId": "B0K6H69PDU",
+    "district": "上城区",
+    "category": "正餐",
+    "description": "榜单提到东坡肉配酒酿馒头，评价关注甜咸搭配。",
+    "listLabel": "必吃榜",
+    "checkedAt": "2026-11-16",
+    "sources": [
+      {
+        "label": "高德网页｜2025 状元榜·美食",
+        "url": "https://www.amap.com/ranking/hangzhou/food"
+      },
+      {
+        "label": "高德网页｜推荐理由来源",
+        "url": "https://www.amap.com/ranking/hangzhou"
+      }
+    ],
+    "recommendationKind": "summary",
+    "coord": [
+      120.168733,
+      30.240555
+    ],
+    "address": "高银街111号(吴山广场地铁站D口步行450米)",
+    "coordinateSystem": "GCJ-02",
+    "coordinatePrecision": "poi",
+    "coordinateCheckedAt": "2026-11-16",
+    "rankingYear": 2025
+  },
+  {
+    "id": "food-amap-b023b1am4m",
+    "name": "盛邦肥牛(春城大厦店)",
+    "poiId": "B023B1AM4M",
+    "district": "富阳区",
+    "category": "正餐",
+    "description": "肥牛，评价认为肉量较足。",
+    "listLabel": "必吃榜",
+    "checkedAt": "2026-11-16",
+    "sources": [
+      {
+        "label": "高德网页｜2025 状元榜·美食",
+        "url": "https://www.amap.com/ranking/hangzhou/food/330111"
+      },
+      {
+        "label": "高德网页｜推荐理由来源",
+        "url": "https://www.amap.com/ranking/hangzhou"
+      },
+      {
+        "label": "高德地图｜门店信息",
+        "url": "https://www.amap.com/place/B023B1AM4M"
+      }
+    ],
+    "recommendationKind": "summary",
+    "coord": [
+      119.937774,
+      30.050396
+    ],
+    "address": "孙权路225号(春城大厦)",
+    "coordinateSystem": "GCJ-02",
+    "coordinatePrecision": "poi",
+    "coordinateCheckedAt": "2026-11-16",
+    "categoryCheckedAt": "2026-11-16",
+    "categoryBasis": "按门店名称、榜单推荐内容及高德 POI 类型综合判断",
+    "rankingYear": 2025
+  },
+  {
+    "id": "food-amap-b0fflf3u69",
+    "name": "丹粤阁·顺德菜(清泰街店)",
+    "poiId": "B0FFLF3U69",
+    "district": "上城区",
+    "category": "正餐",
+    "description": "顺德桑拿鸡，提到蒸汽烹制和桑芽叶搭配。",
+    "listLabel": "必吃榜",
+    "checkedAt": "2026-11-16",
+    "sources": [
+      {
+        "label": "高德网页｜2025 状元榜·美食",
+        "url": "https://www.amap.com/ranking/hangzhou/food"
+      },
+      {
+        "label": "高德网页｜推荐理由来源",
+        "url": "https://www.amap.com/ranking/hangzhou"
+      },
+      {
+        "label": "高德地图｜门店信息",
+        "url": "https://www.amap.com/place/B0FFLF3U69"
+      }
+    ],
+    "recommendationKind": "summary",
+    "coord": [
+      120.174943,
+      30.247399
+    ],
+    "address": "清泰街456号",
+    "coordinateSystem": "GCJ-02",
+    "coordinatePrecision": "poi",
+    "coordinateCheckedAt": "2026-11-16",
+    "categoryCheckedAt": "2026-11-16",
+    "categoryBasis": "按门店名称、榜单推荐内容及高德 POI 类型综合判断",
+    "rankingYear": 2025
+  },
+  {
+    "id": "food-amap-b023b0bcmw",
+    "name": "绿茶餐厅(龙井路店)",
+    "poiId": "B023B0BCMW",
+    "district": "西湖区",
+    "category": "正餐",
+    "description": "榜单提到船上用餐、茶园景观与古筝伴餐。",
+    "listLabel": "必吃榜",
+    "checkedAt": "2026-11-16",
+    "sources": [
+      {
+        "label": "高德网页｜2025 状元榜·美食",
+        "url": "https://www.amap.com/ranking/hangzhou/food/330106"
+      },
+      {
+        "label": "高德网页｜推荐理由来源",
+        "url": "https://www.amap.com/ranking/hangzhou"
+      }
+    ],
+    "recommendationKind": "summary",
+    "coord": [
+      120.123486,
+      30.232349
+    ],
+    "address": "龙井路83号(浙江宾馆后门斜对面)",
+    "coordinateSystem": "GCJ-02",
+    "coordinatePrecision": "poi",
+    "coordinateCheckedAt": "2026-11-16",
+    "rankingYear": 2025
+  },
+  {
+    "id": "food-amap-b023b16zsc",
+    "name": "张功馆·地道桐庐菜(景芳店)",
+    "poiId": "B023B16ZSC",
+    "district": "上城区",
+    "category": "正餐",
+    "description": "土烧鱼头，提到鱼、河虾、鸡爪和豆腐。",
+    "listLabel": "必吃榜",
+    "checkedAt": "2026-11-16",
+    "sources": [
+      {
+        "label": "高德网页｜2025 状元榜·美食",
+        "url": "https://www.amap.com/ranking/hangzhou/food/330102"
+      },
+      {
+        "label": "高德地图｜门店信息",
+        "url": "https://www.amap.com/place/B023B16ZSC"
+      }
+    ],
+    "recommendationKind": "summary",
+    "coord": [
+      120.203656,
+      30.26672
+    ],
+    "address": "景昙路123号(景芳地铁站C口步行470米)",
+    "coordinateSystem": "GCJ-02",
+    "coordinatePrecision": "poi",
+    "coordinateCheckedAt": "2026-11-16",
+    "categoryCheckedAt": "2026-11-16",
+    "categoryBasis": "按门店名称、榜单推荐内容及高德 POI 类型综合判断",
+    "rankingYear": 2025
+  },
+  {
+    "id": "food-amap-b023b1ai0q",
+    "name": "碧桃小馆(西湖大道店)",
+    "poiId": "B023B1AI0Q",
+    "district": "上城区",
+    "category": "正餐",
+    "description": "榜单推荐红烧肉，评价认为酱汁浓郁。",
+    "listLabel": "必吃榜",
+    "checkedAt": "2026-11-16",
+    "sources": [
+      {
+        "label": "高德网页｜2025 状元榜·美食",
+        "url": "https://www.amap.com/ranking/hangzhou/food/330102"
+      },
+      {
+        "label": "高德地图｜门店信息",
+        "url": "https://www.amap.com/place/B023B1AI0Q"
+      }
+    ],
+    "recommendationKind": "summary",
+    "coord": [
+      120.165664,
+      30.246276
+    ],
+    "address": "西湖大道232-236号",
+    "coordinateSystem": "GCJ-02",
+    "coordinatePrecision": "poi",
+    "coordinateCheckedAt": "2026-11-16",
+    "categoryCheckedAt": "2026-11-16",
+    "categoryBasis": "按门店名称、榜单推荐内容及高德 POI 类型综合判断",
+    "rankingYear": 2025
+  },
+  {
+    "id": "food-amap-b0fff4xzmx",
+    "name": "新周记·巷子里的江南味(鼓楼店)",
+    "poiId": "B0FFF4XZMX",
+    "district": "上城区",
+    "category": "正餐",
+    "description": "豉油虾，评价称虾壳酥香、酱汁甜咸。",
+    "listLabel": "必吃榜",
+    "checkedAt": "2026-11-16",
+    "sources": [
+      {
+        "label": "高德网页｜2025 状元榜·美食",
+        "url": "https://www.amap.com/ranking/hangzhou/food/330102"
+      },
+      {
+        "label": "高德地图｜门店信息",
+        "url": "https://www.amap.com/place/B0FFF4XZMX"
+      }
+    ],
+    "recommendationKind": "summary",
+    "coord": [
+      120.170957,
+      30.23769
+    ],
+    "address": "十五奎巷2-3号(近鼓楼城门)",
+    "coordinateSystem": "GCJ-02",
+    "coordinatePrecision": "poi",
+    "coordinateCheckedAt": "2026-11-16",
+    "categoryCheckedAt": "2026-11-16",
+    "categoryBasis": "按门店名称、榜单推荐内容及高德 POI 类型综合判断",
+    "rankingYear": 2025
+  },
+  {
+    "id": "food-amap-b0ffjcr27x",
+    "name": "泮芳春煎饺·米其林餐厅(中山南路店)",
+    "poiId": "B0FFJCR27X",
+    "district": "上城区",
+    "category": "小吃",
+    "description": "煎饺，评价提到焦香外皮与带汁馅料。",
+    "listLabel": "必吃榜",
+    "checkedAt": "2026-11-16",
+    "sources": [
+      {
+        "label": "高德网页｜2025 状元榜·美食",
+        "url": "https://www.amap.com/ranking/hangzhou/food/330102"
+      }
+    ],
+    "recommendationKind": "summary",
+    "coord": [
+      120.171034,
+      30.237205
+    ],
+    "address": "中山南路479号",
+    "coordinateSystem": "GCJ-02",
+    "coordinatePrecision": "poi",
+    "coordinateCheckedAt": "2026-11-16",
+    "rankingYear": 2025
+  },
+  {
+    "id": "food-amap-b0ffjlr50t",
+    "name": "外婆家(西湖天地涌金店)",
+    "poiId": "B0FFJLR50T",
+    "district": "上城区",
+    "category": "正餐",
+    "description": "榜单提到院落用餐和西湖边的环境，适合聚餐。",
+    "listLabel": "必吃榜",
+    "checkedAt": "2026-11-16",
+    "sources": [
+      {
+        "label": "高德网页｜2025 状元榜·美食",
+        "url": "https://www.amap.com/ranking/hangzhou/food/330102"
+      },
+      {
+        "label": "高德地图｜门店信息",
+        "url": "https://www.amap.com/place/B0FFJLR50T"
+      }
+    ],
+    "recommendationKind": "summary",
+    "coord": [
+      120.158771,
+      30.246277
+    ],
+    "address": "南山路147号(西湖天地147号)",
+    "coordinateSystem": "GCJ-02",
+    "coordinatePrecision": "poi",
+    "coordinateCheckedAt": "2026-11-16",
+    "categoryCheckedAt": "2026-11-16",
+    "categoryBasis": "按门店名称、榜单推荐内容及高德 POI 类型综合判断",
+    "rankingYear": 2025
+  },
+  {
+    "id": "food-amap-b0ffk0iph0",
+    "name": "月龙吟(悦坊商场店)",
+    "poiId": "B0FFK0IPH0",
+    "district": "上城区",
+    "category": "正餐",
+    "description": "海鲜自助，提到鳌虾与海胆。",
+    "listLabel": "必吃榜",
+    "checkedAt": "2026-11-16",
+    "sources": [
+      {
+        "label": "高德网页｜2025 状元榜·美食",
+        "url": "https://www.amap.com/ranking/hangzhou/food/330102"
+      },
+      {
+        "label": "高德地图｜门店信息",
+        "url": "https://www.amap.com/place/B0FFK0IPH0"
+      }
+    ],
+    "recommendationKind": "summary",
+    "coord": [
+      120.213225,
+      30.251446
+    ],
+    "address": "民心路280号平安金融中心悦坊商场4楼401、402",
+    "coordinateSystem": "GCJ-02",
+    "coordinatePrecision": "poi",
+    "coordinateCheckedAt": "2026-11-16",
+    "categoryCheckedAt": "2026-11-16",
+    "categoryBasis": "按门店名称、榜单推荐内容及高德 POI 类型综合判断",
+    "rankingYear": 2025
+  },
+  {
+    "id": "food-amap-b023b13ygd",
+    "name": "马灯部落-杭帮创意菜(杭州西湖虎跑店)",
+    "poiId": "B023B13YGD",
+    "district": "西湖区",
+    "category": "正餐",
+    "description": "榜单提到山景环境和炭烤羊排。",
+    "listLabel": "必吃榜",
+    "checkedAt": "2026-11-16",
+    "sources": [
+      {
+        "label": "高德网页｜2025 状元榜·美食",
+        "url": "https://www.amap.com/ranking/hangzhou/food/330106"
+      },
+      {
+        "label": "高德地图｜门店信息",
+        "url": "https://www.amap.com/place/B023B13YGD"
+      }
+    ],
+    "recommendationKind": "summary",
+    "coord": [
+      120.138161,
+      30.216354
+    ],
+    "address": "虎跑路四眼井238号",
+    "coordinateSystem": "GCJ-02",
+    "coordinatePrecision": "poi",
+    "coordinateCheckedAt": "2026-11-16",
+    "categoryCheckedAt": "2026-11-16",
+    "categoryBasis": "按门店名称、榜单推荐内容及高德 POI 类型综合判断",
+    "rankingYear": 2025
+  },
+  {
+    "id": "food-amap-b023b15c1w",
+    "name": "桂语山房(满觉陇店)",
+    "poiId": "B023B15C1W",
+    "district": "西湖区",
+    "category": "正餐",
+    "description": "泉水牛肉，评价提到慢煨牛腱与山椒风味。",
+    "listLabel": "必吃榜",
+    "checkedAt": "2026-11-16",
+    "sources": [
+      {
+        "label": "高德网页｜2025 状元榜·美食",
+        "url": "https://www.amap.com/ranking/hangzhou/food/330106"
+      },
+      {
+        "label": "高德地图｜门店信息",
+        "url": "https://www.amap.com/place/B023B15C1W"
+      }
+    ],
+    "recommendationKind": "summary",
+    "coord": [
+      120.130207,
+      30.218954
+    ],
+    "address": "满觉陇路1号",
+    "coordinateSystem": "GCJ-02",
+    "coordinatePrecision": "poi",
+    "coordinateCheckedAt": "2026-11-16",
+    "categoryCheckedAt": "2026-11-16",
+    "categoryBasis": "按门店名称、榜单推荐内容及高德 POI 类型综合判断",
+    "rankingYear": 2025
+  },
+  {
+    "id": "food-amap-b023b17023",
+    "name": "藏鲜工坊(莲花店)",
+    "poiId": "B023B17023",
+    "district": "西湖区",
+    "category": "正餐",
+    "description": "黑松露糯米波龙，提到龙虾与黑松露香气。",
+    "listLabel": "必吃榜",
+    "checkedAt": "2026-11-16",
+    "sources": [
+      {
+        "label": "高德网页｜2025 状元榜·美食",
+        "url": "https://www.amap.com/ranking/hangzhou/food/330106"
+      },
+      {
+        "label": "高德地图｜门店信息",
+        "url": "https://www.amap.com/place/B023B17023"
+      }
+    ],
+    "recommendationKind": "summary",
+    "coord": [
+      120.099492,
+      30.270019
+    ],
+    "address": "莲花街333号世纪联华4楼(古墩路口)",
+    "coordinateSystem": "GCJ-02",
+    "coordinatePrecision": "poi",
+    "coordinateCheckedAt": "2026-11-16",
+    "categoryCheckedAt": "2026-11-16",
+    "categoryBasis": "按门店名称、榜单推荐内容及高德 POI 类型综合判断",
+    "rankingYear": 2025
+  },
+  {
+    "id": "food-amap-b0fff5r93k",
+    "name": "杭州西子湖四季酒店金沙厅",
+    "poiId": "B0FFF5R93K",
+    "district": "西湖区",
+    "category": "正餐",
+    "description": "榜单提到杭帮菜，并举例脆皮鸡和龙井炖奶。",
+    "listLabel": "必吃榜",
+    "checkedAt": "2026-11-16",
+    "sources": [
+      {
+        "label": "高德网页｜2025 状元榜·美食",
+        "url": "https://www.amap.com/ranking/hangzhou/food/330106"
+      },
+      {
+        "label": "高德地图｜门店信息",
+        "url": "https://www.amap.com/place/B0FFF5R93K"
+      }
+    ],
+    "recommendationKind": "summary",
+    "coord": [
+      120.129637,
+      30.251887
+    ],
+    "address": "灵隐路5号杭州西子湖四季酒店1层(近曲院风荷)",
+    "coordinateSystem": "GCJ-02",
+    "coordinatePrecision": "poi",
+    "coordinateCheckedAt": "2026-11-16",
+    "categoryCheckedAt": "2026-11-16",
+    "categoryBasis": "按门店名称、榜单推荐内容及高德 POI 类型综合判断",
+    "rankingYear": 2025
+  },
+  {
+    "id": "food-amap-b0fff9rfld",
+    "name": "茶人村·西湖醋鱼(西湖龙井店)",
+    "poiId": "B0FFF9RFLD",
+    "district": "西湖区",
+    "category": "正餐",
+    "description": "私房桂鱼，提到鱼肉、菌菇和螃蟹同炖。",
+    "listLabel": "必吃榜",
+    "checkedAt": "2026-11-16",
+    "sources": [
+      {
+        "label": "高德网页｜2025 状元榜·美食",
+        "url": "https://www.amap.com/ranking/hangzhou/food/330106"
+      },
+      {
+        "label": "高德地图｜门店信息",
+        "url": "https://www.amap.com/place/B0FFF9RFLD"
+      }
+    ],
+    "recommendationKind": "summary",
+    "coord": [
+      120.119946,
+      30.228327
+    ],
+    "address": "龙井路99号",
+    "coordinateSystem": "GCJ-02",
+    "coordinatePrecision": "poi",
+    "coordinateCheckedAt": "2026-11-16",
+    "categoryCheckedAt": "2026-11-16",
+    "categoryBasis": "按门店名称、榜单推荐内容及高德 POI 类型综合判断",
+    "rankingYear": 2025
+  },
+  {
+    "id": "food-amap-b0ffiir74n",
+    "name": "传家(骆家庄西苑一区店)",
+    "poiId": "B0FFIIR74N",
+    "district": "西湖区",
+    "category": "正餐",
+    "description": "土猪肉包子，评价提到肉馅和松软面皮。",
+    "listLabel": "必吃榜",
+    "checkedAt": "2026-11-16",
+    "sources": [
+      {
+        "label": "高德网页｜2025 状元榜·美食",
+        "url": "https://www.amap.com/ranking/hangzhou/food/330106"
+      },
+      {
+        "label": "高德地图｜门店信息",
+        "url": "https://www.amap.com/place/B0FFIIR74N"
+      },
+      {
+        "label": "杭州日报｜传家衢州菜",
+        "url": "https://mdaily.hangzhou.com.cn/hzrb/2025/06/01/article_detail_1_20250601A018.html"
+      }
+    ],
+    "recommendationKind": "summary",
+    "coord": [
+      120.092815,
+      30.286583
+    ],
+    "address": "文一西路551号骆家庄西苑一区1层",
+    "coordinateSystem": "GCJ-02",
+    "coordinatePrecision": "poi",
+    "coordinateCheckedAt": "2026-11-16",
+    "categoryCheckedAt": "2026-11-16",
+    "categoryBasis": "按门店名称、榜单推荐内容及高德 POI 类型综合判断",
+    "rankingYear": 2025
+  },
+  {
+    "id": "food-amap-b0ffjoism2",
+    "name": "西溪别院(西溪天堂店)",
+    "poiId": "B0FFJOISM2",
+    "district": "西湖区",
+    "category": "正餐",
+    "description": "榜单提到餐厅位于西溪湿地附近，具有中式庭院环境。",
+    "listLabel": "必吃榜",
+    "checkedAt": "2026-11-16",
+    "sources": [
+      {
+        "label": "高德网页｜2025 状元榜·美食",
+        "url": "https://www.amap.com/ranking/hangzhou/food/330106"
+      },
+      {
+        "label": "高德地图｜门店信息",
+        "url": "https://www.amap.com/place/B0FFJOISM2"
+      }
+    ],
+    "recommendationKind": "summary",
+    "coord": [
+      120.08919,
+      30.26557
+    ],
+    "address": "紫金港路21号西溪天堂栖悦城中环街15-3号",
+    "coordinateSystem": "GCJ-02",
+    "coordinatePrecision": "poi",
+    "coordinateCheckedAt": "2026-11-16",
+    "categoryCheckedAt": "2026-11-16",
+    "categoryBasis": "按门店名称、榜单推荐内容及高德 POI 类型综合判断",
+    "rankingYear": 2025
+  },
+  {
+    "id": "food-amap-b0ffkmcpvb",
+    "name": "发酵食堂",
+    "poiId": "B0FFKMCPVB",
+    "district": "拱墅区",
+    "category": "小吃",
+    "description": "抹茶可露丽，评价认为茶味浓郁。",
+    "listLabel": "必吃榜",
+    "checkedAt": "2026-11-16",
+    "sources": [
+      {
+        "label": "高德网页｜2025 状元榜·美食",
+        "url": "https://www.amap.com/ranking/hangzhou/food/330105"
+      },
+      {
+        "label": "高德地图｜门店信息",
+        "url": "https://www.amap.com/place/B0FFKMCPVB"
+      },
+      {
+        "label": "澎湃新闻｜发酵食堂甜品",
+        "url": "https://www.thepaper.cn/newsDetail_forward_20049859"
+      }
+    ],
+    "recommendationKind": "summary",
+    "coord": [
+      120.168261,
+      30.267063
+    ],
+    "address": "屏风街120号",
+    "coordinateSystem": "GCJ-02",
+    "coordinatePrecision": "poi",
+    "coordinateCheckedAt": "2026-11-16",
+    "categoryCheckedAt": "2026-11-16",
+    "categoryBasis": "按门店名称、榜单推荐内容及高德 POI 类型综合判断",
+    "rankingYear": 2025
+  },
+  {
+    "id": "food-amap-b0gk6dqpgs",
+    "name": "庆春里(杭州嘉里中心店)",
+    "poiId": "B0GK6DQPGS",
+    "district": "拱墅区",
+    "category": "正餐",
+    "description": "榜单推荐黑松露炒饭，评价认为米饭颗粒分明。",
+    "listLabel": "必吃榜",
+    "checkedAt": "2026-11-16",
+    "sources": [
+      {
+        "label": "高德网页｜2025 状元榜·美食",
+        "url": "https://www.amap.com/ranking/hangzhou/food/330105"
+      },
+      {
+        "label": "高德地图｜门店信息",
+        "url": "https://www.amap.com/place/B0GK6DQPGS"
+      }
+    ],
+    "recommendationKind": "summary",
+    "coord": [
+      120.162823,
+      30.261527
+    ],
+    "address": "延安路385号杭州嘉里中心L1层",
+    "coordinateSystem": "GCJ-02",
+    "coordinatePrecision": "poi",
+    "coordinateCheckedAt": "2026-11-16",
+    "categoryCheckedAt": "2026-11-16",
+    "categoryBasis": "按门店名称、榜单推荐内容及高德 POI 类型综合判断",
+    "rankingYear": 2025
+  },
+  {
+    "id": "food-amap-b0gkn45yr8",
+    "name": "绝美嘉海鲜馄饨(杭州总店)",
+    "poiId": "B0GKN45YR8",
+    "district": "拱墅区",
+    "category": "小吃",
+    "description": "笋尖鲜肉烧麦，提到笋丁和咸蛋黄。",
+    "listLabel": "必吃榜",
+    "checkedAt": "2026-11-16",
+    "sources": [
+      {
+        "label": "高德网页｜2025 状元榜·美食",
+        "url": "https://www.amap.com/ranking/hangzhou/food/330105"
+      }
+    ],
+    "recommendationKind": "summary",
+    "coord": [
+      120.159829,
+      30.269715
+    ],
+    "address": "万寿亭街31号(近武林路)",
+    "coordinateSystem": "GCJ-02",
+    "coordinatePrecision": "poi",
+    "coordinateCheckedAt": "2026-11-16",
+    "rankingYear": 2025
+  },
+  {
+    "id": "food-amap-b0hava9q62",
+    "name": "汉巴味德(杭州大悦城店)",
+    "poiId": "B0HAVA9Q62",
+    "district": "拱墅区",
+    "category": "正餐",
+    "description": "巴西烤肉自助，提到适合聚餐的用餐形式。",
+    "listLabel": "必吃榜",
+    "checkedAt": "2026-11-16",
+    "sources": [
+      {
+        "label": "高德网页｜2025 状元榜·美食",
+        "url": "https://www.amap.com/ranking/hangzhou/food/330105"
+      },
+      {
+        "label": "高德地图｜门店信息",
+        "url": "https://www.amap.com/place/B0HAVA9Q62"
+      }
+    ],
+    "recommendationKind": "summary",
+    "coord": [
+      120.130959,
+      30.301514
+    ],
+    "address": "祥符街道隐秀路1号大悦城购物中心L6-07B号商铺",
+    "coordinateSystem": "GCJ-02",
+    "coordinatePrecision": "poi",
+    "coordinateCheckedAt": "2026-11-16",
+    "categoryCheckedAt": "2026-11-16",
+    "categoryBasis": "按门店名称、榜单推荐内容及高德 POI 类型综合判断",
+    "rankingYear": 2025
+  },
+  {
+    "id": "food-amap-b0hrr5tga2",
+    "name": "金猪",
+    "poiId": "B0HRR5TGA2",
+    "district": "拱墅区",
+    "category": "正餐",
+    "description": "臭豆腐，提到与毛豆、肉丝一起炒制。",
+    "listLabel": "必吃榜",
+    "checkedAt": "2026-11-16",
+    "sources": [
+      {
+        "label": "高德网页｜2025 状元榜·美食",
+        "url": "https://www.amap.com/ranking/hangzhou/food/330105"
+      },
+      {
+        "label": "高德地图｜门店信息",
+        "url": "https://www.amap.com/place/B0HRR5TGA2"
+      }
+    ],
+    "recommendationKind": "summary",
+    "coord": [
+      120.160761,
+      30.262217
+    ],
+    "address": "武林路163号西湖D11食尚城2楼",
+    "coordinateSystem": "GCJ-02",
+    "coordinatePrecision": "poi",
+    "coordinateCheckedAt": "2026-11-16",
+    "categoryCheckedAt": "2026-11-16",
+    "categoryBasis": "按门店名称、榜单推荐内容及高德 POI 类型综合判断",
+    "rankingYear": 2025
+  },
+  {
+    "id": "food-amap-b0ffm45qt6",
+    "name": "杭州博奥开元名都臻品之选酒店·厨艺全日西餐厅",
+    "poiId": "B0FFM45QT6",
+    "district": "萧山区",
+    "category": "正餐",
+    "description": "海鲜自助，提到鳌虾、小青龙和生蚝。",
+    "listLabel": "必吃榜",
+    "checkedAt": "2026-11-16",
+    "sources": [
+      {
+        "label": "高德网页｜2025 状元榜·美食",
+        "url": "https://www.amap.com/ranking/hangzhou/food/330109"
+      }
+    ],
+    "recommendationKind": "summary",
+    "coord": [
+      120.242379,
+      30.183308
+    ],
+    "address": "北干街道金城路107号(博奥路地铁站B口步行140米)",
+    "coordinateSystem": "GCJ-02",
+    "coordinatePrecision": "poi",
+    "coordinateCheckedAt": "2026-11-16",
+    "rankingYear": 2025
+  },
+  {
+    "id": "food-amap-b0i0tcqrsw",
+    "name": "桐湾大院·桐庐菜(明星路店)",
+    "poiId": "B0I0TCQRSW",
+    "district": "萧山区",
+    "category": "正餐",
+    "description": "榜单推荐手撕烤羊排，评价提到炭烤风味与分享份量。",
+    "listLabel": "必吃榜",
+    "checkedAt": "2026-11-16",
+    "sources": [
+      {
+        "label": "高德网页｜2025 状元榜·美食",
+        "url": "https://www.amap.com/ranking/hangzhou/food/330109"
+      },
+      {
+        "label": "高德地图｜门店信息",
+        "url": "https://www.amap.com/place/B0I0TCQRSW"
+      }
+    ],
+    "recommendationKind": "summary",
+    "coord": [
+      120.245572,
+      30.205729
+    ],
+    "address": "建设三路杨时路口裕隆大厦2楼",
+    "coordinateSystem": "GCJ-02",
+    "coordinatePrecision": "poi",
+    "coordinateCheckedAt": "2026-11-16",
+    "categoryCheckedAt": "2026-11-16",
+    "categoryBasis": "按门店名称、榜单推荐内容及高德 POI 类型综合判断",
+    "rankingYear": 2025
+  },
+  {
+    "id": "food-amap-b0i6bzejze",
+    "name": "桐湾大院·桐庐菜·夜宵烧烤(滨康路店)",
+    "poiId": "B0I6BZEJZE",
+    "district": "萧山区",
+    "category": "正餐",
+    "description": "手撕烤羊排，评价提到酥香外皮和蘸料。",
+    "listLabel": "必吃榜",
+    "checkedAt": "2026-11-16",
+    "sources": [
+      {
+        "label": "高德网页｜2025 状元榜·美食",
+        "url": "https://www.amap.com/ranking/hangzhou/food/330109"
+      },
+      {
+        "label": "高德地图｜门店信息",
+        "url": "https://www.amap.com/place/B0I6BZEJZE"
+      }
+    ],
+    "recommendationKind": "summary",
+    "coord": [
+      120.227812,
+      30.181526
+    ],
+    "address": "城厢街道滨康路55号1幢1层101-7",
+    "coordinateSystem": "GCJ-02",
+    "coordinatePrecision": "poi",
+    "coordinateCheckedAt": "2026-11-16",
+    "categoryCheckedAt": "2026-11-16",
+    "categoryBasis": "按门店名称、榜单推荐内容及高德 POI 类型综合判断",
+    "rankingYear": 2025
+  },
+  {
+    "id": "food-amap-b0jaf9x80u",
+    "name": "大俺徽地锅鸡(御金台)",
+    "poiId": "B0JAF9X80U",
+    "district": "萧山区",
+    "category": "正餐",
+    "description": "地锅鸡和锅边玉米饼的搭配。",
+    "listLabel": "必吃榜",
+    "checkedAt": "2026-11-16",
+    "sources": [
+      {
+        "label": "高德网页｜2025 状元榜·美食",
+        "url": "https://www.amap.com/ranking/hangzhou/food/330109"
+      }
+    ],
+    "recommendationKind": "summary",
+    "coord": [
+      120.24192,
+      30.237788
+    ],
+    "address": "平澜路御金台1层底商296号(近钱江世纪城地铁站E4口)",
+    "coordinateSystem": "GCJ-02",
+    "coordinatePrecision": "poi",
+    "coordinateCheckedAt": "2026-11-16",
+    "rankingYear": 2025
+  },
+  {
+    "id": "food-amap-b0k2lln7el",
+    "name": "鸟鸟好吃店·成都土砂锅串串(杭州总店)",
+    "poiId": "B0K2LLN7EL",
+    "district": "萧山区",
+    "category": "正餐",
+    "description": "榜单提到进店可喝土鸡汤，具体供应以门店为准。",
+    "listLabel": "必吃榜",
+    "checkedAt": "2026-11-16",
+    "sources": [
+      {
+        "label": "高德网页｜2025 状元榜·美食",
+        "url": "https://www.amap.com/ranking/hangzhou/food/330109"
+      },
+      {
+        "label": "高德地图｜门店信息",
+        "url": "https://www.amap.com/place/B0K2LLN7EL"
+      }
+    ],
+    "recommendationKind": "summary",
+    "coord": [
+      120.242368,
+      30.24173
+    ],
+    "address": "钱江世纪城世纪公园A2-6号",
+    "coordinateSystem": "GCJ-02",
+    "coordinatePrecision": "poi",
+    "coordinateCheckedAt": "2026-11-16",
+    "categoryCheckedAt": "2026-11-16",
+    "categoryBasis": "按门店名称、榜单推荐内容及高德 POI 类型综合判断",
+    "rankingYear": 2025
+  },
+  {
+    "id": "food-amap-b0ffhs5m8f",
+    "name": "竹哩(滨江店)",
+    "poiId": "B0FFHS5M8F",
+    "district": "滨江区",
+    "category": "正餐",
+    "description": "刺身自助，提到牡丹虾和三文鱼。",
+    "listLabel": "必吃榜",
+    "checkedAt": "2026-11-16",
+    "sources": [
+      {
+        "label": "高德网页｜2025 状元榜·美食",
+        "url": "https://www.amap.com/ranking/hangzhou/food/330108"
+      },
+      {
+        "label": "高德地图｜门店信息",
+        "url": "https://www.amap.com/place/B0FFHS5M8F"
+      }
+    ],
+    "recommendationKind": "summary",
+    "coord": [
+      120.20228,
+      30.208622
+    ],
+    "address": "科技馆街1505号凯瑞金座3楼",
+    "coordinateSystem": "GCJ-02",
+    "coordinatePrecision": "poi",
+    "coordinateCheckedAt": "2026-11-16",
+    "categoryCheckedAt": "2026-11-16",
+    "categoryBasis": "按门店名称、榜单推荐内容及高德 POI 类型综合判断",
+    "rankingYear": 2025
+  },
+  {
+    "id": "food-amap-b0i1l7nmif",
+    "name": "小牛滚滚贵州黄牛肉火锅(中财店)",
+    "poiId": "B0I1L7NMIF",
+    "district": "滨江区",
+    "category": "正餐",
+    "description": "贵州黄牛肉火锅，提到现切牛肉的涮食方式。",
+    "listLabel": "必吃榜",
+    "checkedAt": "2026-11-16",
+    "sources": [
+      {
+        "label": "高德网页｜2025 状元榜·美食",
+        "url": "https://www.amap.com/ranking/hangzhou/food/330108"
+      }
+    ],
+    "recommendationKind": "summary",
+    "coord": [
+      120.214101,
+      30.20928
+    ],
+    "address": "西兴街道通和路68号中财大厦F1层",
+    "coordinateSystem": "GCJ-02",
+    "coordinatePrecision": "poi",
+    "coordinateCheckedAt": "2026-11-16",
+    "rankingYear": 2025
+  },
+  {
+    "id": "food-amap-b0iuts1vyq",
+    "name": "牛New寿喜烧(滨江银泰店)",
+    "poiId": "B0IUTS1VYQ",
+    "district": "滨江区",
+    "category": "正餐",
+    "description": "寿喜烧，提到薄切牛肉与蛋液的搭配。",
+    "listLabel": "必吃榜",
+    "checkedAt": "2026-11-16",
+    "sources": [
+      {
+        "label": "高德网页｜2025 状元榜·美食",
+        "url": "https://www.amap.com/ranking/hangzhou/food/330108"
+      },
+      {
+        "label": "高德地图｜门店信息",
+        "url": "https://www.amap.com/place/B0IUTS1VYQ"
+      }
+    ],
+    "recommendationKind": "summary",
+    "coord": [
+      120.221735,
+      30.202019
+    ],
+    "address": "西兴街道银泰百货B区4层404室",
+    "coordinateSystem": "GCJ-02",
+    "coordinatePrecision": "poi",
+    "coordinateCheckedAt": "2026-11-16",
+    "categoryCheckedAt": "2026-11-16",
+    "categoryBasis": "按门店名称、榜单推荐内容及高德 POI 类型综合判断",
+    "rankingYear": 2025
+  },
+  {
+    "id": "food-amap-b0fff0084f",
+    "name": "全乐鱼馆·淳鱼直供",
+    "poiId": "B0FFF0084F",
+    "district": "淳安县",
+    "category": "正餐",
+    "description": "千岛湖鱼和鱼头汤，评价提到汤色和鲜味。",
+    "listLabel": "必吃榜",
+    "checkedAt": "2026-11-16",
+    "sources": [
+      {
+        "label": "高德网页｜2025 状元榜·美食",
+        "url": "https://www.amap.com/ranking/hangzhou/food/330127"
+      },
+      {
+        "label": "高德地图｜门店信息",
+        "url": "https://www.amap.com/place/B0FFF0084F"
+      }
+    ],
+    "recommendationKind": "summary",
+    "coord": [
+      119.044976,
+      29.612984
+    ],
+    "address": "千岛湖镇阳光路8-22号",
+    "coordinateSystem": "GCJ-02",
+    "coordinatePrecision": "poi",
+    "coordinateCheckedAt": "2026-11-16",
+    "categoryCheckedAt": "2026-11-16",
+    "categoryBasis": "按门店名称、榜单推荐内容及高德 POI 类型综合判断",
+    "rankingYear": 2025
+  },
+  {
+    "id": "food-amap-b0ffhlvrlx",
+    "name": "丰乐餐厅(千岛湖老店)",
+    "poiId": "B0FFHLVRLX",
+    "district": "淳安县",
+    "category": "正餐",
+    "description": "榜单提到活鱼和白汤鱼头，评价关注鱼肉口感。",
+    "listLabel": "必吃榜",
+    "checkedAt": "2026-11-16",
+    "sources": [
+      {
+        "label": "高德网页｜2025 状元榜·美食",
+        "url": "https://www.amap.com/ranking/hangzhou/food/330127"
+      }
+    ],
+    "recommendationKind": "summary",
+    "coord": [
+      119.030639,
+      29.595592
+    ],
+    "address": "南景路278号(城市管理局斜对面)",
+    "coordinateSystem": "GCJ-02",
+    "coordinatePrecision": "poi",
+    "coordinateCheckedAt": "2026-11-16",
+    "rankingYear": 2025
+  },
+  {
+    "id": "food-amap-b0j2k71dtl",
+    "name": "宝荣鱼馆临湖之宴(千岛湖店)",
+    "poiId": "B0J2K71DTL",
+    "district": "淳安县",
+    "category": "正餐",
+    "description": "千岛湖鱼头汤，评价认为汤味鲜。",
+    "listLabel": "必吃榜",
+    "checkedAt": "2026-11-16",
+    "sources": [
+      {
+        "label": "高德网页｜2025 状元榜·美食",
+        "url": "https://www.amap.com/ranking/hangzhou/food/330127"
+      },
+      {
+        "label": "高德地图｜门店信息",
+        "url": "https://www.amap.com/place/B0J2K71DTL"
+      }
+    ],
+    "recommendationKind": "summary",
+    "coord": [
+      119.056855,
+      29.636487
+    ],
+    "address": "阳光路868号湖滨悦居富力商业区",
+    "coordinateSystem": "GCJ-02",
+    "coordinatePrecision": "poi",
+    "coordinateCheckedAt": "2026-11-16",
+    "categoryCheckedAt": "2026-11-16",
+    "categoryBasis": "按门店名称、榜单推荐内容及高德 POI 类型综合判断",
+    "rankingYear": 2025
+  },
+  {
+    "id": "food-amap-b0ffjlu9je",
+    "name": "牛表妹烤肉(杭州旗舰店)",
+    "poiId": "B0FFJLU9JE",
+    "district": "钱塘区",
+    "category": "正餐",
+    "description": "厚切牛肉烤制后搭配生菜的吃法。",
+    "listLabel": "必吃榜",
+    "checkedAt": "2026-11-16",
+    "sources": [
+      {
+        "label": "高德网页｜2025 状元榜·美食",
+        "url": "https://www.amap.com/ranking/hangzhou/food/330114"
+      },
+      {
+        "label": "高德地图｜门店信息",
+        "url": "https://www.amap.com/place/B0FFJLU9JE"
+      }
+    ],
+    "recommendationKind": "summary",
+    "coord": [
+      120.334545,
+      30.315273
+    ],
+    "address": "下沙街道学林街1253号",
+    "coordinateSystem": "GCJ-02",
+    "coordinatePrecision": "poi",
+    "coordinateCheckedAt": "2026-11-16",
+    "categoryCheckedAt": "2026-11-16",
+    "categoryBasis": "按门店名称、榜单推荐内容及高德 POI 类型综合判断",
+    "rankingYear": 2025
+  },
+  {
+    "id": "food-amap-b0ffk71i2s",
+    "name": "吃饭皇帝大·土家民族菜(龙湖下沙天街店)",
+    "poiId": "B0FFK71I2S",
+    "district": "钱塘区",
+    "category": "正餐",
+    "description": "罐罐牛腩搭配锅巴的上菜方式。",
+    "listLabel": "必吃榜",
+    "checkedAt": "2026-11-16",
+    "sources": [
+      {
+        "label": "高德网页｜2025 状元榜·美食",
+        "url": "https://www.amap.com/ranking/hangzhou/food/330114"
+      },
+      {
+        "label": "高德地图｜门店信息",
+        "url": "https://www.amap.com/place/B0FFK71I2S"
+      }
+    ],
+    "recommendationKind": "summary",
+    "coord": [
+      120.326944,
+      30.309986
+    ],
+    "address": "金沙大道560号龙湖杭州金沙天街L5层5F-10-1",
+    "coordinateSystem": "GCJ-02",
+    "coordinatePrecision": "poi",
+    "coordinateCheckedAt": "2026-11-16",
+    "categoryCheckedAt": "2026-11-16",
+    "categoryBasis": "按门店名称、榜单推荐内容及高德 POI 类型综合判断",
+    "rankingYear": 2025
+  },
+  {
+    "id": "food-amap-b0hacrxcn1",
+    "name": "芳芳跷脚牛肉 (高沙店)",
+    "poiId": "B0HACRXCN1",
+    "district": "钱塘区",
+    "category": "正餐",
+    "description": "跷脚牛肉，提到牛骨汤、牛肉和干碟。",
+    "listLabel": "必吃榜",
+    "checkedAt": "2026-11-16",
+    "sources": [
+      {
+        "label": "高德网页｜2025 状元榜·美食",
+        "url": "https://www.amap.com/ranking/hangzhou/food/330114"
+      },
+      {
+        "label": "高德地图｜门店信息",
+        "url": "https://www.amap.com/place/B0HACRXCN1"
+      }
+    ],
+    "recommendationKind": "summary",
+    "coord": [
+      120.336655,
+      30.315664
+    ],
+    "address": "下沙学林街",
+    "coordinateSystem": "GCJ-02",
+    "coordinatePrecision": "poi",
+    "coordinateCheckedAt": "2026-11-16",
+    "categoryCheckedAt": "2026-11-16",
+    "categoryBasis": "按门店名称、榜单推荐内容及高德 POI 类型综合判断",
+    "rankingYear": 2025
+  },
+  {
+    "id": "food-amap-b0fffq0qqv",
+    "name": "山里湾妈妈菜",
+    "poiId": "B0FFFQ0QQV",
+    "district": "富阳区",
+    "category": "正餐",
+    "description": "红烧肉配酒酿馒头，评价关注甜咸口味。",
+    "listLabel": "必吃榜",
+    "checkedAt": "2026-11-16",
+    "sources": [
+      {
+        "label": "高德网页｜2025 状元榜·美食",
+        "url": "https://www.amap.com/ranking/hangzhou/food/330111"
+      },
+      {
+        "label": "高德地图｜门店信息",
+        "url": "https://www.amap.com/place/B0FFFQ0QQV"
+      }
+    ],
+    "recommendationKind": "summary",
+    "coord": [
+      119.941262,
+      30.058903
+    ],
+    "address": "振兴路98号",
+    "coordinateSystem": "GCJ-02",
+    "coordinatePrecision": "poi",
+    "coordinateCheckedAt": "2026-11-16",
+    "categoryCheckedAt": "2026-11-16",
+    "categoryBasis": "按门店名称、榜单推荐内容及高德 POI 类型综合判断",
+    "rankingYear": 2025
+  },
+  {
+    "id": "food-amap-b0jgr58oou",
+    "name": "BAN SUCRÉ半甜不甜(金汇之星店)",
+    "poiId": "B0JGR58OOU",
+    "district": "富阳区",
+    "category": "小吃",
+    "description": "奶油甜点，提到搭配水果的吃法。",
+    "listLabel": "必吃榜",
+    "checkedAt": "2026-11-16",
+    "sources": [
+      {
+        "label": "高德网页｜2025 状元榜·美食",
+        "url": "https://www.amap.com/ranking/hangzhou/food/330111"
+      },
+      {
+        "label": "高德地图｜门店信息",
+        "url": "https://www.amap.com/place/B0JGR58OOU"
+      }
+    ],
+    "recommendationKind": "summary",
+    "coord": [
+      119.930823,
+      30.058652
+    ],
+    "address": "富春街道文居街624-626号",
+    "coordinateSystem": "GCJ-02",
+    "coordinatePrecision": "poi",
+    "coordinateCheckedAt": "2026-11-16",
+    "categoryCheckedAt": "2026-11-16",
+    "categoryBasis": "按门店名称、榜单推荐内容及高德 POI 类型综合判断",
+    "rankingYear": 2025
+  },
+  {
+    "id": "food-amap-b0ffk7rit0",
+    "name": "一味大院·桐庐菜传承店",
+    "poiId": "B0FFK7RIT0",
+    "district": "桐庐县",
+    "category": "正餐",
+    "description": "榜单推荐桐君熬豆腐，评价提到汤汁和豆腐口感。",
+    "listLabel": "必吃榜",
+    "checkedAt": "2026-11-16",
+    "sources": [
+      {
+        "label": "高德网页｜2025 状元榜·美食",
+        "url": "https://www.amap.com/ranking/hangzhou/food/330122"
+      },
+      {
+        "label": "高德地图｜门店信息",
+        "url": "https://www.amap.com/place/B0FFK7RIT0"
+      }
+    ],
+    "recommendationKind": "summary",
+    "coord": [
+      119.692085,
+      29.801584
+    ],
+    "address": "春江路229号",
+    "coordinateSystem": "GCJ-02",
+    "coordinatePrecision": "poi",
+    "coordinateCheckedAt": "2026-11-16",
+    "categoryCheckedAt": "2026-11-16",
+    "categoryBasis": "按门店名称、榜单推荐内容及高德 POI 类型综合判断",
+    "verificationNote": "高德 POI 于 2026-11-16 显示暂停营业，请出发前核对。",
+    "rankingYear": 2025
+  }
+]

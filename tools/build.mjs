@@ -23,11 +23,16 @@ await rm(path.join(out, 'data/source-tracks'), { recursive: true, force: true })
 await rm(path.join(out, 'data/xhs-candidates.json'), { force: true });
 const routes = JSON.parse(await readFile(path.join(data, 'routes.json'), 'utf8'));
 const places = JSON.parse(await readFile(path.join(data, 'places.json'), 'utf8'));
+const food = JSON.parse(await readFile(path.join(data, 'food.json'), 'utf8'));
 if (routes.length < 10 || places.length < 50) throw new Error('地图数据量低于预期');
 if (routes.filter((r) => r.type === '徒步').length < 5 || routes.filter((r) => r.type === '逛玩').length < 3) throw new Error('路线类型数量不足');
 if (routes.some((r) => !['徒步', '逛玩'].includes(r.type))) throw new Error('存在未知路线类型');
-const ids = [...routes, ...places].map((item) => item.id);
+const ids = [...routes, ...places, ...food].map((item) => item.id);
 if (new Set(ids).size !== ids.length) throw new Error('地点或路线 ID 重复');
+for (const item of food) {
+  if (!/^[A-Z0-9]{10}$/.test(item.poiId || '') || !Array.isArray(item.coord) || item.coord.length !== 2 || !item.coord.every(Number.isFinite) || item.coord[0] <= 118 || item.coord[0] >= 122 || item.coord[1] <= 28 || item.coord[1] >= 32 || item.coordinateSystem !== 'GCJ-02' || item.coordinatePrecision !== 'poi' || !/^\d{4}-\d{2}-\d{2}$/.test(item.coordinateCheckedAt || '')) throw new Error(`美食坐标异常: ${item.id}`);
+  if (!item.id.startsWith('food-') || !item.name || !item.district || !['正餐', '小吃'].includes(item.category) || !item.description || !item.listLabel || !/^\d{4}-\d{2}-\d{2}$/.test(item.checkedAt) || (item.poiId && !/^[A-Z0-9]{10}$/.test(item.poiId)) || (item.recommendationKind && !['summary', 'quote'].includes(item.recommendationKind)) || !item.sources?.length || !item.sources.every((source) => source.label && /^https:\/\//.test(source.url))) throw new Error(`美食数据异常: ${item.id}`);
+}
 for (const item of [...routes, ...places]) {
   if (!item.sources?.length || !item.sources.every((source) => /^https:\/\//.test(source.url))) throw new Error(`缺少来源: ${item.id}`);
   if (!Number.isInteger(item.recommendIndex) || item.recommendIndex < 1 || item.recommendIndex > 5) throw new Error(`推荐指数异常: ${item.id}`);
@@ -73,4 +78,4 @@ async function checkNoSecrets(dir) {
   }
 }
 await checkNoSecrets(out);
-console.log(`构建完成：${routes.length} 条路线，${places.length} 个地点 → ${out}`);
+console.log(`构建完成：${routes.length} 条路线，${places.length} 个地点，${food.length} 家美食 → ${out}`);

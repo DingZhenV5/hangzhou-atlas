@@ -22,6 +22,11 @@
         <button id="my-hangzhou-button" class="my-hangzhou-trigger" type="button">我的杭州</button>
       </header>
 
+      <div class="view-switcher" role="group" aria-label="切换地图视图">
+        <button id="view-play" class="view-button active" type="button" aria-pressed="true">游玩地图</button>
+        <button id="view-food" class="view-button" type="button" aria-pressed="false">美食地图</button>
+      </div>
+
       <section class="intro">
         <div class="eyebrow"><span class="eyebrow-dot"></span> WEEKEND FIELD GUIDE</div>
         <h1>从地图开始，<br><em>去走走。</em></h1>
@@ -31,7 +36,7 @@
 
       <div class="sidebar-scroll">
       <div class="browse-controls">
-        <div class="switcher" role="tablist" aria-label="浏览类型">
+        <div id="play-tabs" class="switcher" role="tablist" aria-label="浏览类型">
           <button class="switch active" id="tab-routes" role="tab" aria-selected="true" type="button">路线 <span id="route-tab-count"></span></button>
           <button class="switch" id="tab-places" role="tab" aria-selected="false" type="button">地点 <span id="place-tab-count"></span></button>
         </div>
@@ -51,6 +56,16 @@
           <div class="difficulty-labels" aria-hidden="true"><span>轻松</span><span>入门</span><span>中等</span><span>进阶</span><span>较难</span></div>
         </section>
         <div id="filters" class="filters" aria-label="地点主题"></div>
+        <div id="food-filters" class="filters" aria-label="美食类型" hidden>
+          <button class="filter active" type="button" data-food-filter="全部" aria-pressed="true">全部</button>
+          <button class="filter" type="button" data-food-filter="正餐" aria-pressed="false">正餐</button>
+          <button class="filter" type="button" data-food-filter="小吃" aria-pressed="false">小吃</button>
+        </div>
+        <div id="food-list-filters" class="food-list-filters" aria-label="榜单来源" hidden>
+          <button class="filter active" type="button" data-food-list="全部" aria-pressed="true">全部榜单</button>
+          <button class="filter" type="button" data-food-list="烟火小店" aria-pressed="false">烟火小店</button>
+          <button class="filter" type="button" data-food-list="必吃榜" aria-pressed="false">必吃榜</button>
+        </div>
       </div>
 
       <section id="my-toolbar" class="my-toolbar" hidden aria-label="我的杭州状态">
